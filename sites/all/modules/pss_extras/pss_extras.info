@@ -1,0 +1,5 @@
+name = PSS Extras
+description = Extras for PSS Site
+core = 7.x
+
+;configure = admin/config/search/path/patterns

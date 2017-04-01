@@ -1,0 +1,33 @@
+#page {
+    width: 98%;
+    padding: 0;
+}
+#superfish-1 > li > a {
+    padding: 10px 4px;
+}
+/** front **/
+.front .region-content .view-latest-news .view-content .views-row {
+    height: 350px;
+}
+.front .region-content .view-latest-news .view-content .views-row .views-field-title {
+    font-size: 15px;
+}
+.front .region-content .view-latest-news .view-content .views-row .views-field-body {
+    height: 230px;
+    overflow: hidden;
+}
+
+#superfish-1 > li > a {
+    font-size: 13px;
+}
+#block-block-7 .img-ind {
+    float: none;
+    width: 29%;
+    vertical-align: top;
+}
+#block-block-7 .img-ind img {
+    width: 100%;
+}
+#block-block-7 .extra {
+    width: 65%;
+}

@@ -1,0 +1,13 @@
+<?php
+
+
+/**
+ * Implements hook_install().
+ */
+function pss_extras_install() {
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function pss_extras_uninstall() {}

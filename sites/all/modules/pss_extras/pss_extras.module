@@ -1,0 +1,163 @@
+<?php
+
+function pss_extras_menu()
+{
+    $items = array();
+    $items['archive/%'] = array(
+        'title' => t('Archive'),
+        'page callback' => 'pss_extras_archive_page',
+        'page arguments' => array(1),
+        'access arguments' => array('access content'),
+        'type' => MENU_CALLBACK,
+    );
+    $items['archive/%/type/%'] = array(
+        'title' => t('Archive'),
+        'page callback' => 'pss_extras_archive_page',
+        'access arguments' => array('access content'),
+        'page arguments' => array(1, 3),
+        'type' => MENU_CALLBACK,
+    );
+    return $items;
+}
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function pss_extras_preprocess_page(&$vars) {
+    if (isset($vars['page']['sidebar_second'])
+        && function_exists('_pss_extras_generate_archive_block')
+        && isset($vars['node'])
+    ) {
+        $vars['page']['sidebar_second']['archive'] = _pss_extras_generate_archive_block($vars['node']);
+    }
+}
+
+function pss_extras_form_search_form_alter(&$form, $form_state) {
+    unset($form['advanced']);
+}
+
+function pss_extras_archive_page($date, $type = null) {
+    $page = [];
+    $page['archive'] = array(
+        '#markup' => _pss_extras_generate_archive_page($date, $type),
+    );
+    return $page;
+}
+
+function _pss_extras_generate_archive_block($node) {
+    $html = '';
+    if ($node->type == 'article') {
+        $articleType = isset($node->field_article_type) && !empty($node->field_article_type)
+            ? (int)$node->field_article_type[LANGUAGE_NONE][0]['tid'] : null;
+        $nodesByDate = __getArticleDates($articleType);
+        $html .= '<section class="block block-view">';
+        $html .= '<h2>' . t('Archive') . '</h2>';
+        $html .= '<div class="content">';
+        $html .= '<div class="view view-archive view-id-archive view-display-id-block">';
+        $html .= '<div class="view-content"><div class="item-list">';
+        $html .= '<ul>';
+        foreach ($nodesByDate as $date => $nodeByDate) {
+            $html .= "<li><a href='/archive/{$date}/type/{$articleType}'>{$nodeByDate['caption']}</a> ({$nodeByDate['count']})</li>";
+        }
+        $html .= '</ul>';
+        $html .= '</div></div></div></div></section>';
+    }
+    return array('#markup' => $html);
+}
+
+function _pss_extras_generate_archive_page($date, $type = null) {
+    $html = '';
+    if ($date && strlen($date) ==  6 && is_numeric(substr($date, 4, 2)) && is_numeric(substr($date, 0, 4))) {
+        $m = substr($date, 4, 2);
+        $y = substr($date, 0, 4);
+        $from = mktime(0, 0, 0, $m, 1, $y);
+        $to = strtotime(date("{$y}-{$m}-t"));
+        if((bool)$from && (bool)$to) {
+            drupal_set_title(t(date('F', $from)) . ' ' . date('Y', $from));
+            $nodes = __getArticleNodes($from, $to, $type);
+            $html .= '<div class="view"><div class="view-content">';
+            $k = 1;
+            $firstLast = 'views-row-first';
+            foreach($nodes as $node) {
+                if(count($nodes) == $k) {
+                    $firstLast = 'views-row-last';
+                }
+                $oddEven = $k % 2 == 0 ? 'views-row-even' : 'views-row-odd';
+                $path = drupal_get_path_alias('node/' . $node->nid);
+                $summaryArray = reset($node->body);
+                $summary = isset($summaryArray) && isset($summaryArray[0]) ? $summaryArray[0]['summary'] : '';
+                $summary = !empty($summary) ? $summary : @views_trim_text(array('max_length' => 1000, 'ellipsis' => TRUE, 'word_boundary' => TRUE), strip_tags($summaryArray[0]['value']));
+                $html .= "
+                <div class='views-row views-row-{$k} {$oddEven} {$firstLast}'>
+                    <div class='views-field views-field-title'>
+                        <span class='field-content'>
+                            <a href='/{$path}'>{$node->title}</a>
+                        </span>
+                    </div>
+                    <div class='views-field views-field-body'>
+                        <span class='field-content'>{$summary}</span>
+                    </div>
+                    <div class='views-field views-field-view-node'>
+                        <span class='field-content'>
+                            <a href='/{$path}'>".t('Read more')."</a>
+                        </span>
+                    </div>
+                </div>
+                ";
+                $k++;
+            }
+            $html .= theme('pager');
+            $html .= '</div></div>';
+        } else {
+            drupal_not_found();
+        }
+    } else {
+        drupal_not_found();
+    }
+    return $html;
+}
+
+function __getArticleDates($tid = null) {
+    global $language;
+    $query = db_select('node', 'n');
+    if ($tid && is_numeric($tid)) {
+        $query->join('taxonomy_index', 't', 'n.nid = t.nid');
+    }
+    $query->fields('n', array('created'))
+        ->condition('n.status', 1)
+        ->condition('n.language', $language->language)
+        ->condition('n.type', 'article');
+    if ($tid && is_numeric($tid)) {
+        $query->condition('t.tid', $tid);
+    }
+    $results = $query->orderBy('n.created', 'desc')->execute()->fetchCol();
+    $dates = [];
+    foreach ($results as $result) {
+        $date = date('Ym', $result);
+        if (in_array($date, array_keys($dates))) {
+            $dates[$date]['count'] += 1;
+        } else {
+            $dates[$date] = array(
+                'caption' => t(date('F', $result)) . ' ' . date('Y', $result),
+                'count' => 1,
+            );
+        }
+    }
+    return $dates;
+}
+
+function __getArticleNodes($from, $to, $tid = null) {
+    $query = db_select('node', 'n')->extend('PagerDefault')->element(0);
+    if ($tid && is_numeric($tid)) {
+        $query->join('taxonomy_index', 't', 'n.nid = t.nid');
+    }
+    $query->fields('n', array('nid'))
+        ->condition('n.status', 1)
+        ->condition('n.type', 'article')
+        ->condition('n.created', array($from, $to), 'BETWEEN');
+    if ($tid && is_numeric($tid)) {
+        $query->condition('t.tid', $tid);
+    }
+    $nids = $query->orderBy('n.created', 'desc')->limit(10)->execute()->fetchCol();
+    return node_load_multiple($nids);
+}
