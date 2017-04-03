@@ -43,6 +43,64 @@ function betterlogin_init() {
   }
 }
 
+function betterlogin_menu() {
+  $items = array();
+
+  $items['user/change/%'] = array(
+      'title' => t('Edit user'),
+      'page callback' => 'betterlogin_edit_user',
+      'page arguments' => array(2),
+      'type' => MENU_NORMAL_ITEM,
+      'access callback' => 'betterlogin_user_has_access',
+      'access arguments' => array(2),
+  );
+  return $items;
+}
+
+/**
+ * Implements hook_block_info()
+ *
+ * @return mixed
+ */
+function betterlogin_block_info() {
+  $blocks['login'] = array(
+      'info' => 'Log in'
+  );
+  $blocks['logout'] = array(
+      'info' => 'Log out'
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view()
+ *
+ * @param string $delta
+ * @return array
+ * @throws Exception
+ */
+function betterlogin_block_view($delta = '') {
+  $block = array();
+  global $user;
+  switch($delta) {
+    case 'login' :
+      $block['subject'] = '';
+      $block['content'] = '<div class="login-link"><a href="/user/login">'.t('Log in').'</a></div>';
+      break;
+    case 'logout' :
+      $user_fields = user_load($user->uid);
+      $firstname = $user_fields->field_first_name['und']['0']['value'];
+      $lastname = $user_fields->field_last_name['und']['0']['value'];
+      $block['subject'] = '';
+      $block['content'] = '<div class="login-link">
+                                <a href="/user/logout">'.t('Log out').'</a><br/>
+                                <a href="/user/change/'.$user->uid.'">'.$firstname. ' ' . $lastname . '</a>
+                           </div>';
+      break;
+  }
+  return $block;
+}
+
 /**
  * Implementation of hook_form_alter().
  *
@@ -50,10 +108,13 @@ function betterlogin_init() {
  * Some proper page titles would be nice for a change.. User account is a bit boring..
  */
 function betterlogin_form_alter(&$form, &$form_state, $form_id) {
+  global $user;
   // Autofocus on the username field.
   // And add some pretty CSS :).
   // And a few other things too...
-  if ($form_id == 'user_login' || $form_id == 'user_register_form' || $form_id == 'user_pass' || $form_id == 'user_pass_reset') {
+
+  $forms = ['user_profile_form', 'user_login', 'user_register_form', 'user_pass', 'user_pass_reset'];
+  if (in_array($form_id, $forms)) {
     $form['name']['#attributes']['autofocus'] = 'autofocus';
 
     // We don't really need descriptions to tell us what we already know...
@@ -71,7 +132,7 @@ function betterlogin_form_alter(&$form, &$form_state, $form_id) {
 
     case 'user_register_form':
       drupal_set_title(t('Register'));
-      
+
       // The registration form behaves differently...
       $form['account']['name']['#attributes']['autofocus'] = 'autofocus';
       break;
@@ -117,4 +178,38 @@ function _betterlogin_insert_after_first_element(&$a, $element) {
       array_unshift($a, $element); 
     }
   }
+}
+
+function betterlogin_user_has_access($uid) {
+  global $user;
+  $hasAccess = false;
+  $roles[] = 'administrator';
+  foreach ($roles as $role) {
+    if (in_array($role, $user->roles) || $user->uid == $uid) {
+      $hasAccess = TRUE;
+    }
+  }
+  return $hasAccess;
+}
+
+function betterlogin_edit_user() {
+  $page = array();
+  module_load_include('inc', 'user', 'user.pages');
+
+  global $user;
+  $user = user_load($user->uid);
+
+  $form = drupal_get_form('user_profile_form', $user, 'account', 'custom');
+  $form['picture']['#access'] = false;
+  $form['ckeditor']['#access'] = false;
+  $form['contact']['#access'] = false;
+  $form['locale']['#access'] = false;
+  $form['metatags']['#access'] = false;
+  $form['timezone']['#access'] = false;
+  $form['account']['roles']['#access'] = false;
+  $form['account']['status']['#access'] = false;
+  $form['account']['notify']['#access'] = false;
+  $form['account']['notify']['#access'] = false;
+  $page['form'] = $form;
+  return $page;
 }

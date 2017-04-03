@@ -1148,8 +1148,9 @@ section.block {
 }
 .region-menu .login-block {
 	position: absolute;
-	top: 10px;
+	top: 0px;
 	left: 10px;
+	text-align: left;
 }
 .region-menu .login-block .login-link {
 	padding: 10px;
