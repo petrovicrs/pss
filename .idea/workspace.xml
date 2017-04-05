@@ -25,8 +25,8 @@
       <file leaf-file-name="betterlogin.module" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/betterlogin.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2553495">
-              <caret line="96" column="107" selection-start-line="96" selection-start-column="107" selection-end-line="96" selection-end-column="107" />
+            <state vertical-scroll-proportion="0.16547789">
+              <caret line="66" column="23" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="23" />
               <folding>
                 <element signature="e#7#63#0#PHP" expanded="true" />
                 <marker date="1491252758624" expanded="true" signature="2507:2643" placeholder="..." />
@@ -573,7 +573,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="151" width="1616" height="916" extended-state="6" />
+    <frame x="1912" y="151" width="1616" height="916" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31426734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1009,8 +1009,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/betterlogin.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2553495">
-          <caret line="96" column="107" selection-start-line="96" selection-start-column="107" selection-end-line="96" selection-end-column="107" />
+        <state vertical-scroll-proportion="0.16547789">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="23" />
           <folding>
             <element signature="e#7#63#0#PHP" expanded="true" />
             <marker date="1491252758624" expanded="true" signature="2507:2643" placeholder="..." />
