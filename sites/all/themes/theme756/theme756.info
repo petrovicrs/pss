@@ -15,6 +15,10 @@ engine = phptemplate
 
 stylesheets[screen][] = css/boilerplate.css
 stylesheets[screen][] = css/style.css
+stylesheets[screen][] = css/fonts.css
+stylesheets[screen][] = css/font-face.css
+stylesheets[screen][] = css/menu.css
+stylesheets[screen][] = css/news-by-type.css
 stylesheets[screen][] = css/maintenance-page.css
 
 stylesheets[only screen and (min-width:960px) and (max-width:1019px)][] = css/responsive.tablet.landscape.css

@@ -1,0 +1,88 @@
+.follow-links.user a.follow-link {
+    display: block;
+    height: 30px;
+    line-height: 26px;
+    background: no-repeat 0 0;
+    padding-left: 28px;
+    padding-right: 3px;
+}
+
+.follow-links.user span.follow-link-wrapper a {
+    float: left;
+}
+
+.follow-links.user a.follow-link-facebook {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-facebook.png);
+}
+
+.follow-links.user a.follow-link-googleplus {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-googleplus.png);
+}
+
+.follow-links.user a.follow-link-myspace {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-myspace.png);
+}
+
+.follow-links.user a.follow-link-virb {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-virb.png);
+}
+
+.follow-links.user a.follow-link-bliptv {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-bliptv.png);
+}
+
+.follow-links.user a.follow-link-lastfm {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-lastfm.png);
+}
+
+.follow-links.user a.follow-link-youtube {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-youtube.png);
+}
+
+.follow-links.user a.follow-link-twitter {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-twitter.png);
+}
+
+.follow-links.user a.follow-link-picasa {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-picasa.png);
+}
+
+.follow-links.user a.follow-link-flickr {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-flickr.png);
+}
+
+.follow-links.user a.follow-link-vimeo {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-vimeo.png);
+}
+
+.follow-links.user a.follow-link-linkedin {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-linkedin.png);
+}
+
+.follow-links.user a.follow-link-delicious {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-delicious.png);
+}
+
+.follow-links.user a.follow-link-tumblr {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-tumblr.png);
+}
+
+.follow-links.user a.follow-link-this-site {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-feed.png);
+}
+
+.follow-links.user a.follow-link-viadeo {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-viadeo.png);
+}
+
+.follow-links.user a.follow-link-xing {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-xing.png);
+}
+
+.follow-links.user a.follow-link-spiceworks {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-spiceworks.png);
+}
+
+.follow-links.user a.follow-link-newsletter {
+    background-image: url(/sites/all/modules/pss_extras/images/icons/icon-newsletter.png);
+}

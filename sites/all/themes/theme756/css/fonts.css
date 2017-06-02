@@ -1,0 +1,232 @@
+/*** front ***/
+#site-slogan {
+    color: #545454;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+#site-message {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #545454;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: initial;
+    line-height: 40px;
+}
+#current-magazine-number .sup {
+    font-family: "Eames-Century-Modern-Bold";
+    font-size: 60px;
+    color: #bdbdbd;
+    line-height: 60px;
+}
+#current-magazine-number .number {
+    font-family: "Eames-Century-Modern-Bold";
+    font-size: 100px;
+    color: #bdbdbd;
+}
+/** footer **/
+#footer .footer-brand-wrapper {
+    font-size: 20px;
+    line-height: 20px;
+    color: rgb(84,84,84);
+}
+#footer .footer-brand-wrapper a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(84,84,84);
+}
+/*** menu **/
+#footer #block-menu-menu-footer-menu .content ul li a{
+    font-size: 17px;
+    line-height: 17px;
+    color: rgb(84,84,84);
+    font-weight: normal;
+}
+.region-footer .block-simplenews .content p{
+    font-size: 17px;
+    line-height: 17px;
+    color: rgb(84,84,84);
+    text-transform: initial;
+}
+.region-footer .block-simplenews .simplenews-subscribe .form-submit {
+    font-size: 17px;
+    line-height: 17px;
+    color: #ffffff;
+    text-transform: lowercase;
+}
+.form-submit,
+.search-results .search-read-more a,
+.view .view-content .views-row .views-field-view-node A{
+    font-size: 17px;
+    line-height: 22px;
+    color: #ffffff;
+    text-transform: lowercase;
+}
+/*** news types blocks frontpage ***/
+#news-type-block .view-content .views-row .views-field-body .views-field-title {
+    font-size: 28px;
+    text-transform: initial;
+    color: #444444;
+    font-weight: normal;
+}
+#news-type-block .view-content .views-row .views-field-body .tag-news .tag-news-number {
+    font-size: 17px;
+    color: #7e7e7e;
+    font-style: italic;
+}
+#news-type-block .view-content .views-row .views-field-body .tag-news .tag-news-title {
+    margin: 15px 0;
+}
+#news-type-block .view-content .views-row .views-field-body .tag-news .tag-news-title a {
+    font-size: 18px;
+    line-height: 18px;
+    color: #000;
+    text-decoration: none;
+}
+#body .most-read-block h2,
+.video-material .title-wrapper .title,
+#news-type-block .news-block-title {
+    color: #545454;
+    font-size: 30px;
+    font-weight: normal;
+}
+/*** content ***/
+#content .content {
+    font-family: 'Didact Gothic', sans-serif;
+}
+#footer {
+    font-family: 'PT Sans', sans-serif;
+}
+#body a,
+#body div,
+#body span{
+    font-family: 'Didact Gothic', sans-serif;
+}
+#body a, #body ul, #body li, #body .h1, #body .h2, #body .h3,
+#body .h4, #body body, #body h1, #body h2, #body h3, #body h4, #body h5, #body h6 {
+    font-family: 'PT Sans', sans-serif;
+}
+#body h1.title, #body h2.title, #body h3.title, #body h4.title, #body h5.title, #body h6.title,
+#body .h1.title, #body .h2.title, #body .h3.title, #body .h4.title, #body .h5.title, #body .h6.title {
+    font-family: 'PT Sans', sans-serif;
+    color: #545454;
+}
+#body .node h2 {
+
+}
+#body h1.title {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 50px;
+}
+#body ul.menu,
+#body ul.menu li,
+#body ul.menu li a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+/** most viewed **/
+
+.front .most-read-block .view .view-content .views-row .field-content  .news-content .news-title a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    color: #000000;
+}
+.front .most-read-block .view .view-content .views-row .field-content  .news-content .news-body {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+    color: #575757;
+}
+.front .most-read-block .view .view-content .views-row .field-content  .news-content .news-read-more a {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+    color: #575757;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+.front .most-read-block .view .view-content .views-row .field-content  .news-content .news-read-more .number{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #575757;
+    text-transform: lowercase;
+}
+
+/** video material **/
+.front .video-material .view .view-content .views-row .field-content .body-wrapper .title,
+.front .video-material .view .view-content .views-row .field-content .body-wrapper .title a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 28px;
+    color: #000000;
+    text-decoration: none;
+}
+/** author recommendation **/
+#block-views-author-recommendation-block{
+    background-color: #FFFFFF;
+}
+
+#block-views-author-recommendation-block .view-author-recommendation .view-header{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21px;
+    color: #000000;
+    font-weight: bold;
+}
+#block-views-author-recommendation-block .view-author-recommendation .view-content .views-row .recommendation-title a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+#block-views-author-recommendation-block .view-author-recommendation .view-content {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+    color: #575757;
+}
+
+#block-pss-extras-taxonomy-tags .content .title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21px;
+    color: #000000;
+}
+#block-pss-extras-taxonomy-tags .view-content a {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 19px;
+    color: #575757;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+/** arhiva **/
+.page-arhiva .view-magazine-number-archive .view-content .month-number-wrapper .months,
+.page-arhiva .view-magazine-number-archive .view-content .month-number-wrapper .number {
+    font-family: 'PTSans-Bold', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.page-arhiva .view-magazine-number-archive .view-content .month-number-wrapper .months {
+    text-transform: uppercase;
+}
+.page-arhiva .view-magazine-number-archive .views-exposed-form label,
+.page-arhiva .view-magazine-number-archive .views-exposed-form .views-widget select{
+    font-family: 'PTSans-Bold', sans-serif;
+    font-size: 18px;
+}
+.page-arhiva .view-magazine-number-archive .views-exposed-form label{
+    text-transform: uppercase;
+}
+.page-arhiva .view-magazine-number-archive .views-exposed-form .views-widget select {
+    padding: 0 5px;
+    border: 1px solid red;
+}
+.page-arhiva .view-magazine-number-archive .view-header {
+    font-family: 'PTSans-Regular', sans-serif;
+    font-size: 30px;
+}
+#body.page-arhiva .view-magazine-number-archive .view-footer .footer-text .year,
+#body.page-arhiva .view-magazine-number-archive .view-footer .footer-text .year span{
+    font-family: 'PFMechanicaBPro-Comb', sans-serif;
+    font-size: 60px;
+}

@@ -1,10 +1,32 @@
-#auth_box {
-  width: 300px;
-  margin: 0 auto;
-  padding: 50px 0 0;
-  font-family: sans-serif;
+#body {
+  height: 100vh;
+  display: table-row;
 }
-
+.background-image-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.image-holder {
+  display: table-cell;
+  vertical-align: middle;
+}
+.image-holder img{
+  max-width: 65vw;
+}
+#auth_box {
+  height: 100vh;
+  z-index: 999;
+  width: 400px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+}
+  #auth_box a {
+    color: #FFFFFF;
+  }
   #auth_box h1#the_logo {
     text-align: center;
     margin: 0;
@@ -18,7 +40,9 @@
   #auth_box h2.title {
     margin: 0;
     padding: 0 0 15px;
-    font-size: 2em;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
   }
   
   #auth_box input[type="text"],
@@ -31,22 +55,32 @@
   }
 
   #auth_box input[type="submit"] {
-    float: right;
+    width: 100%;
   }
 
   #auth_box #middle_part {
     border-radius: 3px;
-    background: #fff;
-    padding: 15px;
+    padding: 0 15px;
+    padding-top: 15px;
     overflow: hidden;
-    box-shadow: 0 0 3px 1px #ccc;
   }
-
+  #auth_box .confirm-parent,
+  #auth_box .password-parent {
+    width: 100%;
+  }
+  #auth_box label,
+  #auth_box .password-strength,
+  #auth_box .form-item .description {
+    color: #FFFFFF;
+  }
+  #auth_box div.form-item div.password-suggestions {
+    border: 1px solid #000000;
+  }
   #auth_box .back_link {
     padding: 15px 0 0;
   }
 
   #auth_box #bottom_part {
     font-size: 13px;
-    padding: 15px 0 0;
+    padding: 0;
   }

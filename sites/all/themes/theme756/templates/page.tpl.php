@@ -80,58 +80,37 @@
                 <?php print render($page['menu']); ?>
             </div>
         <?php endif; ?>
-        <div class="section-2 clearfix">
-        	<div class="col1">
-            	<?php if ($logo): ?>
-                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-                        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-                    </a>
-                <?php endif; ?>
-            
-                <?php if ($site_name || $site_slogan): ?>
-                    <div id="name-and-slogan">
-                      <?php if ($site_name): ?>
-                        <?php if ($title): ?>
-                          <div id="site-name">
-                            <strong><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a></strong>
-                          </div><!-- /#site-name -->
-                        <?php else: /* Use h1 when the content title is empty */ ?>
-                          <h1 id="site-name">
-                            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-                          </h1>
-                        <?php endif; ?>
-                      <?php endif; ?>
-                    
-                      <?php if ($site_slogan): ?>
-                        <div id="site-slogan"><?php print $site_slogan; ?></div>
-                      <?php endif; ?>
-                    </div><!-- /#name-and-slogan -->
-                <?php endif; ?>
-            </div>
-            <?php if ($page['user_menu']): ?>
-                <div class="col2">
-                    <?php print render($page['user_menu']); ?>
-                </div>
-            <?php endif; ?>
-        </div>
-
 		<?php if ($page['header']): ?>
-            <div class="section-3 clearfix">
+            <div class="section-2 clearfix">
                 <?php print render($page['header']); ?>
             </div><!-- /.section -->
         <?php endif; ?>
         <?php if ($page['header_bottom']): ?>
-            <div class="section-4 clearfix">
+            <div class="section-3 clearfix">
                 <?php print render($page['header_bottom']); ?>
             </div><!-- /.section -->
         <?php endif; ?>
 
     </header><!-- /#header -->
- 
+
+  <div id="site-logo-wrapper" class="section-site-logo clearfix">
+      <?php if ($logo): ?>
+          <div class="section-logo-wrapper logo-wrapper">
+              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+                  <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+              </a>
+          </div>
+      <?php endif; ?>
+      <?php if ($title): ?>
+          <div class="section-logo-wrapper title-wrapper">
+              <h1 class="title" id="page-title"><?php print $title; ?></h1>
+          </div>
+      <?php endif; ?>
+  </div>
+
 
   <div id="main-wrapper">
     <div id="main" class="clearfix">
-
     <?php if ($page['sidebar_first']): ?>
         <aside id="sidebar-first" class="column sidebar" role="complementary">
             <div class="section">
@@ -163,10 +142,6 @@
         
         <?php print render($title_prefix); ?>
         
-        <?php if ($title): ?>
-          <h1 class="title" id="page-title"><?php print $title; ?></h1>
-        <?php endif; ?>
-        
         <?php print render($title_suffix); ?>
         
         <?php if ($tabs): ?>
@@ -192,6 +167,16 @@
 
     <footer id="footer" role="contentinfo">
         <div class="footer-wrapper clearfix">
+            <?php if ($logo): ?>
+                <div class="footer-logo-wrapper">
+                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo-footer">
+                        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+                    </a>
+                </div>
+            <?php endif; ?>
+            <div class="footer-brand-wrapper">
+                Professional Security System Magazine &copy; 2017 | <a href="/privacy-policy">Privacy policy</a>
+            </div>
 			<?php print render($page['footer']); ?>
         </div><!-- /#footer-wrapper -->
     </footer><!-- /#footer -->

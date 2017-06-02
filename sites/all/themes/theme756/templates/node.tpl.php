@@ -107,8 +107,8 @@ if (isset($node->field_article_type)) {
 
   <?php if (!empty($content['field_tags']) || !empty($content['links'])): ?>
     <footer>
-      <?php print render($content['field_tags']); ?>
-      <?php print render($content['links']); ?>
+      <?php /*print render($content['field_tags']);*/ ?>
+      <?php /*print render($content['links']);*/ ?>
     </footer>
   <?php endif; ?>
 

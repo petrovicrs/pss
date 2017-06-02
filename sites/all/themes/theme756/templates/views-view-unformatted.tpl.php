@@ -15,4 +15,4 @@
     <?php print $row; ?>
   </div>
 <?php endforeach; ?>
-<div class="stretch"></div>
+<div class="stretch-wrapper"></div>

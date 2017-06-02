@@ -44,7 +44,7 @@ function theme756_preprocess(&$vars, $hook) {
  * Implements template_preprocess_html().
  */
 function theme756_preprocess_html(&$vars) {
-  
+
   $vars['doctype'] = _theme756_doctype();
   $vars['rdf'] = _theme756_rdf($vars);
 
@@ -138,6 +138,10 @@ function theme756_preprocess_page(&$vars) {
   if (isset($vars['node_title'])) {
     $vars['title'] = $vars['node_title'];
   }
+
+  $vars['site_message'] = variable_get('pss_site_message', '');
+
+
 
   // Adding classes wether #navigation is here or not
   if (!empty($vars['main_menu']) or !empty($vars['sub_menu'])) {
