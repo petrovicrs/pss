@@ -141,7 +141,12 @@ function theme756_preprocess_page(&$vars) {
 
   $vars['site_message'] = variable_get('pss_site_message', '');
 
-
+  if (isset($vars['node']) && $vars['node']->type == 'article') {
+    $node = $vars['node'];
+    $tid = $node->field_article_type[LANGUAGE_NONE][0]['tid'];
+    $taxonomy = taxonomy_term_load($tid);
+    $vars['title'] = $taxonomy->name;
+  }
 
   // Adding classes wether #navigation is here or not
   if (!empty($vars['main_menu']) or !empty($vars['sub_menu'])) {
@@ -259,7 +264,7 @@ function theme756_field__taxonomy_term_reference($vars) {
 
   // Render the label, if it's not hidden.
   if (!$vars['label_hidden']) {
-    $output .= '<h3 class="field-label">' . $vars['label'] . ': </h3>';
+    $output .= '<h3 class="field-label">' . $vars['label'] . '</h3>';
   }
 
   // Render the items.
@@ -303,7 +308,7 @@ function theme756_breadcrumb($vars) {
 	  $separator = theme_get_setting('theme756_breadcrumb_separator');
 	
 	  if (!$separator) {
-		$separator = '»';
+		$separator = 'ï¿½';
 	  }
 	  
 	  if ($condition) {

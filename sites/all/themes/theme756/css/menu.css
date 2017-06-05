@@ -51,7 +51,7 @@
     left: 0;
     right: 100%;
     height: 5px;
-    background: #1abc9c;
+    background: #ec1f27;
     bottom: 0;
     z-index: 10;
     -webkit-transition: all ease .3s;
@@ -61,7 +61,7 @@
     transition: all ease .3s;
 }
 #superfish-1 > li > a:hover, #superfish-1 > li > a.active, #superfish-1 > li > a.sfHover{
-    color: #1abc9c;
+    color: #ec1f27;
 }
 #superfish-1 > li > a:hover:after, #superfish-1 > li > a.active:after, #superfish-1 > li > a.sfHover:after {
     right: 0;

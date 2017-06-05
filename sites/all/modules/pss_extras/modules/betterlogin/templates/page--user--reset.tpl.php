@@ -1,5 +1,9 @@
 <div class="background-image-holder" style="height: 100vh; width: 100vw; z-index: -1;background-image: url('/<?php echo drupal_get_path('module', 'betterlogin') . '/images/fantasy-woman-bckg.png'; ?>');">
-    <div class="image-holder"><img src="/<?php echo drupal_get_path('module', 'betterlogin') . '/images/fantasy-woman-warrior.png'; ?>"></div>
+    <div class="image-holder">
+        <div class="image-inner-holder">
+            <img src="/<?php echo drupal_get_path('module', 'betterlogin') . '/images/fantasy-woman-warrior.png'; ?>">
+        </div>
+    </div>
     <div id="auth_box" class="reset">
       <div id="top_part">
         <h1 id="the_logo">

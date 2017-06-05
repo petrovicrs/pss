@@ -1,0 +1,207 @@
+/** nodes **/
+/** aktuelno **/
+.page-archive.page-archive-type-25 .view-content .views-row .views-field-title a,
+.page-archive.page-archive-type-25 h1.title,
+    /** nod **/
+.page-node.node-type-article.page-taxonomy-type-25 #content h1.title,
+.page-node.node-type-advanced-page.page-taxonomy-type-25 #content h1.title,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-25 .content h1,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-25 .content h2,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-25 .content h3,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-25 .content h4,
+.page-node.node-type-article.page-taxonomy-type-25 #sidebar-second .block-view h2,
+.page-node.node-type-article.page-taxonomy-type-25 #sidebar-second .block-view li a,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-25 section#comments h2.title,
+    /** views **/
+.page-node.node-type-advanced-page.page-taxonomy-type-25 .view .view-content .views-row .views-field-title a,
+.page-node.node-type-advanced-page.page-taxonomy-type-25 .view .view-content .views-row .views-field-body h2{
+    color: #4F2E91;
+}
+.page-archive.page-archive-type-25 .view .view-content .views-row .views-field-view-node A,
+.page-node.node-type-advanced-page.page-taxonomy-type-25 .view .view-content .views-row .views-field-view-node A{
+    background: #4F2E91;
+}
+/** da li se zna **/
+/** arhiva **/
+.page-archive.page-archive-type-26 .view-content .views-row .views-field-title a,
+.page-archive.page-archive-type-26 h1.title,
+    /** nod **/
+.page-node.node-type-article.page-taxonomy-type-26 #content h1.title,
+.page-node.node-type-advanced-page.page-taxonomy-type-26 #content h1.title,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-26 .content h1,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-26 .content h2,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-26 .content h3,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-26 .content h4,
+.page-node.node-type-article.page-taxonomy-type-26 #sidebar-second .block-view h2,
+.page-node.node-type-article.page-taxonomy-type-26 #sidebar-second .block-view li a,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-26 section#comments h2.title,
+    /** views **/
+.page-node.node-type-advanced-page.page-taxonomy-type-26 .view .view-content .views-row .views-field-title a,
+.page-node.node-type-advanced-page.page-taxonomy-type-26 .view .view-content .views-row .views-field-body h2{
+    color: #006435;
+}
+.page-archive.page-archive-type-26 .view .view-content .views-row .views-field-view-node A,
+.page-node.node-type-advanced-page.page-taxonomy-type-26 .view .view-content .views-row .views-field-view-node A{
+    background: #006435;
+}
+/** intervju **/
+/** arhiva **/
+.page-archive.page-archive-type-20 .view-content .views-row .views-field-title a,
+.page-archive.page-archive-type-20 h1.title,
+    /** nod **/
+.page-node.node-type-article.page-taxonomy-type-20 #content h1.title,
+.page-node.node-type-advanced-page.page-taxonomy-type-20 #content h1.title,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-20 .content h1,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-20 .content h2,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-20 .content h3,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-20 .content h4,
+.page-node.node-type-article.page-taxonomy-type-20 #sidebar-second .block-view h2,
+.page-node.node-type-article.page-taxonomy-type-20 #sidebar-second .block-view li a,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-20 section#comments h2.title,
+    /** views **/
+.page-node.node-type-advanced-page.page-taxonomy-type-20 .view .view-content .views-row .views-field-title a,
+.page-node.node-type-advanced-page.page-taxonomy-type-20 .view .view-content .views-row .views-field-body h2{
+    color: #0090D0;
+}
+.page-archive.page-archive-type-20 .view .view-content .views-row .views-field-view-node A,
+.page-node.node-type-advanced-page.page-taxonomy-type-20 .view .view-content .views-row .views-field-view-node A{
+    background: #0090D0;
+}
+/** Menad�ment **/
+/** arhiva **/
+.page-archive.page-archive-type-19 .view-content .views-row .views-field-title a,
+.page-archive.page-archive-type-19 h1.title,
+    /** nod **/
+.page-node.node-type-article.page-taxonomy-type-19 #content h1.title,
+.page-node.node-type-advanced-page.page-taxonomy-type-19 #content h1.title,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-19 .content h1,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-19 .content h2,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-19 .content h3,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-19 .content h4,
+.page-node.node-type-article.page-taxonomy-type-19 #sidebar-second .block-view h2,
+.page-node.node-type-article.page-taxonomy-type-19 #sidebar-second .block-view li a,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-19 section#comments h2.title,
+    /** views **/
+.page-node.node-type-advanced-page.page-taxonomy-type-19 .view .view-content .views-row .views-field-title a,
+.page-node.node-type-advanced-page.page-taxonomy-type-19 .view .view-content .views-row .views-field-body h2{
+    color: #900D10;
+}
+.page-archive.page-archive-type-19 .view .view-content .views-row .views-field-view-node A,
+.page-node.node-type-advanced-page.page-taxonomy-type-19 .view .view-content .views-row .views-field-view-node A{
+    background: #900D10;
+}
+/** Po�arna zastita **/
+/** arhiva **/
+.page-archive.page-archive-type-23 .view-content .views-row .views-field-title a,
+.page-archive.page-archive-type-23 h1.title,
+    /** views **/
+.page-node.node-type-article.page-taxonomy-type-23 #content h1.title,
+.page-node.node-type-advanced-page.page-taxonomy-type-23 #content h1.title,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-23 .content h1,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-23 .content h2,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-23 .content h3,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-23 .content h4,
+.page-node.node-type-article.page-taxonomy-type-23 #sidebar-second .block-view h2,
+.page-node.node-type-article.page-taxonomy-type-23 #sidebar-second .block-view li a,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-23 section#comments h2.title,
+    /** nod **/
+.page-node.node-type-advanced-page.page-taxonomy-type-23 .view .view-content .views-row .views-field-title a,
+.page-node.node-type-advanced-page.page-taxonomy-type-23 .view .view-content .views-row .views-field-body h2{
+    color: #B01116;
+}
+.page-archive.page-archive-type-23 .view .view-content .views-row .views-field-view-node A,
+.page-node.node-type-advanced-page.page-taxonomy-type-23 .view .view-content .views-row .views-field-view-node A{
+    background: #B01116;
+}
+/** Security novosti **/
+/** arhiva **/
+.page-archive.page-archive-type-18 .view-content .views-row .views-field-title a,
+.page-archive.page-archive-type-18 h1.title,
+    /** nod **/
+.page-node.node-type-article.page-taxonomy-type-18 #content h1.title,
+.page-node.node-type-advanced-page.page-taxonomy-type-18 #content h1.title,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-18 .content h1,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-18 .content h2,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-18 .content h3,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-18 .content h4,
+.page-node.node-type-article.page-taxonomy-type-18 #sidebar-second .block-view h2,
+.page-node.node-type-article.page-taxonomy-type-18 #sidebar-second .block-view li a,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-18 section#comments h2.title,
+    /** views **/
+.page-node.node-type-advanced-page.page-taxonomy-type-18 .view .view-content .views-row .views-field-title a,
+.page-node.node-type-advanced-page.page-taxonomy-type-18 .view .view-content .views-row .views-field-body h2{
+    color: #ED1C24;
+}
+.page-archive.page-archive-type-18 .view .view-content .views-row .views-field-view-node A,
+.page-node.node-type-advanced-page.page-taxonomy-type-18 .view .view-content .views-row .views-field-view-node A{
+    background: #ED1C24;
+}
+/** Security praksa **/
+/** arhiva **/
+.page-archive.page-archive-type-22 .view-content .views-row .views-field-title a,
+.page-archive.page-archive-type-22 h1.title,
+    /** nod **/
+.page-node.node-type-article.page-taxonomy-type-22 #content h1.title,
+.page-node.node-type-advanced-page.page-taxonomy-type-22 #content h1.title,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-22 .content h1,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-22 .content h2,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-22 .content h3,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-22 .content h4,
+.page-node.node-type-article.page-taxonomy-type-22 #sidebar-second .block-view h2,
+.page-node.node-type-article.page-taxonomy-type-22 #sidebar-second .block-view li a,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-22 section#comments h2.title,
+    /** views **/
+.page-node.node-type-advanced-page.page-taxonomy-type-22 .view .view-content .views-row .views-field-title a,
+.page-node.node-type-advanced-page.page-taxonomy-type-22 .view .view-content .views-row .views-field-body h2{
+    color: #1799A0;
+}
+.page-archive.page-archive-type-22 .view .view-content .views-row .views-field-view-node A,
+.page-node.node-type-advanced-page.page-taxonomy-type-22 .view .view-content .views-row .views-field-view-node A{
+    background: #1799A0;
+}
+/** Tehnika **/
+/** arhiva **/
+.page-archive.page-archive-type-24 .view-content .views-row .views-field-title a,
+.page-archive.page-archive-type-24 h1.title,
+    /** nod **/
+.page-node.node-type-article.page-taxonomy-type-24 #content h1.title,
+.page-node.node-type-advanced-page.page-taxonomy-type-24 #content h1.title,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-24 .content h1,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-24 .content h2,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-24 .content h3,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-24 .content h4,
+.page-node.node-type-article.page-taxonomy-type-24 #sidebar-second .block-view h2,
+.page-node.node-type-article.page-taxonomy-type-24 #sidebar-second .block-view li a,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-24 section#comments h2.title,
+    /** views **/
+.page-node.node-type-advanced-page.page-taxonomy-type-24 .view .view-content .views-row .views-field-title a,
+.page-node.node-type-advanced-page.page-taxonomy-type-24 .view .view-content .views-row .views-field-body h2{
+    color: #E76120;
+}
+.page-archive.page-archive-type-24 .view .view-content .views-row .views-field-view-node A,
+.page-node.node-type-advanced-page.page-taxonomy-type-24 .view .view-content .views-row .views-field-view-node A{
+    background: #E76120;
+}
+/** Tema broja **/
+/** arhiva **/
+.page-archive.page-archive-type-21 .view-content .views-row .views-field-title a,
+.page-archive.page-archive-type-21 h1.title,
+    /** nod **/
+.page-node.node-type-article.page-taxonomy-type-21 #content h1.title,
+.page-node.node-type-advanced-page.page-taxonomy-type-21 #content h1.title,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-21 .content h1,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-21 .content h2,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-21 .content h3,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-21 .content h4,
+.page-node.node-type-article.page-taxonomy-type-21 #sidebar-second .block-view h2,
+.page-node.node-type-article.page-taxonomy-type-21 #sidebar-second .block-view li a,
+.page-node.node-type-article .node.node-article.node-taxonomy-type-21 section#comments h2.title,
+    /** views **/
+.page-node.node-type-advanced-page.page-taxonomy-type-21 .view .view-content .views-row .views-field-title a,
+.page-node.node-type-advanced-page.page-taxonomy-type-21 .view .view-content .views-row .views-field-body h2{
+    color: #192B6C ;
+}
+.page-archive.page-archive-type-21 .view .view-content .views-row .views-field-view-node A,
+.page-node.node-type-advanced-page.page-taxonomy-type-21 .view .view-content .views-row .views-field-view-node A{
+    background: #192B6C;
+}

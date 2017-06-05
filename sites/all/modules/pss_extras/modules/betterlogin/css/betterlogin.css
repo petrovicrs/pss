@@ -11,6 +11,9 @@
   display: table-cell;
   vertical-align: middle;
 }
+.image-holder .image-inner-holder{
+  max-width: 65vw;
+}
 .image-holder img{
   max-width: 65vw;
 }
