@@ -1,89 +1,149 @@
 #body {
-  height: 100vh;
-  display: table-row;
+    height: 100vh;
+    display: table-row;
 }
+
 .background-image-holder {
-  position: absolute;
-  top: 0;
-  left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
+
 .image-holder {
-  display: table-cell;
-  vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
 }
-.image-holder .image-inner-holder{
-  max-width: 65vw;
+
+.image-holder .image-inner-holder {
+    max-width: 65vw;
 }
-.image-holder img{
-  max-width: 65vw;
+
+.image-holder img {
+    max-width: 100%;
 }
+
 #auth_box {
-  height: 100vh;
-  z-index: 999;
-  width: 400px;
-  margin: 0 auto;
-  font-family: sans-serif;
-  vertical-align: middle;
-  display: table-cell;
-  text-align: center;
+    height: 100vh;
+    z-index: 999;
+    width: 400px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
 }
-  #auth_box a {
+
+#auth_box a {
     color: #FFFFFF;
-  }
-  #auth_box h1#the_logo {
+}
+
+#auth_box h1#the_logo {
     text-align: center;
     margin: 0;
     padding: 0 0 25px;
-  }
-    
-    #auth_box h1#the_logo img {
-      max-width: 250px;
-    }
-  
-  #auth_box h2.title {
+}
+
+#auth_box h1#the_logo img {
+    max-width: 250px;
+}
+
+#body #auth_box h2.title {
     margin: 0;
     padding: 0 0 15px;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 25px;
+    line-height: 25px;
     font-weight: bold;
-  }
-  
-  #auth_box input[type="text"],
-  #auth_box input[type="password"] {
+    color: #FFFFFF;
+}
+
+#auth_box input[type="text"],
+#auth_box input[type="password"] {
     width: 258px;
     border: 1px #ccc solid;
     border-radius: 3px;
     padding: 5px;
     font-size: 15px;
-  }
+}
 
-  #auth_box input[type="submit"] {
+#auth_box input[type="submit"] {
     width: 100%;
-  }
+}
 
-  #auth_box #middle_part {
+#auth_box #middle_part {
     border-radius: 3px;
-    padding: 0 15px;
-    padding-top: 15px;
+    padding: 15px 15px 0;
     overflow: hidden;
-  }
-  #auth_box .confirm-parent,
-  #auth_box .password-parent {
-    width: 100%;
-  }
-  #auth_box label,
-  #auth_box .password-strength,
-  #auth_box .form-item .description {
-    color: #FFFFFF;
-  }
-  #auth_box div.form-item div.password-suggestions {
-    border: 1px solid #000000;
-  }
-  #auth_box .back_link {
-    padding: 15px 0 0;
-  }
+}
 
-  #auth_box #bottom_part {
+#auth_box .confirm-parent,
+#auth_box .password-parent {
+    width: 100%;
+}
+
+#auth_box label,
+#auth_box .password-strength,
+#auth_box .form-item .description {
+    color: #FFFFFF;
+}
+#auth_box form {
+    text-align: left;
+}
+#auth_box div.form-item div.password-suggestions {
+    display: none !important;
+}
+
+#auth_box .back_link {
+    padding: 15px 0 0;
+}
+
+#auth_box div.form-item div.password-confirm,
+#auth_box div.form-item div.password-strength {
+    float: none;
+    width: auto;
+    margin: 0;
+    text-align: left;
+}
+
+#auth_box div.form-item div.password-strength {
+    margin-bottom: 20px;
+}
+
+#auth_box div.form-item div.password-confirm {
+    color: #FFFFFF;
+}
+
+#auth_box #bottom_part {
     font-size: 13px;
     padding: 0;
-  }
+}
+
+#auth_box div.form-item textarea,
+#auth_box div.form-item input[type='text'],
+#auth_box div.form-item input[type="search"],
+#auth_box div.form-item input[type='password'] {
+    background: transparent none;
+    border-bottom: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+#auth_box .field-name-field-last-name,
+#auth_box .field-name-field-first-name {
+    display: inline-block;
+    width: 48%;
+}
+#auth_box .field-name-field-last-name .form-item {
+    margin-left: 5%;
+}
+#auth_box .field-name-field-last-name .form-item input {
+    padding-right: 0;
+}
+#auth_box .field-name-field-first-name .form-item{
+    margin-right: 5%;
+}
+#auth_box .field-name-field-first-name .form-item input {
+    padding-left: 0;
+}
+
+#auth_box .error {
+    color: #ec1f27;
+}

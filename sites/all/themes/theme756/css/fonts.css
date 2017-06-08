@@ -1,30 +1,62 @@
-/*** front ***/
-#site-slogan {
-    color: #545454;
+/*** content ***/
+#content .content {
+    font-family: 'Didact Gothic', sans-serif;
+}
+#footer {
     font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
+}
+#body a,
+#body div,
+#body span{
+    font-family: 'Didact Gothic', sans-serif;
+}
+#body a, #body ul, #body li, #body .h1, #body .h2, #body .h3,
+#body .h4, #body body, #body h1, #body h2, #body h3, #body h4, #body h5, #body h6 {
+    font-family: 'PT Sans', sans-serif;
+}
+#body h1.title, #body h2.title, #body h3.title, #body h4.title, #body h5.title, #body h6.title,
+#body .h1.title, #body .h2.title, #body .h3.title, #body .h4.title, #body .h5.title, #body .h6.title {
+    font-family: 'PT Sans', sans-serif;
+    color: #545454;
+}
+#body h1.title {
     font-size: 50px;
-    text-transform: uppercase;
+    font-weight: bold;
     line-height: 50px;
 }
-#site-message {
+#body ul.menu,
+#body ul.menu li,
+#body ul.menu li a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+/*** front ***/
+div#site-slogan {
+    color: #545454;
+    font-family: 'PTSans-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 41px;
+    text-transform: uppercase;
+    line-height: 41px;
+}
+div#site-message {
     font-family: 'Didact Gothic', sans-serif;
     color: #545454;
-    font-weight: bold;
     font-size: 40px;
     text-transform: initial;
     line-height: 40px;
 }
-#current-magazine-number .sup {
+div#current-magazine-number .sup {
     font-family: "Eames-Century-Modern-Bold";
     font-size: 60px;
     color: #bdbdbd;
     line-height: 60px;
 }
-#current-magazine-number .number {
+div#current-magazine-number .number {
     font-family: "Eames-Century-Modern-Bold";
     font-size: 100px;
     color: #bdbdbd;
+    opacity: 0.5;
 }
 /** footer **/
 #footer .footer-brand-wrapper {
@@ -91,42 +123,6 @@
     color: #545454;
     font-size: 30px;
     font-weight: normal;
-}
-/*** content ***/
-#content .content {
-    font-family: 'Didact Gothic', sans-serif;
-}
-#footer {
-    font-family: 'PT Sans', sans-serif;
-}
-#body a,
-#body div,
-#body span{
-    font-family: 'Didact Gothic', sans-serif;
-}
-#body a, #body ul, #body li, #body .h1, #body .h2, #body .h3,
-#body .h4, #body body, #body h1, #body h2, #body h3, #body h4, #body h5, #body h6 {
-    font-family: 'PT Sans', sans-serif;
-}
-#body h1.title, #body h2.title, #body h3.title, #body h4.title, #body h5.title, #body h6.title,
-#body .h1.title, #body .h2.title, #body .h3.title, #body .h4.title, #body .h5.title, #body .h6.title {
-    font-family: 'PT Sans', sans-serif;
-    color: #545454;
-}
-#body .node h2 {
-
-}
-#body h1.title {
-    font-size: 50px;
-    font-weight: bold;
-    line-height: 50px;
-}
-#body ul.menu,
-#body ul.menu li,
-#body ul.menu li a{
-    font-family: 'PT Sans', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
 }
 /** most viewed **/
 

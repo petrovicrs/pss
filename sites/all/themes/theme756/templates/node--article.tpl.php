@@ -54,9 +54,15 @@ if (isset($node->field_article_type)) {
                   ?>
                 </div>
                 <div class="comments">
-                  <?php print render($content['comments']); ?>
+                    <?php if (isset($comment_count) && (int)$comment_count) { ?>
+                    <div class="comment-count-wrapper">
+                        <span class="comment-count"><?php print $comment_count . ' ' . t('Comment count');?></span>
+                    </div>
+                    <?php }?>
+                    <div class="comments-wrapper"><?php print render($content['comments']); ?></div>
                 </div>
             </div>
+            <?php if ($page) {?>
             <div class="inner-content-element inner-content-right content-share">
                 <div class="inner-wrapper share-block">
                     <div class="a2a-title"><?php print t('Share article');?></div>
@@ -76,6 +82,7 @@ if (isset($node->field_article_type)) {
                 </div>
                 <?php }?>
             </div>
+            <?php } ?>
         </div>
     </div>
 </article>
