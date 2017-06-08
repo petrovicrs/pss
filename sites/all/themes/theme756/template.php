@@ -83,6 +83,10 @@ function theme756_preprocess_html(&$vars) {
     $vars['classes_array'][] = 'admin';
   }
 
+  if (!path_is_admin(current_path())) {
+      $vars['classes_array'][] = 'not-admin';
+  }
+
   if (!$vars['is_front']) {
     // Add unique classes for each page and website section
     $path = drupal_get_path_alias($_GET['q']);

@@ -135,7 +135,8 @@ function pss_extras_preprocess_node(&$vars) {
     $month_2 = date('F', strtotime($magazine_number->field_magazine_for_period[LANGUAGE_NONE][0]['value2']));
     $vars['for_period_year'] = $year;
     $vars['for_period_months'] = t($month_1) . '/' . t($month_2);
-    $created_by = user_load($vars['user']->uid);
+    $uid = isset($vars['uid']) ? $vars['uid'] : 0;
+    $created_by = user_load($uid);
     $account_view = user_view($created_by, 'teaser');
     $vars['created_by_picture'] = drupal_render($account_view);
   }

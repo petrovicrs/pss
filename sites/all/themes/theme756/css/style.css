@@ -41,7 +41,13 @@ a:hover {
     margin: 40px auto 0 auto;
     position: relative;
 }
-
+#main-wrapper.full-width {
+    width: 100%;
+    margin: 0;
+}
+#main-wrapper.full-width #main {
+    padding: 0;
+}
 #site-logo-wrapper .section-logo-wrapper {
     display: inline-block;
     vertical-align: middle;
@@ -2330,7 +2336,7 @@ ul.contextual-links li a:hover {
     padding: 7px 5px;
     background: white no-repeat;
     /* 2 imgs : 1px gray line (normal state) AND 2px green line (focus state) */
-    background-image: linear-gradient(to bottom, #1abc9c, #1abc9c), linear-gradient(to bottom, silver, silver);
+    background-image: linear-gradient(to bottom, #1abc9c, #1abc9c), linear-gradient(to bottom, #FFFFFF, #FFFFFF);
     /* sizes for the 2 images (default state) */
     background-size: 0 2px, 100% 1px;
     /* positions for the 2 images. Change both "50%" to "0%" or "100%" and tri again */

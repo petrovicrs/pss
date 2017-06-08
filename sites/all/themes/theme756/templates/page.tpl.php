@@ -183,11 +183,3 @@
 
   </div><!-- /#page -->
 </div><!-- /#page-wrapper -->
-
-<script>
-    if (jQuery(window).width() <= 767) {
-        var content = jQuery('#content');
-        jQuery('#sidebar-first').insertAfter(content);
-        jQuery('#sidebar-second').insertAfter(content);
-    }
-</script>

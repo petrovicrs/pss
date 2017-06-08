@@ -1,3 +1,17 @@
+#main-wrapper.full-width .image-holder {
+    display: table-cell;
+    vertical-align: middle;
+    width: 65vw;
+    text-align: right;
+}
+
+#main-wrapper.full-width .image-holder .image-inner-holder {
+}
+
+#main-wrapper.full-width .image-holder img {
+    max-width: 100%;
+}
+
 #main-wrapper.full-width #auth_box {
     height: 100vh;
     z-index: 999;
@@ -87,28 +101,49 @@
     font-size: 13px;
     padding: 0;
 }
-
+#main-wrapper.full-width #auth_box div.form-item{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 #main-wrapper.full-width #auth_box div.form-item textarea,
 #main-wrapper.full-width #auth_box div.form-item input[type='text'],
 #main-wrapper.full-width #auth_box div.form-item input[type="search"],
 #main-wrapper.full-width #auth_box div.form-item input[type='password'] {
-    background: transparent none;
-    border-bottom: 2px solid #FFFFFF;
     color: #FFFFFF;
+    font-size: 17px;
+    display: block;
+    padding: 7px 5px;
+    background: transparent no-repeat;
+    background-image: linear-gradient(to bottom, #1abc9c, #1abc9c), linear-gradient(to bottom, #FFFFFF, #FFFFFF);
+    background-size: 0 2px, 100% 1px;
+    background-position: 50% 100%, 50% 100%;
+    transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
 }
-::-webkit-input-placeholder { /* Chrome */
+#main-wrapper.full-width #auth_box div.form-item input:invalid,
+#main-wrapper.full-width #auth_box div.form-item textarea:invalid {
+    box-shadow: none;
+}
+#main-wrapper.full-width #auth_box div.form-item textarea:focus,
+#main-wrapper.full-width #auth_box div.form-item input[type='text']:focus,
+#main-wrapper.full-width #auth_box div.form-item input[type="search"]:focus,
+#main-wrapper.full-width #auth_box div.form-item input[type='password']:focus{
+/* sizes for the 2 images (focus state) */
+    background-size: 100% 2px, 100% 1px;
+    outline: none;
+}
+#auth_box ::-webkit-input-placeholder { /* Chrome */
     color: #FFFFFF;
     opacity: 0.8;
 }
-:-ms-input-placeholder { /* IE 10+ */
+#auth_box :-ms-input-placeholder { /* IE 10+ */
     color: #FFFFFF;
     opacity: 0.8;
 }
-::-moz-placeholder { /* Firefox 19+ */
+#auth_box ::-moz-placeholder { /* Firefox 19+ */
     color: #FFFFFF;
     opacity: 0.8;
 }
-:-moz-placeholder { /* Firefox 4 - 18 */
+#auth_box :-moz-placeholder { /* Firefox 4 - 18 */
     color: #FFFFFF;
     opacity: 0.8;
 }
@@ -131,4 +166,39 @@
 }
 #main-wrapper.full-width #auth_box .error {
     color: #ec1f27;
+}
+
+/** subscribe **/
+#main-wrapper.full-width.magazine-subscribe-form #auth_box .webform-component {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#main-wrapper.full-width.magazine-subscribe-form #auth_box .webform-component--last-name,
+#main-wrapper.full-width.magazine-subscribe-form #auth_box .webform-component--first-name,
+#main-wrapper.full-width.magazine-subscribe-form #auth_box .webform-component--subscriber-type {
+    margin-bottom: 0;
+}
+#main-wrapper.full-width.magazine-subscribe-form #auth_box .webform-component--subscriber-type .form-type-radio{
+    display: inline-block;
+    margin-right: 5px;
+}
+#main-wrapper.full-width.magazine-subscribe-form #auth_box .webform-component--last-name,
+#main-wrapper.full-width.magazine-subscribe-form #auth_box .webform-component--first-name {
+    display: inline-block;
+    width: 45%;
+}
+#main-wrapper.full-width.magazine-subscribe-form #auth_box .webform-component--last-name {
+    margin-left: 2%;
+}
+#main-wrapper.full-width.magazine-subscribe-form #auth_box .webform-component--last-name .form-item input {
+    padding-right: 0;
+}
+#main-wrapper.full-width.magazine-subscribe-form #auth_box .webform-component--first-name {
+    margin-right: 5%;
+}
+#main-wrapper.full-width.magazine-subscribe-form #auth_box .webform-component--first-name .form-item input {
+    padding-left: 0;
+}
+#main-wrapper.full-width.magazine-subscribe-form #auth_box .magazine-subscribe-desc {
+    color: #FFFFFF;
 }
