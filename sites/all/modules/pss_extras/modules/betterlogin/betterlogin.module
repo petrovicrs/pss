@@ -123,6 +123,7 @@ function betterlogin_form_alter(&$form, &$form_state, $form_id) {
 
     // Add in some CSS.
     $form['#attached']['css'][] = drupal_get_path('module', 'betterlogin') .'/css/betterlogin.css';
+    $form['#attached']['js'][] = drupal_get_path('module', 'betterlogin') .'/scripts/betterlogin.js';
   }
   switch ($form_id) {
     case 'user_login':

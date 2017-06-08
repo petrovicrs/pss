@@ -1568,7 +1568,7 @@ input[type="search"]#edit-search-block-form--2 {
 }
 
 .form-submit:hover {
-    background: #43c2ee;
+    opacity: 0.8;
 }
 
 /*****************************************/

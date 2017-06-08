@@ -1,3 +1,5 @@
 jQuery(document).ready(function($) {
-    $('.image-holder').
+    $('#auth_box form input').hover(function () {
+        $(this).closest('.form-item').find('.description').toggle(300);
+    });
 });

@@ -12,10 +12,11 @@
 .image-holder {
     display: table-cell;
     vertical-align: middle;
+    width: 65vw;
+    text-align: right;
 }
 
 .image-holder .image-inner-holder {
-    max-width: 65vw;
 }
 
 .image-holder img {
@@ -125,7 +126,22 @@
     border-bottom: 2px solid #FFFFFF;
     color: #FFFFFF;
 }
-
+::-webkit-input-placeholder { /* Chrome */
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+    color: #FFFFFF;
+    opacity: 0.8;
+}
 #auth_box .field-name-field-last-name,
 #auth_box .field-name-field-first-name {
     display: inline-block;

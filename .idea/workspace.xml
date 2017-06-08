@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/images/header-bottom.gif" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/images/header-bottom.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/betterlogin.module" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/betterlogin.module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/css/betterlogin.css" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/css/betterlogin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/menu.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/scripts/betterlogin.js" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/scripts/betterlogin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--change.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--change.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--login.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--login.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--password.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--password.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--register.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--register.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--reset.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--reset.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/templates/comment-wrapper.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/templates/comment-wrapper.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" />
     </list>
     <ignored path="pss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,48 +47,60 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1872">
-              <caret line="2865" column="23" lean-forward="true" selection-start-line="2865" selection-start-column="23" selection-end-line="2865" selection-end-column="23" />
+            <state relative-caret-position="3">
+              <caret line="1573" column="35" lean-forward="true" selection-start-line="1573" selection-start-column="35" selection-end-line="1573" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formtips.module" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/formtips/formtips.module">
+      <file leaf-file-name="betterlogin.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/scripts/betterlogin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="46" />
+            <state relative-caret-position="42">
+              <caret line="2" column="69" lean-forward="false" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="betterlogin.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="betterlogin.module" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/betterlogin.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="125" column="99" lean-forward="false" selection-start-line="125" selection-start-column="99" selection-end-line="125" selection-end-column="99" />
+              <folding>
+                <marker date="1496938906780" expanded="true" signature="2507:2730" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="betterlogin.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/css/betterlogin.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
-              <caret line="140" column="19" lean-forward="false" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="19" />
+              <caret line="142" column="17" lean-forward="false" selection-start-line="142" selection-start-column="17" selection-end-line="142" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user-picture.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/user-picture.tpl.php">
+      <file leaf-file-name="page--user--change.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--change.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="61" lean-forward="false" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/menu.css">
+      <file leaf-file-name="page--user--login.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--login.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="135" column="23" lean-forward="false" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="0" column="61" lean-forward="false" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -134,6 +147,7 @@
       <find>user-picture</find>
       <find>.node article.comment footer ul li a</find>
       <find>#auth_box</find>
+      <find>betterlogin.js</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -185,7 +199,6 @@
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/admin-theme.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/node.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/linkimagefield/README.txt" />
-        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/scripts/betterlogin.js" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/css/admin-theme.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/news-type.css" />
@@ -198,14 +211,15 @@
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/comment-wrapper.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/user-picture.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--register.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--reset.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--register.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--password.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--login.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--change.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/betterlogin.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/css/betterlogin.css" />
+        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/betterlogin.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/scripts/betterlogin.js" />
       </list>
     </option>
   </component>
@@ -259,7 +273,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -578,6 +591,44 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss_extras" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betterlogin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -671,32 +722,6 @@
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="formtips" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -733,6 +758,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -873,11 +899,13 @@
       <workItem from="1496417668385" duration="42796000" />
       <workItem from="1496680227249" duration="16000" />
       <workItem from="1496851376531" duration="14710000" />
+      <workItem from="1496935117554" duration="36000" />
+      <workItem from="1496937390252" duration="1807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98154000" />
+    <option name="totallyTimeSpent" value="99997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -892,25 +920,25 @@
     <frame x="1912" y="151" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25835475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46306068" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5883905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5474934" sideWeight="0.4974293" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5474934" sideWeight="0.4974293" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5883905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -967,30 +995,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/menu_position/plugins/menu_position.pages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/page--article.tpl.php" />
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/views_conditional/includes/views/handlers/views_conditional_handler.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/user_role_field/README.txt" />
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/css/admin-theme.css" />
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/rules/ui/ui.core.inc" />
     <entry file="file://$PROJECT_DIR$/sites/all/modules/content_access/content_access.module">
       <provider selected="true" editor-type-id="text-editor">
@@ -1080,7 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5523">
           <caret line="266" column="62" lean-forward="false" selection-start-line="266" selection-start-column="62" selection-end-line="266" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,7 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="599" column="27" lean-forward="false" selection-start-line="599" selection-start-column="27" selection-end-line="599" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,7 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1">
           <caret line="716" column="43" lean-forward="false" selection-start-line="716" selection-start-column="22" selection-end-line="716" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,7 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="245" column="39" lean-forward="false" selection-start-line="245" selection-start-column="39" selection-end-line="245" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,7 +1133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,7 +1140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="317" column="18" lean-forward="false" selection-start-line="317" selection-start-column="12" selection-end-line="317" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1149,7 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-746">
           <caret line="129" column="51" lean-forward="true" selection-start-line="129" selection-start-column="51" selection-end-line="129" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,7 +1154,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-63">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,7 +1161,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1173,7 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,9 +1175,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-          <folding>
-            <element signature="e#7#1480#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1191,7 +1182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,30 +1189,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="139" column="61" lean-forward="false" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="61" />
-          <folding>
-            <marker date="1496614015589" expanded="true" signature="13364:14043" ph="..." />
-            <marker date="1496614015589" expanded="true" signature="13428:13606" ph="..." />
-            <marker date="1496614015589" expanded="true" signature="13481:13579" ph="..." />
-            <marker date="1496614015589" expanded="true" signature="13669:13766" ph="..." />
-            <marker date="1496614015589" expanded="true" signature="13834:14020" ph="..." />
-            <marker date="1496614015589" expanded="true" signature="13887:13993" ph="..." />
-            <marker date="1496614015589" expanded="true" signature="17195:17333" ph="SELECT DISTI... field_data_field_magazine_number" />
-            <marker date="1496614015589" expanded="true" signature="17474:17648" ph="SELECT entit... field_data_field_magazine_number" />
-            <marker date="1496614015589" expanded="true" signature="18015:18092" ph="SELECT MAX(f... field_data_field_magazine_number" />
-            <marker date="1496614015589" expanded="true" signature="18428:18519" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-            <marker date="1496614015589" expanded="true" signature="18956:19012" ph="SELECT COUNT... taxonomy_index" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/field.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/field.tpl.php" />
     <entry file="file://$PROJECT_DIR$/modules/field/theme/field.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1235,18 +1205,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/menu.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="2835">
           <caret line="135" column="23" lean-forward="false" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/clientside_validation/README.txt" />
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/user-picture.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1255,70 +1225,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--register.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--reset.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="107" lean-forward="false" selection-start-line="3" selection-start-column="107" selection-end-line="3" selection-end-column="107" />
+        <state relative-caret-position="0">
+          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--reset.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--register.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="107" lean-forward="false" selection-start-line="3" selection-start-column="107" selection-end-line="3" selection-end-column="107" />
+        <state relative-caret-position="0">
+          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--password.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="107" lean-forward="true" selection-start-line="3" selection-start-column="107" selection-end-line="3" selection-end-column="107" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--login.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="61" lean-forward="false" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--change.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="0">
+          <caret line="0" column="61" lean-forward="false" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/betterlogin.module">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/css/betterlogin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-          <folding>
-            <marker date="1496876783708" expanded="true" signature="2507:2730" ph="..." />
-          </folding>
+        <state relative-caret-position="409">
+          <caret line="142" column="17" lean-forward="false" selection-start-line="142" selection-start-column="17" selection-end-line="142" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/clientside_validation/README.txt">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/formtips/formtips.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-317">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1872">
-          <caret line="2865" column="23" lean-forward="true" selection-start-line="2865" selection-start-column="23" selection-end-line="2865" selection-end-column="23" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/formtips/help.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/formtips/readme.md">
@@ -1332,18 +1299,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/formtips/formtips.module">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/formtips/formtips.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="46" />
+        <state relative-caret-position="-326">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/css/betterlogin.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/formtips/formtips.admin.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="140" column="19" lean-forward="false" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="19" />
+        <state relative-caret-position="-767">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/formtips/hoverintent.minified.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/formtips/formtips.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="892">
+          <caret line="54" column="55" lean-forward="true" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="1573" column="35" lean-forward="true" selection-start-line="1573" selection-start-column="35" selection-end-line="1573" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/betterlogin.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="125" column="99" lean-forward="false" selection-start-line="125" selection-start-column="99" selection-end-line="125" selection-end-column="99" />
+          <folding>
+            <marker date="1496938906780" expanded="true" signature="2507:2730" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/scripts/betterlogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="69" lean-forward="false" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
           <folding />
         </state>
       </provider>
