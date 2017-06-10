@@ -21,10 +21,16 @@ stylesheets[screen][] = css/menu.css
 stylesheets[screen][] = css/news-by-type.css
 stylesheets[screen][] = css/maintenance-page.css
 
-stylesheets[only screen and (min-width:960px) and (max-width:1019px)][] = css/responsive.tablet.landscape.css
+stylesheets[only screen and (min-width:960px) and (max-width:1299px)][] = css/responsive.tablet.landscape.css
 stylesheets[only screen and (min-width:768px) and (max-width:959px)][]  = css/responsive.tablet.portrait.css
 stylesheets[only screen and (min-width:481px) and (max-width:767px)][]  = css/responsive.mobile.landscape.css
 stylesheets[only screen and (max-width:480px)][]                        = css/responsive.mobile.portrait.css
+
+scripts[] = js/accordion.menu.js
+scripts[] = js/responsive.tablet.landscape.js
+; scripts[] = js/responsive.tablet.portrait.js
+; scripts[] = js/responsive.mobile.landscape.js
+; scripts[] = js/responsive.mobile.portrait.js
 
 scripts[] = js/theme756.core.js
 scripts[] = js/jquery.loader.js

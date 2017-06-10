@@ -251,6 +251,10 @@ function theme756_preprocess_block(&$vars, $hook) {
  /*if ($vars['block']->region == 'header') {
     $vars['title_attributes_array']['class'][] = 'element-invisible';
   }*/
+    if($vars['block']->module == 'accordion_menu') {
+        $button = '<div class="icon-show-accordion-menu"><span class="icon-show-accordion-menu"></span></div>';
+        $vars['content'] = '<div id="menu_accordion">'. $button  . $vars['content'] . '</div>';
+    }
 }
 
 /**
