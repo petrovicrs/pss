@@ -4,7 +4,8 @@
  * Preplata
  *
  */
-drupal_add_css(drupal_get_path('theme', 'theme756') . '/css/fullwidth.css')
+drupal_add_css(drupal_get_path('theme', 'theme756') . '/css/fullwidth.css');
+drupal_add_js(drupal_get_path('theme', 'theme756') . '/js/fullwidth.js');
 ?>
 <div id="page-wrapper">
     <div id="page">
@@ -37,7 +38,7 @@ drupal_add_css(drupal_get_path('theme', 'theme756') . '/css/fullwidth.css')
                         <?php if ($tabs): ?>
                             <div class="tabs"><?php print render($tabs); ?></div>
                         <?php endif; ?>
-                        <div class="background-image-holder" style="overflow: hidden; height: 100vh; width: 100vw; z-index: -1;background-image: url('/<?php echo drupal_get_path('module', 'betterlogin') . '/images/fantasy-woman-bckg.png'; ?>');">
+                        <div class="background-image-holder" style="background-image: url('/<?php echo drupal_get_path('module', 'betterlogin') . '/images/fantasy-woman-bckg.png'; ?>');">
                             <div class="image-holder">
                                 <div class="image-inner-holder">
                                     <img src="/<?php echo drupal_get_path('module', 'betterlogin') . '/images/fantasy-woman-warrior-950.png'; ?>">
@@ -45,11 +46,13 @@ drupal_add_css(drupal_get_path('theme', 'theme756') . '/css/fullwidth.css')
                             </div>
                             <div id="auth_box" class="reset">
                                 <div id="top_part">
-                                    <h1 id="the_logo">
-                                        <a href="<?php print url('<front>'); ?>">
-                                            <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>">
-                                        </a>
-                                    </h1>
+                                    <?php if ($site_message || $site_slogan): ?>
+                                        <div id="slogan-and-message">
+                                            <?php if ($site_slogan): ?>
+                                                <div id="site-slogan"><?php print $site_slogan; ?></div>
+                                            <?php endif; ?>
+                                        </div>
+                                    <?php endif; ?>
                                 </div>
                                 <div id="middle_part">
                                     <div><h2 class="title"><?php print $title; ?></h2></div>
