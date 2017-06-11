@@ -32,7 +32,6 @@ th, tr, td { padding: 0.1em 0.5em; vertical-align: middle; }
 hr { background:#666; border:none; clear:both; float:none; height:1px; margin: -1px 0 1.5em; width: 100%; }
 fieldset { border: 1px solid #ccc; margin: .5em 0; padding: 1em; }
 
-iframe {background: url(../images/input.png) 0 0 repeat !important;}
 .at300b iframe { background: none !important;}
 
 .addthis_toolbox {

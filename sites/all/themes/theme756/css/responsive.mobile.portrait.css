@@ -207,3 +207,54 @@ div#current-magazine-number .number {
 .view.news-by-type-block-view .view-content .views-row.views-row-5 .field-content .news-content .title-and-body {
     height: 173px;
 }
+.view.news-by-type-block-view .view-content .views-column.views-column-1,
+.view.news-by-type-block-view .view-content .views-column.views-column-2,
+.view.news-by-type-block-view .view-content .views-column.views-column-3 {
+    width: 100%;
+}
+#news-type-block .view-content .views-row {
+    width: 100%;
+}
+#news-type-block .view-content .views-row.views-row-12 {
+    display: none;
+}
+#footer .footer-brand-wrapper {
+    font-size: 17px;
+}
+#block-menu-menu-footer-menu .content ul {
+    text-align: center;
+}
+#block-menu-menu-footer-menu .content ul li {
+    margin: 2px;
+}
+#footer #block-menu-menu-footer-menu .content ul li a {
+    font-size: 15px;
+}
+.front .most-read-block .view .view-content .views-row {
+    height: auto;
+}
+.front .most-read-block .view .view-content .views-row .field-content .news-image {
+    display: block;
+    width: auto;
+}
+.front .most-read-block .view .view-content .views-row .field-content .news-content {
+    display: block;
+    width: auto;
+}
+.front .most-read-block .view .view-content .views-row .field-content .news-image img {
+    width: 100%;
+    height: auto;
+}
+#main-wrapper.full-width #auth_box {
+    width: auto;
+    z-index: 150;
+}
+#site-logo-wrapper .section-logo-wrapper.logo-wrapper,
+#site-logo-wrapper .section-logo-wrapper.title-wrapper {
+    display: block;
+    width: auto;
+}
+.node-type-advanced-page .node-advanced-page .field-name-field-advanced-sponsor-image img {
+    width: 100%;
+    height: auto;
+}

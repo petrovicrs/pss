@@ -55,11 +55,13 @@ a:hover {
 
 #site-logo-wrapper .section-logo-wrapper.logo-wrapper {
     margin-top: 0;
+    vertical-align: middle;
 }
 
 #site-logo-wrapper .section-logo-wrapper.title-wrapper {
     width: 80%;
     text-align: center;
+    vertical-align: middle;
 }
 
 #site-logo-wrapper #slogan-and-message {
@@ -93,7 +95,7 @@ a:hover {
 }
 
 #footer #logo-footer img {
-    width: 150px;
+    width: 100px;
 }
 
 /*** Header ***/
@@ -143,7 +145,7 @@ a:hover {
 
 #header .region.region-menu {
     text-align: center;
-    width: 1300px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -1397,10 +1399,10 @@ section.block .content li a:hover {
 #block-search-form {
     display: inline-block;
     vertical-align: middle;
-    width: 40px;
-    height: 35px;
+    width: 30px;
+    height: 20px;
     background: url(../images/search-icon.png) no-repeat 3px center;
-    float: right;
+    background-size: 25px 20px;
 }
 
 #block-search-form > .content,
@@ -1474,32 +1476,12 @@ section.block .content li a:hover {
 
 .region-menu #block-follow-site-top {
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: middle;
     margin-right: 15px;
     padding: 5px 0;
-    float: left;
-    margin-top: 6px;
 }
 
 /************* search form ******************/
-/*#block-search-form .form-text, #search-block-form .container-inline .form-text {*/
-/*width: 218px;*/
-/*padding:6px 5px 6px;*/
-/*border:1px solid rgb(84,84,84);*/
-/*background:none;*/
-/*-moz-box-sizing:border-box;*/
-/*-webkit-box-sizing:border-box;*/
-/*box-sizing:border-box;*/
-/*}*/
-/*#block-search-form .container-inline, #search-block-form .container-inline {*/
-/*overflow:hidden;*/
-/*background:#fff;*/
-/*padding-right: 9px;*/
-/*display:inline-block;*/
-/*}*/
-/*#block-search-form .container-inline .form-item, #search-block-form .container-inline .form-item {float:left; margin:0;}*/
-/*#block-search-form .container-inline .form-actions, #search-block-form .container-inline .form-actions {float:right;}*/
-/*#search-form .form-submit {vertical-align: middle;}*/
 #block-search-form .form-submit, #search-block-form .form-submit {
     background: url(../images/search.png) no-repeat center center #000;
     border-radius: 0;
@@ -1514,25 +1496,7 @@ section.block .content li a:hover {
     text-indent: -9999px;
 }
 
-/*#search-block-form #edit-submit:hover, #search-block-form .form-submit:hover {background-color: #43c2ee;}*/
-
 input[type="search"]#edit-search-block-form--2 {
-    /*z-index: 400;*/
-    /*outline: 0;*/
-    /*color: white;*/
-    /*cursor: pointer;*/
-    /*width: 30px;*/
-    /*transition: 0.3s;*/
-    /*background: url(../images/search-icon.png) no-repeat 3px center;*/
-    /*-webkit-border-radius: 20px;*/
-    /*-moz-border-radius: 20px;*/
-    /*border-radius: 20px;*/
-    /*border: 1px solid #ffffff;*/
-    /*background: none;*/
-    /*border: 1px solid #353535;*/
-    /*border-radius: 4px;*/
-    /*margin-top: 6px;*/
-    /*color: #ffffff;*/
     display: block;
     margin: 50px auto 80px auto;
     width: 50%;
@@ -1543,16 +1507,6 @@ input[type="search"]#edit-search-block-form--2 {
     border-radius: 0;
 }
 
-/*#edit-search-block-form--2:hover {}*/
-/*#edit-search-block-form--2:focus {*/
-/*color: #777;*/
-/*text-indent: 25px;*/
-/*width: 210px;*/
-/*cursor: text;*/
-/*padding-right: 0;*/
-/*padding-left: 15px;*/
-/*border: 1px solid rgb(84,84,84);*/
-/*}*/
 #block-search-form .form-submit,
 #search-block-form .form-submit {
     display: none;
@@ -1590,9 +1544,20 @@ input[type="search"]#edit-search-block-form--2 {
     padding: 0;
 }
 
-#footer .footer-brand-wrapper {
-    margin: 10px auto;
+#footer .footer-logo-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+    margin-top: 20px;
 }
+
+#footer .footer-brand-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px auto 10px;
+
+}
+
 
 .region-footer {
     padding: 0;
@@ -2312,7 +2277,7 @@ ul.contextual-links li a:hover {
 }
 
 #news-type-block .view-content .views-row .views-field-body {
-    padding: 25px 30px;
+    padding: 25px 5px 25px 30px;
 }
 
 #news-type-block .view-content .views-row .views-field-body .views-field-title a {
@@ -2389,6 +2354,8 @@ ul.contextual-links li a:hover {
     display: inline-block;
     width: 48%;
     vertical-align: top;
+    margin-top: 46px;
+    margin-bottom: 0;
 }
 
 /** most read **/
@@ -2397,6 +2364,9 @@ ul.contextual-links li a:hover {
     padding: 0;
     margin-bottom: 20px;
     height: 160px;
+}
+.front .most-read-block .view .view-content .views-row.views-row-last {
+    margin-bottom: 0;
 }
 
 .front .most-read-block .view .view-content .views-row .field-content .news-image {
@@ -2454,12 +2424,20 @@ ul.contextual-links li a:hover {
     width: 620px;
     vertical-align: top;
     float: right;
+    margin-top: 46px;
+    margin-bottom: 0;
 }
 
 .front .video-material .view .view-content .views-row {
     background: 0;
     padding: 0;
     margin-bottom: 20px;
+}
+.front .video-material .view .view-content .views-row.views-row-last {
+    margin-bottom: 0;
+}
+.front .video-material .view .view-content .views-row .field-content .video {
+    background-color: #ffffff;
 }
 
 .front .video-material .view .view-content .views-row .field-content .body-wrapper {
@@ -2470,6 +2448,9 @@ ul.contextual-links li a:hover {
 
 .front .video-material .view .view-content .views-row .field-content .body-wrapper .title {
     margin-bottom: 20px;
+}
+.front .video-material .view .view-content .views-row .field-content .body-wrapper .body {
+    height: 100px;
 }
 
 /** front newest **/
@@ -2529,7 +2510,7 @@ ul.contextual-links li a:hover {
     display: inline-block;
     width: 550px;
     height: 345px;
-    margin-bottom: 30px;
+    margin-bottom: 46px;
     position: relative;
     margin-right: 20px;
     vertical-align: bottom;
@@ -2571,6 +2552,7 @@ ul.contextual-links li a:hover {
 
 #block-views-author-recommendation-block .view-author-recommendation .view-content .views-row .recommendation-body {
     margin-top: 10px;
+    height: 55px;
 }
 
 #block-views-author-recommendation-block .view-author-recommendation .view-content .views-row .views-field {
@@ -2583,7 +2565,7 @@ ul.contextual-links li a:hover {
     width: 400px;
     height: 315px;
     padding: 30px 0 0 20px;
-    margin-bottom: 30px;
+    margin-bottom: 46px;
     vertical-align: bottom;
 }
 

@@ -42,9 +42,9 @@ div#site-slogan {
 div#site-message {
     font-family: 'Didact Gothic', sans-serif;
     color: #545454;
-    font-size: 40px;
+    font-size: 32px;
     text-transform: initial;
-    line-height: 40px;
+    line-height: 32px;
 }
 div#current-magazine-number .sup {
     font-family: "Eames-Century-Modern-Bold";
@@ -156,6 +156,7 @@ div#current-magazine-number .number {
 .front .video-material .view .view-content .views-row .field-content .body-wrapper .title a{
     font-family: 'PT Sans', sans-serif;
     font-size: 28px;
+    line-height: 28px;
     color: #000000;
     text-decoration: none;
 }
