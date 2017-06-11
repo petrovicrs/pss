@@ -58,10 +58,6 @@ drupal_add_js(drupal_get_path('theme', 'theme756') . '/js/fullwidth.js');
                                 </div>
 
                                 <div id="bottom_part">
-                                    <div class="password_link">
-                                        <?php print l(t('Forgot your password?'), 'user/password'); ?>
-                                    </div>
-
                                     <?php if (variable_get('user_register')): ?>
                                         <div class="register_link">
                                             <?php print l(t('Register a new account'), 'user/register'); ?>

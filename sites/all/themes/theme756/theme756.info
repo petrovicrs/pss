@@ -28,7 +28,7 @@ stylesheets[only screen and (max-width:480px)][]                        = css/re
 
 scripts[] = js/accordion.menu.js
 scripts[] = js/responsive.tablet.landscape.js
-; scripts[] = js/responsive.tablet.portrait.js
+scripts[] = js/responsive.tablet.portrait.js
 ; scripts[] = js/responsive.mobile.landscape.js
 ; scripts[] = js/responsive.mobile.portrait.js
 

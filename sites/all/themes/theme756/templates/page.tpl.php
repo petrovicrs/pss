@@ -53,7 +53,7 @@
  *   comment/reply/12345).
  *
  * Regions:
- * - $page['help']: Dynamic help text, mostly for admin pages.
+* - $page['help']: Dynamic help text, mostly for admin pages.
  * - $page['highlighted']: Items for the highlighted content region.
  * - $page['content_top']: Items for the header region.
  * - $page['content']: The main content of the current page.
@@ -64,122 +64,125 @@
  * - $page['footer']: Items for the footer region.
  *
  * @see template_preprocess()
- * @see template_preprocess_page()
- * @see template_process()
- */
+* @see template_preprocess_page()
+* @see template_process()
+*/
 ?>
 
 <div id="page-wrapper">
 
-  <div id="page">
+    <div id="page">
 
-    <header id="header" role="banner" class="clearfix">
-        
-        <?php if ($page['menu']): ?>
-            <div class="section-1 clearfix">
-                <?php print render($page['menu']); ?>
-            </div>
-        <?php endif; ?>
-		<?php if ($page['header']): ?>
-            <div class="section-2 clearfix">
-                <?php print render($page['header']); ?>
-            </div><!-- /.section -->
-        <?php endif; ?>
-        <?php if ($page['header_bottom']): ?>
-            <div class="section-3 clearfix">
-                <?php print render($page['header_bottom']); ?>
-            </div><!-- /.section -->
-        <?php endif; ?>
+        <header id="header" role="banner" class="clearfix">
+            <?php if ($page['menu']): ?>
+                <div class="section-1 clearfix">
+                    <?php print render($page['menu']); ?>
+                </div>
+            <?php endif; ?>
+            <?php if ($page['header']): ?>
+                <div class="section-2 clearfix">
+                    <?php print render($page['header']); ?>
+                </div>
+            <?php endif; ?>
+            <?php if ($page['header_bottom']): ?>
+                <div class="section-3 clearfix">
+                    <?php print render($page['header_bottom']); ?>
+                </div>
+            <?php endif; ?>
+        </header>
 
-    </header><!-- /#header -->
-
-  <div id="site-logo-wrapper" class="section-site-logo clearfix">
-      <?php if ($logo): ?>
-          <div class="section-logo-wrapper logo-wrapper">
-              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-                  <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-              </a>
-          </div>
-      <?php endif; ?>
-      <?php if ($title): ?>
-          <div class="section-logo-wrapper title-wrapper">
-              <h1 class="title" id="page-title"><?php print $title; ?></h1>
-          </div>
-      <?php endif; ?>
-  </div>
-
-
-  <div id="main-wrapper">
-    <div id="main" class="clearfix">
-    <?php if ($page['sidebar_first']): ?>
-        <aside id="sidebar-first" class="column sidebar" role="complementary">
-            <div class="section">
-                <?php print render($page['sidebar_first']); ?>
-            </div><!-- /.section -->
-        </aside><!-- /#sidebar-first -->
-    <?php endif; ?>
-
-    <?php if ($page['sidebar_second']): ?>
-        <aside id="sidebar-second" class="column sidebar" role="complementary">
-            <div class="section">
-                <?php print render($page['sidebar_second']); ?>
-            </div><!-- /.section -->
-        </aside><!-- /#sidebar-second -->
-    <?php endif; ?>
-
-      <div id="content" class="column" role="main">
-        <div class="section">
-
-        <?php if ($breadcrumb): ?>
-            <div id="breadcrumb" class="clearfix"><?php print $breadcrumb; ?></div>
-        <?php endif; ?>
-        
-        <?php if ($messages): ?>
-            <div id="messages"><div class="section clearfix">
-              <?php print $messages; ?>
-            </div></div> <!-- /.section, /#messages -->
-          <?php endif; ?>
-        
-        <?php print render($title_prefix); ?>
-        
-        <?php print render($title_suffix); ?>
-        
-        <?php if ($tabs): ?>
-          <div class="tabs"><?php print render($tabs); ?></div>
-        <?php endif; ?>
-        
-        <?php print render($page['help']); ?>
-        
-        <?php if ($action_links): ?>
-          <ul class="action-links"><?php print render($action_links); ?></ul>
-        <?php endif; ?>
-        
-        <?php print render($page['content_top']); ?>
-        <?php print render($page['content']); ?>
-        <?php print render($page['content_bottom']); ?>
-        
-        </div><!-- /.section -->
-      </div><!-- /#content -->
-
-    </div><!-- /#main -->
-  </div><!-- /#main-wrapper -->
-
-
-    <footer id="footer" role="contentinfo">
-        <div class="footer-wrapper clearfix">
+        <div id="site-logo-wrapper" class="section-site-logo clearfix">
             <?php if ($logo): ?>
-                <div class="footer-logo-wrapper">
-                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo-footer">
-                        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+                <div class="section-logo-wrapper logo-wrapper">
+                    <a href="<?php print $front_page; ?>"
+                       title="<?php print t('Home'); ?>" rel="home" id="logo">
+                        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/>
                     </a>
                 </div>
             <?php endif; ?>
-            <div class="footer-brand-wrapper">
-                Professional Security System Magazine &copy; 2017 | <a href="/privacy-policy">Privacy policy</a>
-            </div>
-			<?php print render($page['footer']); ?>
-        </div><!-- /#footer-wrapper -->
-    </footer><!-- /#footer -->
+            <?php if ($title): ?>
+                <div class="section-logo-wrapper title-wrapper">
+                    <h1 class="title"
+                        id="page-title"><?php print $title; ?></h1>
+                </div>
+            <?php endif; ?>
+        </div>
 
-  </div><!-- /#page -->
-</div><!-- /#page-wrapper -->
+        <div id="main-wrapper">
+            <div id="main" class="clearfix">
+                <?php if ($page['sidebar_first']): ?>
+                    <aside id="sidebar-first" class="column sidebar"
+                           role="complementary">
+                        <div class="section">
+                            <?php print render($page['sidebar_first']); ?>
+                        </div>
+                    </aside>
+                <?php endif; ?>
+
+                <?php if ($page['sidebar_second']): ?>
+                    <aside id="sidebar-second" class="column sidebar"
+                           role="complementary">
+                        <div class="section">
+                            <?php print render($page['sidebar_second']); ?>
+                        </div>
+                    </aside>
+                <?php endif; ?>
+
+                <div id="content" class="column" role="main">
+                    <div class="section">
+
+                        <?php if ($breadcrumb): ?>
+                            <div id="breadcrumb"
+                                 class="clearfix"><?php print $breadcrumb; ?></div>
+                        <?php endif; ?>
+
+                        <?php if ($messages): ?>
+                            <div id="messages">
+                                <div class="section clearfix">
+                                    <?php print $messages; ?>
+                                </div>
+                            </div>
+                        <?php endif; ?>
+
+                        <?php print render($title_prefix); ?>
+
+                        <?php print render($title_suffix); ?>
+
+                        <?php if ($tabs): ?>
+                            <div class="tabs"><?php print render($tabs); ?></div>
+                        <?php endif; ?>
+
+                        <?php print render($page['help']); ?>
+
+                        <?php if ($action_links): ?>
+                            <ul class="action-links"><?php print render($action_links); ?></ul>
+                        <?php endif; ?>
+                        <?php print render($page['content_top']); ?>
+
+                        <?php print render($page['content']); ?>
+
+                        <?php print render($page['content_bottom']); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer" role="contentinfo">
+            <div class="footer-wrapper clearfix">
+                <?php if ($logo): ?>
+                    <div class="footer-logo-wrapper">
+                        <a href="<?php print $front_page; ?>"
+                           title="<?php print t('Home'); ?>" rel="home"
+                           id="logo-footer">
+                            <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/>
+                        </a>
+                    </div>
+                <?php endif; ?>
+                <div class="footer-brand-wrapper">
+                    Professional Security System Magazine &copy; 2017 | <a href="/privacy-policy">Privacy policy</a>
+                </div>
+                <?php print render($page['footer']); ?>
+            </div>
+        </footer>
+    </div>
+</div>

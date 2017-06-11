@@ -45,21 +45,7 @@ $html_attributes = "lang=\"{$language->language}\" dir=\"{$language->dir}\" {$rd
   <meta content="true" name="HandheldFriendly"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta content="on" http-equiv="cleartype"/>
-
-  <!--[if lte IE 7]> <div style=' text-align:center; clear: both; padding:0 0 0 15px; position: relative;'> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]-->
-  
   <title><?php print $head_title; ?></title>
-  
-  <!--[if LT IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  
-  <!--[if lte IE 8]>
-	<style type="text/css">
-    	.poll .bar, .poll .bar .foreground { behavior:url(<?php echo base_path().path_to_theme() ?>/js/PIE.php); zoom:1}
-	</style>
-<![endif]-->
-
   <?php print $styles; ?>
   <?php print $scripts; ?>
 

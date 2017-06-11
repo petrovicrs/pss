@@ -5,60 +5,60 @@
  * @return array
  */
 function pss_extras_menu() {
-  $items = array();
-  $items['archive/%'] = array(
-    'title' => t('Archive'),
-    'page callback' => 'pss_extras_archive_page',
-    'page arguments' => array(1),
-    'access arguments' => array('access content'),
-    'type' => MENU_CALLBACK,
-  );
-  $items['archive/%/type/%'] = array(
-    'title' => t('Archive'),
-    'page callback' => 'pss_extras_archive_page',
-    'access arguments' => array('access content'),
-    'page arguments' => array(1, 3),
-    'type' => MENU_CALLBACK,
-  );
-  $items['admin/pss-settings'] = array(
-    'title' => t('Site Settings'),
-    'type' => MENU_NORMAL_ITEM,
-    'weight' => 8,
-    'description' => t('PSS Site Settings'),
-    'file' => 'inc/pss_settings_page.inc.php',
-    'page callback' => 'drupal_get_form',
-    'page arguments' => array('pss_extras_settings_page'),
-    'access callback' => 'pss_extras_user_has_role',
-    'access arguments' => array(array('site administrator')),
-  );
-  return $items;
+    $items = array();
+    $items['archive/%'] = array(
+      'title' => t('Archive'),
+      'page callback' => 'pss_extras_archive_page',
+      'page arguments' => array(1),
+      'access arguments' => array('access content'),
+      'type' => MENU_CALLBACK,
+    );
+    $items['archive/%/type/%'] = array(
+      'title' => t('Archive'),
+      'page callback' => 'pss_extras_archive_page',
+      'access arguments' => array('access content'),
+      'page arguments' => array(1, 3),
+      'type' => MENU_CALLBACK,
+    );
+    $items['admin/pss-settings'] = array(
+      'title' => t('Site Settings'),
+      'type' => MENU_NORMAL_ITEM,
+      'weight' => 8,
+      'description' => t('PSS Site Settings'),
+      'file' => 'inc/pss_settings_page.inc.php',
+      'page callback' => 'drupal_get_form',
+      'page arguments' => array('pss_extras_settings_page'),
+      'access callback' => 'pss_extras_user_has_role',
+      'access arguments' => array(array('site administrator')),
+    );
+    return $items;
 }
 
 function pss_extras_user_has_role($roles = array()) {
-  global $user;
-  $roles[] = 'administrator';
-  foreach ($roles as $role) {
-    if (in_array($role, $user->roles)) {
-      return TRUE;
+    global $user;
+    $roles[] = 'administrator';
+    foreach ($roles as $role) {
+        if (in_array($role, $user->roles)) {
+            return TRUE;
+        }
     }
-  }
-  return FALSE;
+    return FALSE;
 }
 
 /**
  * Implements hook_block_info().
  */
 function pss_extras_block_info() {
-  $blocks['news-type'] = array(
-    'info' => t('News type'),
-  );
-  $blocks['top-newsletter-subscribe-block'] = array(
-    'info' => t('Top newsletter subscribe block'),
-  );
-  $blocks['taxonomy-tags'] = array(
-    'info' => t('Taxonomy tags list')
-  );
-  return $blocks;
+    $blocks['news-type'] = array(
+      'info' => t('News type'),
+    );
+    $blocks['top-newsletter-subscribe-block'] = array(
+      'info' => t('Top newsletter subscribe block'),
+    );
+    $blocks['taxonomy-tags'] = array(
+      'info' => t('Taxonomy tags list')
+    );
+    return $blocks;
 }
 
 /**
@@ -69,300 +69,349 @@ function pss_extras_block_info() {
  * @throws Exception
  */
 function pss_extras_block_view($delta = '') {
-  $block = array();
-  switch ($delta) {
-    case 'archive-block':
-      $block['subject'] = '';
-      $block['content'] = __pss_extras_generate_archive_block();
-      break;
-    case 'news-type' :
-      $block['subject'] = '';
-      $block['content'] = __pss_extras_generate_news_type_block();
-      break;
-    case 'top-newsletter-subscribe-block' :
-      $block_delta = 27;
-      $block = array(
-        'subject' => '',
-        'content' => theme(
-          array('simplenews_block__' . $block_delta, 'simplenews_block'),
-          array(
-            'tid' => $block_delta,
-            'pss_body_message' => t('Leave yours e-mail address and we will provide you fresh news in field od security'),
-            'pss_message' => t('Newsletter'),
-          )
-        ),
-      );
-      break;
-    case 'taxonomy-tags':
-      $block['subject'] = '';
-      $block['content'] = __pss_extras_generate_taxonomy_tags_block();
-      break;
-  }
-  return $block;
+    $block = array();
+    switch ($delta) {
+        case 'archive-block':
+            $block['subject'] = '';
+            $block['content'] = __pss_extras_generate_archive_block();
+            break;
+        case 'news-type' :
+            $block['subject'] = '';
+            $block['content'] = __pss_extras_generate_news_type_block();
+            break;
+        case 'top-newsletter-subscribe-block' :
+            $block_delta = 27;
+            $block = array(
+              'subject' => '',
+              'content' => theme(
+                array('simplenews_block__' . $block_delta, 'simplenews_block'),
+                array(
+                  'tid' => $block_delta,
+                  'pss_body_message' => t('Leave yours e-mail address and we will provide you fresh news in field od security'),
+                  'pss_message' => t('Newsletter'),
+                )
+              ),
+            );
+            break;
+        case 'taxonomy-tags':
+            $block['subject'] = '';
+            $block['content'] = __pss_extras_generate_taxonomy_tags_block();
+            break;
+    }
+    return $block;
 }
 
 /**
  * Implements hook_theme().
  */
 function pss_extras_theme($existing, $type, $theme, $path) {
-  return array(
-    'news_type_block' => array(
-      'template' => 'news-type-block',
-      'path' => drupal_get_path('module', 'pss_extras') . '/theme',
-    ),
-    'news_type_block_row' => array(
-      'template' => 'news-type-block-row',
-      'path' => drupal_get_path('module', 'pss_extras') . '/theme',
-    ),
-    'news_type_block_single' => array(
-      'template' => 'news-type-block-single',
-      'path' => drupal_get_path('module', 'pss_extras') . '/theme',
-    ),
-  );
+    return array(
+      'news_type_block' => array(
+        'template' => 'news-type-block',
+        'path' => drupal_get_path('module', 'pss_extras') . '/theme',
+      ),
+      'news_type_block_row' => array(
+        'template' => 'news-type-block-row',
+        'path' => drupal_get_path('module', 'pss_extras') . '/theme',
+      ),
+      'news_type_block_single' => array(
+        'template' => 'news-type-block-single',
+        'path' => drupal_get_path('module', 'pss_extras') . '/theme',
+      ),
+    );
 }
 
 /**
  * Implements hook_preprocess_node().
  */
 function pss_extras_preprocess_node(&$vars) {
-  $vars['current_magazine_number'] = __pss_extras_get_current_magazine_number();
-  if ($vars['type'] == 'article') {
-    $magazine_number_id = $vars['field_magazine_number_reference'][LANGUAGE_NONE][0]['target_id'];
-    $magazine_number = node_load($magazine_number_id);
-    $vars['magazine_number'] = $magazine_number->field_magazine_number[LANGUAGE_NONE][0]['value'];
-    $year = date('Y', strtotime($magazine_number->field_magazine_for_period[LANGUAGE_NONE][0]['value']));
-    $month_1 = date('F', strtotime($magazine_number->field_magazine_for_period[LANGUAGE_NONE][0]['value']));
-    $month_2 = date('F', strtotime($magazine_number->field_magazine_for_period[LANGUAGE_NONE][0]['value2']));
-    $vars['for_period_year'] = $year;
-    $vars['for_period_months'] = t($month_1) . '/' . t($month_2);
-    $uid = isset($vars['uid']) ? $vars['uid'] : 0;
-    $created_by = user_load($uid);
-    $account_view = user_view($created_by, 'teaser');
-    $vars['created_by_picture'] = drupal_render($account_view);
-  }
+    $vars['current_magazine_number'] = __pss_extras_get_current_magazine_number();
+    if ($vars['type'] == 'article') {
+        $magazine_number_id = $vars['field_magazine_number_reference'][LANGUAGE_NONE][0]['target_id'];
+        $magazine_number = node_load($magazine_number_id);
+        $magazine_number_value = $magazine_number->field_magazine_number[LANGUAGE_NONE][0]['value'];
+        $vars['magazine_number'] = $magazine_number_value;
+        $year = date('Y', strtotime($magazine_number->field_magazine_for_period[LANGUAGE_NONE][0]['value']));
+        $month_1 = date('F', strtotime($magazine_number->field_magazine_for_period[LANGUAGE_NONE][0]['value']));
+        $month_2 = date('F', strtotime($magazine_number->field_magazine_for_period[LANGUAGE_NONE][0]['value2']));
+        $vars['for_period_year'] = $year;
+        $vars['for_period_months'] = t($month_1) . '/' . t($month_2);
+        $uid = isset($vars['uid']) ? $vars['uid'] : 0;
+        $created_by = user_load($uid);
+        $account_view = user_view($created_by, 'teaser');
+        $vars['created_by_picture'] = drupal_render($account_view);
+
+        $current_magazine_number = __pss_extras_get_current_magazine_number();
+        $from_current_value = (int) $magazine_number_value == (int) $current_magazine_number;
+        if ($from_current_value &&
+          isset($vars['body'], $vars['body'][0], $vars['content']['body'][0]['#markup'])
+        ) {
+            $body_value = $vars['body'][0]['value'];
+            $summary_value = $vars['body'][0]['summary'];
+            if (!empty($summary_value)) {
+                $vars['body'][0]['value'] = $summary_value;
+                $vars['content']['body'][0]['#markup'] = $summary_value;
+            }
+            else {
+                $alter = array(
+                  'max_length' => variable_get('pss_current_magazine_number_body_char_count', 400),
+                  'word_boundary' => 'yes',
+                  'ellipsis' => 'yes',
+                  'html' => 'yes'
+                );
+                $trimmed = views_trim_text($alter, $body_value);
+                $vars['body'][0]['value'] = $trimmed;
+                $vars['body'][0]['safe_value'] = $trimmed;
+                $vars['content']['body'][0]['#markup'] = $trimmed;
+            }
+        }
+    }
 }
+
 function pss_extras_preprocess_user_picture(&$variables) {
-  $variables['user_picture'] = '';
-  if (variable_get('user_pictures', 0)) {
-    $account = $variables['account'];
-    if (!empty($account->picture)) {
-      if (is_numeric($account->picture)) {
-        $account->picture = file_load($account->picture);
-      }
-      if (!empty($account->picture->uri)) {
-        $filepath = $account->picture->uri;
-      }
+    $variables['user_picture'] = '';
+    if (variable_get('user_pictures', 0)) {
+        $account = $variables['account'];
+        if (!empty($account->picture)) {
+            if (is_numeric($account->picture)) {
+                $account->picture = file_load($account->picture);
+            }
+            if (!empty($account->picture->uri)) {
+                $filepath = $account->picture->uri;
+            }
+        }
+        elseif (variable_get('user_picture_default', '')) {
+            $filepath = variable_get('user_picture_default', '');
+        }
+        if (isset($filepath)) {
+            $alt = t("@user's picture", array('@user' => format_username($account)));
+            if (module_exists('image') && file_valid_uri($filepath) && $style = variable_get('user_picture_style', '')) {
+                $variables['user_picture'] = theme('image_style', array(
+                  'style_name' => $style,
+                  'path' => $filepath,
+                  'alt' => $alt,
+                  'title' => $alt
+                ));
+            }
+            else {
+                $variables['user_picture'] = theme('image', array(
+                  'path' => $filepath,
+                  'alt' => $alt,
+                  'title' => $alt
+                ));
+            }
+            if (!empty($account->uid) && user_access('access user profiles')) {
+                $attributes = array(
+                  'attributes' => array('title' => t('View user profile.')),
+                  'html' => TRUE
+                );
+                $variables['user_picture'] = '<div class="image-wrapper">' . $variables['user_picture'] . '</div>';
+            }
+        }
     }
-    elseif (variable_get('user_picture_default', '')) {
-      $filepath = variable_get('user_picture_default', '');
-    }
-    if (isset($filepath)) {
-      $alt = t("@user's picture", array('@user' => format_username($account)));
-      if (module_exists('image') && file_valid_uri($filepath) && $style = variable_get('user_picture_style', '')) {
-        $variables['user_picture'] = theme('image_style', array('style_name' => $style, 'path' => $filepath, 'alt' => $alt, 'title' => $alt));
-      }
-      else {
-        $variables['user_picture'] = theme('image', array('path' => $filepath, 'alt' => $alt, 'title' => $alt));
-      }
-      if (!empty($account->uid) && user_access('access user profiles')) {
-        $attributes = array('attributes' => array('title' => t('View user profile.')), 'html' => TRUE);
-        $variables['user_picture'] = '<div class="image-wrapper">' . $variables['user_picture'] . '</div>';
-      }
-    }
-  }
 }
+
 /**
  * Implements hook_preprocess_page().
  */
 function pss_extras_preprocess_page(&$vars) {
-  $vars['current_magazine_number'] = __pss_extras_get_current_magazine_number();
+    $vars['current_magazine_number'] = __pss_extras_get_current_magazine_number();
 }
 
 function pss_extras_preprocess_block(&$vars, $hook) {
-  if ($vars['block']->region == 'menu') {
-    if ($vars['block']->module == 'search') {
-      $vars['content'] = '<div class="toggle-holder"></div>' . $vars['content'];
-      drupal_add_js(drupal_get_path('module', 'pss_extras') . '/scripts/pss_search.js');
-    }
-    if ($vars['block']->module == 'superfish') {
-      drupal_add_js(drupal_get_path('module', 'pss_extras') . '/scripts/waypoints.js');
-      drupal_add_js(drupal_get_path('module', 'pss_extras') . '/scripts/waypoints-sticky.js');
-      drupal_add_js("
+    if ($vars['block']->region == 'menu') {
+        if ($vars['block']->module == 'search') {
+            $vars['content'] = '<div class="toggle-holder"></div>' . $vars['content'];
+            drupal_add_js(drupal_get_path('module', 'pss_extras') . '/scripts/pss_search.js');
+        }
+        if ($vars['block']->module == 'superfish') {
+            drupal_add_js(drupal_get_path('module', 'pss_extras') . '/scripts/waypoints.js');
+            drupal_add_js(drupal_get_path('module', 'pss_extras') . '/scripts/waypoints-sticky.js');
+            drupal_add_js("
             jQuery(document).ready(function () {
                 jQuery('#header .section-1').waypoint('sticky');
             });
             ", 'inline');
+        }
     }
-  }
+    $addDotDotDotTo = ['views-author_recommendation-block', 'views-news_view-block_1',
+      'views-news_view-block_2', 'views-news_view-block_3', 'views-news_view-block_4',
+      'views-news_view-block_5', 'views-news_view-block_6', 'views-news_view-block_7',
+      'views-news_view-block_8', 'views-news_view-block_9', 'views-most_read-block'
+    ];
+    if ($vars['block']->module == 'views' && in_array($vars['block']->bid, $addDotDotDotTo)) {
+        drupal_add_js(drupal_get_path('module', 'pss_extras') . '/scripts/jquery.dotdotdot.min.js');
+        drupal_add_js(drupal_get_path('module', 'pss_extras') . '/scripts/pss.dotdotdot.js');
+    }
 }
 
 function pss_extras_views_query_alter(&$view, &$query) {
-  $nid = arg(1);
-  $node = NULL;
-  if ($nid) {
-    $node = node_load($nid);
-  }
-  if ($node && $node->type == 'magazine_number' && $view->name === 'news_view' && $view->current_display == 'block_view_filter_archive') {
-    $number = $node->field_magazine_number[LANGUAGE_NONE][0]['value'];
-    $query->where[1]['conditions'][2]['value'] = $number;
-  }
+    $nid = arg(1);
+    $node = NULL;
+    if ($nid) {
+        $node = node_load($nid);
+    }
+    if ($node && $node->type == 'magazine_number' && $view->name === 'news_view' && $view->current_display == 'block_view_filter_archive') {
+        $number = $node->field_magazine_number[LANGUAGE_NONE][0]['value'];
+        $query->where[1]['conditions'][2]['value'] = $number;
+    }
 }
 
 function pss_extras_form_alter(&$form, $form_state, $form_id) {
-  if ($form_id == 'views_exposed_form' && $form['#id'] == 'views-exposed-form-magazine-number-archive-page') {
-    $currentYear = (int) $form['field_magazine_for_period_value']['value']['#default_value'];
-    $minMagazineYear = __pss_extras_get_min_magazine_year();
-    $minRange = $currentYear - $minMagazineYear;
-    $form['field_magazine_for_period_value']['value']['#date_year_range'] = "-{$minRange}:+0";
-  }
+    if ($form_id == 'views_exposed_form' && $form['#id'] == 'views-exposed-form-magazine-number-archive-page') {
+        $currentYear = (int) $form['field_magazine_for_period_value']['value']['#default_value'];
+        $minMagazineYear = __pss_extras_get_min_magazine_year();
+        $minRange = $currentYear - $minMagazineYear;
+        $form['field_magazine_for_period_value']['value']['#date_year_range'] = "-{$minRange}:+0";
+    }
 }
 
 function pss_extras_form_search_form_alter(&$form, $form_state, $form_id) {
-  unset($form['advanced']);
+    unset($form['advanced']);
 }
 
 function pss_extras_form_magazine_number_node_form_alter(&$form, $form_state, $form_id) {
-  if ($form['#action'] == '/node/add/magazine-number') {
-    $lastNums = __pss_extras_get_last_n_numbers(1);
-    $old_num = reset($lastNums);
-    $new_num = $old_num + 1;
-    if (isset($form['title'])) {
-      $form['title']['#default_value'] = 'Broj ' . $new_num;
+    if ($form['#action'] == '/node/add/magazine-number') {
+        $lastNums = __pss_extras_get_last_n_numbers(1);
+        $old_num = reset($lastNums);
+        $new_num = $old_num + 1;
+        if (isset($form['title'])) {
+            $form['title']['#default_value'] = 'Broj ' . $new_num;
+        }
+        if (isset($form['field_magazine_number'][LANGUAGE_NONE][0]['value'])) {
+            $form['field_magazine_number'][LANGUAGE_NONE][0]['value']['#default_value'] = $new_num;
+        }
+        $last_magazine_number_node = __pss_extras_get_magazine_node_by_numbers($old_num);
+        if (isset($form['field_magazine_for_period'][LANGUAGE_NONE][0]['#default_value']['value'])) {
+            $old_date_str = $last_magazine_number_node->field_magazine_for_period[LANGUAGE_NONE][0]['value'];
+            $new_date = date('Y-m-d H:i:s', strtotime("+2 months", strtotime($old_date_str)));
+            $form['field_magazine_for_period'][LANGUAGE_NONE][0]['#default_value']['value'] = $new_date;
+        }
+        if (isset($form['field_magazine_for_period'][LANGUAGE_NONE][0]['#default_value']['value2'])) {
+            $old_date_str1 = $last_magazine_number_node->field_magazine_for_period[LANGUAGE_NONE][0]['value2'];
+            $new_date1 = date('Y-m-d H:i:s', strtotime("+2 months", strtotime($old_date_str1)));
+            $form['field_magazine_for_period'][LANGUAGE_NONE][0]['#default_value']['value2'] = $new_date1;
+        }
     }
-    if (isset($form['field_magazine_number'][LANGUAGE_NONE][0]['value'])) {
-      $form['field_magazine_number'][LANGUAGE_NONE][0]['value']['#default_value'] = $new_num;
-    }
-    $last_magazine_number_node = __pss_extras_get_magazine_node_by_numbers($old_num);
-    if (isset($form['field_magazine_for_period'][LANGUAGE_NONE][0]['#default_value']['value'])) {
-      $old_date_str = $last_magazine_number_node->field_magazine_for_period[LANGUAGE_NONE][0]['value'];
-      $new_date = date('Y-m-d H:i:s', strtotime("+2 months", strtotime($old_date_str)));
-      $form['field_magazine_for_period'][LANGUAGE_NONE][0]['#default_value']['value'] = $new_date;
-    }
-    if (isset($form['field_magazine_for_period'][LANGUAGE_NONE][0]['#default_value']['value2'])) {
-      $old_date_str1 = $last_magazine_number_node->field_magazine_for_period[LANGUAGE_NONE][0]['value2'];
-      $new_date1 = date('Y-m-d H:i:s', strtotime("+2 months", strtotime($old_date_str1)));
-      $form['field_magazine_for_period'][LANGUAGE_NONE][0]['#default_value']['value2'] = $new_date1;
-    }
-  }
 }
 
 function pss_extras_archive_page($date, $type = NULL) {
-  $page = [];
-  $page['archive'] = array(
-    '#markup' => _pss_extras_generate_archive_page($date, $type),
-  );
-  return $page;
+    $page = [];
+    $page['archive'] = array(
+      '#markup' => _pss_extras_generate_archive_page($date, $type),
+    );
+    return $page;
 }
 
 function __pss_extras_generate_taxonomy_tags_block() {
-  $items = __pss_get_taxonomy_terms();
-  usort($items, function ($a, $b) {
-    if ($a['count'] == $b['count']) {
-      $result = 0;
+    $items = __pss_get_taxonomy_terms();
+    usort($items, function ($a, $b) {
+        if ($a['count'] == $b['count']) {
+            $result = 0;
+        }
+        else {
+            $result = ($a['count'] > $b['count']) ? -1 : 1;
+        }
+        return $result;
     }
-    else {
-      $result = ($a['count'] > $b['count']) ? -1 : 1;
+    );
+    $html = '<div class="title">/// ' . t('Tag search') . ' ///</div>';
+    $html .= '<div class="view-content">';
+    $counter = 1;
+    foreach ($items as $item) {
+        if ($counter++ == 10) {
+            break;
+        }
+        $html .= $item['link'];
     }
-    return $result;
-  }
-  );
-  $html = '<div class="title">/// ' . t('Tag search') . ' ///</div>';
-  $html .= '<div class="view-content">';
-  $counter = 1;
-  foreach ($items as $item) {
-    if ($counter++ == 10) {
-      break;
-    }
-    $html .= $item['link'];
-  }
-  $html .= '</div>';
-  return $html;
+    $html .= '</div>';
+    return $html;
 }
 
 function __pss_extras_generate_news_type_block() {
-  $content = '';
-  $taxonomyVocabularyName = 'news_type';
-  $taxonomyVocabulary = taxonomy_vocabulary_machine_name_load($taxonomyVocabularyName);
-  $taxonomyTerms = taxonomy_get_tree($taxonomyVocabulary->vid);
-  $rows = [];
-  $tid2nid = __get_taxonomy_tid_2_nid();
-  $lastNNums = __pss_extras_get_last_n_numbers(3);
-  foreach ($taxonomyTerms as $taxonomyTerm) {
-    $taxonomy = taxonomy_term_load($taxonomyTerm->tid);
-    $vars = array(
-      'tagLink' => url('node/' . $tid2nid[$taxonomyTerm->tid]),
-      'tagImageLink' => file_create_url($taxonomy->field_news_type_image[LANGUAGE_NONE][0]['uri']),
-      'tagTitle' => $taxonomy->name,
-      'tagNewss' => __pss_extras_get_tag_news($taxonomyTerm->tid, $lastNNums)
-    );
+    $content = '';
+    $taxonomyVocabularyName = 'news_type';
+    $taxonomyVocabulary = taxonomy_vocabulary_machine_name_load($taxonomyVocabularyName);
+    $taxonomyTerms = taxonomy_get_tree($taxonomyVocabulary->vid);
+    $rows = [];
+    $tid2nid = __get_taxonomy_tid_2_nid();
+    $lastNNums = __pss_extras_get_last_n_numbers(3);
+    foreach ($taxonomyTerms as $taxonomyTerm) {
+        $taxonomy = taxonomy_term_load($taxonomyTerm->tid);
+        $vars = array(
+          'tagLink' => url('node/' . $tid2nid[$taxonomyTerm->tid]),
+          'tagImageLink' => file_create_url($taxonomy->field_news_type_image[LANGUAGE_NONE][0]['uri']),
+          'tagTitle' => $taxonomy->name,
+          'tagNewss' => __pss_extras_get_tag_news($taxonomyTerm->tid, $lastNNums)
+        );
+        $rows[] = array(
+          'content' => theme('news_type_block_single', $vars),
+        );
+    }
     $rows[] = array(
-      'content' => theme('news_type_block_single', $vars),
+      'content' => theme('news_type_block_single', array()),
+      'classes' => array('empty-row')
     );
-  }
-  $rows[] = array(
-    'content' => theme('news_type_block_single', array()),
-    'classes' => array('empty-row')
-  );
-  $rows_string = theme('news_type_block_row', array('blocks' => $rows));
-  $content .= theme('news_type_block', array(
-    'content' => $rows_string,
-    'title' => t('News types')
-  ));
-  return $content;
+    $rows_string = theme('news_type_block_row', array('blocks' => $rows));
+    $content .= theme('news_type_block', array(
+      'content' => $rows_string,
+      'title' => t('News types')
+    ));
+    return $content;
 }
 
 function __pss_extras_generate_archive_block() {
-  $html = '';
-  $nid = arg(1);
-  if ($nid && is_int($nid)) {
-    $node = node_load($nid);
-    if ($node->type == 'article') {
-      $articleType = isset($node->field_article_type) && !empty($node->field_article_type)
-        ? (int) $node->field_article_type[LANGUAGE_NONE][0]['tid'] : NULL;
-      $nodesByDate = __getArticleDates($articleType);
-      $html .= '<section class="block block-view">';
-      $html .= '<h2>' . t('Archive') . '</h2>';
-      $html .= '<div class="content">';
-      $html .= '<div class="view view-archive view-id-archive view-display-id-block">';
-      $html .= '<div class="view-content"><div class="item-list">';
-      $html .= '<ul>';
-      foreach ($nodesByDate as $date => $nodeByDate) {
-        $html .= "<li><a href='/archive/{$date}/type/{$articleType}'>{$nodeByDate['caption']}</a> ({$nodeByDate['count']})</li>";
-      }
-      $html .= '</ul>';
-      $html .= '</div></div></div></div></section>';
+    $html = '';
+    $nid = arg(1);
+    if ($nid && is_int($nid)) {
+        $node = node_load($nid);
+        if ($node->type == 'article') {
+            $articleType = isset($node->field_article_type) && !empty($node->field_article_type)
+              ? (int) $node->field_article_type[LANGUAGE_NONE][0]['tid'] : NULL;
+            $nodesByDate = __getArticleDates($articleType);
+            $html .= '<section class="block block-view">';
+            $html .= '<h2>' . t('Archive') . '</h2>';
+            $html .= '<div class="content">';
+            $html .= '<div class="view view-archive view-id-archive view-display-id-block">';
+            $html .= '<div class="view-content"><div class="item-list">';
+            $html .= '<ul>';
+            foreach ($nodesByDate as $date => $nodeByDate) {
+                $html .= "<li><a href='/archive/{$date}/type/{$articleType}'>{$nodeByDate['caption']}</a> ({$nodeByDate['count']})</li>";
+            }
+            $html .= '</ul>';
+            $html .= '</div></div></div></div></section>';
+        }
     }
-  }
-  return array('#markup' => $html);
+    return array('#markup' => $html);
 }
 
 function _pss_extras_generate_archive_page($date, $type = NULL) {
-  $html = '';
-  if ($date && strlen($date) == 6 && is_numeric(substr($date, 4, 2)) && is_numeric(substr($date, 0, 4))) {
-    $m = substr($date, 4, 2);
-    $y = substr($date, 0, 4);
-    $from = mktime(0, 0, 0, $m, 1, $y);
-    $to = strtotime(date("{$y}-{$m}-t"));
-    if ((bool) $from && (bool) $to) {
-      drupal_set_title(t(date('F', $from)) . ' ' . date('Y', $from));
-      $nodes = __getArticleNodes($from, $to, $type);
-      $html .= '<div class="view"><div class="view-content">';
-      $k = 1;
-      $firstLast = 'views-row-first';
-      foreach ($nodes as $node) {
-        if (count($nodes) == $k) {
-          $firstLast = 'views-row-last';
-        }
-        $oddEven = $k % 2 == 0 ? 'views-row-even' : 'views-row-odd';
-        $path = drupal_get_path_alias('node/' . $node->nid);
-        $summaryArray = reset($node->body);
-        $summary = isset($summaryArray) && isset($summaryArray[0]) ? $summaryArray[0]['summary'] : '';
-        $summary = !empty($summary) ? $summary : @views_trim_text(array(
-          'max_length' => 1000,
-          'ellipsis' => TRUE,
-          'word_boundary' => TRUE
-        ), strip_tags($summaryArray[0]['value']));
-        $html .= "
+    $html = '';
+    if ($date && strlen($date) == 6 && is_numeric(substr($date, 4, 2)) && is_numeric(substr($date, 0, 4))) {
+        $m = substr($date, 4, 2);
+        $y = substr($date, 0, 4);
+        $from = mktime(0, 0, 0, $m, 1, $y);
+        $to = strtotime(date("{$y}-{$m}-t"));
+        if ((bool) $from && (bool) $to) {
+            drupal_set_title(t(date('F', $from)) . ' ' . date('Y', $from));
+            $nodes = __getArticleNodes($from, $to, $type);
+            $html .= '<div class="view"><div class="view-content">';
+            $k = 1;
+            $firstLast = 'views-row-first';
+            foreach ($nodes as $node) {
+                if (count($nodes) == $k) {
+                    $firstLast = 'views-row-last';
+                }
+                $oddEven = $k % 2 == 0 ? 'views-row-even' : 'views-row-odd';
+                $path = drupal_get_path_alias('node/' . $node->nid);
+                $summaryArray = reset($node->body);
+                $summary = isset($summaryArray) && isset($summaryArray[0]) ? $summaryArray[0]['summary'] : '';
+                $summary = !empty($summary) ? $summary : @views_trim_text(array(
+                  'max_length' => 1000,
+                  'ellipsis' => TRUE,
+                  'word_boundary' => TRUE
+                ), strip_tags($summaryArray[0]['value']));
+                $html .= "
                 <div class='views-row views-row-{$k} {$oddEven} {$firstLast}'>
                     <div class='views-field views-field-title'>
                         <span class='field-content'>
@@ -379,175 +428,175 @@ function _pss_extras_generate_archive_page($date, $type = NULL) {
                     </div>
                 </div>
                 ";
-        $k++;
-      }
-      $html .= theme('pager');
-      $html .= '</div></div>';
+                $k++;
+            }
+            $html .= theme('pager');
+            $html .= '</div></div>';
+        }
+        else {
+            drupal_not_found();
+        }
     }
     else {
-      drupal_not_found();
+        drupal_not_found();
     }
-  }
-  else {
-    drupal_not_found();
-  }
-  return $html;
+    return $html;
 }
 
 function __getArticleDates($tid = NULL) {
-  global $language;
-  $query = db_select('node', 'n');
-  if ($tid && is_numeric($tid)) {
-    $query->join('taxonomy_index', 't', 'n.nid = t.nid');
-  }
-  $query->fields('n', array('created'))
-    ->condition('n.status', 1)
-    ->condition('n.language', $language->language)
-    ->condition('n.type', 'article');
-  if ($tid && is_numeric($tid)) {
-    $query->condition('t.tid', $tid);
-  }
-  $results = $query->orderBy('n.created', 'desc')->execute()->fetchCol();
-  $dates = [];
-  foreach ($results as $result) {
-    $date = date('Ym', $result);
-    if (in_array($date, array_keys($dates))) {
-      $dates[$date]['count'] += 1;
+    global $language;
+    $query = db_select('node', 'n');
+    if ($tid && is_numeric($tid)) {
+        $query->join('taxonomy_index', 't', 'n.nid = t.nid');
     }
-    else {
-      $dates[$date] = array(
-        'caption' => t(date('F', $result)) . ' ' . date('Y', $result),
-        'count' => 1,
-      );
+    $query->fields('n', array('created'))
+      ->condition('n.status', 1)
+      ->condition('n.language', $language->language)
+      ->condition('n.type', 'article');
+    if ($tid && is_numeric($tid)) {
+        $query->condition('t.tid', $tid);
     }
-  }
-  return $dates;
+    $results = $query->orderBy('n.created', 'desc')->execute()->fetchCol();
+    $dates = [];
+    foreach ($results as $result) {
+        $date = date('Ym', $result);
+        if (in_array($date, array_keys($dates))) {
+            $dates[$date]['count'] += 1;
+        }
+        else {
+            $dates[$date] = array(
+              'caption' => t(date('F', $result)) . ' ' . date('Y', $result),
+              'count' => 1,
+            );
+        }
+    }
+    return $dates;
 }
 
 function __getArticleNodes($from, $to, $tid = NULL) {
-  $query = db_select('node', 'n')->extend('PagerDefault')->element(0);
-  if ($tid && is_numeric($tid)) {
-    $query->join('taxonomy_index', 't', 'n.nid = t.nid');
-  }
-  $query->fields('n', array('nid'))
-    ->condition('n.status', 1)
-    ->condition('n.type', 'article')
-    ->condition('n.created', array($from, $to), 'BETWEEN');
-  if ($tid && is_numeric($tid)) {
-    $query->condition('t.tid', $tid);
-  }
-  $nids = $query->orderBy('n.created', 'desc')
-    ->limit(10)
-    ->execute()
-    ->fetchCol();
-  return node_load_multiple($nids);
-}
-
-function __pss_extras_get_tag_news($tid, $lastNNums) {
-  $tag_news = [];
-  foreach ($lastNNums as $magazineNum) {
-    $query = db_select('node', 'n');
-    $query->join('taxonomy_index', 't', 'n.nid = t.nid');
-    $query->join('field_data_field_magazine_number_reference', 'mnr', 'n.nid = mnr.entity_id');
-    $query->leftJoin('field_data_field_magazine_number', 'mn', 'mnr.field_magazine_number_reference_target_id = mn.entity_id');
+    $query = db_select('node', 'n')->extend('PagerDefault')->element(0);
+    if ($tid && is_numeric($tid)) {
+        $query->join('taxonomy_index', 't', 'n.nid = t.nid');
+    }
     $query->fields('n', array('nid'))
       ->condition('n.status', 1)
       ->condition('n.type', 'article')
-      ->condition('mn.field_magazine_number_value', $magazineNum)
-      ->condition('t.tid', $tid);
-    $nid = $query->orderBy('n.created', 'desc')
-      ->range(0, 1)
-      ->execute()
-      ->fetchField();
-    if ((bool) $nid) {
-      $node = node_load($nid);
-      if ($node) {
-        $tag_news[] = array(
-          'tagNewsNum' => $magazineNum,
-          'tagNewsTitle' => $node->title,
-          'tagNewsPath' => url('node/' . $node->nid),
-        );
-      }
+      ->condition('n.created', array($from, $to), 'BETWEEN');
+    if ($tid && is_numeric($tid)) {
+        $query->condition('t.tid', $tid);
     }
-  }
-  return $tag_news;
+    $nids = $query->orderBy('n.created', 'desc')
+      ->limit(10)
+      ->execute()
+      ->fetchCol();
+    return node_load_multiple($nids);
+}
+
+function __pss_extras_get_tag_news($tid, $lastNNums) {
+    $tag_news = [];
+    foreach ($lastNNums as $magazineNum) {
+        $query = db_select('node', 'n');
+        $query->join('taxonomy_index', 't', 'n.nid = t.nid');
+        $query->join('field_data_field_magazine_number_reference', 'mnr', 'n.nid = mnr.entity_id');
+        $query->leftJoin('field_data_field_magazine_number', 'mn', 'mnr.field_magazine_number_reference_target_id = mn.entity_id');
+        $query->fields('n', array('nid'))
+          ->condition('n.status', 1)
+          ->condition('n.type', 'article')
+          ->condition('mn.field_magazine_number_value', $magazineNum)
+          ->condition('t.tid', $tid);
+        $nid = $query->orderBy('n.created', 'desc')
+          ->range(0, 1)
+          ->execute()
+          ->fetchField();
+        if ((bool) $nid) {
+            $node = node_load($nid);
+            if ($node) {
+                $tag_news[] = array(
+                  'tagNewsNum' => $magazineNum,
+                  'tagNewsTitle' => $node->title,
+                  'tagNewsPath' => url('node/' . $node->nid),
+                );
+            }
+        }
+    }
+    return $tag_news;
 }
 
 function __get_taxonomy_tid_2_nid() {
-  return array(
-    18 => 90, // Security novosti
-    19 => 94, // Mendžment
-    20 => 95, // Intervju
-    23 => 98, // Požarna zaštita
-    22 => 99, // Security praksa
-    21 => 100, // Tema broja
-    24 => 101, // Tehnika
-    25 => 102, // Aktuelno
-    26 => 103, // Da li se zna
-    28 => 158, // Uvodnik
-    29 => 159, // U fokusu
-  );
+    return array(
+      18 => 90, // Security novosti
+      19 => 94, // Mendžment
+      20 => 95, // Intervju
+      23 => 98, // Požarna zaštita
+      22 => 99, // Security praksa
+      21 => 100, // Tema broja
+      24 => 101, // Tehnika
+      25 => 102, // Aktuelno
+      26 => 103, // Da li se zna
+      28 => 158, // Uvodnik
+      29 => 159, // U fokusu
+    );
 }
 
 function __pss_extras_get_last_n_numbers($num) {
-  $nums = db_query(
-    'SELECT DISTINCT field_magazine_number_value FROM field_data_field_magazine_number
+    $nums = db_query(
+      'SELECT DISTINCT field_magazine_number_value FROM field_data_field_magazine_number
         ORDER BY field_magazine_number_value DESC LIMIT ' . $num)->fetchCol();
-  return $nums;
+    return $nums;
 }
 
 function __pss_extras_get_magazine_node_by_numbers($num) {
-  $node = NULL;
-  $nid = db_query(
-    'SELECT entity_id FROM field_data_field_magazine_number
+    $node = NULL;
+    $nid = db_query(
+      'SELECT entity_id FROM field_data_field_magazine_number
         WHERE bundle = :bundle AND field_magazine_number_value = :num ORDER BY field_magazine_number_value DESC LIMIT 1',
-    [':bundle' => 'magazine_number', ":num" => $num]
-  )->fetchField();
-  if ($nid) {
-    $node = node_load((int) $nid);
-  }
-  return $node;
+      [':bundle' => 'magazine_number', ":num" => $num]
+    )->fetchField();
+    if ($nid) {
+        $node = node_load((int) $nid);
+    }
+    return $node;
 }
 
 
 function __pss_extras_get_current_magazine_number() {
-  if ($cache = cache_get('pss_extras_current_magazine_number')) {
-    $current_magazine_number = $cache->data;
-  }
-  else {
-    $current_magazine_number = db_query('SELECT MAX(field_magazine_number_value) FROM field_data_field_magazine_number')->fetchField();
-    cache_set('pss_extras_current_magazine_number', $current_magazine_number);
-  }
-  return $current_magazine_number;
+    if ($cache = cache_get('pss_extras_current_magazine_number')) {
+        $current_magazine_number = $cache->data;
+    }
+    else {
+        $current_magazine_number = db_query('SELECT MAX(field_magazine_number_value) FROM field_data_field_magazine_number')->fetchField();
+        cache_set('pss_extras_current_magazine_number', $current_magazine_number);
+    }
+    return $current_magazine_number;
 }
 
 function __pss_extras_get_min_magazine_year() {
-  if ($cache = cache_get('pss_extras_min_magazine_number')) {
-    $min_magazine_year = $cache->data;
-  }
-  else {
-    $min_magazine_year = db_query('SELECT MIN(YEAR(field_magazine_for_period_value)) FROM field_data_field_magazine_for_period')->fetchField();
-    cache_set('pss_extras_min_magazine_number', (int) $min_magazine_year);
-  }
-  return $min_magazine_year;
+    if ($cache = cache_get('pss_extras_min_magazine_number')) {
+        $min_magazine_year = $cache->data;
+    }
+    else {
+        $min_magazine_year = db_query('SELECT MIN(YEAR(field_magazine_for_period_value)) FROM field_data_field_magazine_for_period')->fetchField();
+        cache_set('pss_extras_min_magazine_number', (int) $min_magazine_year);
+    }
+    return $min_magazine_year;
 }
 
 function __pss_get_taxonomy_terms() {
-  if ($cache = cache_get('pss_extras_taxonomy_terms_tags')) {
-    $tag_items = unserialize($cache->data);
-  }
-  else {
-    $vid = 1; //taxonomy type tags
-    $tag_items = [];
-    $terms = taxonomy_get_tree($vid);
-    foreach ($terms as $term) {
-      $count = db_query("SELECT COUNT(nid) FROM {taxonomy_index} WHERE tid = :tid", array(':tid' => $term->tid))->fetchField();
-      $tag_items[$term->tid] = array(
-        'link' => l($term->name, "taxonomy/term/$term->tid"),
-        'count' => $count
-      );
+    if ($cache = cache_get('pss_extras_taxonomy_terms_tags')) {
+        $tag_items = unserialize($cache->data);
     }
-    cache_set('pss_extras_taxonomy_terms_tags', serialize($tag_items));
-  }
-  return $tag_items;
+    else {
+        $vid = 1; //taxonomy type tags
+        $tag_items = [];
+        $terms = taxonomy_get_tree($vid);
+        foreach ($terms as $term) {
+            $count = db_query("SELECT COUNT(nid) FROM {taxonomy_index} WHERE tid = :tid", array(':tid' => $term->tid))->fetchField();
+            $tag_items[$term->tid] = array(
+              'link' => l($term->name, "taxonomy/term/$term->tid"),
+              'count' => $count
+            );
+        }
+        cache_set('pss_extras_taxonomy_terms_tags', serialize($tag_items));
+    }
+    return $tag_items;
 }

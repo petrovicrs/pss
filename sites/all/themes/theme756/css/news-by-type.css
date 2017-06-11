@@ -76,7 +76,10 @@
 .view.news-by-type-block-view .view-content .views-row.views-row-5 .field-content .news-content .title-and-body{
     height: 180px;
 }
-
+.view.news-by-type-block-view .view-content .views-row.views-row-4 .field-content .news-content .title-and-body .news-body,
+.view.news-by-type-block-view .view-content .views-row.views-row-5 .field-content .news-content .title-and-body .news-body{
+    height: 145px;
+}
 .view.news-by-type-block-view .view-content .views-row.views-row-4 .field-content .news-image .image img,
 .view.news-by-type-block-view .view-content .views-row.views-row-5 .field-content .news-image .image img {
     width: 645px;
@@ -95,6 +98,11 @@
 .view.news-by-type-block-view .view-content .views-row.views-row-2 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-3 .field-content .news-content .title-and-body{
     height: 130px;
+}
+.view.news-by-type-block-view .view-content .views-row.views-row-1 .field-content .news-content .title-and-body .news-body,
+.view.news-by-type-block-view .view-content .views-row.views-row-2 .field-content .news-content .title-and-body .news-body,
+.view.news-by-type-block-view .view-content .views-row.views-row-3 .field-content .news-content .title-and-body .news-body{
+    height: 80px;
 }
 .view.news-by-type-block-view .view-content .views-row.views-row-1 .field-content .news-image .image img,
 .view.news-by-type-block-view .view-content .views-row.views-row-2 .field-content .news-image .image img,
@@ -115,6 +123,11 @@
 .view.news-by-type-block-view .view-content .views-row.views-row-7 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-8 .field-content .news-content .title-and-body{
     height: 130px;
+}
+.view.news-by-type-block-view .view-content .views-row.views-row-6 .field-content .news-content .title-and-body .news-body,
+.view.news-by-type-block-view .view-content .views-row.views-row-7 .field-content .news-content .title-and-body .news-body,
+.view.news-by-type-block-view .view-content .views-row.views-row-8 .field-content .news-content .title-and-body .news-body{
+    height: 80px;
 }
 .view.news-by-type-block-view .view-content .views-row.views-row-6 .field-content .news-image .image img,
 .view.news-by-type-block-view .view-content .views-row.views-row-7 .field-content .news-image .image img,

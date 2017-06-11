@@ -3,12 +3,13 @@
  */
 <?php print $selector_prefix; ?>a.follow-link {
   display: block;
-  height: 30px;
-  line-height: 26px;
+  height: 18px;
+  line-height: 18px;
   background-position: 0 0;
   background-repeat: no-repeat;
-  padding-left: 28px;
+  padding-left: 20px;
   padding-right: 3px;
+  background-size: auto 18px;
   background-position: center bottom;
 }
 

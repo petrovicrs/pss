@@ -54,14 +54,6 @@ drupal_add_js(drupal_get_path('theme', 'theme756') . '/js/fullwidth.js');
                                     <?php print render($page['content']); ?>
                                 </div>
                                 <div id="bottom_part">
-                                    <div class="login_link">
-                                        <?php print l(t('Login'), 'user/login'); ?>
-                                    </div>
-
-                                    <div class="password_link">
-                                        <?php print l(t('Forgot your password?'), 'user/password'); ?>
-                                    </div>
-
                                 </div>
                             </div>
                         </div>

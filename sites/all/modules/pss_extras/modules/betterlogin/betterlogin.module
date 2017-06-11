@@ -10,51 +10,53 @@
  * Implementation of hook_init().
  */
 function betterlogin_init() {
-  // Make sure that the user is not logged in.
-  global $user;
+    // Make sure that the user is not logged in.
+    global $user;
 
-  if (!$user->uid) {
-    // We need to collect where they were going in the first place because they may get pissed if 
-    // they don't get there after logging in :).
-    $destination = '';
-    if (isset($_GET['destination'])) {
-      $destination = drupal_get_destination();
-    }
-    else if (isset($_GET['q'])) {
-      $destination = array('destination' => $_GET['q']);
-    }
+    if (!$user->uid) {
+        // We need to collect where they were going in the first place because they may get pissed if
+        // they don't get there after logging in :).
+        $destination = '';
+        if (isset($_GET['destination'])) {
+            $destination = drupal_get_destination();
+        }
+        else {
+            if (isset($_GET['q'])) {
+                $destination = array('destination' => $_GET['q']);
+            }
+        }
 
-    // If this site is set to private we want to redirect all anonymous users to the login form.
-    if (variable_get('betterlogin_private')) {
-      // Because of Drush we only want to block anything not from CLI.
-      if (arg(0) !== 'user' && php_sapi_name() !== 'cli') {
-        drupal_goto('user/login', array('query' => $destination));
-      }
-    }
-  
-    // Make sure that anon users cannot go to just /user but directly to the login form.
-    if (arg(0) == 'user' && !arg(1) && php_sapi_name() !== 'cli') {
-      if (isset($destination)) {
-        unset($_GET['destination']);
-      }
+        // If this site is set to private we want to redirect all anonymous users to the login form.
+        if (variable_get('betterlogin_private')) {
+            // Because of Drush we only want to block anything not from CLI.
+            if (arg(0) !== 'user' && php_sapi_name() !== 'cli') {
+                drupal_goto('user/login', array('query' => $destination));
+            }
+        }
 
-      drupal_goto('user/login', array('query' => $destination));
+        // Make sure that anon users cannot go to just /user but directly to the login form.
+        if (arg(0) == 'user' && !arg(1) && php_sapi_name() !== 'cli') {
+            if (isset($destination)) {
+                unset($_GET['destination']);
+            }
+
+            drupal_goto('user/login', array('query' => $destination));
+        }
     }
-  }
 }
 
 function betterlogin_menu() {
-  $items = array();
+    $items = array();
 
-  $items['user/change/%'] = array(
+    $items['user/change/%'] = array(
       'title' => t('Edit user'),
       'page callback' => 'betterlogin_edit_user',
       'page arguments' => array(2),
       'type' => MENU_NORMAL_ITEM,
       'access callback' => 'betterlogin_user_has_access',
       'access arguments' => array(2),
-  );
-  return $items;
+    );
+    return $items;
 }
 
 /**
@@ -63,13 +65,13 @@ function betterlogin_menu() {
  * @return mixed
  */
 function betterlogin_block_info() {
-  $blocks['login'] = array(
+    $blocks['login'] = array(
       'info' => 'Log in'
-  );
-  $blocks['logout'] = array(
+    );
+    $blocks['logout'] = array(
       'info' => 'Log out'
-  );
-  return $blocks;
+    );
+    return $blocks;
 }
 
 /**
@@ -80,25 +82,25 @@ function betterlogin_block_info() {
  * @throws Exception
  */
 function betterlogin_block_view($delta = '') {
-  $block = array();
-  global $user;
-  switch($delta) {
-    case 'login' :
-      $block['subject'] = '';
-      $block['content'] = '<div class="login-link"><a href="/user/login">'.t('Log in').'</a></div>';
-      break;
-    case 'logout' :
-      $user_fields = user_load($user->uid);
-      $firstname = $user_fields->field_first_name['und']['0']['value'];
-      $lastname = $user_fields->field_last_name['und']['0']['value'];
-      $block['subject'] = '';
-      $block['content'] = '<div class="login-link">
-                                <a href="/user/logout">'.t('Log out').'</a><br/>
-                                <a href="/user/change/'.$user->uid.'">'.$firstname. ' ' . $lastname . '</a>
+    $block = array();
+    global $user;
+    switch ($delta) {
+        case 'login' :
+            $block['subject'] = '';
+            $block['content'] = '<div class="login-link"><a href="/user/login">' . t('Log in') . '</a></div>';
+            break;
+        case 'logout' :
+            $user_fields = user_load($user->uid);
+            $firstname = $user_fields->field_first_name['und']['0']['value'];
+            $lastname = $user_fields->field_last_name['und']['0']['value'];
+            $block['subject'] = '';
+            $block['content'] = '<div class="login-link">
+                                <a href="/user/logout">' . t('Log out') . '</a><br/>
+                                <a href="/user/change/' . $user->uid . '">' . $firstname . ' ' . $lastname . '</a>
                            </div>';
-      break;
-  }
-  return $block;
+            break;
+    }
+    return $block;
 }
 
 /**
@@ -108,40 +110,46 @@ function betterlogin_block_view($delta = '') {
  * Some proper page titles would be nice for a change.. User account is a bit boring..
  */
 function betterlogin_form_alter(&$form, &$form_state, $form_id) {
-  global $user;
-  // Autofocus on the username field.
-  // And add some pretty CSS :).
-  // And a few other things too...
+    global $user;
+    // Autofocus on the username field.
+    // And add some pretty CSS :).
+    // And a few other things too...
 
-  $forms = ['user_profile_form', 'user_login', 'user_register_form', 'user_pass', 'user_pass_reset'];
-  if (in_array($form_id, $forms)) {
-    $form['name']['#attributes']['autofocus'] = 'autofocus';
+    $forms = [
+      'user_profile_form',
+      'user_login',
+      'user_register_form',
+      'user_pass',
+      'user_pass_reset'
+    ];
+    if (in_array($form_id, $forms)) {
+        $form['name']['#attributes']['autofocus'] = 'autofocus';
 
-    // We don't really need descriptions to tell us what we already know...
-    unset($form['name']['#description']);
-    unset($form['pass']['#description']);
+        // We don't really need descriptions to tell us what we already know...
+        unset($form['name']['#description']);
+        unset($form['pass']['#description']);
 
-  }
-  switch ($form_id) {
-    case 'user_login':
-      drupal_set_title(t('Login'));
-      break;
+    }
+    switch ($form_id) {
+        case 'user_login':
+            drupal_set_title(t('Login'));
+            break;
 
-    case 'user_register_form':
-      drupal_set_title(t('Register'));
+        case 'user_register_form':
+            drupal_set_title(t('Register'));
 
-      // The registration form behaves differently...
-      $form['account']['name']['#attributes']['autofocus'] = 'autofocus';
-      break;
+            // The registration form behaves differently...
+            $form['account']['name']['#attributes']['autofocus'] = 'autofocus';
+            break;
 
-    case 'user_pass':
-      drupal_set_title(t('Forgot your password?'));
-      break;
+        case 'user_pass':
+            drupal_set_title(t('Forgot your password?'));
+            break;
 
-    case 'user_pass_reset':
-      drupal_set_title(t('Reset password'));
-      break;
-  }
+        case 'user_pass_reset':
+            drupal_set_title(t('Reset password'));
+            break;
+    }
 }
 
 /**
@@ -149,64 +157,64 @@ function betterlogin_form_alter(&$form, &$form_state, $form_id) {
  * Original code from http://drupal.stackexchange.com/a/26796/7542
  */
 function betterlogin_theme_registry_alter(&$theme_registry) {
-  $mod_path = drupal_get_path('module', 'betterlogin');
+    $mod_path = drupal_get_path('module', 'betterlogin');
 
-  $theme_registry_copy = $theme_registry;
-  _theme_process_registry($theme_registry_copy, 'phptemplate', 'theme_engine','', $mod_path);
-  $theme_registry += array_diff_key($theme_registry_copy, $theme_registry);
+    $theme_registry_copy = $theme_registry;
+    _theme_process_registry($theme_registry_copy, 'phptemplate', 'theme_engine', '', $mod_path);
+    $theme_registry += array_diff_key($theme_registry_copy, $theme_registry);
 
-  $hooks = array('page');
-  foreach ($hooks as $h) {
-    if (!isset($theme_registry[$h]['theme paths'])) {
-      $theme_registry[$h]['theme paths'] = array();
+    $hooks = array('page');
+    foreach ($hooks as $h) {
+        if (!isset($theme_registry[$h]['theme paths'])) {
+            $theme_registry[$h]['theme paths'] = array();
+        }
+
+        _betterlogin_insert_after_first_element($theme_registry[$h]['theme paths'], $mod_path);
     }
-
-    _betterlogin_insert_after_first_element($theme_registry[$h]['theme paths'], $mod_path);
-  }
 }
 
 function _betterlogin_insert_after_first_element(&$a, $element) {
-  if(is_array($a)) { 
-    $first_element = array_shift($a); 
-    if ($first_element) { 
-      array_unshift($a, $first_element, $element); 
-    } 
-    else { 
-      array_unshift($a, $element); 
+    if (is_array($a)) {
+        $first_element = array_shift($a);
+        if ($first_element) {
+            array_unshift($a, $first_element, $element);
+        }
+        else {
+            array_unshift($a, $element);
+        }
     }
-  }
 }
 
 function betterlogin_user_has_access($uid) {
-  global $user;
-  $hasAccess = false;
-  $roles[] = 'administrator';
-  foreach ($roles as $role) {
-    if (in_array($role, $user->roles) || $user->uid == $uid) {
-      $hasAccess = TRUE;
+    global $user;
+    $hasAccess = FALSE;
+    $roles[] = 'administrator';
+    foreach ($roles as $role) {
+        if (in_array($role, $user->roles) || $user->uid == $uid) {
+            $hasAccess = TRUE;
+        }
     }
-  }
-  return $hasAccess;
+    return $hasAccess;
 }
 
 function betterlogin_edit_user() {
-  $page = array();
-  module_load_include('inc', 'user', 'user.pages');
+    $page = array();
+    module_load_include('inc', 'user', 'user.pages');
 
-  global $user;
-  $user = user_load($user->uid);
+    global $user;
+    $user = user_load($user->uid);
 
-  $form = drupal_get_form('user_profile_form', $user, 'account', 'custom');
-  $form['picture']['#access'] = false;
-  $form['ckeditor']['#access'] = false;
-  $form['contact']['#access'] = false;
-  $form['locale']['#access'] = false;
-  $form['metatags']['#access'] = false;
-  $form['timezone']['#access'] = false;
-  $form['account']['roles']['#access'] = false;
-  $form['account']['status']['#access'] = false;
-  $form['account']['notify']['#access'] = false;
-  $form['account']['notify']['#access'] = false;
-  $page['form'] = $form;
-  return $page;
+    $form = drupal_get_form('user_profile_form', $user, 'account', 'custom');
+    $form['picture']['#access'] = FALSE;
+    $form['ckeditor']['#access'] = FALSE;
+    $form['contact']['#access'] = FALSE;
+    $form['locale']['#access'] = FALSE;
+    $form['metatags']['#access'] = FALSE;
+    $form['timezone']['#access'] = FALSE;
+    $form['account']['roles']['#access'] = FALSE;
+    $form['account']['status']['#access'] = FALSE;
+    $form['account']['notify']['#access'] = FALSE;
+    $form['account']['notify']['#access'] = FALSE;
+    $page['form'] = $form;
+    return $page;
 }

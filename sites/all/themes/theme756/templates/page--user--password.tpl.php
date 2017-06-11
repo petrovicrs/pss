@@ -56,15 +56,6 @@ drupal_add_js(drupal_get_path('theme', 'theme756') . '/js/fullwidth.js');
                                 </div>
 
                                 <div id="bottom_part">
-                                    <div class="login_link">
-                                        <?php print l(t('Login'), 'user/login'); ?>
-                                    </div>
-
-                                    <?php if (variable_get('user_register')): ?>
-                                        <div class="register_link">
-                                            <?php print l(t('Register a new account'), 'user/register'); ?>
-                                        </div>
-                                    <?php endif; ?>
                                 </div>
                             </div>
                         </div>

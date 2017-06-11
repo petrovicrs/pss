@@ -9,6 +9,13 @@ function pss_extras_settings_page() {
         '#default_value' => variable_get('pss_site_message', ''),
         '#size' => 50,
     );
+    $form['pss_current_magazine_number_body_char_count'] = array(
+      '#title' => t('Character count'),
+      '#description' => t('Current magazine number article character count.'),
+      '#type' => 'textfield',
+      '#default_value' => variable_get('pss_current_magazine_number_body_char_count', 400),
+      '#size' => 400,
+    );
     return system_settings_form($form);
 }
 

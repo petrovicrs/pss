@@ -53,6 +53,7 @@ if (isset($node->field_article_type)) {
                   print render($content);
                   ?>
                 </div>
+                <?php if ($page) {?>
                 <div class="comments">
                     <?php if (isset($comment_count) && (int)$comment_count) { ?>
                     <div class="comment-count-wrapper">
@@ -61,6 +62,7 @@ if (isset($node->field_article_type)) {
                     <?php }?>
                     <div class="comments-wrapper"><?php print render($content['comments']); ?></div>
                 </div>
+                <?php } ?>
             </div>
             <?php if ($page) {?>
             <div class="inner-content-element inner-content-right content-share">

@@ -50,11 +50,11 @@ a:hover {
 }
 #site-logo-wrapper .section-logo-wrapper {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 #site-logo-wrapper .section-logo-wrapper.logo-wrapper {
-    margin-top: 10px;
+    margin-top: 0;
 }
 
 #site-logo-wrapper .section-logo-wrapper.title-wrapper {
@@ -66,7 +66,7 @@ a:hover {
     display: inline-block;
     vertical-align: middle;
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 #site-logo-wrapper #current-magazine-number {
@@ -74,6 +74,7 @@ a:hover {
     vertical-align: middle;
     float: right;
     font-family: "Eames Century Modern";
+    margin-top: 15px;
 }
 
 #site-logo-wrapper #current-magazine-number .sup {
@@ -142,8 +143,8 @@ a:hover {
 
 #header .region.region-menu {
     text-align: center;
-    margin: 10px auto;
-    position: relative;
+    width: 1300px;
+    margin: 0 auto;
 }
 
 /*****************Main menu*****************/
@@ -1399,7 +1400,7 @@ section.block .content li a:hover {
     width: 40px;
     height: 35px;
     background: url(../images/search-icon.png) no-repeat 3px center;
-    position: initial;
+    float: right;
 }
 
 #block-search-form > .content,
@@ -1476,6 +1477,8 @@ section.block .content li a:hover {
     vertical-align: bottom;
     margin-right: 15px;
     padding: 5px 0;
+    float: left;
+    margin-top: 6px;
 }
 
 /************* search form ******************/
@@ -2331,7 +2334,7 @@ ul.contextual-links li a:hover {
     padding: 7px 5px;
     background: white no-repeat;
     /* 2 imgs : 1px gray line (normal state) AND 2px green line (focus state) */
-    background-image: linear-gradient(to bottom, #1abc9c, #1abc9c), linear-gradient(to bottom, #FFFFFF, #FFFFFF);
+    background-image: linear-gradient(to bottom, #545454, #545454), linear-gradient(to bottom, #FFFFFF, #FFFFFF);
     /* sizes for the 2 images (default state) */
     background-size: 0 2px, 100% 1px;
     /* positions for the 2 images. Change both "50%" to "0%" or "100%" and tri again */
@@ -3050,12 +3053,15 @@ article.comment span.new {
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-center .comments textarea {
-    border: 1px solid #c4c4c6;
+    border-bottom: 1px solid #c4c4c6;
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-center .comments .comment-form label,
 .node-type-article #block-system-main .content .inner-content .inner-content-center .comments .comment-form input[type="text"] {
     font-size: 14px;
+}
+.node-type-article #block-system-main .content .inner-content .inner-content-center .comments .comment-form input[type="text"] {
+    border-bottom: 1px solid #c4c4c6;
 }
 
 /** MENU ACCORDION **/
