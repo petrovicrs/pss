@@ -49,10 +49,7 @@ drupal_add_js(drupal_get_path('theme', 'theme756') . '/js/fullwidth.js');
                                 </div>
 
                                 <div id="middle_part">
-                                    <h2 class="title"><?php print $title; ?></h2>
-
-                                    <?php print $messages; ?>
-
+                                    <h2 class="title"><?php /*print $title;*/ ?></h2>
                                     <?php print render($page['content']); ?>
                                 </div>
 

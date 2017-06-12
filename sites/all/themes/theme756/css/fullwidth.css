@@ -1,7 +1,7 @@
 #main-wrapper.full-width .image-holder {
     display: table-cell;
     vertical-align: middle;
-    width: 65vw;
+    width: 70%;
     text-align: center;
 }
 #main-wrapper.full-width  div#site-slogan {
@@ -12,7 +12,6 @@
 #main-wrapper.full-width .background-image-holder {
     overflow: hidden;
     /*height: 100vh;*/
-    width: 100vw;
     position: relative;
 }
 #main-wrapper.full-width .image-holder .image-inner-holder {
@@ -24,8 +23,8 @@
 
 #main-wrapper.full-width #auth_box {
     /*height: 100vh;*/
-    z-index: 999;
-    width: 400px;
+    z-index: 300;
+    width: 500px;
     margin: 0 auto;
     font-family: sans-serif;
     vertical-align: middle;
@@ -51,8 +50,9 @@
 #body #main-wrapper.full-width #auth_box h2.title {
     margin: 0;
     padding: 0 0 15px;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: initial;
     font-weight: bold;
     color: #FFFFFF;
 }
@@ -68,10 +68,14 @@
 
 #main-wrapper.full-width #auth_box #middle_part {
     border-radius: 3px;
-    padding: 15px 15px 0;
+    padding: 15px 0 0 0;
     overflow: hidden;
 }
 
+#main-wrapper.full-width #auth_box #middle_part #block-system-main {
+    width: 300px;
+    margin: 0 auto;
+}
 #main-wrapper.full-width #auth_box .confirm-parent,
 #main-wrapper.full-width #auth_box .password-parent {
     width: 100%;
@@ -84,6 +88,20 @@
 }
 #main-wrapper.full-width #auth_box form {
     text-align: left;
+}
+#main-wrapper.full-width #auth_box div.form-type-password-wrapper {
+    position: relative;
+}
+#main-wrapper.full-width #auth_box div.form-type-password-wrapper .password_link{
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+#main-wrapper.full-width #auth_box div.form-type-password-wrapper .password_link .icon {
+    width: 20px;
+    height: 20px;
+    background-image: url('/sites/all/modules/pss_extras/modules/betterlogin/images/forgot-pass.png');
+    display: block;
 }
 #main-wrapper.full-width #auth_box div.form-item div.password-suggestions {
     display: none !important;
@@ -214,4 +232,15 @@
 }
 #main-wrapper.full-width.magazine-subscribe-form #auth_box .magazine-subscribe-desc {
     color: #FFFFFF;
+    text-align: left;
+    width: 300px;
+    margin: 0 auto;
+}
+.page-user-password #main-wrapper.full-width #auth_box .register-desc {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 20px;
 }

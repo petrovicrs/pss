@@ -96,6 +96,9 @@ div#current-magazine-number .number {
     color: #ffffff;
     text-transform: lowercase;
 }
+.form-submit{
+    text-transform: initial;
+}
 /*** news types blocks frontpage ***/
 #news-type-block .view-content .views-row .views-field-body .views-field-title {
     font-size: 28px;
