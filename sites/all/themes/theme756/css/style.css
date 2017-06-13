@@ -1553,14 +1553,14 @@ input[type="search"]#edit-search-block-form--2 {
     display: inline-block;
     vertical-align: middle;
     margin-right: 25px;
-    margin-top: 10px;
+    margin-top: 13px;
+    margin-bottom: 10px;
 }
 
 #footer .footer-brand-wrapper {
     display: inline-block;
     vertical-align: middle;
-    margin: 20px auto 10px;
-
+    margin: 23px auto 20px auto;
 }
 
 .region-footer {
@@ -2231,7 +2231,7 @@ ul.contextual-links li a:hover {
 }
 
 #news-type-block .news-block-title {
-    background: url(../images/bg.gif) 0 0 repeat #f4f2f7;
+    background-color: #f1f1f1;
     display: inline-block;
     margin: 0;
     padding: 0 15px;
@@ -2240,7 +2240,7 @@ ul.contextual-links li a:hover {
 #news-type-block .title-background-holder {
     text-align: center;
     background: url(../images/header-bottom.gif) 0 center repeat-x;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     clear: both;
 }
 
@@ -2345,7 +2345,7 @@ ul.contextual-links li a:hover {
 }
 /** view common **/
 #body.front .block .title-wrapper {
-    margin-bottom: 46px;
+    margin-bottom: 42px;
     background: url(../images/header-bottom.gif) 0 center repeat-x;
 }
 
@@ -2353,7 +2353,7 @@ ul.contextual-links li a:hover {
     display: inline-block;
     padding-right: 15px;
     margin: 0;
-    background: url(../images/bg.gif) 0 0 repeat #f4f2f7;
+    background-color: #f1f1f1;
 }
 
 /*** front **/
@@ -3209,4 +3209,8 @@ article.comment span.new {
 #menu_accordion .ui-accordion .ui-accordion-content {
     padding: 0;
     display: none !important;
+}
+/*** basic page ***/
+#main-wrapper article.node.node-page .content {
+    margin: 0 5px;
 }

@@ -75,13 +75,8 @@
  * @see template_preprocess_node()
  * @see template_process()
  */
-$articleType = '';
-if (isset($node->field_article_type)) {
-  $type = reset($node->field_article_type);
-  $articleType = isset($type, $type[0], $type[0]['tid']) ? 'node-taxonomy-type-' . $type[0]['tid'] : '';
-}
 ?>
-<article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix <?php print $articleType; ?>"<?php print $attributes; ?>>
+<article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix "<?php print $attributes; ?>>
     
   <?php if ($user_picture || !$page || $display_submitted): ?>
     <header>

@@ -24,6 +24,9 @@
     font-weight: bold;
     line-height: 50px;
 }
+#body.node-type-page h1.title {
+    margin-top: 5px;
+}
 #body ul.menu,
 #body ul.menu li,
 #body ul.menu li a{
@@ -75,6 +78,7 @@ div#current-magazine-number .number {
     line-height: 17px;
     color: rgb(84,84,84);
     font-weight: normal;
+    font-family: 'Didact Gothic', sans-serif;
 }
 .region-footer .block-simplenews .content p{
     font-size: 17px;
@@ -229,4 +233,9 @@ div#current-magazine-number .number {
 #body.page-arhiva .view-magazine-number-archive .view-footer .footer-text .year span{
     font-family: 'PFMechanicaBPro-Comb', sans-serif;
     font-size: 60px;
+}
+
+#body.node-type-page .field-name-field-description {
+    font-family: 'PTSans-Regular', sans-serif;
+    font-size: 22px;
 }

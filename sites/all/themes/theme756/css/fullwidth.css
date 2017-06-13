@@ -85,6 +85,7 @@
 #main-wrapper.full-width #auth_box .password-strength,
 #main-wrapper.full-width #auth_box .form-item .description {
     color: #FFFFFF;
+    opacity: 0.8;
 }
 #main-wrapper.full-width #auth_box form {
     text-align: left;
@@ -143,7 +144,7 @@
     font-size: 17px;
     display: block;
     padding: 7px 1%;
-    width: 98%;
+    width: 294px;
     background: transparent no-repeat;
     background-image: linear-gradient(to bottom, #545454, #545454), linear-gradient(to bottom, #FFFFFF, #FFFFFF);
     background-size: 0 2px, 100% 1px;
@@ -177,6 +178,12 @@
 #auth_box :-moz-placeholder { /* Firefox 4 - 18 */
     color: #FFFFFF;
     opacity: 0.8;
+}
+#main-wrapper.full-width #auth_box div.form-item .resizable-textarea .grippie {
+    background: none;
+    display: block;
+    height: 5px;
+    border: 0;
 }
 #main-wrapper.full-width #auth_box .field-name-field-last-name,
 #main-wrapper.full-width #auth_box .field-name-field-first-name {
@@ -235,6 +242,12 @@
     text-align: left;
     width: 300px;
     margin: 0 auto;
+}
+#main-wrapper.full-width #auth_box div.form-item.webform-component--last-name input[type="text"],
+#main-wrapper.full-width #auth_box div.form-item.webform-component--first-name input[type="text"],
+#main-wrapper.full-width #auth_box .field-name-field-last-name div.form-item input[type="text"],
+#main-wrapper.full-width #auth_box .field-name-field-first-name div.form-item input[type="text"] {
+    width: 100%;
 }
 .page-user-password #main-wrapper.full-width #auth_box .register-desc {
     color: #FFFFFF;
