@@ -116,7 +116,7 @@
 
 #block-menu-menu-footer-menu{
     display: inline-block;
-    margin: 10px auto;
+    margin: 0 auto 20px auto;
     margin-bottom: 20px;
     padding: 0;
 }

@@ -35,6 +35,7 @@
 #main-wrapper.full-width #auth_box a {
     color: #FFFFFF;
     font-size: 15px;
+    text-decoration: none;
 }
 
 #main-wrapper.full-width #auth_box h1#the_logo {
@@ -63,7 +64,7 @@
 
 #main-wrapper.full-width #auth_box input[type="submit"] {
     width: 100%;
-    height: 50px;
+    height: 40px;
 }
 
 #main-wrapper.full-width #auth_box #middle_part {

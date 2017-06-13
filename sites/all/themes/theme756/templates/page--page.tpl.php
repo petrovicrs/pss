@@ -103,6 +103,15 @@
         </div>
 
         <div id="main-wrapper">
+
+            <?php if ($messages): ?>
+                <div id="messages">
+                    <div class="section clearfix">
+                        <?php print $messages; ?>
+                    </div>
+                </div>
+            <?php endif; ?>
+
             <div id="main" class="clearfix">
                 <?php if ($title): ?>
                     <div class="section-logo-wrapper title-wrapper">
@@ -128,28 +137,16 @@
                     </aside>
                 <?php endif; ?>
 
+                <?php if ($tabs): ?>
+                    <div class="tabs"><?php print render($tabs); ?></div>
+                <?php endif; ?>
+
                 <div id="content" class="column" role="main">
                     <div class="section">
 
                         <?php if ($breadcrumb): ?>
                             <div id="breadcrumb"
                                  class="clearfix"><?php print $breadcrumb; ?></div>
-                        <?php endif; ?>
-
-                        <?php if ($messages): ?>
-                            <div id="messages">
-                                <div class="section clearfix">
-                                    <?php print $messages; ?>
-                                </div>
-                            </div>
-                        <?php endif; ?>
-
-                        <?php print render($title_prefix); ?>
-
-                        <?php print render($title_suffix); ?>
-
-                        <?php if ($tabs): ?>
-                            <div class="tabs"><?php print render($tabs); ?></div>
                         <?php endif; ?>
 
                         <?php print render($page['help']); ?>
