@@ -140,7 +140,8 @@
 #main-wrapper.full-width #auth_box div.form-item textarea,
 #main-wrapper.full-width #auth_box div.form-item input[type='text'],
 #main-wrapper.full-width #auth_box div.form-item input[type="search"],
-#main-wrapper.full-width #auth_box div.form-item input[type='password'] {
+#main-wrapper.full-width #auth_box div.form-item input[type='password'],
+#main-wrapper.full-width #auth_box div.form-item input[type='email']{
     color: #FFFFFF;
     font-size: 17px;
     display: block;
@@ -159,7 +160,8 @@
 #main-wrapper.full-width #auth_box div.form-item textarea:focus,
 #main-wrapper.full-width #auth_box div.form-item input[type='text']:focus,
 #main-wrapper.full-width #auth_box div.form-item input[type="search"]:focus,
-#main-wrapper.full-width #auth_box div.form-item input[type='password']:focus{
+#main-wrapper.full-width #auth_box div.form-item input[type='password']:focus,
+#main-wrapper.full-width #auth_box div.form-item input[type='email']:focus{
 /* sizes for the 2 images (focus state) */
     background-size: 100% 2px, 100% 1px;
     outline: none;
@@ -257,4 +259,7 @@
     margin-bottom: 20px;
     font-size: 20px;
     line-height: 20px;
+}
+#main-wrapper.full-width #auth_box  article.node.node-page .content {
+    margin: 0;
 }

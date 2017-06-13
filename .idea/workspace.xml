@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
     </list>
     <ignored path="pss.iws" />
@@ -35,21 +36,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="3254" column="22" lean-forward="true" selection-start-line="3254" selection-start-column="22" selection-end-line="3254" selection-end-column="22" />
+            <state relative-caret-position="468">
+              <caret line="2339" column="23" lean-forward="false" selection-start-line="2339" selection-start-column="23" selection-end-line="2339" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fullwidth.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fullwidth.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="64" column="55" lean-forward="false" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
+            <state relative-caret-position="598">
+              <caret line="262" column="35" lean-forward="false" selection-start-line="262" selection-start-column="35" selection-end-line="262" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -155,7 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.front .video-material</find>
       <find>.front .video-material .view .view-content .views-row .field-content .body-wrapper</find>
       <find>#footer .footer-brand-wrapper</find>
       <find>#footer #logo-footer img</find>
@@ -185,6 +185,7 @@
       <find>#block-menu-menu-footer-menu</find>
       <find>#main-wrapper.full-width #auth_box input[type=&quot;submit&quot;]</find>
       <find>block-views-team-members-block</find>
+      <find>input[</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -260,8 +261,8 @@
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/menu.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" />
       </list>
     </option>
   </component>
@@ -584,12 +585,12 @@
       <workItem from="1497218044746" duration="400000" />
       <workItem from="1497218491608" duration="2613000" />
       <workItem from="1497279959445" duration="13093000" />
-      <workItem from="1497369759630" duration="9474000" />
+      <workItem from="1497369759630" duration="10030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171093000" />
+    <option name="totallyTimeSpent" value="171649000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1062,18 +1063,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="64" column="55" lean-forward="false" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
+        <state relative-caret-position="468">
+          <caret line="2339" column="23" lean-forward="false" selection-start-line="2339" selection-start-column="23" selection-end-line="2339" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="3254" column="22" lean-forward="true" selection-start-line="3254" selection-start-column="22" selection-end-line="3254" selection-end-column="22" />
+        <state relative-caret-position="598">
+          <caret line="262" column="35" lean-forward="false" selection-start-line="262" selection-start-column="35" selection-end-line="262" selection-end-column="35" />
           <folding />
         </state>
       </provider>
