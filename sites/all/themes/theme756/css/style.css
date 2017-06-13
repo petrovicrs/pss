@@ -3256,6 +3256,9 @@ article.comment span.new {
     margin-bottom: 35px;
 }
 /*** block members ***/
+#block-views-team-members-block .title-wrapper h2.title {
+    font-size: 17px;
+}
 #block-views-team-members-block .view .view-content .views-row {
     display: inline-block;
     background: 0;
