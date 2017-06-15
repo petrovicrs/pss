@@ -217,14 +217,7 @@ function pss_extras_preprocess_block(&$vars, $hook) {
             ", 'inline');
         }
     }
-    $addDotDotDotTo = [
-      'views-author_recommendation-block', 'views-news_view-block', 'views-news_view-block_1',
-      'views-news_view-block_2', 'views-news_view-block_3', 'views-news_view-block_4',
-      'views-news_view-block_5', 'views-news_view-block_6', 'views-news_view-block_7',
-      'views-news_view-block_8', 'views-news_view-block_9', 'views-most_read-block',
-      'views-video-block'
-    ];
-    if ($vars['block']->module == 'views' && in_array($vars['block']->bid, $addDotDotDotTo)) {
+    if ($vars['block']->module == 'views') {
         drupal_add_js(drupal_get_path('module', 'pss_extras') . '/scripts/jquery.dotdotdot.min.js');
         drupal_add_js(drupal_get_path('module', 'pss_extras') . '/scripts/pss.dotdotdot.js');
     }

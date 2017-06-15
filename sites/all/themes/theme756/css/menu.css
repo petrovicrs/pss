@@ -40,7 +40,7 @@
     padding:7px;
     padding-bottom: 12px;
     text-decoration:none;
-    text-transform: capitalize;
+    text-transform: uppercase;
     -webkit-transition: all ease .3s;
     -moz-transition: all ease .3s;
     -ms-transition: all ease .3s;

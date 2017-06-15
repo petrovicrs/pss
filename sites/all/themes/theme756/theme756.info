@@ -13,10 +13,10 @@ engine = phptemplate
 ; We use [screen] instead of [all] to avoid browser styles affecting 
 ; other media types.
 
-stylesheets[screen][] = css/boilerplate.css
-stylesheets[screen][] = css/style.css
 stylesheets[screen][] = css/fonts.css
 stylesheets[screen][] = css/font-face.css
+stylesheets[screen][] = css/boilerplate.css
+stylesheets[screen][] = css/style.css
 stylesheets[screen][] = css/menu.css
 stylesheets[screen][] = css/news-by-type.css
 stylesheets[screen][] = css/maintenance-page.css

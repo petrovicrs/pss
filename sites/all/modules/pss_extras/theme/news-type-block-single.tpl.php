@@ -5,7 +5,7 @@
 </div>
 <div class="views-field views-field-body">
     <?php if(isset($tagLink)) {?>
-        <div class="views-field views-field-title"><a href="<?php echo $tagLink; ?>"><?php echo isset($tagTitle) ? $tagTitle : ''; ?></a></div>
+        <div class="views-field views-field-title"><a href="<?php echo $tagLink; ?>"><?php echo isset($tagTitle) ? ucfirst(mb_strtolower ($tagTitle)) : ''; ?></a></div>
     <?php } else { ?>
         <div class="views-field views-field-title"><?php echo isset($tagTitle) ? $tagTitle : ''; ?></div>
     <?php } ?>
@@ -16,10 +16,10 @@
                 <div class="tag-news-title">
                     <?php if (isset($tagNews['tagNewsPath'])) { ?>
                         <a href="<?php echo $tagNews['tagNewsPath']; ?>">
-                            <?php echo isset($tagNews['tagNewsTitle']) ? $tagNews['tagNewsTitle'] : '';?>
+                            <?php echo isset($tagNews['tagNewsTitle']) ? ucfirst(mb_strtolower ($tagNews['tagNewsTitle'])) : '';?>
                         </a>
                     <?php } else { ?>
-                        <?php echo isset($tagNews['tagNewsTitle']) ? $tagNews['tagNewsTitle'] : '';?>
+                        <?php echo isset($tagNews['tagNewsTitle']) ? ucfirst(mb_strtolower ($tagNews['tagNewsTitle'])) : '';?>
                     <?php } ?>
                 </div>
             </div>

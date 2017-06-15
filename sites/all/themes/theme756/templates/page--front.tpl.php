@@ -115,7 +115,7 @@
       <?php endif; ?>
       <?php if (isset($current_magazine_number) && !empty($current_magazine_number)): ?>
           <div id="current-magazine-number">
-              <div class="number"><sup class="sup">no.</sup><?php echo $current_magazine_number; ?>.</div>
+              <div class="number"><sup class="sup">no.</sup><?php echo $current_magazine_number; ?></div>
           </div>
       <?php endif; ?>
   </div>
