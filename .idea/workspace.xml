@@ -3,15 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/pathauto_ascii/pathauto_ascii.inc" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/pathauto_ascii/pathauto_ascii.inc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/theme/news-type-block-single.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/theme/news-type-block-single.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/font-face.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/font-face.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/menu.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/menu.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--front.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--front.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/theme756.info" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/theme756.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/js/pss.js" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/js/pss.js" />
     </list>
     <ignored path="pss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,31 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="3257" column="19" lean-forward="false" selection-start-line="3257" selection-start-column="19" selection-end-line="3257" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="node.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/node.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="89" column="13" lean-forward="false" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theme756.info" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/theme756.info">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="143">
+              <caret line="3061" column="20" lean-forward="true" selection-start-line="3061" selection-start-column="20" selection-end-line="3061" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -77,9 +56,63 @@
       <file leaf-file-name="news-by-type.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2856">
-              <caret line="136" column="20" lean-forward="false" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
+            <state relative-caret-position="67">
+              <caret line="363" column="26" lean-forward="false" selection-start-line="363" selection-start-column="18" selection-end-line="363" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.module" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/user/user.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1093">
+              <caret line="1490" column="41" lean-forward="false" selection-start-line="1490" selection-start-column="18" selection-end-line="1490" selection-end-column="41" />
+              <folding>
+                <marker date="1485984867000" expanded="true" signature="11280:11332" ph="SELECT uid F... authmap" />
+                <marker date="1485984867000" expanded="true" signature="13558:13670" ph="SELECT r.rid... role" />
+                <marker date="1485984867000" expanded="true" signature="23512:23540" ph="SELECT MAX(u... users" />
+                <marker date="1485984867000" expanded="true" signature="24516:24562" ph="SELECT rid F... users_roles" />
+                <marker date="1485984867000" expanded="true" signature="30371:30438" ph="SELECT rid, role_permission" />
+                <marker date="1485984867000" expanded="true" signature="54450:54535" ph="SELECT uid, users" />
+                <marker date="1485984867000" expanded="true" signature="55165:55257" ph="SELECT COUNT... sessions" />
+                <marker date="1485984867000" expanded="true" signature="55670:55877" ph="SELECT u.uid... users" />
+                <marker date="1485984867000" expanded="true" signature="75342:75407" ph="SELECT modul... " />
+                <marker date="1485984867000" expanded="true" signature="79772:79827" ph="SELECT * FRO... users" />
+                <marker date="1485984867000" expanded="true" signature="89967:90044" ph="SELECT uid F... users" />
+                <marker date="1485984867000" expanded="true" signature="117881:117921" ph="SELECT name role" />
+                <marker date="1485984867000" expanded="true" signature="131143:131208" ph="SELECT uid, users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment.module" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/comment/comment.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="641">
+              <caret line="1944" column="3" lean-forward="true" selection-start-line="1944" selection-start-column="3" selection-end-line="1944" selection-end-column="3" />
+              <folding>
+                <marker date="1485984867000" expanded="true" signature="10367:10422" ph="SELECT COUNT... comment" />
+                <marker date="1485984867000" expanded="true" signature="18439:18564" ph="SELECT COUNT... comment" />
+                <marker date="1485984867000" expanded="true" signature="19236:19242" ph=" " />
+                <marker date="1485984867000" expanded="true" signature="41422:41490" ph="SELECT comme... node_comment_statistics" />
+                <marker date="1485984867000" expanded="true" signature="43614:43769" ph="SELECT nid, node_comment_statistics" />
+                <marker date="1485984867000" expanded="true" signature="45092:45134" ph="SELECT cid F... comment" />
+                <marker date="1485984867000" expanded="true" signature="45662:45765" ph="SELECT rid, role_permission" />
+                <marker date="1485984867000" expanded="true" signature="47003:47059" ph="SELECT MAX(c... node_comment_statistics" />
+                <marker date="1485984867000" expanded="true" signature="47422:47490" ph="SELECT comme... node_comment_statistics" />
+                <marker date="1485984867000" expanded="true" signature="48512:48558" ph="SELECT c.cid... comment" />
+                <marker date="1485984867000" expanded="true" signature="51599:51649" ph="SELECT MAX(t... comment" />
+                <marker date="1485984867000" expanded="true" signature="52483:52557" ph="SELECT MAX(t... comment" />
+                <marker date="1485984867000" expanded="true" signature="55562:55604" ph="SELECT cid F... comment" />
+                <marker date="1485984867000" expanded="true" signature="59131:59226" ph="SELECT COUNT... comment" />
+                <marker date="1485984867000" expanded="true" signature="84481:84551" ph="SELECT COUNT... comment" />
+                <marker date="1485984867000" expanded="true" signature="84715:84816" ph="SELECT cid, comment" />
+                <marker date="1485984867000" expanded="true" signature="85352:85400" ph="SELECT uid, node" />
+                <marker date="1485984867000" expanded="true" signature="87988:88034" ph="SELECT subje... comment" />
+                <marker date="1485984867000" expanded="true" signature="88766:88812" ph="SELECT subje... comment" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,8 +120,18 @@
       <file leaf-file-name="menu.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/menu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3276">
-              <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+            <state relative-caret-position="223">
+              <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font-face.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/font-face.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -97,54 +140,24 @@
       <file leaf-file-name="pss_extras.module" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="219" column="0" lean-forward="false" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+            <state relative-caret-position="293">
+              <caret line="245" column="61" lean-forward="false" selection-start-line="245" selection-start-column="61" selection-end-line="245" selection-end-column="61" />
               <folding>
-                <marker date="1497545007937" expanded="true" signature="14497:14635" ph="SELECT DISTI... field_data_field_magazine_number" />
-                <marker date="1497545007937" expanded="true" signature="14784:14958" ph="SELECT entit... field_data_field_magazine_number" />
-                <marker date="1497545007937" expanded="true" signature="15353:15430" ph="SELECT MAX(f... field_data_field_magazine_number" />
-                <marker date="1497545007937" expanded="true" signature="15788:15879" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-                <marker date="1497545007937" expanded="true" signature="16356:16412" ph="SELECT COUNT... taxonomy_index" />
+                <marker date="1497575853580" expanded="true" signature="14712:14850" ph="SELECT DISTI... field_data_field_magazine_number" />
+                <marker date="1497575853580" expanded="true" signature="14999:15173" ph="SELECT entit... field_data_field_magazine_number" />
+                <marker date="1497575853580" expanded="true" signature="15568:15645" ph="SELECT MAX(f... field_data_field_magazine_number" />
+                <marker date="1497575853580" expanded="true" signature="16003:16094" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+                <marker date="1497575853580" expanded="true" signature="16571:16627" ph="SELECT COUNT... taxonomy_index" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pss.dotdotdot.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss.dotdotdot.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="97" lean-forward="false" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news-type-block-single.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/theme/news-type-block-single.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="118" column="14" lean-forward="false" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page--front.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/page--front.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="117" column="99" lean-forward="false" selection-start-line="117" selection-start-column="99" selection-end-line="117" selection-end-column="99" />
+            <state relative-caret-position="504">
+              <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -162,23 +175,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#main-wrapper.full-width.magazine-subscribe-form #auth_box .magazine-subscribe-desc</find>
-      <find>.form-submit</find>
-      <find>#block-menu-menu-footer-menu .content ul li a</find>
-      <find>#footer .footer-logo-wrapper</find>
-      <find>#footer #block-menu-menu-footer-menu .content ul li a</find>
-      <find>#block-menu-menu-footer-menu .content ul li</find>
-      <find>#main-wrapper.full-width #auth_box label</find>
-      <find>not-admin</find>
-      <find>#body h1.title</find>
-      <find>#sidebar-second</find>
-      <find>#sidebar-second .section</find>
-      <find>pss_extras_archive_page</find>
-      <find>#block-menu-menu-footer-menu</find>
-      <find>#main-wrapper.full-width #auth_box input[type=&quot;submit&quot;]</find>
-      <find>block-views-team-members-block</find>
-      <find>input[</find>
-      <find>#superfish-1 &gt; li &gt; a</find>
       <find>current-magazine-number</find>
       <find>number</find>
       <find>„</find>
@@ -187,11 +183,28 @@
       <find>.node-type-article #block-system-main .content .top-image img</find>
       <find>#news-type-block .view-content .views-row</find>
       <find>#news-type-block .view-content .views-row .views-field-body .tag-news .tag-news-title</find>
-      <find>#news-type-block .view-content .views-row .views-field-body</find>
       <find>#comment-form .form-textarea</find>
       <find>.node-type-article #block-system-main .content .inner-content .inner-content-center .comments .comment-form label</find>
       <find>block-views-photo-gallery-views-block</find>
       <find>.node-type-photo-gallery #block-system-main .content .field-name-field-photo .field-item</find>
+      <find>#block-views-photo-gallery-views-block .view-content .bx-wrapper .bx-viewport ul li</find>
+      <find>.form-submit</find>
+      <find>#block-system-main</find>
+      <find>.view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-read-more .number</find>
+      <find>#news-type-block .view-content .views-row .views-field-body</find>
+      <find>#news-type-block .view-content .views-row .views-field-body .tag-news</find>
+      <find>preprocess_user_picture</find>
+      <find>View user profile</find>
+      <find>edit-author</find>
+      <find>editauthor</find>
+      <find>form_a</find>
+      <find>#comment-form .form-item</find>
+      <find>author</find>
+      <find>Dd</find>
+      <find>D</find>
+      <find>Didact</find>
+      <find>Didact Gothic</find>
+      <find>node-type-article</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -201,6 +214,7 @@
       <replace>#body #auth_box</replace>
       <replace>#main-wrapper.full-width #auth_box</replace>
       <replace>#menu_accordion</replace>
+      <replace>Sagoe UI</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\workspace\pss\sites\all\themes\theme756\templates</dir>
@@ -210,6 +224,9 @@
       <dir>D:\workspace\pss\sites\all\modules\admin_menu</dir>
       <dir>D:\workspace\pss\sites\all\modules\colorbox</dir>
       <dir>D:\workspace\pss\sites\all\themes\theme756</dir>
+      <dir>D:\workspace\pss\modules\user</dir>
+      <dir>D:\workspace\pss\modules\comment</dir>
+      <dir>D:\workspace\pss\sites\all\themes\theme756\css</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -218,7 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/comment-wrapper.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/user-picture.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--reset.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--register.tpl.php" />
@@ -229,7 +245,6 @@
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/css/betterlogin.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/scripts/betterlogin.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/form.js" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/pss.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/fullwidth.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/responsive.tablet.landscape.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/accordion.menu.js" />
@@ -260,15 +275,17 @@
         <option value="$PROJECT_DIR$/sites/all/modules/formtips/formtips.admin.inc" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/menu.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--front.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/pathauto_ascii/pathauto_ascii.inc" />
-        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/theme/news-type-block-single.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" />
-        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/theme756.info" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
+        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/theme/news-type-block-single.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/pss.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/menu.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/font-face.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
       </list>
     </option>
   </component>
@@ -452,6 +469,66 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme756" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme756" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -551,6 +628,68 @@
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss_extras" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -565,19 +704,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\pss\sites\all\modules" />
-      <recent name="D:\workspace\pss\sites\all\themes\theme756\templates" />
-      <recent name="D:\workspace\pss\sites\all\modules\pss_extras\scripts" />
-      <recent name="D:\workspace\pss\sites\all\themes\theme756\js" />
-      <recent name="D:\workspace\pss\sites\all\modules\pss_extras\modules\betterlogin\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\pss\sites\all\modules\pss_extras\modules\follow\icons\small" />
       <recent name="D:\workspace\pss\sites\all\modules\pss_extras\images\icons" />
       <recent name="D:\workspace\pss\sites\all\themes\theme756\js" />
       <recent name="D:\workspace\pss\sites\all\modules\pss_extras\css" />
       <recent name="D:\workspace\pss\sites\all\modules\pss_extras\modules" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\pss\sites\all\themes\theme756\fonts" />
+      <recent name="D:\workspace\pss\sites\all\modules" />
+      <recent name="D:\workspace\pss\sites\all\themes\theme756\templates" />
+      <recent name="D:\workspace\pss\sites\all\modules\pss_extras\scripts" />
+      <recent name="D:\workspace\pss\sites\all\themes\theme756\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -709,12 +848,12 @@
       <workItem from="1497279959445" duration="13093000" />
       <workItem from="1497369759630" duration="10094000" />
       <workItem from="1497463636792" duration="8202000" />
-      <workItem from="1497543035181" duration="6965000" />
+      <workItem from="1497543035181" duration="14997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186880000" />
+    <option name="totallyTimeSpent" value="194912000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -733,6 +872,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46306068" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5883905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -747,7 +887,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5883905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -811,7 +950,7 @@
           <option name="timeStamp" value="209" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="263" />
+      <option name="time" value="268" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
@@ -822,109 +961,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/accordion_menu/includes/info.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/accordion.menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/module.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19992">
-          <caret line="955" column="0" lean-forward="false" selection-start-line="955" selection-start-column="0" selection-end-line="955" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/follow/icons/small/icon-googleplus.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/html.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="44" column="48" lean-forward="true" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/responsive.tablet.portrait.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/theme/news-type-block-row.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="90" lean-forward="false" selection-start-line="6" selection-start-column="90" selection-end-line="6" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.landscape.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="41" column="89" lean-forward="false" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="184" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="208" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/follow/follow-css.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/pss.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="52" lean-forward="false" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss_search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/jquery.dotdotdot.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="12" column="2758" lean-forward="false" selection-start-line="12" selection-start-column="2758" selection-end-line="12" selection-end-column="2758" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4872">
-          <caret line="232" column="0" lean-forward="false" selection-start-line="232" selection-start-column="0" selection-end-line="239" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="605">
@@ -1002,13 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/fullwidth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1069,7 +1098,7 @@
         <state relative-caret-position="966">
           <caret line="112" column="27" lean-forward="false" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
           <folding>
-            <element signature="e#7#3142#0#PHP" expanded="true" />
+            <element signature="e#7#3142#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1104,30 +1133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/theme/news-type-block-single.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3276">
-          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="136" column="20" lean-forward="false" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/boolean_formatter/boolean_formatter.module">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1638">
@@ -1158,32 +1163,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="219" column="0" lean-forward="false" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
-          <folding>
-            <marker date="1497545007937" expanded="true" signature="14497:14635" ph="SELECT DISTI... field_data_field_magazine_number" />
-            <marker date="1497545007937" expanded="true" signature="14784:14958" ph="SELECT entit... field_data_field_magazine_number" />
-            <marker date="1497545007937" expanded="true" signature="15353:15430" ph="SELECT MAX(f... field_data_field_magazine_number" />
-            <marker date="1497545007937" expanded="true" signature="15788:15879" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-            <marker date="1497545007937" expanded="true" signature="16356:16412" ph="SELECT COUNT... taxonomy_index" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/theme756.info">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="118" column="14" lean-forward="false" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1196,10 +1179,218 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss_search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/fullwidth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/jquery.loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/responsive.tablet.portrait.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/theme/news-type-block-row.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="90" lean-forward="false" selection-start-line="6" selection-start-column="90" selection-end-line="6" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/theme/news-type-block.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/theme/news-type-block-single.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/pss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/comment.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="68" column="61" lean-forward="false" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/user/user-profile-item.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/user/user-profile.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/user/user-picture.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/common.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="2153" column="9" lean-forward="false" selection-start-line="2153" selection-start-column="9" selection-end-line="2153" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/user/user.tokens.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/user/user.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1093">
+          <caret line="1490" column="41" lean-forward="false" selection-start-line="1490" selection-start-column="18" selection-end-line="1490" selection-end-column="41" />
+          <folding>
+            <marker date="1485984867000" expanded="true" signature="11280:11332" ph="SELECT uid F... authmap" />
+            <marker date="1485984867000" expanded="true" signature="13558:13670" ph="SELECT r.rid... role" />
+            <marker date="1485984867000" expanded="true" signature="23512:23540" ph="SELECT MAX(u... users" />
+            <marker date="1485984867000" expanded="true" signature="24516:24562" ph="SELECT rid F... users_roles" />
+            <marker date="1485984867000" expanded="true" signature="30371:30438" ph="SELECT rid, role_permission" />
+            <marker date="1485984867000" expanded="true" signature="54450:54535" ph="SELECT uid, users" />
+            <marker date="1485984867000" expanded="true" signature="55165:55257" ph="SELECT COUNT... sessions" />
+            <marker date="1485984867000" expanded="true" signature="55670:55877" ph="SELECT u.uid... users" />
+            <marker date="1485984867000" expanded="true" signature="75342:75407" ph="SELECT modul... " />
+            <marker date="1485984867000" expanded="true" signature="79772:79827" ph="SELECT * FRO... users" />
+            <marker date="1485984867000" expanded="true" signature="89967:90044" ph="SELECT uid F... users" />
+            <marker date="1485984867000" expanded="true" signature="117881:117921" ph="SELECT name role" />
+            <marker date="1485984867000" expanded="true" signature="131143:131208" ph="SELECT uid, users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/comment/comment.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="1944" column="3" lean-forward="true" selection-start-line="1944" selection-start-column="3" selection-end-line="1944" selection-end-column="3" />
+          <folding>
+            <marker date="1485984867000" expanded="true" signature="10367:10422" ph="SELECT COUNT... comment" />
+            <marker date="1485984867000" expanded="true" signature="18439:18564" ph="SELECT COUNT... comment" />
+            <marker date="1485984867000" expanded="true" signature="19236:19242" ph=" " />
+            <marker date="1485984867000" expanded="true" signature="41422:41490" ph="SELECT comme... node_comment_statistics" />
+            <marker date="1485984867000" expanded="true" signature="43614:43769" ph="SELECT nid, node_comment_statistics" />
+            <marker date="1485984867000" expanded="true" signature="45092:45134" ph="SELECT cid F... comment" />
+            <marker date="1485984867000" expanded="true" signature="45662:45765" ph="SELECT rid, role_permission" />
+            <marker date="1485984867000" expanded="true" signature="47003:47059" ph="SELECT MAX(c... node_comment_statistics" />
+            <marker date="1485984867000" expanded="true" signature="47422:47490" ph="SELECT comme... node_comment_statistics" />
+            <marker date="1485984867000" expanded="true" signature="48512:48558" ph="SELECT c.cid... comment" />
+            <marker date="1485984867000" expanded="true" signature="51599:51649" ph="SELECT MAX(t... comment" />
+            <marker date="1485984867000" expanded="true" signature="52483:52557" ph="SELECT MAX(t... comment" />
+            <marker date="1485984867000" expanded="true" signature="55562:55604" ph="SELECT cid F... comment" />
+            <marker date="1485984867000" expanded="true" signature="59131:59226" ph="SELECT COUNT... comment" />
+            <marker date="1485984867000" expanded="true" signature="84481:84551" ph="SELECT COUNT... comment" />
+            <marker date="1485984867000" expanded="true" signature="84715:84816" ph="SELECT cid, comment" />
+            <marker date="1485984867000" expanded="true" signature="85352:85400" ph="SELECT uid, node" />
+            <marker date="1485984867000" expanded="true" signature="87988:88034" ph="SELECT subje... comment" />
+            <marker date="1485984867000" expanded="true" signature="88766:88812" ph="SELECT subje... comment" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="245" column="61" lean-forward="false" selection-start-line="245" selection-start-column="61" selection-end-line="245" selection-end-column="61" />
+          <folding>
+            <marker date="1497575853580" expanded="true" signature="14712:14850" ph="SELECT DISTI... field_data_field_magazine_number" />
+            <marker date="1497575853580" expanded="true" signature="14999:15173" ph="SELECT entit... field_data_field_magazine_number" />
+            <marker date="1497575853580" expanded="true" signature="15568:15645" ph="SELECT MAX(f... field_data_field_magazine_number" />
+            <marker date="1497575853580" expanded="true" signature="16003:16094" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+            <marker date="1497575853580" expanded="true" signature="16571:16627" ph="SELECT COUNT... taxonomy_index" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/font-face.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="363" column="26" lean-forward="false" selection-start-line="363" selection-start-column="18" selection-end-line="363" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="3257" column="19" lean-forward="false" selection-start-line="3257" selection-start-column="19" selection-end-line="3257" selection-end-column="19" />
+        <state relative-caret-position="143">
+          <caret line="3061" column="20" lean-forward="true" selection-start-line="3061" selection-start-column="20" selection-end-line="3061" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding />
         </state>
       </provider>

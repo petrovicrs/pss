@@ -1,6 +1,6 @@
 /*** content ***/
 #content .content {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Sagoe UI', sans-serif;
 }
 #footer {
     font-family: 'PT Sans', sans-serif;
@@ -8,7 +8,7 @@
 #body a,
 #body div,
 #body span{
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Sagoe UI', sans-serif;
 }
 #body a, #body ul, #body li, #body .h1, #body .h2, #body .h3,
 #body .h4, #body body, #body h1, #body h2, #body h3, #body h4, #body h5, #body h6 {
@@ -18,6 +18,14 @@
 #body .h1.title, #body .h2.title, #body .h3.title, #body .h4.title, #body .h5.title, #body .h6.title {
     font-family: 'PT Sans', sans-serif;
     color: #545454;
+}
+#body.node-type-advanced-page  h1.title {
+    font-family: 'Eurostile', sans-serif;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.node-type-article #content .content .body {
+    color: #676767;
 }
 #body h1.title {
     font-size: 50px;
@@ -31,7 +39,7 @@
 #body ul.menu li,
 #body ul.menu li a{
     font-family: 'PT Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 /*** front ***/
 div#site-slogan {
@@ -43,7 +51,7 @@ div#site-slogan {
     line-height: 41px;
 }
 div#site-message {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Sagoe UI', sans-serif;
     color: #545454;
     font-size: 32px;
     text-transform: initial;
@@ -78,7 +86,7 @@ div#current-magazine-number .number {
     line-height: 17px;
     color: rgb(84,84,84);
     font-weight: normal;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Sagoe UI', sans-serif;
 }
 .region-footer .block-simplenews .content p{
     font-size: 17px;
@@ -139,19 +147,19 @@ div#current-magazine-number .number {
     color: #000000;
 }
 .front .most-read-block .view .view-content .views-row .field-content  .news-content .news-body {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Sagoe UI', sans-serif;
     font-size: 16px;
     color: #575757;
 }
 .front .most-read-block .view .view-content .views-row .field-content  .news-content .news-read-more a {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Sagoe UI', sans-serif;
     font-size: 16px;
     color: #575757;
     text-transform: lowercase;
     text-decoration: none;
 }
 .front .most-read-block .view .view-content .views-row .field-content  .news-content .news-read-more .number{
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Sagoe UI', sans-serif;
     font-size: 14px;
     font-style: italic;
     color: #575757;
@@ -185,7 +193,7 @@ div#current-magazine-number .number {
     text-decoration: none;
 }
 #block-views-author-recommendation-block .view-author-recommendation .view-content {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Sagoe UI', sans-serif;
     font-size: 16px;
     color: #575757;
 }
@@ -196,7 +204,7 @@ div#current-magazine-number .number {
     color: #000000;
 }
 #block-pss-extras-taxonomy-tags .view-content a {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Sagoe UI', sans-serif;
     font-size: 19px;
     color: #575757;
     text-transform: capitalize;

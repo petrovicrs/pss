@@ -337,8 +337,10 @@
 .view.news-by-type-block-view .view-content .views-row .field-content .news-image .term {
     font-family: 'PT Sans', sans-serif;
     font-size: 17px;
-    font-style: italic;
     color: #000000;
+}
+.node-type-advanced-page .view.news-by-type-block-view .view-content .views-row .field-content .news-image .term {
+    display: none;
 }
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content div.news-title a {
     font-family: 'PT Sans', sans-serif;
@@ -347,21 +349,20 @@
     text-decoration: none;
 }
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-body {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Sagoe UI', sans-serif;
     font-size: 16px;
     color: #575757;
 }
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-read-more a {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Sagoe UI', sans-serif;
     font-size: 16px;
     color: #575757;
     text-transform: lowercase;
     text-decoration: none;
 }
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-read-more .number {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Sagoe UI', sans-serif;
     font-size: 14px;
-    font-style: italic;
     color: #575757;
     text-transform: lowercase;
 }

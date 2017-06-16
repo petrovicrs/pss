@@ -51,4 +51,28 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Erosyt';
+    src: url('../fonts/erosyt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Eurostile';
+    src: url('../fonts/eurostile.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Films Eurostile';
+    src: url('../fonts/films.eurostile.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sagoe UI';
+    src: url('../fonts/segoeui.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 

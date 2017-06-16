@@ -9,9 +9,9 @@
     <?php } else { ?>
         <div class="views-field views-field-title"><?php echo isset($tagTitle) ? $tagTitle : ''; ?></div>
     <?php } ?>
-    <?php if(isset($tagNewss) && is_array($tagNewss)) { ?>
-        <?php foreach ($tagNewss as $tagNews) { ?>
-            <div class="tag-news">
+    <?php if(isset($tagNewss) && is_array($tagNewss)) { $el_count = count($tagNewss); ?>
+        <?php foreach ($tagNewss as $key => $tagNews) { $el_key = $key + 1 ;?>
+            <div class="tag-news tag-news-<?php print $el_key;?> <?php echo $el_key == 1 ? 'first' : '';?> <?php echo $el_key == $el_count? 'last' : '';?>">
                 <div class="tag-news-number"><span class="news-number-text"><?php echo t('number');?> </span><?php echo isset($tagNews['tagNewsNum']) ? $tagNews['tagNewsNum'] : '';?></div>
                 <div class="tag-news-title">
                     <?php if (isset($tagNews['tagNewsPath'])) { ?>

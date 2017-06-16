@@ -236,11 +236,15 @@ function pss_extras_views_query_alter(&$view, &$query) {
 }
 
 function pss_extras_form_alter(&$form, $form_state, $form_id) {
+    global $user;
     if ($form_id == 'views_exposed_form' && $form['#id'] == 'views-exposed-form-magazine-number-archive-page') {
         $currentYear = (int) $form['field_magazine_for_period_value']['value']['#default_value'];
         $minMagazineYear = __pss_extras_get_min_magazine_year();
         $minRange = $currentYear - $minMagazineYear;
         $form['field_magazine_for_period_value']['value']['#date_year_range'] = "-{$minRange}:+0";
+    }
+    if ($form_id == 'comment_node_article_form' && $user->uid) {
+        $form['author']['_author']['#markup'] = '<span class="author-name">' . $form['author']['name']['#value'] . '</span>';
     }
 }
 
