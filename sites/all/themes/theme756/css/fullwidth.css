@@ -126,6 +126,7 @@
 
 #main-wrapper.full-width #auth_box div.form-item div.password-strength {
     margin-bottom: 20px;
+    display: none;
 }
 
 #main-wrapper.full-width #auth_box div.form-item div.password-confirm {
@@ -155,6 +156,11 @@
     background-size: 0 2px, 100% 1px;
     background-position: 50% 100%, 50% 100%;
     transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+#main-wrapper.full-width #auth_box div.form-item textarea{
+    margin-bottom: 10px;
+    margin-top: 7px;
+    border-top: 1px solid #FFFFFF;
 }
 #main-wrapper.full-width #auth_box div.form-item input:invalid,
 #main-wrapper.full-width #auth_box div.form-item textarea:invalid {
@@ -265,4 +271,9 @@
 }
 #main-wrapper.full-width #auth_box  article.node.node-page .content {
     margin: 0;
+}
+#main-wrapper.full-width #auth_box form fieldset .formtips-processed,
+#main-wrapper.full-width #auth_box .formtips-processed,
+#main-wrapper.full-width #auth_box form .form-item div.formtips-processed {
+    border: 0;
 }

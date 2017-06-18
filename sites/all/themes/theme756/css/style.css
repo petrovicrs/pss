@@ -2187,7 +2187,7 @@ ul.contextual-links li a:hover {
 .search-results .search-result .title a {
     font-family: 'PT Sans', sans-serif;
     font-size: 22px;
-    line-height: ;
+    line-height: 22px;
     color: #000000;
     text-decoration: none;
 }
@@ -3192,7 +3192,6 @@ article.comment span.new {
     padding: 10px 0 10px 10px;
     /* border-bottom: 1px solid gray; */
     width: 82%;
-    word-break: break-word;
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;

@@ -123,7 +123,6 @@ function betterlogin_form_alter(&$form, &$form_state, $form_id) {
       'user_pass_reset'
     ];
     if (in_array($form_id, $forms)) {
-        $form['name']['#attributes']['autofocus'] = 'autofocus';
 
         // We don't really need descriptions to tell us what we already know...
         unset($form['name']['#description']);
@@ -144,7 +143,6 @@ function betterlogin_form_alter(&$form, &$form_state, $form_id) {
             drupal_set_title(t('Register'));
 
             // The registration form behaves differently...
-            $form['account']['name']['#attributes']['autofocus'] = 'autofocus';
             break;
 
         case 'user_pass':
