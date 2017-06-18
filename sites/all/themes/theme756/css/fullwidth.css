@@ -37,7 +37,9 @@
     font-size: 15px;
     text-decoration: none;
 }
-
+#main-wrapper.full-width #auth_box .register_link a {
+    text-decoration: underline;
+}
 #main-wrapper.full-width #auth_box h1#the_logo {
     text-align: center;
     margin: 0;
@@ -104,6 +106,7 @@
     height: 20px;
     background-image: url('/sites/all/modules/pss_extras/modules/betterlogin/images/forgot-pass.png');
     display: block;
+    background-size: 20px 20px;
 }
 #main-wrapper.full-width #auth_box div.form-item div.password-suggestions {
     display: none !important;

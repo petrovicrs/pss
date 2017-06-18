@@ -235,6 +235,16 @@ function pss_extras_views_query_alter(&$view, &$query) {
     }
 }
 
+function pss_extras_views_pre_render(&$view) {
+    if ($view->name == 'news_view') {
+        foreach ($view->result as $key => $result) {
+            if (property_exists($result, 'node_title')) {
+                $result->node_title = ucfirst(mb_strtolower($result->node_title));
+            }
+        }
+    }
+}
+
 function pss_extras_form_alter(&$form, $form_state, $form_id) {
     global $user;
     if ($form_id == 'views_exposed_form' && $form['#id'] == 'views-exposed-form-magazine-number-archive-page') {

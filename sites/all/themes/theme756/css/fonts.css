@@ -19,10 +19,13 @@
     font-family: 'PT Sans', sans-serif;
     color: #545454;
 }
-#body.node-type-advanced-page  h1.title {
+#body.node-type-advanced-page h1.title{
     font-family: 'Eurostile', sans-serif;
     font-size: 40px;
-    padding-top: 10px;
+    line-height: 90px;
+}
+#body.node-type-article h1.title {
+    line-height: 90px;
 }
 .node-type-article #content .content .body {
     color: #676767;
@@ -64,7 +67,7 @@ div#current-magazine-number .sup {
     line-height: 60px;
 }
 div#current-magazine-number .number {
-    font-family: "Eames-Century-Modern-Bold";
+    font-family: "Eames-Century-Modern-Bold", sans-serif;
     font-size: 100px;
     color: #bdbdbd;
     opacity: 0.5;
@@ -79,6 +82,7 @@ div#current-magazine-number .number {
     text-decoration: none;
     text-transform: capitalize;
     color: rgb(84,84,84);
+    font-family: 'PT Sans', sans-serif;
 }
 /*** menu **/
 #footer #block-menu-menu-footer-menu .content ul li a{
