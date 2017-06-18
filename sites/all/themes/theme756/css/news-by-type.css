@@ -44,7 +44,6 @@
     background: url(../images/read-more-icon.png) no-repeat left center;
     padding: 5px 0 5px 25px;
     background-size: 20px 20px;
-    font-style: italic;
 }
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-read-more .number {
     float: right;

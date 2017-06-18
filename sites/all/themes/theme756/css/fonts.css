@@ -125,7 +125,6 @@ div#current-magazine-number .number {
 #news-type-block .view-content .views-row .views-field-body .tag-news .tag-news-number {
     font-size: 17px;
     color: #7e7e7e;
-    font-style: italic;
 }
 #news-type-block .view-content .views-row .views-field-body .tag-news .tag-news-title {
     margin: 10px 0;
@@ -165,7 +164,6 @@ div#current-magazine-number .number {
 .front .most-read-block .view .view-content .views-row .field-content  .news-content .news-read-more .number{
     font-family: 'Sagoe UI', sans-serif;
     font-size: 14px;
-    font-style: italic;
     color: #575757;
     text-transform: lowercase;
 }
