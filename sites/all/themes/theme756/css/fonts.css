@@ -253,7 +253,7 @@ div#current-magazine-number .number {
 }
 .page-node-150 article.node .content table td {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 1em;
 }
 .page-node-150 article.node .content p .first-child.first-letter {
     font-size: 48px;
