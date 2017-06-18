@@ -3271,7 +3271,7 @@ article.comment span.new {
 #body.node-type-page .field-name-field-description {
     margin-bottom: 40px;
 }
-.page-node-150 article.node .content p:first-child:first-letter {
+.page-node-150 article.node .content p .first-child.first-letter {
     float: left;
     padding-top: 4px;
     padding-right: 8px;
