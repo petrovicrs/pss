@@ -87,10 +87,19 @@ input[type="search"]#edit-search-block-form--2{
 }
 #block-search-form {
     float: right;
+    margin-top: 8px;
+    margin-right: 5px;
 }
 /** slogan and message **/
 #site-logo-wrapper {
     margin-top: 20px;
+    position: relative;
+}
+#site-logo-wrapper #current-magazine-number {
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 div#site-slogan {
     font-size: 35px;
@@ -101,7 +110,14 @@ div#site-message {
     line-height: 30px;
 }
 div#current-magazine-number .number {
-    font-size: 69px;
+    font-size: 50px;
+}
+#site-logo-wrapper #current-magazine-number .sup {
+    font-size: 45px;
+}
+.node-type-article #site-logo-wrapper .section-logo-wrapper.logo-wrapper,
+.node-type-advanced-page #site-logo-wrapper .section-logo-wrapper.logo-wrapper{
+    position: initial;
 }
 /** news block **/
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-read-more {
@@ -154,9 +170,12 @@ div#current-magazine-number .number {
     margin-right: 50px;
 }
 
+#footer #block-menu-menu-footer-menu .content ul li {
+    float: none;
+}
 #footer #block-menu-menu-footer-menu .content ul li a {
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 14px;
 }
 #news-type-block .view-content .views-row {
     width: 49%;
@@ -257,4 +276,7 @@ div#current-magazine-number .number {
 .node-type-advanced-page .node-advanced-page .field-name-field-advanced-sponsor-image img {
     width: 100%;
     height: auto;
+}
+#site-logo-wrapper .section-logo-wrapper.title-wrapper {
+    margin-top: 20px;
 }

@@ -67,6 +67,7 @@ input[type="search"]#edit-search-block-form--2{
     background-color: #fff;
     bottom: 0;
     padding: 11px 0 10px 0;
+    width: 95%;
 }
 /** menu **/
 #header .region.region-menu {
@@ -87,10 +88,19 @@ input[type="search"]#edit-search-block-form--2{
 }
 #block-search-form {
     float: right;
+    margin-top: 8px;
+    margin-right: 5px;
 }
 /** slogan and message **/
 #site-logo-wrapper {
     margin-top: 20px;
+    position: relative;
+}
+#site-logo-wrapper #current-magazine-number {
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 div#site-slogan {
     font-size: 35px;
@@ -154,6 +164,9 @@ div#current-magazine-number .number {
     margin-right: 50px;
 }
 
+#footer #block-menu-menu-footer-menu .content ul li {
+    float: none;
+}
 #footer #block-menu-menu-footer-menu .content ul li a {
     font-size: 16px;
     line-height: 16px;
@@ -233,8 +246,19 @@ div#current-magazine-number .number {
 .front .most-read-block .view .view-content .views-row .field-content .news-image {
     display: block;
     width: 100%;
+    text-align: center;
+}
+#news-type-block .view-content .views-row .views-field-image IMG {
+    width: auto;
 }
 .front .most-read-block .view .view-content .views-row .field-content .news-content {
     display: block;
     width: 100%;
+}
+.node-type-article #site-logo-wrapper .section-logo-wrapper.logo-wrapper,
+.node-type-advanced-page #site-logo-wrapper .section-logo-wrapper.logo-wrapper{
+    position: initial;
+}
+.front .most-read-block .view .view-content .views-row {
+    height: auto;
 }

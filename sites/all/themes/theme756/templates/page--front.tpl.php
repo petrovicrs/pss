@@ -98,7 +98,7 @@
       <?php if ($logo): ?>
           <div class="section-logo-wrapper logo-wrapper">
               <a href="<?php print $front_page; ?>" title="<?php print $site_name ? $site_name : t('Home'); ?>" rel="home" id="logo">
-                  <img src="<?php print $logo; ?>" alt="<?php print $site_name ? $site_name : t('Home'); ?>" />
+                  <img src="/sites/default/files/front-logo.png" alt="<?php print $site_name ? $site_name : t('Home'); ?>" />
               </a>
           </div>
       <?php endif; ?>
@@ -106,10 +106,10 @@
       <?php if ($site_message || $site_slogan): ?>
           <div id="slogan-and-message">
               <?php if ($site_slogan): ?>
-                  <div id="site-slogan"><?php print $site_slogan; ?></div>
+                  <div id="site-slogan"><?php /*print $site_slogan;*/ ?></div>
               <?php endif; ?>
               <?php if ($site_message): ?>
-                  <div id="site-message"><?php print $site_message; ?></div>
+                  <div id="site-message"><?php /*print $site_message;*/ ?></div>
               <?php endif; ?>
           </div>
       <?php endif; ?>
