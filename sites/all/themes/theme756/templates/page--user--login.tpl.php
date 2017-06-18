@@ -42,9 +42,7 @@ drupal_add_js(drupal_get_path('theme', 'theme756') . '/js/fullwidth.js');
                                 <div id="top_part">
                                     <?php if ($site_message || $site_slogan): ?>
                                         <div id="slogan-and-message">
-                                            <?php if ($site_slogan): ?>
-                                                <div id="site-slogan"><?php print $site_slogan; ?></div>
-                                            <?php endif; ?>
+                                            <div id="site-slogan"><img src="/<?php echo drupal_get_path('theme', 'theme756')?>/images/fullwidth-logo.png" title="<?php print $site_slogan;?>"></div>
                                         </div>
                                     <?php endif; ?>
                                 </div>

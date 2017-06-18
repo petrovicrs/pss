@@ -29,7 +29,7 @@
     font-family: sans-serif;
     vertical-align: middle;
     display: table-cell;
-    text-align: center;
+    text-align: left;
 }
 
 #main-wrapper.full-width #auth_box a {
@@ -78,6 +78,7 @@
 #main-wrapper.full-width #auth_box #middle_part #block-system-main {
     width: 300px;
     margin: 0 auto;
+    margin-left: 0;
 }
 #main-wrapper.full-width #auth_box .confirm-parent,
 #main-wrapper.full-width #auth_box .password-parent {
@@ -276,4 +277,7 @@
 #main-wrapper.full-width #auth_box .formtips-processed,
 #main-wrapper.full-width #auth_box form .form-item div.formtips-processed {
     border: 0;
+}
+#main-wrapper.full-width #auth_box #slogan-and-message {
+    margin-bottom: 30px;
 }
