@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/images/forgot-pass.png" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/images/forgot-pass.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
     </list>
     <ignored path="pss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="3346" column="22" lean-forward="false" selection-start-line="3346" selection-start-column="22" selection-end-line="3346" selection-end-column="22" />
+            <state relative-caret-position="271">
+              <caret line="2781" column="148" lean-forward="false" selection-start-line="2781" selection-start-column="144" selection-end-line="2781" selection-end-column="148" />
               <folding />
             </state>
           </provider>
@@ -146,11 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5460">
-              <caret line="260" column="0" lean-forward="false" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
+            <state relative-caret-position="430">
+              <caret line="253" column="64" lean-forward="false" selection-start-line="253" selection-start-column="64" selection-end-line="253" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -168,8 +164,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.node-type-article #block-system-main .content .top-image img</find>
-      <find>#news-type-block .view-content .views-row</find>
       <find>#news-type-block .view-content .views-row .views-field-body .tag-news .tag-news-title</find>
       <find>#comment-form .form-textarea</find>
       <find>.node-type-article #block-system-main .content .inner-content .inner-content-center .comments .comment-form label</find>
@@ -198,6 +192,8 @@
       <find>#site-logo-wrapper .section-logo-wrapper.logo-wrapper</find>
       <find>#body.node-type-advanced-page  h1.title</find>
       <find>#block-views-photo-gallery-views-block .view-content .bx-wrapper .bx-viewport</find>
+      <find>firs</find>
+      <find>.page-node-150 article.node .content p</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -277,8 +273,8 @@
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
       </list>
     </option>
   </component>
@@ -873,12 +869,12 @@
       <workItem from="1497463636792" duration="8202000" />
       <workItem from="1497543035181" duration="15442000" />
       <workItem from="1497764273123" duration="4799000" />
-      <workItem from="1497771365486" duration="843000" />
+      <workItem from="1497771365486" duration="1626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200999000" />
+    <option name="totallyTimeSpent" value="201782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1356,18 +1352,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5460">
-          <caret line="260" column="0" lean-forward="false" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
+        <state relative-caret-position="271">
+          <caret line="2781" column="148" lean-forward="false" selection-start-line="2781" selection-start-column="144" selection-end-line="2781" selection-end-column="148" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="3346" column="22" lean-forward="false" selection-start-line="3346" selection-start-column="22" selection-end-line="3346" selection-end-column="22" />
+        <state relative-caret-position="430">
+          <caret line="253" column="64" lean-forward="false" selection-start-line="253" selection-start-column="64" selection-end-line="253" selection-end-column="64" />
           <folding />
         </state>
       </provider>

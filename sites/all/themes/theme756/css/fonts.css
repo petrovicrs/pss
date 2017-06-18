@@ -251,7 +251,7 @@ div#current-magazine-number .number {
     font-family: 'PTSans-Regular', sans-serif;
     font-size: 22px;
 }
-.page-node-150 article.node .content p:first-child:first-letter {
+.page-node-150 article.node .content p span.first-child.first-letter {
     font-size: 48px;
     line-height: 40px;
 }
