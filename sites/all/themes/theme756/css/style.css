@@ -2528,7 +2528,7 @@ ul.contextual-links li a:hover {
     background-color: #b1b0b0;
     padding: 30px 20px;
     color: #ffffff;
-    margin-bottom: 30px;
+    margin-bottom: 46px;
     vertical-align: bottom;
 }
 
@@ -2542,7 +2542,9 @@ ul.contextual-links li a:hover {
     font-family: "Sagoe UI";
     font-size: 17px;
 }
-
+#block-pss-extras-top-newsletter-subscribe-block form.simplenews-subscribe {
+    position: relative;
+}
 #block-pss-extras-top-newsletter-subscribe-block .form-item-mail label {
     display: none;
 }
@@ -2554,8 +2556,15 @@ ul.contextual-links li a:hover {
     vertical-align: middle;
 }
 
+#block-pss-extras-top-newsletter-subscribe-block .form-item-mail,
+#block-pss-extras-top-newsletter-subscribe-block input[type=submit]{
+    float: left;
+    margin: 20px 0;
+    height: 32px;
+}
 #block-pss-extras-top-newsletter-subscribe-block .form-item-mail input[type='text'] {
     width: 140px;
+    padding: 9px 5px 9px 0;
 }
 
 #block-pss-extras-top-newsletter-subscribe-block input[type=submit] {
