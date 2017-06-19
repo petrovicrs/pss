@@ -26,6 +26,8 @@
 }
 #body.node-type-article h1.title {
     line-height: 90px;
+    font-family: 'Eurostile', sans-serif;
+    font-size: 40px;
 }
 .node-type-article #content .content .body {
     color: #676767;
