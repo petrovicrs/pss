@@ -24,7 +24,7 @@
     font-size: 40px;
     line-height: 90px;
 }
-#body.node-type-article h1.title {
+#body #site-logo-wrapper .title-wrapper h1.title {
     line-height: 90px;
     font-family: 'Eurostile', sans-serif;
     font-size: 40px;
@@ -250,20 +250,4 @@ div#current-magazine-number .number {
 #body.node-type-page .field-name-field-description {
     font-family: 'PTSans-Regular', sans-serif;
     font-size: 22px;
-}
-.page-node-150 article.node .content table {
-    width: 800px;
-}
-.page-node-150 article.node .content table td {
-    padding-left: 0;
-    padding-right: 45px;
-    width: 400px;
-}
-.page-node-150 article.node .content p .first-child.first-letter {
-    font-size: 48px;
-    line-height: 40px;
-}
-.page-node-150 article.node .content p {
-    font-size: 16px;
-    line-height: 25px;
 }

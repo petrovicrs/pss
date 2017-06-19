@@ -3290,8 +3290,13 @@ article.comment span.new {
 #main-wrapper article.node.node-page .content {
     margin: 0 5px;
 }
+#body.node-type-page .field-name-field-basic-page-image {
+    max-width: 965px;
+    margin: 0 auto;
+}
 #body.node-type-page .field-name-field-description {
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .page-node-150 article.node .content p .first-child.first-letter {
     float: left;
@@ -3317,6 +3322,8 @@ article.comment span.new {
 }
 #block-views-photo-gallery-views-block .title-wrapper h2.title {
     margin-bottom: 43px;
+    font-size: 17px;
+    text-align: center;
 }
 #block-views-photo-gallery-views-block .views-row .gallery .image img {
     display: block;
@@ -3381,6 +3388,7 @@ article.comment span.new {
 /*** block members ***/
 #block-views-team-members-block .title-wrapper h2.title {
     font-size: 17px;
+    text-align: center;
 }
 #block-views-team-members-block .view .view-content .views-row {
     display: inline-block;
@@ -3413,4 +3421,32 @@ article.comment span.new {
     text-transform: uppercase;
     font-size: 12px;
 }
+/** o nama **/
+.page-node-150 article.node .content table {
+    width: 860px;
+}
+.page-node-150 article.node .content table td {
+    padding-left: 0;
+    padding-right: 45px;
+    width: 400px;
+}
+.page-node-150 article.node .content table td:last-child {
+    padding-right: 0;
+}
+.page-node-150 article.node .content .first-child .first-letter {
+    font-size: 48px;
+    line-height: 40px;
+    float: left;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+.page-node-150 article.node .content p {
+    font-size: 16px;
+    line-height: 25px;
+}
 
+#body #node-150 .field-name-body,
+#body #node-150 .field-name-field-description{
+    max-width: 850px;
+    margin: 50px auto;
+}
