@@ -32,6 +32,10 @@
     text-align: left;
 }
 
+#main-wrapper.full-width #auth_box #top_part {
+    margin-bottom: 33px;
+}
+
 #main-wrapper.full-width #auth_box a {
     color: #FFFFFF;
     font-size: 15px;
@@ -52,9 +56,9 @@
 
 #body #main-wrapper.full-width #auth_box h2.title {
     margin: 0;
-    padding: 0 0 15px;
-    font-size: 30px;
-    line-height: 30px;
+    padding: 0 0 0 0 ;
+    font-size: 22px;
+    line-height: 22px;
     text-transform: initial;
     font-weight: bold;
     color: #FFFFFF;
@@ -71,7 +75,7 @@
 
 #main-wrapper.full-width #auth_box #middle_part {
     border-radius: 3px;
-    padding: 15px 0 0 0;
+    padding: 0;
     overflow: hidden;
 }
 
@@ -257,6 +261,7 @@
     text-align: left;
     width: 300px;
     margin: 0 auto;
+    margin-left: 0;
 }
 #main-wrapper.full-width #auth_box div.form-item.webform-component--last-name input[type="text"],
 #main-wrapper.full-width #auth_box div.form-item.webform-component--first-name input[type="text"],
@@ -280,6 +285,7 @@
 #main-wrapper.full-width #auth_box form .form-item div.formtips-processed {
     border: 0;
 }
-#main-wrapper.full-width #auth_box #slogan-and-message {
-    margin-bottom: 30px;
+#main-wrapper.full-width #auth_box #slogan-and-message img {
+    width: 322px;
+    height: 74px;
 }
