@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/templates/simplenews-block.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/templates/simplenews-block.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" />
     </list>
     <ignored path="pss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="pss_extras.module" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3226">
-              <caret line="205" column="49" lean-forward="true" selection-start-line="205" selection-start-column="49" selection-end-line="205" selection-end-column="49" />
+            <state relative-caret-position="244">
+              <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="44" />
               <folding>
                 <marker date="1497769202843" expanded="true" signature="15024:15162" ph="SELECT DISTI... field_data_field_magazine_number" />
                 <marker date="1497769202843" expanded="true" signature="15311:15485" ph="SELECT entit... field_data_field_magazine_number" />
@@ -49,6 +48,16 @@
                 <marker date="1497769202843" expanded="true" signature="16315:16406" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
                 <marker date="1497769202843" expanded="true" signature="16883:16939" ph="SELECT COUNT... taxonomy_index" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="node--article.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="74" column="47" lean-forward="true" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,8 +75,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="2562" column="16" lean-forward="false" selection-start-line="2562" selection-start-column="16" selection-end-line="2562" selection-end-column="16" />
+            <state relative-caret-position="640">
+              <caret line="2585" column="13" lean-forward="false" selection-start-line="2585" selection-start-column="13" selection-end-line="2585" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -85,8 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#block-menu-menu-footer-menu .content ul li</find>
-      <find>#block-search-form</find>
       <find>slo</find>
       <find>#site-logo-wrapper #current-magazine-number</find>
       <find>.front .most-read-block .view .view-content .views-row .field-content .news-content .news-read-more</find>
@@ -115,6 +122,8 @@
       <find>#block-pss-extras-top-newsletter-subscribe-block</find>
       <find>#block-pss-extras-top-newsletter-subscribe-block .form-item-mail input[type='text']</find>
       <find>#block-pss-extras-top-newsletter-subscribe-block .form-item-mail</find>
+      <find>#block-pss-extras-top-newsletter-subscribe-block .pss-title</find>
+      <find>#article_newsletter .form-item-mail input[type='text']</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -157,7 +166,6 @@
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/fullwidth.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/responsive.tablet.landscape.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/accordion.menu.js" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/html.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" />
@@ -195,6 +203,7 @@
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--node--154.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/simplenews-block.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
       </list>
     </option>
@@ -703,12 +712,12 @@
       <workItem from="1497543035181" duration="15442000" />
       <workItem from="1497764273123" duration="4799000" />
       <workItem from="1497771365486" duration="11178000" />
-      <workItem from="1497883542026" duration="4402000" />
+      <workItem from="1497883542026" duration="5904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215736000" />
+    <option name="totallyTimeSpent" value="217238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -819,13 +828,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3192">
-          <caret line="155" column="3" lean-forward="false" selection-start-line="155" selection-start-column="3" selection-end-line="155" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/formtips/formtips.admin.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -858,6 +860,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
           <caret line="112" column="27" lean-forward="false" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
+          <folding>
+            <element signature="e#7#3142#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -907,6 +912,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="89" column="13" lean-forward="false" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,6 +1013,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31227">
           <caret line="1490" column="41" lean-forward="false" selection-start-line="1490" selection-start-column="18" selection-end-line="1490" selection-end-column="41" />
+          <folding>
+            <marker date="1485984867000" expanded="true" signature="11280:11332" ph="SELECT uid F... authmap" />
+            <marker date="1485984867000" expanded="true" signature="13558:13670" ph="SELECT r.rid... role" />
+            <marker date="1485984867000" expanded="true" signature="23512:23540" ph="SELECT MAX(u... users" />
+            <marker date="1485984867000" expanded="true" signature="24516:24562" ph="SELECT rid F... users_roles" />
+            <marker date="1485984867000" expanded="true" signature="30371:30438" ph="SELECT rid, role_permission" />
+            <marker date="1485984867000" expanded="true" signature="54450:54535" ph="SELECT uid, users" />
+            <marker date="1485984867000" expanded="true" signature="55165:55257" ph="SELECT COUNT... sessions" />
+            <marker date="1485984867000" expanded="true" signature="55670:55877" ph="SELECT u.uid... users" />
+            <marker date="1485984867000" expanded="true" signature="75342:75407" ph="SELECT modul... " />
+            <marker date="1485984867000" expanded="true" signature="79772:79827" ph="SELECT * FRO... users" />
+            <marker date="1485984867000" expanded="true" signature="89967:90044" ph="SELECT uid F... users" />
+            <marker date="1485984867000" expanded="true" signature="117881:117921" ph="SELECT name role" />
+            <marker date="1485984867000" expanded="true" signature="131143:131208" ph="SELECT uid, users" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,6 +1077,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="87" column="20" lean-forward="true" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,6 +1092,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="691">
           <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1163,20 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3226">
-          <caret line="205" column="49" lean-forward="true" selection-start-line="205" selection-start-column="49" selection-end-line="205" selection-end-column="49" />
-          <folding>
-            <marker date="1497769202843" expanded="true" signature="15024:15162" ph="SELECT DISTI... field_data_field_magazine_number" />
-            <marker date="1497769202843" expanded="true" signature="15311:15485" ph="SELECT entit... field_data_field_magazine_number" />
-            <marker date="1497769202843" expanded="true" signature="15880:15957" ph="SELECT MAX(f... field_data_field_magazine_number" />
-            <marker date="1497769202843" expanded="true" signature="16315:16406" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-            <marker date="1497769202843" expanded="true" signature="16883:16939" ph="SELECT COUNT... taxonomy_index" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/simplenews/theme/simplenews-block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1193,10 +1202,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="44" />
+          <folding>
+            <marker date="1497769202843" expanded="true" signature="15024:15162" ph="SELECT DISTI... field_data_field_magazine_number" />
+            <marker date="1497769202843" expanded="true" signature="15311:15485" ph="SELECT entit... field_data_field_magazine_number" />
+            <marker date="1497769202843" expanded="true" signature="15880:15957" ph="SELECT MAX(f... field_data_field_magazine_number" />
+            <marker date="1497769202843" expanded="true" signature="16315:16406" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+            <marker date="1497769202843" expanded="true" signature="16883:16939" ph="SELECT COUNT... taxonomy_index" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="74" column="47" lean-forward="true" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="2562" column="16" lean-forward="false" selection-start-line="2562" selection-start-column="16" selection-end-line="2562" selection-end-column="16" />
+        <state relative-caret-position="640">
+          <caret line="2585" column="13" lean-forward="false" selection-start-line="2585" selection-start-column="13" selection-end-line="2585" selection-end-column="13" />
           <folding />
         </state>
       </provider>

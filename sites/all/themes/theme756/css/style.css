@@ -2531,46 +2531,61 @@ ul.contextual-links li a:hover {
     margin-bottom: 46px;
     vertical-align: bottom;
 }
-
+#article_newsletter {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #000000;
+}
+#article_newsletter .pss-title,
 #block-pss-extras-top-newsletter-subscribe-block .pss-title {
-    font-family: PTSans-Regular;
+    font-family: PTSans-Regular, sans-serif ;
     font-size: 21px;
     margin-bottom: 40px;
 }
 
+#article_newsletter .pss-message,
 #block-pss-extras-top-newsletter-subscribe-block .pss-message {
-    font-family: "Sagoe UI";
+    font-family: "Sagoe UI", sans-serif;
     font-size: 17px;
 }
+#article_newsletter .form.simplenews-subscribe,
 #block-pss-extras-top-newsletter-subscribe-block form.simplenews-subscribe {
     position: relative;
 }
+#article_newsletter .form-item-mail label,
 #block-pss-extras-top-newsletter-subscribe-block .form-item-mail label {
     display: none;
 }
 
+#article_newsletter .form-item-mail,
+#article_newsletter .form-item-mail input[type='text'],
 #block-pss-extras-top-newsletter-subscribe-block .form-item-mail,
 #block-pss-extras-top-newsletter-subscribe-block .form-item-mail input[type='text'] {
     display: inline-block;
     width: auto;
     vertical-align: middle;
 }
-
+#article_newsletter .form-item-mail,
+#article_newsletter input[type=submit],
 #block-pss-extras-top-newsletter-subscribe-block .form-item-mail,
 #block-pss-extras-top-newsletter-subscribe-block input[type=submit]{
     float: left;
     margin: 20px 0;
     height: 32px;
 }
+#article_newsletter .form-item-mail input[type='text'],
 #block-pss-extras-top-newsletter-subscribe-block .form-item-mail input[type='text'] {
     width: 140px;
     padding: 9px 5px 9px 0;
 }
-
+#article_newsletter input[type=submit],
 #block-pss-extras-top-newsletter-subscribe-block input[type=submit] {
     vertical-align: middle;
 }
-
+#article_newsletter .form-item-mail input[type='text'] {
+    width: 100px;
+    background-color: #ebebeb;
+}
 /** author recommendation **/
 #block-views-author-recommendation-block {
     display: inline-block;

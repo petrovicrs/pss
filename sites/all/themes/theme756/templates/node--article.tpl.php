@@ -1,4 +1,5 @@
 <?php
+$newsletter_block = module_invoke('pss_extras', 'block_view', 'top-newsletter-subscribe-block');
 $articleType = '';
 if (isset($node->field_article_type)) {
   $type = reset($node->field_article_type);
@@ -71,8 +72,8 @@ if (isset($node->field_article_type)) {
                     <div class="a2a-content-share"><?php print render($content['addtoany']); ?></div>
                 </div>
                 <div class="inner-wrapper newsletter-block">
-                    <div class="newsletter">
-                        NEWSLETTER
+                    <div id="article_newsletter">
+                        <?php print render($newsletter_block['content']); ?>
                     </div>
                 </div>
                 <?php if (isset($comment_count) && (int)$comment_count) { ?>
