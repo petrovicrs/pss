@@ -34,6 +34,17 @@ function theme756_preprocess_search_block_form(&$vars) {
 }
 
 /**
+ * Implements template_preprocess_search_results
+ * @param type $vars
+ */
+function theme756_preprocess_search_results(&$vars) {
+    $vars['search_result_count'] = 0;
+    if (isset($vars['results']) && is_array($vars['results']) && count($vars['results'])) {
+        $vars['search_result_count'] = count($vars['results']);
+    }
+}
+
+/**
  * Implements template_preprocess_search_result
  * @param type $vars
  */

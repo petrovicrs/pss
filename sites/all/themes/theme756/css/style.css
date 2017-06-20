@@ -1447,6 +1447,8 @@ section.block .content li a:hover {
     height: 20px;
     background: url(../images/search-icon.png) no-repeat 3px center;
     background-size: 25px 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
 }
 
 #block-search-form > .content,
@@ -2181,6 +2183,10 @@ ul.contextual-links li a:hover {
 #search-form .search-advanced {
     display: none;
 }
+.search-results-count {
+    padding: 0;
+    margin-bottom: 20px;
+}
 
 .search-results {
     padding: 0;
@@ -2383,7 +2389,6 @@ ul.contextual-links li a:hover {
     font-size: 22px;
     background-image: linear-gradient(to bottom, #545454, #545454), linear-gradient(to bottom, #FFFFFF, #FFFFFF);
 }
-
 #body #search-form input[type='submit'],
 #body #search-form .form-type-textfield {
     display: inline-block;
