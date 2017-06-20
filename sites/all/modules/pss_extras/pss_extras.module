@@ -152,12 +152,15 @@ function pss_extras_preprocess_node(&$vars) {
         }
     }
     if($vars['type'] == 'article' && $vars['view_mode'] == 'teaser') {
-        $magazine_number_id = $vars['field_magazine_number_reference'][0]['target_id'];
-        $magazine_number = node_load($magazine_number_id);
-        $magazine_number_value = isset($magazine_number->field_magazine_number[$lang_lat]) ? $magazine_number->field_magazine_number[$lang_lat][0]['value'] : $magazine_number->field_magazine_number[$lang_none][0]['value'];
-        $vars['magazine_number'] = $magazine_number_value;
-        $current_magazine_number = __pss_extras_get_current_magazine_number();
-        $from_current_value = (int) $magazine_number_value == (int) $current_magazine_number;
+        $magazine_number_id = isset($vars['field_magazine_number_reference'], $vars['field_magazine_number_reference'][0]) ? $vars['field_magazine_number_reference'][0]['target_id'] : null;
+        $magazine_number = $magazine_number_id ? node_load($magazine_number_id) : null;
+        $from_current_value = true;
+        if ($magazine_number) {
+            $magazine_number_value = isset($magazine_number->field_magazine_number[$lang_lat]) ? $magazine_number->field_magazine_number[$lang_lat][0]['value'] : $magazine_number->field_magazine_number[$lang_none][0]['value'];
+            $vars['magazine_number'] = $magazine_number_value;
+            $current_magazine_number = __pss_extras_get_current_magazine_number();
+            $from_current_value = (int) $magazine_number_value == (int) $current_magazine_number;
+        }
         $user_has_admin_role = pss_extras_user_has_role(array('site administrator'));
         if (!$user_has_admin_role && $from_current_value && isset($vars['body'], $vars['body'][0])) {
             $body_value = $vars['body'][0]['value'];
