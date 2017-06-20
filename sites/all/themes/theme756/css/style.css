@@ -74,16 +74,14 @@ a:hover {
     text-align: center;
     vertical-align: middle;
 }
-.node-type-article #site-logo-wrapper .section-logo-wrapper.logo-wrapper,
-.node-type-advanced-page #site-logo-wrapper .section-logo-wrapper.logo-wrapper {
+#site-logo-wrapper .section-logo-wrapper.logo-wrapper {
     margin-top: 0;
     vertical-align: middle;
     position: absolute;
     top: 0;
     left: 0;
 }
-.node-type-article #site-logo-wrapper .section-logo-wrapper.title-wrapper,
-.node-type-advanced-page #site-logo-wrapper .section-logo-wrapper.title-wrapper {
+#site-logo-wrapper .section-logo-wrapper.title-wrapper {
     width: 100%;
     text-align: center;
     vertical-align: middle;
@@ -2289,7 +2287,7 @@ ul.contextual-links li a:hover {
     background: #ffffff 0 0;
     width: 310px;
     min-height: 575px;
-    margin: 0 9px 18px 9px;
+    margin: 0 9px 53px 9px;
     padding-bottom: 0;
 }
 
@@ -3390,11 +3388,14 @@ article.comment span.new {
     font-size: 17px;
     text-align: center;
 }
+#block-views-team-members-block .view .view-content {
+    text-align: center;
+}
 #block-views-team-members-block .view .view-content .views-row {
     display: inline-block;
     background: 0;
     padding-bottom: 0;
-    margin-left: 50px;
+    margin-left: 0;
     margin-right: 50px;
 }
 #block-views-team-members-block .view .view-content .views-row .views-field-field-member-image .field-content {

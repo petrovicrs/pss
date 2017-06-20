@@ -19,13 +19,9 @@
     font-family: 'PT Sans', sans-serif;
     color: #545454;
 }
-#body.node-type-advanced-page h1.title{
-    font-family: 'Eurostile', sans-serif;
-    font-size: 40px;
-    line-height: 90px;
-}
 #body #site-logo-wrapper .title-wrapper h1.title {
     line-height: 90px;
+    margin-top: 5px;
     font-family: 'Eurostile', sans-serif;
     font-size: 40px;
 }
@@ -161,6 +157,7 @@ div#current-magazine-number .number {
     font-size: 16px;
     color: #575757;
     text-transform: lowercase;
+    font-style: italic;
     text-decoration: none;
 }
 .front .most-read-block .view .view-content .views-row .field-content  .news-content .news-read-more .number{
