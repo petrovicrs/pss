@@ -263,6 +263,11 @@
     margin: 0 auto;
     margin-left: 0;
 }
+#main-wrapper.full-width.magazine-subscribe-form #auth_box .webform-component-radios .form-type-radio label.option,
+#main-wrapper.full-width.magazine-subscribe-form #auth_box .webform-component-radios .form-type-radio input[type="radio"] {
+    line-height: 24px;
+}
+
 #main-wrapper.full-width #auth_box div.form-item.webform-component--last-name input[type="text"],
 #main-wrapper.full-width #auth_box div.form-item.webform-component--first-name input[type="text"],
 #main-wrapper.full-width #auth_box .field-name-field-last-name div.form-item input[type="text"],
