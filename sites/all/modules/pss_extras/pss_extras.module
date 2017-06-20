@@ -107,28 +107,59 @@ function pss_extras_theme($existing, $type, $theme, $path) {
  * Implements hook_preprocess_node().
  */
 function pss_extras_preprocess_node(&$vars) {
+    $lang_lat = 'lat';
+    $lang_none = LANGUAGE_NONE;
     $vars['current_magazine_number'] = __pss_extras_get_current_magazine_number();
-    if ($vars['type'] == 'article') {
-        $magazine_number_id = $vars['field_magazine_number_reference'][LANGUAGE_NONE][0]['target_id'];
+    if ($vars['type'] == 'article' && $vars['view_mode'] == 'full') {
+        $magazine_number_id = isset($vars['field_magazine_number_reference'][$lang_lat]) ? $vars['field_magazine_number_reference'][$lang_lat][0]['target_id'] : $vars['field_magazine_number_reference'][$lang_none][0]['target_id'];
         $magazine_number = node_load($magazine_number_id);
-        $magazine_number_value = $magazine_number->field_magazine_number[LANGUAGE_NONE][0]['value'];
+        $magazine_number_value = isset($magazine_number->field_magazine_number[$lang_lat]) ? $magazine_number->field_magazine_number[$lang_lat][0]['value'] : $magazine_number->field_magazine_number[$lang_none][0]['value'];
         $vars['magazine_number'] = $magazine_number_value;
-        $year = date('Y', strtotime($magazine_number->field_magazine_for_period[LANGUAGE_NONE][0]['value']));
-        $month_1 = date('F', strtotime($magazine_number->field_magazine_for_period[LANGUAGE_NONE][0]['value']));
-        $month_2 = date('F', strtotime($magazine_number->field_magazine_for_period[LANGUAGE_NONE][0]['value2']));
+        $period = isset($magazine_number->field_magazine_for_period[$lang_lat]) ? $magazine_number->field_magazine_for_period[$lang_lat] : $magazine_number->field_magazine_for_period[$lang_none];
+        $year = date('Y', strtotime($period[0]['value']));
+        $month_1 = date('F', strtotime($period[0]['value']));
+        $month_2 = date('F', strtotime($period[0]['value2']));
         $vars['for_period_year'] = $year;
         $vars['for_period_months'] = t($month_1) . '/' . t($month_2);
         $uid = isset($vars['uid']) ? $vars['uid'] : 0;
         $created_by = user_load($uid);
         $account_view = user_view($created_by, 'teaser');
         $vars['created_by_picture'] = drupal_render($account_view);
-
         $current_magazine_number = __pss_extras_get_current_magazine_number();
         $from_current_value = (int) $magazine_number_value == (int) $current_magazine_number;
         $user_has_admin_role = pss_extras_user_has_role(array('site administrator'));
         if (!$user_has_admin_role && $from_current_value &&
           isset($vars['body'], $vars['body'][0], $vars['content']['body'][0]['#markup'])
         ) {
+            $body_value = $vars['body'][0]['value'];
+            $summary_value = $vars['body'][0]['summary'];
+            if (!empty($summary_value)) {
+                $vars['body'][0]['value'] = $summary_value;
+                $vars['content']['body'][0]['#markup'] = $summary_value;
+            }
+            else {
+                $alter = array(
+                  'max_length' => variable_get('pss_current_magazine_number_body_char_count', 400),
+                  'word_boundary' => 'yes',
+                  'ellipsis' => 'yes',
+                  'html' => 'yes'
+                );
+                $trimmed = views_trim_text($alter, $body_value);
+                $vars['body'][0]['value'] = $trimmed;
+                $vars['body'][0]['safe_value'] = $trimmed;
+                $vars['content']['body'][0]['#markup'] = $trimmed;
+            }
+        }
+    }
+    if($vars['type'] == 'article' && $vars['view_mode'] == 'teaser') {
+        $magazine_number_id = $vars['field_magazine_number_reference'][0]['target_id'];
+        $magazine_number = node_load($magazine_number_id);
+        $magazine_number_value = isset($magazine_number->field_magazine_number[$lang_lat]) ? $magazine_number->field_magazine_number[$lang_lat][0]['value'] : $magazine_number->field_magazine_number[$lang_none][0]['value'];
+        $vars['magazine_number'] = $magazine_number_value;
+        $current_magazine_number = __pss_extras_get_current_magazine_number();
+        $from_current_value = (int) $magazine_number_value == (int) $current_magazine_number;
+        $user_has_admin_role = pss_extras_user_has_role(array('site administrator'));
+        if (!$user_has_admin_role && $from_current_value && isset($vars['body'], $vars['body'][0])) {
             $body_value = $vars['body'][0]['value'];
             $summary_value = $vars['body'][0]['summary'];
             if (!empty($summary_value)) {
@@ -245,7 +276,7 @@ function pss_extras_views_pre_render(&$view) {
     if ($view->name == 'news_view') {
         foreach ($view->result as $key => $result) {
             if (property_exists($result, 'node_title')) {
-                $result->node_title = ucfirst(mb_strtolower($result->node_title));
+                $result->node_title = mb_ucfirst(mb_strtolower($result->node_title));
             }
         }
     }
@@ -453,4 +484,19 @@ function __pss_get_taxonomy_terms() {
         cache_set('pss_extras_taxonomy_terms_tags', serialize($tag_items));
     }
     return $tag_items;
+}
+
+if (!function_exists('mb_ucfirst')) {
+    function mb_ucfirst($str, $encoding = "UTF-8", $lower_str_end = false) {
+        $first_letter = mb_strtoupper(mb_substr($str, 0, 1, $encoding), $encoding);
+        $str_end = "";
+        if ($lower_str_end) {
+            $str_end = mb_strtolower(mb_substr($str, 1, mb_strlen($str, $encoding), $encoding), $encoding);
+        }
+        else {
+            $str_end = mb_substr($str, 1, mb_strlen($str, $encoding), $encoding);
+        }
+        $str = $first_letter . $str_end;
+        return $str;
+    }
 }

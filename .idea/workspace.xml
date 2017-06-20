@@ -2,417 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/views/tests/templates/views-view--frontpage.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/views/theme/views-ui-edit-item.tpl.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGELOG.txt" afterPath="$PROJECT_DIR$/CHANGELOG.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/bootstrap.inc" afterPath="$PROJECT_DIR$/includes/bootstrap.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/common.inc" afterPath="$PROJECT_DIR$/includes/common.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/pgsql/database.inc" afterPath="$PROJECT_DIR$/includes/database/pgsql/database.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/pgsql/install.inc" afterPath="$PROJECT_DIR$/includes/database/pgsql/install.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/pgsql/select.inc" afterPath="$PROJECT_DIR$/includes/database/pgsql/select.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/query.inc" afterPath="$PROJECT_DIR$/includes/database/query.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/schema.inc" afterPath="$PROJECT_DIR$/includes/database/schema.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/sqlite/query.inc" afterPath="$PROJECT_DIR$/includes/database/sqlite/query.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/sqlite/schema.inc" afterPath="$PROJECT_DIR$/includes/database/sqlite/schema.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/errors.inc" afterPath="$PROJECT_DIR$/includes/errors.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/file.inc" afterPath="$PROJECT_DIR$/includes/file.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/install.inc" afterPath="$PROJECT_DIR$/includes/install.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/drupal.js" afterPath="$PROJECT_DIR$/misc/drupal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator.info" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator.module" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator.test" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/tests/aggregator_test.info" afterPath="$PROJECT_DIR$/modules/aggregator/tests/aggregator_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/block.info" afterPath="$PROJECT_DIR$/modules/block/block.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/block.module" afterPath="$PROJECT_DIR$/modules/block/block.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/tests/block_test.info" afterPath="$PROJECT_DIR$/modules/block/tests/block_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/tests/themes/block_test_theme/block_test_theme.info" afterPath="$PROJECT_DIR$/modules/block/tests/themes/block_test_theme/block_test_theme.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blog/blog.info" afterPath="$PROJECT_DIR$/modules/blog/blog.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/book/book.info" afterPath="$PROJECT_DIR$/modules/book/book.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/color/color.info" afterPath="$PROJECT_DIR$/modules/color/color.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment/comment.info" afterPath="$PROJECT_DIR$/modules/comment/comment.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contact/contact.info" afterPath="$PROJECT_DIR$/modules/contact/contact.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contact/contact.module" afterPath="$PROJECT_DIR$/modules/contact/contact.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contact/contact.test" afterPath="$PROJECT_DIR$/modules/contact/contact.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contextual/contextual.info" afterPath="$PROJECT_DIR$/modules/contextual/contextual.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/dashboard.info" afterPath="$PROJECT_DIR$/modules/dashboard/dashboard.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dblog/dblog.info" afterPath="$PROJECT_DIR$/modules/dblog/dblog.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/field.info" afterPath="$PROJECT_DIR$/modules/field/field.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/field_sql_storage/field_sql_storage.info" afterPath="$PROJECT_DIR$/modules/field/modules/field_sql_storage/field_sql_storage.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/list/list.info" afterPath="$PROJECT_DIR$/modules/field/modules/list/list.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/list/tests/list_test.info" afterPath="$PROJECT_DIR$/modules/field/modules/list/tests/list_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/number/number.info" afterPath="$PROJECT_DIR$/modules/field/modules/number/number.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/options/options.info" afterPath="$PROJECT_DIR$/modules/field/modules/options/options.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/text/text.info" afterPath="$PROJECT_DIR$/modules/field/modules/text/text.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/tests/field_test.info" afterPath="$PROJECT_DIR$/modules/field/tests/field_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/theme/field.tpl.php" afterPath="$PROJECT_DIR$/modules/field/theme/field.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field_ui/field_ui.info" afterPath="$PROJECT_DIR$/modules/field_ui/field_ui.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/file.info" afterPath="$PROJECT_DIR$/modules/file/file.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/file.module" afterPath="$PROJECT_DIR$/modules/file/file.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/tests/file_module_test.info" afterPath="$PROJECT_DIR$/modules/file/tests/file_module_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/filter/filter.info" afterPath="$PROJECT_DIR$/modules/filter/filter.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/forum/forum.info" afterPath="$PROJECT_DIR$/modules/forum/forum.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/help/help.info" afterPath="$PROJECT_DIR$/modules/help/help.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/image.info" afterPath="$PROJECT_DIR$/modules/image/image.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/tests/image_module_test.info" afterPath="$PROJECT_DIR$/modules/image/tests/image_module_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/locale.info" afterPath="$PROJECT_DIR$/modules/locale/locale.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/locale.test" afterPath="$PROJECT_DIR$/modules/locale/locale.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/tests/locale_test.info" afterPath="$PROJECT_DIR$/modules/locale/tests/locale_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/menu/menu.info" afterPath="$PROJECT_DIR$/modules/menu/menu.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/node.info" afterPath="$PROJECT_DIR$/modules/node/node.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/tests/node_access_test.info" afterPath="$PROJECT_DIR$/modules/node/tests/node_access_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/tests/node_test.info" afterPath="$PROJECT_DIR$/modules/node/tests/node_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/tests/node_test_exception.info" afterPath="$PROJECT_DIR$/modules/node/tests/node_test_exception.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/openid/openid.info" afterPath="$PROJECT_DIR$/modules/openid/openid.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/openid/tests/openid_test.info" afterPath="$PROJECT_DIR$/modules/openid/tests/openid_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/overlay/overlay.info" afterPath="$PROJECT_DIR$/modules/overlay/overlay.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/path/path.info" afterPath="$PROJECT_DIR$/modules/path/path.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/php/php.info" afterPath="$PROJECT_DIR$/modules/php/php.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/poll/poll.info" afterPath="$PROJECT_DIR$/modules/poll/poll.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/profile/profile.info" afterPath="$PROJECT_DIR$/modules/profile/profile.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rdf/rdf.info" afterPath="$PROJECT_DIR$/modules/rdf/rdf.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rdf/tests/rdf_test.info" afterPath="$PROJECT_DIR$/modules/rdf/tests/rdf_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/search.info" afterPath="$PROJECT_DIR$/modules/search/search.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/tests/search_embedded_form.info" afterPath="$PROJECT_DIR$/modules/search/tests/search_embedded_form.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/tests/search_extra_type.info" afterPath="$PROJECT_DIR$/modules/search/tests/search_extra_type.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/tests/search_node_tags.info" afterPath="$PROJECT_DIR$/modules/search/tests/search_node_tags.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/shortcut/shortcut.info" afterPath="$PROJECT_DIR$/modules/shortcut/shortcut.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/drupal_web_test_case.php" afterPath="$PROJECT_DIR$/modules/simpletest/drupal_web_test_case.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/simpletest.info" afterPath="$PROJECT_DIR$/modules/simpletest/simpletest.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/actions_loop_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/actions_loop_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/ajax_forms_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/ajax_forms_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/ajax_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/ajax_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/batch_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/batch_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/boot_test_1.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/boot_test_1.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/boot_test_2.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/boot_test_2.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/common.test" afterPath="$PROJECT_DIR$/modules/simpletest/tests/common.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/common_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/common_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/common_test_cron_helper.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/common_test_cron_helper.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/database_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/database_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/drupal_autoload_test/drupal_autoload_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/drupal_autoload_test/drupal_autoload_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/entity_cache_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/entity_cache_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/entity_cache_test_dependency.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/entity_cache_test_dependency.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/entity_crud_hook_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/entity_crud_hook_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/entity_query_access_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/entity_query_access_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/error_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/error_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/file_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/file_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/filter_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/filter_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/form_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/form_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/image_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/image_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/menu_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/menu_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/module_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/module_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/path_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/path_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/psr_0_test/psr_0_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/psr_0_test/psr_0_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/psr_4_test/psr_4_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/psr_4_test/psr_4_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/requirements1_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/requirements1_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/requirements2_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/requirements2_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/session_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/session_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/system_dependencies_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/system_dependencies_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_core_version_dependencies_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_core_version_dependencies_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_core_version_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_core_version_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_module_version_dependencies_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_module_version_dependencies_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_module_version_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_module_version_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/system_project_namespace_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/system_project_namespace_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/system_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/system_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/taxonomy_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/taxonomy_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/theme_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/theme_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/themes/test_basetheme/test_basetheme.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/themes/test_basetheme/test_basetheme.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/themes/test_subtheme/test_subtheme.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/themes/test_subtheme/test_subtheme.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/themes/test_theme/test_theme.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/themes/test_theme/test_theme.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/themes/test_theme_nyan_cat/test_theme_nyan_cat.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/themes/test_theme_nyan_cat/test_theme_nyan_cat.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/update_script_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/update_script_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/update_test_1.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/update_test_1.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/update_test_2.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/update_test_2.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/update_test_3.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/update_test_3.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/url_alter_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/url_alter_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/xmlrpc_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/xmlrpc_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statistics/statistics.info" afterPath="$PROJECT_DIR$/modules/statistics/statistics.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statistics/statistics.module" afterPath="$PROJECT_DIR$/modules/statistics/statistics.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/syslog/syslog.info" afterPath="$PROJECT_DIR$/modules/syslog/syslog.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.info" afterPath="$PROJECT_DIR$/modules/system/system.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.install" afterPath="$PROJECT_DIR$/modules/system/system.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/tests/cron_queue_test.info" afterPath="$PROJECT_DIR$/modules/system/tests/cron_queue_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/tests/system_cron_test.info" afterPath="$PROJECT_DIR$/modules/system/tests/system_cron_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/taxonomy/taxonomy.info" afterPath="$PROJECT_DIR$/modules/taxonomy/taxonomy.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/toolbar/toolbar.info" afterPath="$PROJECT_DIR$/modules/toolbar/toolbar.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/tracker/tracker.info" afterPath="$PROJECT_DIR$/modules/tracker/tracker.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/translation/tests/translation_test.info" afterPath="$PROJECT_DIR$/modules/translation/tests/translation_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/translation/translation.info" afterPath="$PROJECT_DIR$/modules/translation/translation.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/trigger/tests/trigger_test.info" afterPath="$PROJECT_DIR$/modules/trigger/tests/trigger_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/trigger/trigger.info" afterPath="$PROJECT_DIR$/modules/trigger/trigger.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/aaa_update_test.info" afterPath="$PROJECT_DIR$/modules/update/tests/aaa_update_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/bbb_update_test.info" afterPath="$PROJECT_DIR$/modules/update/tests/bbb_update_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/ccc_update_test.info" afterPath="$PROJECT_DIR$/modules/update/tests/ccc_update_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/themes/update_test_admintheme/update_test_admintheme.info" afterPath="$PROJECT_DIR$/modules/update/tests/themes/update_test_admintheme/update_test_admintheme.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/themes/update_test_basetheme/update_test_basetheme.info" afterPath="$PROJECT_DIR$/modules/update/tests/themes/update_test_basetheme/update_test_basetheme.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/themes/update_test_subtheme/update_test_subtheme.info" afterPath="$PROJECT_DIR$/modules/update/tests/themes/update_test_subtheme/update_test_subtheme.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/update_test.info" afterPath="$PROJECT_DIR$/modules/update/tests/update_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/update.info" afterPath="$PROJECT_DIR$/modules/update/update.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/tests/user_form_test.info" afterPath="$PROJECT_DIR$/modules/user/tests/user_form_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user.info" afterPath="$PROJECT_DIR$/modules/user/user.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user.module" afterPath="$PROJECT_DIR$/modules/user/user.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user.test" afterPath="$PROJECT_DIR$/modules/user/user.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/minimal/minimal.info" afterPath="$PROJECT_DIR$/profiles/minimal/minimal.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/standard/standard.info" afterPath="$PROJECT_DIR$/profiles/standard/standard.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.info" afterPath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.info" afterPath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/testing/testing.info" afterPath="$PROJECT_DIR$/profiles/testing/testing.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/colorbox/colorbox.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/colorbox/colorbox.admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/colorbox/colorbox.info" afterPath="$PROJECT_DIR$/sites/all/modules/colorbox/colorbox.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/colorbox/colorbox.module" afterPath="$PROJECT_DIR$/sites/all/modules/colorbox/colorbox.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/colorbox/colorbox.theme.inc" afterPath="$PROJECT_DIR$/sites/all/modules/colorbox/colorbox.theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/colorbox/drush/colorbox.drush.inc" afterPath="$PROJECT_DIR$/sites/all/modules/colorbox/drush/colorbox.drush.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/colorbox/js/colorbox.js" afterPath="$PROJECT_DIR$/sites/all/modules/colorbox/js/colorbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/colorbox/js/colorbox_admin_settings.js" afterPath="$PROJECT_DIR$/sites/all/modules/colorbox/js/colorbox_admin_settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/colorbox/js/colorbox_inline.js" afterPath="$PROJECT_DIR$/sites/all/modules/colorbox/js/colorbox_inline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/colorbox/js/colorbox_load.js" afterPath="$PROJECT_DIR$/sites/all/modules/colorbox/js/colorbox_load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/colorbox/styles/default/colorbox_style.js" afterPath="$PROJECT_DIR$/sites/all/modules/colorbox/styles/default/colorbox_style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/colorbox/styles/plain/colorbox_style.js" afterPath="$PROJECT_DIR$/sites/all/modules/colorbox/styles/plain/colorbox_style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/colorbox/styles/stockholmsyndrome/colorbox_style.js" afterPath="$PROJECT_DIR$/sites/all/modules/colorbox/styles/stockholmsyndrome/colorbox_style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/colorbox/views/colorbox.views.inc" afterPath="$PROJECT_DIR$/sites/all/modules/colorbox/views/colorbox.views.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/colorbox/views/colorbox_handler_field_colorbox.inc" afterPath="$PROJECT_DIR$/sites/all/modules/colorbox/views/colorbox_handler_field_colorbox.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.field.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.field.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.install" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.migrate.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.migrate.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.module" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date.theme" afterPath="$PROJECT_DIR$/sites/all/modules/date/date.theme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_all_day/date_all_day.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_all_day/date_all_day.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api.module" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api_elements.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/date_api_elements.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_api/theme/theme.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_api/theme/theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_context/date_context.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_context/date_context.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_elements.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_elements.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_migrate/date_migrate_example/date_migrate_example.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_popup/date_popup.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_popup/date_popup.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_popup/date_popup.js" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_popup/date_popup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_popup/date_popup.module" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_popup/date_popup.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/date_repeat.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/date_repeat.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/tests/date_repeat_form.test" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat/tests/date_repeat_form.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_repeat_field/date_repeat_field.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_repeat_field/date_repeat_field.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_tools/date_tools.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_tools/date_tools.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_tools/tests/date_tools.test" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_tools/tests/date_tools.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/date_views.info" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/date_views.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_filter_handler.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_filter_handler.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_plugin_pager.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/includes/date_views_plugin_pager.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/date_views/theme/theme.inc" afterPath="$PROJECT_DIR$/sites/all/modules/date/date_views/theme/theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/tests/date_api.test" afterPath="$PROJECT_DIR$/sites/all/modules/date/tests/date_api.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/tests/date_field.test" afterPath="$PROJECT_DIR$/sites/all/modules/date/tests/date_field.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/tests/date_migrate.test" afterPath="$PROJECT_DIR$/sites/all/modules/date/tests/date_migrate.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/date/tests/date_timezone.test" afterPath="$PROJECT_DIR$/sites/all/modules/date/tests/date_timezone.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/INSTALL.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/INSTALL.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/LICENSE.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.api.php" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.install" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.js" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.pages.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.pages.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.test" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.variable.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n.variable.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/i18n_block.i18n.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/i18n_block.i18n.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/i18n_block.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/i18n_block.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/i18n_block.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/i18n_block.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/i18n_block.install" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/i18n_block.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/i18n_block.js" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/i18n_block.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/i18n_block.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/i18n_block.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/i18n_block.test" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_block/i18n_block.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_contact/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_contact/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_contact/i18n_contact.i18n.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_contact/i18n_contact.i18n.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_contact/i18n_contact.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_contact/i18n_contact.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_contact/i18n_contact.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_contact/i18n_contact.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.api.php" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.i18n.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.i18n.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.install" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.pages.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.pages.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.test" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_field/i18n_field.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_forum/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_forum/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_forum/i18n_forum.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_forum/i18n_forum.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_forum/i18n_forum.install" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_forum/i18n_forum.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_forum/i18n_forum.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_forum/i18n_forum.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_forum/i18n_forum.test" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_forum/i18n_forum.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/i18n_menu.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/i18n_menu.admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/i18n_menu.i18n.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/i18n_menu.i18n.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/i18n_menu.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/i18n_menu.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/i18n_menu.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/i18n_menu.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/i18n_menu.install" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/i18n_menu.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/i18n_menu.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/i18n_menu.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/i18n_menu.test" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_menu/i18n_menu.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.features.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.features.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.i18n.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.i18n.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.install" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.js" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.pages.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.pages.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.test" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.tokens.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.tokens.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.variable.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_node/i18n_node.variable.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_object.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_object.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_path/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_path/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_path/i18n_path.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_path/i18n_path.admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_path/i18n_path.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_path/i18n_path.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_path/i18n_path.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_path/i18n_path.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_path/i18n_path.install" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_path/i18n_path.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_path/i18n_path.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_path/i18n_path.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_path/i18n_path.test" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_path/i18n_path.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_redirect/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_redirect/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_redirect/i18n_redirect.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_redirect/i18n_redirect.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_redirect/i18n_redirect.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_redirect/i18n_redirect.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_select/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_select/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_select/i18n_select.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_select/i18n_select.admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_select/i18n_select.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_select/i18n_select.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_select/i18n_select.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_select/i18n_select.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_select/i18n_select.test" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_select/i18n_select.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_select/i18n_select.variable.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_select/i18n_select.variable.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.api.php" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.i18n.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.i18n.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.install" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.pages.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.pages.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.test" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.variable.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_string/i18n_string.variable.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.api.php" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.features.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.features.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.install" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.modules.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.modules.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.node.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.node.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.test" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.variable.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_sync/i18n_sync.variable.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.i18n.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.i18n.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.install" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.pages.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.pages.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.test" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.tokens.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.tokens.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.views.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_taxonomy/i18n_taxonomy.views.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/i18n_translation.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/i18n_translation.admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/i18n_translation.api.php" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/i18n_translation.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/i18n_translation.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/i18n_translation.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/i18n_translation.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/i18n_translation.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/i18n_translation.install" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/i18n_translation.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/i18n_translation.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/i18n_translation.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/i18n_translation.pages.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_translation/i18n_translation.pages.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_user/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_user/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_user/i18n_user.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_user/i18n_user.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_user/i18n_user.install" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_user/i18n_user.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_user/i18n_user.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_user/i18n_user.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_variable/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_variable/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_variable/i18n_variable.class.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_variable/i18n_variable.class.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_variable/i18n_variable.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_variable/i18n_variable.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_variable/i18n_variable.install" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_variable/i18n_variable.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_variable/i18n_variable.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_variable/i18n_variable.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_variable/i18n_variable.test" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_variable/i18n_variable.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_variable/i18n_variable.variable.inc" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/i18n_variable/i18n_variable.variable.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/tests/i18n_test.info" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/tests/i18n_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/i18n/tests/i18n_test.module" afterPath="$PROJECT_DIR$/sites/all/modules/i18n/tests/i18n_test.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/module_filter/CHANGELOG.txt" afterPath="$PROJECT_DIR$/sites/all/modules/module_filter/CHANGELOG.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/module_filter/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/module_filter/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/module_filter/css/module_filter.css" afterPath="$PROJECT_DIR$/sites/all/modules/module_filter/css/module_filter.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/module_filter/css/module_filter_tab.css" afterPath="$PROJECT_DIR$/sites/all/modules/module_filter/css/module_filter_tab.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/module_filter/css/modules.css" afterPath="$PROJECT_DIR$/sites/all/modules/module_filter/css/modules.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/module_filter/js/module_filter.js" afterPath="$PROJECT_DIR$/sites/all/modules/module_filter/js/module_filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/module_filter/js/module_filter_tab.js" afterPath="$PROJECT_DIR$/sites/all/modules/module_filter/js/module_filter_tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/module_filter/js/modules.js" afterPath="$PROJECT_DIR$/sites/all/modules/module_filter/js/modules.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/module_filter/module_filter.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/module_filter/module_filter.admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/module_filter/module_filter.info" afterPath="$PROJECT_DIR$/sites/all/modules/module_filter/module_filter.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/module_filter/module_filter.install" afterPath="$PROJECT_DIR$/sites/all/modules/module_filter/module_filter.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/module_filter/module_filter.module" afterPath="$PROJECT_DIR$/sites/all/modules/module_filter/module_filter.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/module_filter/module_filter.pages.inc" afterPath="$PROJECT_DIR$/sites/all/modules/module_filter/module_filter.pages.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/module_filter/module_filter.theme.inc" afterPath="$PROJECT_DIR$/sites/all/modules/module_filter/module_filter.theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/private_files_download_permission/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/private_files_download_permission/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/private_files_download_permission/private_files_download_permission.info" afterPath="$PROJECT_DIR$/sites/all/modules/private_files_download_permission/private_files_download_permission.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/private_files_download_permission/private_files_download_permission.install" afterPath="$PROJECT_DIR$/sites/all/modules/private_files_download_permission/private_files_download_permission.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/private_files_download_permission/private_files_download_permission.module" afterPath="$PROJECT_DIR$/sites/all/modules/private_files_download_permission/private_files_download_permission.module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/css/views-admin-rtl.css" afterPath="$PROJECT_DIR$/sites/all/modules/views/css/views-admin-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/handlers/views_handler_area_result.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/handlers/views_handler_area_result.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/handlers/views_handler_filter.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/handlers/views_handler_filter.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/help/api-handler-area.html" afterPath="$PROJECT_DIR$/sites/all/modules/views/help/api-handler-area.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/includes/admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/includes/admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/includes/ajax.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/includes/ajax.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/includes/handlers.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/includes/handlers.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/includes/view.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/includes/view.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/js/ajax_view.js" afterPath="$PROJECT_DIR$/sites/all/modules/views/js/ajax_view.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/js/base.js" afterPath="$PROJECT_DIR$/sites/all/modules/views/js/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/comment.views.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/comment.views.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/node.views.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/node.views.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/node/views_handler_argument_dates_various.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/node/views_handler_argument_dates_various.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/node/views_plugin_row_node_view.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/node/views_plugin_row_node_view.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/search/views_handler_argument_search.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/search/views_handler_argument_search.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/search/views_handler_filter_search.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/search/views_handler_filter_search.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy.views.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy.views.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy/views_handler_argument_term_node_tid.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy/views_handler_argument_term_node_tid.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy/views_handler_field_taxonomy.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy/views_handler_field_taxonomy.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy/views_handler_field_term_node_tid.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy/views_handler_field_term_node_tid.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy/views_handler_filter_term_node_tid.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy/views_handler_filter_term_node_tid.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy/views_handler_relationship_node_term_data.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy/views_handler_relationship_node_term_data.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/user/views_handler_field_user_name.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/user/views_handler_field_user_name.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/user/views_plugin_row_user_view.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/user/views_plugin_row_user_view.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/views.views.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/views.views.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_display.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_display.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_display_block.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_display_block.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_display_page.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_display_page.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_query.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_query.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_query_default.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_query_default.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_style.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_style.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_style_mapping.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_style_mapping.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/tests/styles/views_plugin_style.test" afterPath="$PROJECT_DIR$/sites/all/modules/views/tests/styles/views_plugin_style.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/tests/views_exposed_form.test" afterPath="$PROJECT_DIR$/sites/all/modules/views/tests/views_exposed_form.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/tests/views_test.info" afterPath="$PROJECT_DIR$/sites/all/modules/views/tests/views_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/tests/views_test.views_default.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/tests/views_test.views_default.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/theme/theme.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/theme/theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/views.api.php" afterPath="$PROJECT_DIR$/sites/all/modules/views/views.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/views.info" afterPath="$PROJECT_DIR$/sites/all/modules/views/views.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/views.install" afterPath="$PROJECT_DIR$/sites/all/modules/views/views.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/views.module" afterPath="$PROJECT_DIR$/sites/all/modules/views/views.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/views_ui.info" afterPath="$PROJECT_DIR$/sites/all/modules/views/views_ui.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/views_ui.module" afterPath="$PROJECT_DIR$/sites/all/modules/views/views_ui.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views_slideshow_cycle.theme.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views_slideshow_cycle.theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.drush.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.drush.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.info" afterPath="$PROJECT_DIR$/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views_slideshow/contrib/views_slideshow_simple_pager/views_slideshow_simple_pager.info" afterPath="$PROJECT_DIR$/sites/all/modules/views_slideshow/contrib/views_slideshow_simple_pager/views_slideshow_simple_pager.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views_slideshow/theme/views_slideshow.theme.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views_slideshow/theme/views_slideshow.theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views_slideshow/views_slideshow.developer-documentation.php" afterPath="$PROJECT_DIR$/sites/all/modules/views_slideshow/views_slideshow.developer-documentation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views_slideshow/views_slideshow.info" afterPath="$PROJECT_DIR$/sites/all/modules/views_slideshow/views_slideshow.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/font-face.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/font-face.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/template.php" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/templates/search-result.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/templates/search-result.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/templates/search-results.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/templates/search-results.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/bartik.info" afterPath="$PROJECT_DIR$/themes/bartik/bartik.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/garland/garland.info" afterPath="$PROJECT_DIR$/themes/garland/garland.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/seven/seven.info" afterPath="$PROJECT_DIR$/themes/seven/seven.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/stark/stark.info" afterPath="$PROJECT_DIR$/themes/stark/stark.info" />
     </list>
     <ignored path="pss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -448,8 +41,8 @@
       <file leaf-file-name="news-by-type.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="375" column="22" lean-forward="false" selection-start-line="375" selection-start-column="22" selection-end-line="375" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="372" column="45" lean-forward="false" selection-start-line="372" selection-start-column="45" selection-end-line="372" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -458,15 +51,55 @@
       <file leaf-file-name="pss_extras.module" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="259" column="30" lean-forward="false" selection-start-line="259" selection-start-column="30" selection-end-line="259" selection-end-column="30" />
+            <state relative-caret-position="3234">
+              <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
               <folding>
-                <marker date="1497982150648" expanded="true" signature="15177:15315" ph="SELECT DISTI... field_data_field_magazine_number" />
-                <marker date="1497982150648" expanded="true" signature="15464:15638" ph="SELECT entit... field_data_field_magazine_number" />
-                <marker date="1497982150648" expanded="true" signature="16033:16110" ph="SELECT MAX(f... field_data_field_magazine_number" />
-                <marker date="1497982150648" expanded="true" signature="16468:16559" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-                <marker date="1497982150648" expanded="true" signature="17036:17092" ph="SELECT COUNT... taxonomy_index" />
+                <marker date="1497990327024" expanded="true" signature="17282:17420" ph="SELECT DISTI... field_data_field_magazine_number" />
+                <marker date="1497990327024" expanded="true" signature="17569:17743" ph="SELECT entit... field_data_field_magazine_number" />
+                <marker date="1497990327024" expanded="true" signature="18138:18215" ph="SELECT MAX(f... field_data_field_magazine_number" />
+                <marker date="1497990327024" expanded="true" signature="18573:18664" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+                <marker date="1497990327024" expanded="true" signature="19141:19197" ph="SELECT COUNT... taxonomy_index" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="node--article--teaser.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article--teaser.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="19" column="78" lean-forward="false" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="node.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/node.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="node--article.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/page.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1995">
+              <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -474,18 +107,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="2182" column="1" lean-forward="false" selection-start-line="2182" selection-start-column="1" selection-end-line="2182" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="27" />
+            <state relative-caret-position="196">
+              <caret line="2195" column="30" lean-forward="false" selection-start-line="2195" selection-start-column="0" selection-end-line="2195" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -494,8 +117,18 @@
       <file leaf-file-name="search-results.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/search-results.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            <state relative-caret-position="441">
+              <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="262" column="16" lean-forward="false" selection-start-line="262" selection-start-column="16" selection-end-line="262" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -504,48 +137,8 @@
       <file leaf-file-name="search-result.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/search-result.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="66" column="40" lean-forward="false" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news-type-block-single.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/theme/news-type-block-single.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="96" lean-forward="false" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="96" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news-type-block-row.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/theme/news-type-block-row.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fullwidth.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="201" column="49" lean-forward="false" selection-start-line="201" selection-start-column="49" selection-end-line="201" selection-end-column="49" />
+            <state relative-caret-position="2331">
+              <caret line="111" column="6" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="111" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -563,10 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#main-wrapper.full-width.magazine-subscribe-form #auth_box .magazine-subscribe-desc</find>
-      <find>#block-pss-extras-top-newsletter-subscribe-block</find>
-      <find>#block-pss-extras-top-newsletter-subscribe-block .form-item-mail input[type='text']</find>
-      <find>#block-pss-extras-top-newsletter-subscribe-block .form-item-mail</find>
       <find>#block-pss-extras-top-newsletter-subscribe-block .pss-title</find>
       <find>#article_newsletter .form-item-mail input[type='text']</find>
       <find>#site-logo-wrapper .section-logo-wrapper.title-wrapper .title</find>
@@ -593,6 +182,10 @@
       <find>sea</find>
       <find>search</find>
       <find>odd</find>
+      <find>preprocess_taxonomy_term</find>
+      <find>term-listing-heading</find>
+      <find>preprocess_node</find>
+      <find>.search-results .search-result</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -623,7 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--login.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/templates/page--user--change.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--pretplata.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/css/betterlogin.css" />
@@ -669,10 +261,11 @@
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
         <option value="$PROJECT_DIR$/sites/default/settings.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/search-results.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/template.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/search-result.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/template.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article--teaser.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" />
       </list>
     </option>
@@ -706,10 +299,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="151" />
-    <option name="width" value="1616" />
-    <option name="height" value="916" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -995,6 +588,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -1016,9 +623,9 @@
       <recent name="D:\workspace\pss\sites\all\modules\pss_extras\modules" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\pss\sites\all\themes\theme756\templates" />
       <recent name="D:\workspace\pss\sites\all\modules" />
       <recent name="D:\workspace\pss\sites\all\themes\theme756\fonts" />
-      <recent name="D:\workspace\pss\sites\all\themes\theme756\templates" />
       <recent name="D:\workspace\pss\sites\all\modules\pss_extras\scripts" />
       <recent name="D:\workspace\pss\sites\all\themes\theme756\js" />
     </key>
@@ -1157,12 +764,15 @@
       <workItem from="1497771365486" duration="11178000" />
       <workItem from="1497883542026" duration="9716000" />
       <workItem from="1497974831466" duration="2025000" />
-      <workItem from="1497977454892" duration="6804000" />
+      <workItem from="1497977454892" duration="9094000" />
+      <workItem from="1497987674755" duration="1049000" />
+      <workItem from="1497988800967" duration="1809000" />
+      <workItem from="1497990691836" duration="932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229879000" />
+    <option name="totallyTimeSpent" value="235959000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1174,19 +784,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="151" width="1616" height="916" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23200513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1988273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46306068" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.844098" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57387865" sideWeight="0.4974293" order="5" side_tool="false" content_ui="tabs" x="1920" y="181" width="1600" height="878" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4064588" sideWeight="0.4974293" order="5" side_tool="false" content_ui="tabs" x="1920" y="181" width="1600" height="878" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1195,7 +805,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5883905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5879733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1234,6 +844,32 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -1259,7 +895,7 @@
           <option name="timeStamp" value="209" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="286" />
+      <option name="time" value="309" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
@@ -1273,48 +909,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss.dotdotdot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="97" lean-forward="false" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/theme756.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/node.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="89" column="13" lean-forward="false" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss_search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/fullwidth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/jquery.loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/responsive.tablet.portrait.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1340,7 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="68" column="61" lean-forward="false" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1362,13 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/common.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="2153" column="9" lean-forward="false" selection-start-line="2153" selection-start-column="9" selection-end-line="2153" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1437,9 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="124" column="37" lean-forward="true" selection-start-line="124" selection-start-column="37" selection-end-line="124" selection-end-column="37" />
-          <folding>
-            <marker date="1497817766438" expanded="true" signature="2745:2979" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1496,23 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1554">
-          <caret line="74" column="47" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1974">
-          <caret line="160" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1520,7 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
           <caret line="44" column="200" lean-forward="false" selection-start-line="44" selection-start-column="200" selection-end-line="44" selection-end-column="200" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1528,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="87" column="66" lean-forward="false" selection-start-line="87" selection-start-column="66" selection-end-line="87" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1536,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1197">
           <caret line="57" column="23" lean-forward="false" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1544,22 +1107,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/ckeditor_uploadimage/js/plugins/drupaluploadimage/plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ckeditor_uploadimage/js/plugins/drupaluploadimage/plugin.js" />
     <entry file="file://$PROJECT_DIR$/sites/all/modules/ckeditor/ckfinder/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1567,7 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1575,53 +1129,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="247" column="34" lean-forward="false" selection-start-line="247" selection-start-column="34" selection-end-line="247" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
+        <state relative-caret-position="4221">
           <caret line="201" column="49" lean-forward="false" selection-start-line="201" selection-start-column="49" selection-end-line="201" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="259" column="30" lean-forward="false" selection-start-line="259" selection-start-column="30" selection-end-line="259" selection-end-column="30" />
-          <folding>
-            <marker date="1497982150648" expanded="true" signature="15177:15315" ph="SELECT DISTI... field_data_field_magazine_number" />
-            <marker date="1497982150648" expanded="true" signature="15464:15638" ph="SELECT entit... field_data_field_magazine_number" />
-            <marker date="1497982150648" expanded="true" signature="16033:16110" ph="SELECT MAX(f... field_data_field_magazine_number" />
-            <marker date="1497982150648" expanded="true" signature="16468:16559" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-            <marker date="1497982150648" expanded="true" signature="17036:17092" ph="SELECT COUNT... taxonomy_index" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/search-results.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/theme/news-type-block-row.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1629,30 +1150,127 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="96" lean-forward="false" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/common.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="6150" column="0" lean-forward="false" selection-start-line="6150" selection-start-column="0" selection-end-line="6150" selection-end-column="0" />
+          <folding>
+            <marker date="1497980953812" expanded="true" signature="43639:43744" ph="SELECT COUNT... flood" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/taxonomy/taxonomy-term.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/taxonomy/taxonomy.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="821" column="36" lean-forward="false" selection-start-line="821" selection-start-column="9" selection-end-line="821" selection-end-column="36" />
+          <folding>
+            <marker date="1497980977077" expanded="true" signature="19756:19891" ph="SELECT t.tid... taxonomy_term_data" />
+            <marker date="1497980977077" expanded="true" signature="37849:37906" ph="SELECT name,... taxonomy_vocabulary" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/taxonomy/taxonomy.pages.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="51" column="26" lean-forward="false" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/taxonomy-term.tpl.php" />
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/search-results.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/search-result.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="66" column="40" lean-forward="false" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        <state relative-caret-position="2331">
+          <caret line="111" column="6" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="111" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/node.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3234">
+          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+          <folding>
+            <marker date="1497990327024" expanded="true" signature="17282:17420" ph="SELECT DISTI... field_data_field_magazine_number" />
+            <marker date="1497990327024" expanded="true" signature="17569:17743" ph="SELECT entit... field_data_field_magazine_number" />
+            <marker date="1497990327024" expanded="true" signature="18138:18215" ph="SELECT MAX(f... field_data_field_magazine_number" />
+            <marker date="1497990327024" expanded="true" signature="18573:18664" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+            <marker date="1497990327024" expanded="true" signature="19141:19197" ph="SELECT COUNT... taxonomy_index" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="262" column="16" lean-forward="false" selection-start-line="262" selection-start-column="16" selection-end-line="262" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="2182" column="1" lean-forward="false" selection-start-line="2182" selection-start-column="1" selection-end-line="2182" selection-end-column="1" />
+        <state relative-caret-position="196">
+          <caret line="2195" column="30" lean-forward="false" selection-start-line="2195" selection-start-column="0" selection-end-line="2195" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article--teaser.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="19" column="78" lean-forward="false" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="375" column="22" lean-forward="false" selection-start-line="375" selection-start-column="22" selection-end-line="375" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="372" column="45" lean-forward="false" selection-start-line="372" selection-start-column="45" selection-end-line="372" selection-end-column="45" />
           <folding />
         </state>
       </provider>

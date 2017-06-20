@@ -38,41 +38,11 @@ function theme756_preprocess_search_block_form(&$vars) {
  * @param type $vars
  */
 function theme756_preprocess_search_result(&$vars) {
-    $lang_lat = 'lat';
-    $lang_none = LANGUAGE_NONE;
     $node = $vars['result']['node'];
     $vars['should_print'] = false;
     if ($node->nid && $node->type == 'article') {
         $vars['should_print'] = true;
-        if (isset($node->field_image[$lang_lat])) {
-            $vars['article_image'] = file_create_url($node->field_image[$lang_lat][0]['uri']);
-        } elseif (isset($node->field_image[$lang_none])) {
-            $vars['article_image'] = file_create_url($node->field_image[$lang_none][0]['uri']);
-        }
-        $article_type = null;
-        if (isset($node->field_article_type[$lang_lat])) {
-            $article_field_article_type = $node->field_article_type[$lang_lat][0]['tid'];
-            $article_type = taxonomy_term_load($article_field_article_type);
-        } elseif (isset($node->field_article_type[$lang_none])) {
-            $article_field_article_type = $node->field_article_type[$lang_none][0]['tid'];
-            $article_type = taxonomy_term_load($article_field_article_type);
-        }
-        if (isset($article_type, $article_type->name)) {
-            $vars['article_field_article_type'] = $article_type->name;
-        }
-        $magazine_number = null;
-        if (isset($node->field_magazine_number_reference[$lang_lat])) {
-            $field_magazine_number_reference = $node->field_magazine_number_reference[$lang_lat][0]['target_id'];
-            $magazine_number_reference = node_load($field_magazine_number_reference);
-            $magazine_number = $magazine_number_reference->field_magazine_number[LANGUAGE_NONE][0]['value'];
-        } elseif (isset($node->field_magazine_number_reference[$lang_none])) {
-            $field_magazine_number_reference = $node->field_magazine_number_reference[$lang_none][0]['target_id'];
-            $magazine_number_reference = node_load($field_magazine_number_reference);
-            $magazine_number = $magazine_number_reference->field_magazine_number[LANGUAGE_NONE][0]['value'];
-        }
-        if ($magazine_number) {
-            $vars['article_magazine_number'] = t('number') . ' ' . $magazine_number . '.';
-        }
+        pss_prepare_vars_for_search($node, $vars);
     }
 }
 
@@ -288,6 +258,44 @@ function theme756_preprocess_node(&$vars) {
 
     if ($vars['view_mode'] == 'full' && node_is_page($vars['node'])) {
         $vars['classes_array'][] = 'node-full';
+    }
+    if($vars['type'] == 'article' && $vars['view_mode'] == 'teaser') {
+        $vars['theme_hook_suggestions'][] = 'node__' . $vars['node']->type . '__teaser';
+        pss_prepare_vars_for_search($vars['node'], $vars);
+    }
+}
+
+function pss_prepare_vars_for_search($node, &$vars) {
+    $lang_lat = 'lat';
+    $lang_none = LANGUAGE_NONE;
+    if (isset($node->field_image[$lang_lat])) {
+        $vars['article_image'] = file_create_url($node->field_image[$lang_lat][0]['uri']);
+    } elseif (isset($node->field_image[$lang_none])) {
+        $vars['article_image'] = file_create_url($node->field_image[$lang_none][0]['uri']);
+    }
+    $article_type = null;
+    if (isset($node->field_article_type[$lang_lat])) {
+        $article_field_article_type = $node->field_article_type[$lang_lat][0]['tid'];
+        $article_type = taxonomy_term_load($article_field_article_type);
+    } elseif (isset($node->field_article_type[$lang_none])) {
+        $article_field_article_type = $node->field_article_type[$lang_none][0]['tid'];
+        $article_type = taxonomy_term_load($article_field_article_type);
+    }
+    if (isset($article_type, $article_type->name)) {
+        $vars['article_field_article_type'] = $article_type->name;
+    }
+    $magazine_number = null;
+    if (isset($node->field_magazine_number_reference[$lang_lat])) {
+        $field_magazine_number_reference = $node->field_magazine_number_reference[$lang_lat][0]['target_id'];
+        $magazine_number_reference = node_load($field_magazine_number_reference);
+        $magazine_number = $magazine_number_reference->field_magazine_number[LANGUAGE_NONE][0]['value'];
+    } elseif (isset($node->field_magazine_number_reference[$lang_none])) {
+        $field_magazine_number_reference = $node->field_magazine_number_reference[$lang_none][0]['target_id'];
+        $magazine_number_reference = node_load($field_magazine_number_reference);
+        $magazine_number = $magazine_number_reference->field_magazine_number[LANGUAGE_NONE][0]['value'];
+    }
+    if ($magazine_number) {
+        $vars['article_magazine_number'] = t('number') . ' ' . $magazine_number . '.';
     }
 }
 

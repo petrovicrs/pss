@@ -369,26 +369,32 @@
 /***************************************************************************************/
 /******************************* search result *****************************************/
 /***************************************************************************************/
-.search-results .search-result {
+.search-results .search-result,
+.page-taxonomy-term .node-article.node-teaser{
     display: inline-block;
     background: none;
     vertical-align: top;
-    margin-right: 20px;
+    margin-right: 10px;
 }
-.search-results .view.news-by-type-block-view .view-content {
+.search-results .view.news-by-type-block-view .view-content ,
+.page-taxonomy-term .view.news-by-type-block-view .view-content{
     float: none;
 }
-.search-results .view.news-by-type-block-view .view-content .views-row{
+.search-results .view.news-by-type-block-view .view-content .views-row,
+.page-taxonomy-term .view.news-by-type-block-view .view-content .views-row{
     vertical-align: top;
     width: 310px;
 }
-.search-results .view.news-by-type-block-view .view-content .views-row .field-content .news-content .title-and-body{
+.search-results .view.news-by-type-block-view .view-content .views-row .field-content .news-content .title-and-body,
+.page-taxonomy-term .view.news-by-type-block-view .view-content .views-row .field-content .news-content .title-and-body{
     height: 130px;
 }
-.search-results .view.news-by-type-block-view .view-content .views-row .field-content .news-content .title-and-body .news-body{
+.search-results .view.news-by-type-block-view .view-content .views-row .field-content .news-content .title-and-body .news-body,
+.page-taxonomy-term .view.news-by-type-block-view .view-content .views-row .field-content .news-content .title-and-body .news-body{
     height: 80px;
 }
-.search-results .view.news-by-type-block-view .view-content .views-row .field-content .news-image .image img {
+.search-results .view.news-by-type-block-view .view-content .views-row .field-content .news-image .image img,
+.page-taxonomy-term .view.news-by-type-block-view .view-content .views-row .field-content .news-image .image img{
     width: auto;
     max-width: 100%;
     height: 230px;
