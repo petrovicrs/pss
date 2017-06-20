@@ -63,19 +63,50 @@
  *
  * @ingroup themeable
  */
+$classes_array[] = 'search-result-' . $id;
+$odd_even = $id % 2 == 0 ? 'even' : 'odd';
+$classes_array[] = 'search-result-' . $odd_even;
+$classes_new = implode(' ', $classes_array);
 ?>
-<li class="<?php print $classes; ?>"<?php print $attributes; ?>>
-  <?php print render($title_prefix); ?>
-  <h3 class="title"<?php print $title_attributes; ?>>
-    <a href="<?php print $url; ?>"><?php print $title; ?></a>
-  </h3>
-  <?php print render($title_suffix); ?>
-  <div class="search-snippet-info">
-    <?php if ($snippet): ?>
-      <p class="search-snippet"<?php print $content_attributes; ?>><?php print $snippet; ?></p>
-    <?php endif; ?>
-  </div>
-  <div class="search-read-more">
-    <a href="<?php print $url; ?>"><?php print t('Read more'); ?></a>
-  </div>
-</li>
+<div class="<?php print $classes_new; ?>"<?php print $attributes; ?>>
+    <?php if ($should_print) { ?>
+    <div class="view news-by-type-block-view">
+        <div class="view-content">
+            <div class="views-row">
+                <div class="views-field views-field-nothing-1">
+                  <div class="field-content">
+                     <div>
+                        <div class="news-image">
+                           <div class="image">
+                               <a href="<?php print $url; ?>">
+                                   <img src="<?php print $article_image;?>">
+                               </a>
+                           </div>
+                           <div class="term"><?php print $article_field_article_type;?></div>
+                        </div>
+                        <div class="news-content">
+                           <div class="title-and-body">
+                              <div class="news-title">
+                                  <a href="<?php print $url; ?>">
+                                      <?php print $title; ?>
+                                  </a>
+                              </div>
+                              <div class="news-body">
+                                  <?php print $snippet; ?>
+                              </div>
+                           </div>
+                           <div class="news-read-more">
+                              <span class="read-more">
+                              <a href="<?php print $url; ?>"><?php print t('Read more'); ?></a>
+                              </span>
+                              <span class="number"><?php print $article_magazine_number; ?></span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php } ?>
+</div>

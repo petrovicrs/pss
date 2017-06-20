@@ -366,3 +366,30 @@
     color: #575757;
     text-transform: lowercase;
 }
+/***************************************************************************************/
+/******************************* search result *****************************************/
+/***************************************************************************************/
+.search-results .search-result {
+    display: inline-block;
+    background: none;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.search-results .view.news-by-type-block-view .view-content {
+    float: none;
+}
+.search-results .view.news-by-type-block-view .view-content .views-row{
+    vertical-align: top;
+    width: 310px;
+}
+.search-results .view.news-by-type-block-view .view-content .views-row .field-content .news-content .title-and-body{
+    height: 130px;
+}
+.search-results .view.news-by-type-block-view .view-content .views-row .field-content .news-content .title-and-body .news-body{
+    height: 80px;
+}
+.search-results .view.news-by-type-block-view .view-content .views-row .field-content .news-image .image img {
+    width: auto;
+    max-width: 100%;
+    height: 230px;
+}

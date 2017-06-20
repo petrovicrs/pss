@@ -24,10 +24,10 @@
  */
 ?>
 <?php if ($search_results): ?>
-  <h2><?php print t('Search results');?></h2>
-  <ol class="search-results <?php print $module; ?>-results">
+  <h2><?php /*print t('Search results');*/?></h2>
+  <div class="search-results <?php print $module; ?>-results">
     <?php print $search_results; ?>
-  </ol>
+  </div>
   <?php print $pager; ?>
 <?php else : ?>
   <h2><?php print t('Your search yielded no results');?></h2>
