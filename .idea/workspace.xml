@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/template.php" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/templates/search-results.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/templates/search-results.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -766,12 +764,12 @@
       <workItem from="1497977454892" duration="9094000" />
       <workItem from="1497987674755" duration="1049000" />
       <workItem from="1497988800967" duration="1809000" />
-      <workItem from="1497990691836" duration="3426000" />
+      <workItem from="1497990691836" duration="3697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238453000" />
+    <option name="totallyTimeSpent" value="238724000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
