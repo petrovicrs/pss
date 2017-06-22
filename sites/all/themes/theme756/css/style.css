@@ -3072,7 +3072,50 @@ article.comment h3 a:hover {
 .node article.comment footer ul li a:hover {
     color: #ec1f27;
 }
+/*** accordion **/
+#accordion .ui-state-active,
+#accordion .ui-widget-content .ui-state-active,
+#accordion .ui-widget-header .ui-state-active {
+    border: 0;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    border-radius: 0;
+}
+#accordion .ui-state-default,
+#accordion .ui-widget-content .ui-state-default,
+#accordion .ui-widget-header .ui-state-default {
+    border: 0;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    border-radius: 0;
+}
+#accordion.ui-accordion .ui-accordion-icons {
+    padding-left: 0.5em;
+    padding-right: 15px;
+}
+#accordion.ui-accordion .ui-accordion-header .ui-accordion-header-icon{
+    left: auto;
+    right: .5em;
+    top: 15px;
+}
+#accordion .ui-state-default .ui-icon {
+    background: url(/sites/all/themes/theme756/images/accordion-closed.png) no-repeat center center;
+}
+#accordion .ui-state-default.ui-state-active .ui-icon{
+    background: url(/sites/all/themes/theme756/images/accordion-open.png) no-repeat center center;
 
+}
+#accordion .ui-icon {
+    width: 25px;
+    height: 25px;
+}
+#accordion.ui-accordion .ui-accordion-content {
+    padding: 25px 2.2em 5px .5em;
+    border: 0;
+    background: transparent;
+    color: #222;
+}
+/*** accordion end ***/
 #edit-comment-body-und-0-format {
     border: none;
     border-top: 7px solid #c4c4c6;
@@ -3486,46 +3529,41 @@ article.comment span.new {
     float: left;
     max-width: 650px;
 }
-/*** accordion **/
-#accordion .ui-state-active,
-#accordion .ui-widget-content .ui-state-active,
-#accordion .ui-widget-header .ui-state-active {
-    border: 0;
-    border-bottom: 1px solid #000000;
-    background: transparent;
-    border-radius: 0;
+/** biz partneri **/
+#body #node-156 .field-name-body  .bis-partners{
+    margin-top: 55px;
+    padding-top: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%);
+    background-position: inherit;
+    background-size: 5px 1px;
+    background-repeat: repeat-x;
 }
-#accordion .ui-state-default,
-#accordion .ui-widget-content .ui-state-default,
-#accordion .ui-widget-header .ui-state-default {
-    border: 0;
-    border-bottom: 1px solid #000000;
-    background: transparent;
-    border-radius: 0;
+#body #node-156 .field-name-body  .bis-partners .partner {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding-right: 38px;
 }
-#accordion.ui-accordion .ui-accordion-icons {
-    padding-left: 0.5em;
-    padding-right: 15px;
+#body #node-156 .field-name-body  .bis-partners .partner .partners-name {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
-#accordion.ui-accordion .ui-accordion-header .ui-accordion-header-icon{
-    left: auto;
-    right: .5em;
-    top: 15px;
+#body #node-156 .field-name-body  .bis-partners .partner .partners-desc {
+    font-size: 17px;
 }
-#accordion .ui-state-default .ui-icon {
-    background: url(/sites/all/themes/theme756/images/accordion-closed.png) no-repeat center center;
+#body #node-156 .field-name-body  .bis-partners-desc {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 70px;
 }
-#accordion .ui-state-default.ui-state-active .ui-icon{
-    background: url(/sites/all/themes/theme756/images/accordion-open.png) no-repeat center center;
-
+#body #node-156 .field-name-body  .bis-partners-desc .desc-title {
+    font-size: 30px;
+    margin-bottom: 50px;
 }
-#accordion .ui-icon {
-    width: 25px;
-    height: 25px;
-}
-#accordion.ui-accordion .ui-accordion-content {
-    padding: 25px 2.2em 5px .5em;
-    border: 0;
-    background: transparent;
-    color: #222;
+#body #node-156 .field-name-body  .bis-partners-desc .desc {
+    width:60%;
+    font-size: 17px;
 }
