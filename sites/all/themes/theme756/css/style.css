@@ -3090,27 +3090,38 @@ article.comment h3 a:hover {
     border-radius: 0;
 }
 #accordion.ui-accordion .ui-accordion-icons {
-    padding-left: 0.5em;
+    padding-left: 0;
     padding-right: 15px;
+    font-size: 23px;
+    line-height: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#accordion.ui-accordion .ui-accordion-header {
+    padding: 20px .5em 20px 0;
 }
 #accordion.ui-accordion .ui-accordion-header .ui-accordion-header-icon{
     left: auto;
-    right: .5em;
-    top: 15px;
+    position: relative;
+    float: right;
+    margin-top: 0;
+    top: auto;
 }
 #accordion .ui-state-default .ui-icon {
     background: url(/sites/all/themes/theme756/images/accordion-closed.png) no-repeat center center;
+    background-size: 10px 10px;
 }
 #accordion .ui-state-default.ui-state-active .ui-icon{
     background: url(/sites/all/themes/theme756/images/accordion-open.png) no-repeat center center;
+    background-size: 10px 10px;
 
 }
 #accordion .ui-icon {
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 23px;
 }
 #accordion.ui-accordion .ui-accordion-content {
-    padding: 25px 2.2em 5px .5em;
+    padding: 25px 2.2em 5px 0;
     border: 0;
     background: transparent;
     color: #222;
@@ -3520,6 +3531,7 @@ article.comment span.new {
     max-width: 850px;
     margin: 50px auto;
 }
+/** marketing **/
 #body #node-152 .field-name-body .right_image {
     float: right;
     display: inline-block;
@@ -3527,7 +3539,7 @@ article.comment span.new {
 #body #node-152 .field-name-body #accordion{
     display: inline-block;
     float: left;
-    max-width: 650px;
+    max-width: 550px;
 }
 /** biz partneri **/
 #body #node-156 .field-name-body  .bis-partners{

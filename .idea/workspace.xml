@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
     </list>
     <ignored path="pss.iws" />
@@ -48,7 +49,7 @@
       <file leaf-file-name="pss_extras.module" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="3990">
               <caret line="190" column="51" lean-forward="false" selection-start-line="190" selection-start-column="51" selection-end-line="190" selection-end-column="51" />
               <folding>
                 <marker date="1498146575732" expanded="true" signature="17754:17892" ph="SELECT DISTI... field_data_field_magazine_number" />
@@ -94,8 +95,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="3567" column="20" lean-forward="false" selection-start-line="3567" selection-start-column="20" selection-end-line="3567" selection-end-column="20" />
+            <state relative-caret-position="376">
+              <caret line="3107" column="14" lean-forward="false" selection-start-line="3107" selection-start-column="14" selection-end-line="3107" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -114,7 +115,7 @@
       <file leaf-file-name="html.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/html.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
+            <state relative-caret-position="735">
               <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
               <folding />
             </state>
@@ -153,10 +154,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#article_newsletter .form-item-mail input[type='text']</find>
-      <find>#site-logo-wrapper .section-logo-wrapper.title-wrapper .title</find>
-      <find>#body.node-type-article h1.title</find>
-      <find>field-name-field-description</find>
       <find>.page-node-150 article.node .content table td</find>
       <find>firs</find>
       <find>first</find>
@@ -183,6 +180,10 @@
       <find>.search-results .search-result</find>
       <find>#block-search-form</find>
       <find>#body #search-form input[type='text']</find>
+      <find>#accordion.ui-accordion .ui-accordion-icons</find>
+      <find>#accordion.ui-accordion .ui-accordion-content</find>
+      <find>.ui-accordion .ui-accordion-header</find>
+      <find>#accordion.ui-accordion .ui-accordion-header .ui-accordion-header-icon</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -601,8 +602,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -767,12 +768,13 @@
       <workItem from="1497990691836" duration="4022000" />
       <workItem from="1498057018331" duration="603000" />
       <workItem from="1498076640451" duration="1655000" />
-      <workItem from="1498145177964" duration="3925000" />
+      <workItem from="1498145177964" duration="4527000" />
+      <workItem from="1498165957450" duration="879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245232000" />
+    <option name="totallyTimeSpent" value="246713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -787,16 +789,16 @@
     <frame x="1912" y="151" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12982005" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1311054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46306068" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.844098" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.844098" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39709762" sideWeight="0.4974293" order="5" side_tool="false" content_ui="tabs" x="1920" y="181" width="1600" height="878" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1231,7 +1233,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/html.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
+        <state relative-caret-position="735">
           <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding />
         </state>
@@ -1239,7 +1241,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="3990">
           <caret line="190" column="51" lean-forward="false" selection-start-line="190" selection-start-column="51" selection-end-line="190" selection-end-column="51" />
           <folding>
             <marker date="1498146575732" expanded="true" signature="17754:17892" ph="SELECT DISTI... field_data_field_magazine_number" />
@@ -1253,8 +1255,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="3567" column="20" lean-forward="false" selection-start-line="3567" selection-start-column="20" selection-end-line="3567" selection-end-column="20" />
+        <state relative-caret-position="376">
+          <caret line="3107" column="14" lean-forward="false" selection-start-line="3107" selection-start-column="14" selection-end-line="3107" selection-end-column="14" />
           <folding />
         </state>
       </provider>
