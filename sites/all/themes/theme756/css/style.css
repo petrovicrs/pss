@@ -3477,3 +3477,55 @@ article.comment span.new {
     max-width: 850px;
     margin: 50px auto;
 }
+#body #node-152 .field-name-body .right_image {
+    float: right;
+    display: inline-block;
+}
+#body #node-152 .field-name-body #accordion{
+    display: inline-block;
+    float: left;
+    max-width: 650px;
+}
+/*** accordion **/
+#accordion .ui-state-active,
+#accordion .ui-widget-content .ui-state-active,
+#accordion .ui-widget-header .ui-state-active {
+    border: 0;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    border-radius: 0;
+}
+#accordion .ui-state-default,
+#accordion .ui-widget-content .ui-state-default,
+#accordion .ui-widget-header .ui-state-default {
+    border: 0;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    border-radius: 0;
+}
+#accordion.ui-accordion .ui-accordion-icons {
+    padding-left: 0.5em;
+    padding-right: 15px;
+}
+#accordion.ui-accordion .ui-accordion-header .ui-accordion-header-icon{
+    left: auto;
+    right: .5em;
+    top: 15px;
+}
+#accordion .ui-state-default .ui-icon {
+    background: url(/sites/all/themes/theme756/images/accordion-closed.png) no-repeat center center;
+}
+#accordion .ui-state-default.ui-state-active .ui-icon{
+    background: url(/sites/all/themes/theme756/images/accordion-open.png) no-repeat center center;
+
+}
+#accordion .ui-icon {
+    width: 25px;
+    height: 25px;
+}
+#accordion.ui-accordion .ui-accordion-content {
+    padding: 25px 2.2em 5px .5em;
+    border: 0;
+    background: transparent;
+    color: #222;
+}

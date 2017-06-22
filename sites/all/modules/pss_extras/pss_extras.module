@@ -183,6 +183,14 @@ function pss_extras_preprocess_node(&$vars) {
             }
         }
     }
+    if ($vars['type'] == 'page' && $vars['nid'] == '152') {
+        drupal_add_library("system", "ui.accordion");
+        drupal_add_js('
+			jQuery(document).ready(
+				function() {
+					jQuery("#accordion").accordion();
+			});', 'inline');
+    }
 }
 
 function pss_extras_preprocess_user_picture(&$variables) {
