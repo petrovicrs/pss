@@ -3582,3 +3582,15 @@ article.comment span.new {
     width:60%;
     font-size: 17px;
 }
+#body .field-name-body .table-wrapper {
+    display: table;
+}
+#body .field-name-body .table-wrapper .left-col{
+    display: table-cell;
+    padding-right: 30px;
+    width: 400px;
+}
+#body .field-name-body .table-wrapper .right-col{
+    display: table-cell;
+    width: 400px;
+}
