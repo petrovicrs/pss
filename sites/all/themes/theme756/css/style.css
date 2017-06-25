@@ -3510,7 +3510,8 @@ article.comment span.new {
 .page-node-150 article.node .content table td:last-child {
     padding-right: 0;
 }
-.page-node-150 article.node .content .first-child .first-letter {
+.page-node-150 article.node .content .first-child .first-letter,
+.page-node-151 article.node .content .first-child .first-letter {
     font-size: 48px;
     line-height: 40px;
     float: left;
