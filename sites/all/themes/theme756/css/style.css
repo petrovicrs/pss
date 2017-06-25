@@ -3526,6 +3526,10 @@ article.comment span.new {
 #body .field-name-field-description{
     color: #545454;
 }
+.node-type-advanced-page #body .field-name-body ,
+.node-type-advanced-page #body .field-name-field-description {
+    color: #FFFFFF;
+}
 #body #node-150 .field-name-body,
 #body #node-150 .field-name-field-description{
     max-width: 850px;
