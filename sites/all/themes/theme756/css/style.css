@@ -3525,8 +3525,8 @@ article.comment span.new {
 #body .field-name-field-description{
     color: #545454;
 }
-.node-type-advanced-page #body .field-name-body ,
-.node-type-advanced-page #body .field-name-field-description {
+#body.node-type-advanced-page .field-name-body ,
+#body.node-type-advanced-page .field-name-field-description {
     color: #FFFFFF;
 }
 #body #node-150 .field-name-body,
