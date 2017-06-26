@@ -34,14 +34,14 @@ drupal_add_js(drupal_get_path('theme', 'theme756') . '/js/fullwidth.js');
                             <div id="messages"><div class="section clearfix">
                                     <?php print $messages; ?>
                                 </div></div> <!-- /.section, /#messages -->
-                        <?php endif; ?>
+                        <?php endif; ?>f
                         <?php if ($tabs): ?>
                             <div class="tabs"><?php print render($tabs); ?></div>
                         <?php endif; ?>
                         <div class="background-image-holder" style="background-image: url('/<?php echo drupal_get_path('module', 'betterlogin') . '/images/fantasy-woman-bckg.png'; ?>');">
                             <div class="image-holder">
                                 <div class="image-inner-holder">
-                                    <img src="/<?php echo drupal_get_path('module', 'betterlogin') . '/images/Fantasy-woman-warrior-950.png'; ?>">
+                                    <img src="/<?php echo drupal_get_path('module', 'betterlogin') . '/images/fantasy-woman-warrior-950.png'; ?>">
                                 </div>
                             </div>
                             <div id="auth_box" class="reset">
