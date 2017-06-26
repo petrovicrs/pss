@@ -1,5 +1,6 @@
 jQuery(document).ready(function ($) {
-    var image_selector = '#main-wrapper.full-width .image-holder img';
+    var selector = '#main-wrapper.full-width .background-image-holder';
+    var image_selector = selector + ' .image-holder img';
     var window_height = $(window).height();
     var menu_height = $('#header').height();
     var footer_height = $('#footer').height();

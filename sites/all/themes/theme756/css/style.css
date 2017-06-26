@@ -235,7 +235,7 @@ a:hover {
 
 #main-wrapper #main {
     margin: 0 auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding: 0 0 26px;
 }
 
@@ -3228,6 +3228,7 @@ article.comment span.new {
 #header .region.region-menu > .block-accordion-menu {
     margin: 0;
     padding: 0;
+    margin-top: 5px;
 }
 
 #header .region.region-menu > .block-accordion-menu .title-wrapper {

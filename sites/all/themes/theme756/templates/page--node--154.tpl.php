@@ -34,7 +34,7 @@ drupal_add_js(drupal_get_path('theme', 'theme756') . '/js/fullwidth.js');
                             <div id="messages"><div class="section clearfix">
                                     <?php print $messages; ?>
                                 </div></div> <!-- /.section, /#messages -->
-                        <?php endif; ?>f
+                        <?php endif; ?>
                         <?php if ($tabs): ?>
                             <div class="tabs"><?php print render($tabs); ?></div>
                         <?php endif; ?>
