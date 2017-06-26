@@ -2739,6 +2739,7 @@ ul.contextual-links li a:hover {
     width: auto;
     margin-right: 15px;
     vertical-align: middle;
+    font-weight: normal;
 }
 
 /*** advanced page ***/
