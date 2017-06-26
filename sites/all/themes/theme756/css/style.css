@@ -9,6 +9,16 @@ body#body {
     padding: 0;
 }
 
+body#body ::selection {
+  background-color: #ec1f27; /* WebKit/Blink Browsers */
+  color: #FFFFFF;
+}
+
+body#body ::-moz-selection {
+  background-color: #ec1f27; /* Gecko Browsers */
+  color: #FFFFFF;
+}
+
 #block-system-main {
     margin-bottom: 20px;
 }
