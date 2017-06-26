@@ -2741,7 +2741,10 @@ ul.contextual-links li a:hover {
     vertical-align: middle;
     font-weight: normal;
 }
-
+.page-arhiva .view-magazine-number-archive .views-exposed-form label {
+    text-transform: initial;
+    font-size: 20px;
+}
 /*** advanced page ***/
 .node-type-advanced-page .node-advanced-page {
     background-color: #545454;
