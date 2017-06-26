@@ -150,6 +150,9 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
+#main-wrapper.full-width #auth_box div.form-item.form-item-name {
+    margin-top: 0;
+}
 #main-wrapper.full-width #auth_box div.form-item textarea,
 #main-wrapper.full-width #auth_box div.form-item input[type='text'],
 #main-wrapper.full-width #auth_box div.form-item input[type="search"],

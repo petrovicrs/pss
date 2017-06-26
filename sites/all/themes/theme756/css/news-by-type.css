@@ -159,19 +159,20 @@
 .view.news-by-type-block-view .view-content.view-content-count-1 .views-row.views-row-1,
 .view.news-by-type-block-view .view-content.view-content-count-2 .views-row.views-row-1,
 .view.news-by-type-block-view .view-content.view-content-count-2 .views-row.views-row-2{
-    width: 645px;
+    width: 310px;
+    margin-right: 20px;
     vertical-align: top;
 }
 .view.news-by-type-block-view .view-content.view-content-count-1 .views-row.views-row-1 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content.view-content-count-2 .views-row.views-row-1 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content.view-content-count-2 .views-row.views-row-2 .field-content .news-content .title-and-body{
-    height: 180px;
+    height: 130px;  
 }
 .view.news-by-type-block-view .view-content.view-content-count-1 .views-row.views-row-1 .field-content .news-image .image img,
 .view.news-by-type-block-view .view-content.view-content-count-2 .views-row.views-row-1 .field-content .news-image .image img,
 .view.news-by-type-block-view .view-content.view-content-count-2 .views-row.views-row-2 .field-content .news-image .image img{
-    width: 645px;
-    height: 483px;
+    width: 310px;
+    height: 230px;
 }
 
 /********************************* three ********************************************/
