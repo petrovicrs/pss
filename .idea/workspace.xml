@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.landscape.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.landscape.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
     </list>
     <ignored path="pss.iws" />
@@ -134,8 +129,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="3636" column="98" lean-forward="false" selection-start-line="3636" selection-start-column="98" selection-end-line="3636" selection-end-column="98" />
+            <state relative-caret-position="521">
+              <caret line="3638" column="15" lean-forward="false" selection-start-line="3638" selection-start-column="15" selection-end-line="3638" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -671,12 +666,12 @@
       <workItem from="1498165957450" duration="1019000" />
       <workItem from="1498422647258" duration="1376000" />
       <workItem from="1498497671949" duration="11438000" />
-      <workItem from="1498578041737" duration="2478000" />
+      <workItem from="1498578041737" duration="3137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262145000" />
+    <option name="totallyTimeSpent" value="262804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1153,8 +1148,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="3636" column="98" lean-forward="false" selection-start-line="3636" selection-start-column="98" selection-end-line="3636" selection-end-column="98" />
+        <state relative-caret-position="521">
+          <caret line="3638" column="15" lean-forward="false" selection-start-line="3638" selection-start-column="15" selection-end-line="3638" selection-end-column="15" />
           <folding />
         </state>
       </provider>

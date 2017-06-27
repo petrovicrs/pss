@@ -3636,7 +3636,7 @@ article.comment span.new {
 #news-type-block .view-content .views-row .views-field-image a:hover::before,
 .front .most-read-block .view .view-content .views-row .field-content .news-image a:hover::before,
 .view.news-by-type-block-view .view-content .views-row .field-content .news-image .image a:hover::before{
-    opacity: 1;
+    opacity: .4;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
 }
