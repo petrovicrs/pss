@@ -24,7 +24,7 @@
     margin-top: 5px;
     font-family: 'Eurostile', sans-serif;
     font-size: 40px;
-    line-height: 40px;
+    /*line-height: 40px;*/
 }
 .node-type-article #content .content .body {
     color: #676767;

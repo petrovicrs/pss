@@ -3,6 +3,9 @@
     width: 98%;
     padding: 0;
 }
+#body #site-logo-wrapper .title-wrapper h1.title {
+    line-height: 40px;
+}
 #superfish-1 > li > a {
     padding: 10px 4px;
 }
