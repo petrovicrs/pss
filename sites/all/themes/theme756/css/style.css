@@ -2597,11 +2597,16 @@ ul.contextual-links li a:hover {
     font-size: 21px;
     margin-bottom: 40px;
 }
-
+#article_newsletter .pss-title {
+    margin-bottom: 20px;
+}
 #article_newsletter .pss-message,
 #block-pss-extras-top-newsletter-subscribe-block .pss-message {
     font-family: "Sagoe UI", sans-serif;
     font-size: 17px;
+}
+#article_newsletter .pss-message{
+    margin-bottom: 30px;
 }
 #article_newsletter .form.simplenews-subscribe,
 #block-pss-extras-top-newsletter-subscribe-block form.simplenews-subscribe {
@@ -2942,7 +2947,6 @@ ul.contextual-links li a:hover {
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block .a2a-title {
     margin-bottom: 20px;
-    padding-left: 10px;
     font-family: PTSans-Regular, serif;
     font-size: 22px;
 }
@@ -2952,29 +2956,37 @@ ul.contextual-links li a:hover {
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block .a2a-content-share a {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 50px;
     background: no-repeat center center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 27px;
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block .a2a-content-share a.a2a_button_facebook {
     background-image: url(/sites/all/modules/pss_extras/modules/follow/icons/small/icon-facebook-x3.png);
-    background-size: 12px 23px;
+    background-size: 22px 33px;
+    width: 22px;
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block .a2a-content-share a.a2a_button_twitter {
-    background-image: url(/sites/all/modules/pss_extras/modules/follow/icons/small/icon-twitter.png);
-    background-size: 27px 22px;
+    background-image: url(/sites/all/modules/pss_extras/modules/follow/icons/small/icon-twitter-x3.png);
+    background-size: 37px 32px;
+    width: 37px;
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block .a2a-content-share a.a2a_button_linkedin {
     background-image: url(/sites/all/modules/pss_extras/modules/follow/icons/small/icon-linkedin-x3.png);
-    background-size: 20px 20px;
+    background-size: 30px 30px;
+    width: 30px;
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block .a2a-content-share a.a2a_button_google_plus {
     background-image: url(/sites/all/modules/pss_extras/modules/follow/icons/small/icon-googleplus-x3.png);
-    background-size: 24px 21px;
+    background-size: 34px 31px;
+    width: 34px;
+    margin-right: 0;
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .inner-wrapper.newsletter-block .newsletter {
@@ -3035,6 +3047,7 @@ ul.contextual-links li a:hover {
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-left.content-author-info .node-tags .links li a {
     text-decoration: none;
     text-transform: lowercase;
+    font-size: 17px;
 }
 
 /** teaser **/
@@ -3676,4 +3689,26 @@ article.comment span.new {
     opacity: .4;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
+}
+/*** yumpu  ***/
+.node-type-magazine-number #yumpu-link-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.node-type-magazine-number #yumpu-link-wrapper .yumpu-link{
+    position: relative;
+    display: block;
+}
+.node-type-magazine-number #yumpu-link-wrapper .yumpu-link img {
+    margin-right: 85px;
+}
+.node-type-magazine-number #yumpu-link-wrapper .yumpu-link .yumpu-text {
+    position: absolute;
+    bottom: 55px;
+    right: 0;
+    font-size: 25px;
+    text-indent: 15px;
+    font-style: italic;
+    line-height: 25px;
 }

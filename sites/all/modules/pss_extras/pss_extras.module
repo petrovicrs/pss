@@ -269,6 +269,16 @@ function pss_extras_preprocess_user_picture(&$variables) {
  */
 function pss_extras_preprocess_page(&$vars) {
     $vars['current_magazine_number'] = __pss_extras_get_current_magazine_number();
+    $vars['print_yumpu'] = 0;
+    if (isset($vars['node']) && $vars['node']->type == 'magazine_number')  {
+        $magazine_number = isset($vars['node']->field_magazine_number[LANGUAGE_NONE][0]['value']) ? $vars['node']->field_magazine_number[LANGUAGE_NONE][0]['value'] : null;
+        $embed_link = isset($vars['node']->field_magazine_embed[LANGUAGE_NONE][0]['url']) ? $vars['node']->field_magazine_embed[LANGUAGE_NONE][0]['url'] : null;
+        if (isset($magazine_number, $embed_link) && $magazine_number != $vars['current_magazine_number']) {
+            $vars['print_yumpu'] = 1;
+            $vars['yumpu_link'] = $embed_link;
+            $vars['yumpu_text'] = t('read <br> number') . ' ' . $magazine_number;
+        }
+    }
 }
 
 function pss_extras_preprocess_block(&$vars, $hook) {

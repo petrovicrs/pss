@@ -174,7 +174,9 @@ function theme756_preprocess_page(&$vars) {
     if (isset($vars['node']->type) && $vars['node']->type == 'page') {
         array_unshift($vars['theme_hook_suggestions'], 'page__page');
     }
-
+    if (isset($vars['node']->type) && $vars['node']->type == 'magazine_number') {
+        array_unshift($vars['theme_hook_suggestions'], 'page__magazine_number');
+    }
     $vars['site_message'] = variable_get('pss_site_message', '');
 
     if (isset($vars['node']) && $vars['node']->type == 'article') {
