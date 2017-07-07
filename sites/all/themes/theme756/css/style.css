@@ -2926,8 +2926,8 @@ ul.contextual-links li a:hover {
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element .comments .user-picture .image-wrapper img {
-    width: 40px;
-    left: 10%;
+/*    width: 40px;
+    left: 10%;*/
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-left .node-magazine-number .inner-element {
@@ -2939,6 +2939,8 @@ ul.contextual-links li a:hover {
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .inner-wrapper {
     padding: 0 60px;
+    float: none;
+    clear: both;
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block {
