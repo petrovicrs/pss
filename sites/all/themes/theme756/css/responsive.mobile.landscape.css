@@ -8,9 +8,6 @@
 .front #site-logo-wrapper {
     margin-top: 40px;
 }
-#body #site-logo-wrapper .title-wrapper h1.title {
-    line-height: 40px;
-}
 #superfish-1 > li > a {
     padding: 10px 4px;
 }
@@ -140,7 +137,7 @@ div#current-magazine-number .sup {
     margin-top: 0;
 }
 #site-logo-wrapper .section-logo-wrapper.title-wrapper {
-    width: 70%;
+    display: block;
 }
 .node-type-article #block-system-main .content .top-image {
     height: auto;
@@ -278,6 +275,13 @@ div#current-magazine-number .sup {
 .node-type-advanced-page #site-logo-wrapper .section-logo-wrapper.logo-wrapper{
     position: initial;
 }
+#site-logo-wrapper .section-logo-wrapper.logo-wrapper {
+    margin-top: 0;
+    vertical-align: middle;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+}
 .front .most-read-block .view .view-content .views-row {
     height: auto;
 }
@@ -292,10 +296,10 @@ div#current-magazine-number .sup {
     max-width: 100%;
 }
 #block-pss-extras-taxonomy-tags{
-    width: 45%;
+    width: 100%;
     padding: 0;
     height: auto;
-    margin-left: 1%;
+    margin: 0 auto;
     vertical-align: top;
 }
 .front .video-material .view .view-content .views-row .field-content .body-wrapper {
@@ -320,6 +324,9 @@ div#current-magazine-number .sup {
     padding: 0;
 }
 @media screen and (min-width: 481px) and (max-width: 610px) {
+    #site-logo-wrapper .section-logo-wrapper.logo-wrapper {
+        position: initial !important;
+    }
     /** recommended block **/
     #block-views-author-recommendation-block {
         height: auto;
@@ -356,7 +363,8 @@ div#current-magazine-number .sup {
 }
 /** subscribe **/
 #block-pss-extras-top-newsletter-subscribe-block {
-    width: 45%;
+    width: 100%;
+    margin: 0 auto;
     vertical-align: top;
 }
 .node-type-article #block-system-main .content .top-image img {

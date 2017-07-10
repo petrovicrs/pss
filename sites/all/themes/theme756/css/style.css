@@ -2579,12 +2579,31 @@ ul.contextual-links li a:hover {
 #block-pss-extras-top-newsletter-subscribe-block {
     display: inline-block;
     width: 270px;
-    height: 285px;
-    background-color: #b1b0b0;
-    padding: 30px 20px;
-    color: #ffffff;
     margin-bottom: 46px;
     vertical-align: bottom;
+}
+#block-pss-extras-top-newsletter-subscribe-block  #mail_chimp_signup{
+    background-color: #b1b0b0;
+    padding: 15px 20px;
+    color: #ffffff;
+}
+#block-pss-extras-top-newsletter-subscribe-block  .yumpu-link {
+    text-decoration: none;
+}
+#block-pss-extras-top-newsletter-subscribe-block  #yumpy_read_last .yumpu-text {
+    text-align: center;
+    text-decoration: none;
+    font-family: PTSans-Regular, sans-serif ;
+    font-size: 22px;
+    line-height: 22px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+#block-pss-extras-top-newsletter-subscribe-block  #yumpy_read_last .yumpu-image {
+    text-align: center;
+}
+#block-pss-extras-top-newsletter-subscribe-block  #yumpy_read_last .yumpu-image img {
+    width: 220px;
 }
 #article_newsletter {
     margin-top: 20px;
@@ -2597,6 +2616,9 @@ ul.contextual-links li a:hover {
     font-size: 21px;
     margin-bottom: 40px;
 }
+#block-pss-extras-top-newsletter-subscribe-block .pss-title {
+    margin-bottom: 20px;
+}
 #article_newsletter .pss-title {
     margin-bottom: 20px;
 }
@@ -2604,6 +2626,9 @@ ul.contextual-links li a:hover {
 #block-pss-extras-top-newsletter-subscribe-block .pss-message {
     font-family: "Sagoe UI", sans-serif;
     font-size: 17px;
+}
+#block-pss-extras-top-newsletter-subscribe-block .pss-message {
+    margin-bottom: 20px;
 }
 #article_newsletter .pss-message{
     margin-bottom: 30px;
@@ -2633,11 +2658,21 @@ ul.contextual-links li a:hover {
     margin: 20px 0;
     height: 32px;
 }
+#block-pss-extras-top-newsletter-subscribe-block input[type=submit] {
+    margin: 0;
+}
+#block-pss-extras-top-newsletter-subscribe-block #mc_embed_signup,
+#block-pss-extras-top-newsletter-subscribe-block #mc_embed_signup_scroll {
+    float: none;
+    clear: both;
+    display: block;
+    height: 33px;
+}
 #block-pss-extras-top-newsletter-subscribe-block #mc_embed_signup_scroll input[type="email"] {
     float: left;
-    margin: 20px 0;
+    margin: 0;
     box-shadow: none;
-    width: 140px;
+    width: 115px;
     padding: 8px 5px;
 }
 #article_newsletter .form-item-mail input[type='text'],

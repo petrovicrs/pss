@@ -6,6 +6,9 @@
 #body #site-logo-wrapper .title-wrapper h1.title {
     line-height: 40px;
 }
+#block-pss-extras-taxonomy-tags {
+    width: 25%;
+}
 #superfish-1 > li > a {
     padding: 10px 4px;
 }

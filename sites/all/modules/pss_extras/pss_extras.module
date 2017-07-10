@@ -68,21 +68,26 @@ function pss_extras_block_view($delta = '') {
             $block = array(
               'subject' => '',
               'content' => '
-                    <div class="pss-title-wrapper">
-                      <p class="pss-title">'.t('Newsletter').'</p>
-                    </div>
-                    <div class="pss-message-wrapper">
-                        <p class="pss-message">'.t('Leave yours e-mail address and we will provide you fresh news in field od security').'</p>
-                    </div>
-                    <div id="mc_embed_signup">
-                    <form action="//pss-magazine.us16.list-manage.com/subscribe/post?u=afac2614cb11484bde653fcd8&amp;id=af00818c48" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                        <label for="mce-EMAIL">'.t('Email').'</label>
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_afac2614cb11484bde653fcd8_af00818c48" tabindex="-1" value=""></div>
-                        <input type="submit" value="'.t('Subscribe').'" name="subscribe" id="mc-embedded-subscribe" class="button form-submit">
+                    <div id="mail_chimp_signup">
+                        <div class="pss-title-wrapper">
+                          <p class="pss-title">'.t('Newsletter').'</p>
                         </div>
-                    </form>
+                        <div class="pss-message-wrapper">
+                            <p class="pss-message">'.t('Leave yours e-mail address and we will provide you fresh news in field od security').'</p>
+                        </div>
+                        <div id="mc_embed_signup">
+                        <form action="//pss-magazine.us16.list-manage.com/subscribe/post?u=afac2614cb11484bde653fcd8&amp;id=af00818c48" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                            <label for="mce-EMAIL">'.t('Email').'</label>
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_afac2614cb11484bde653fcd8_af00818c48" tabindex="-1" value=""></div>
+                            <input type="submit" value="'.t('Subscribe').'" name="subscribe" id="mc-embedded-subscribe" class="button form-submit">
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+                    <div id="yumpy_read_last">
+                        '.__pss_extras_generate_yumpu_front_block().'
                     </div>
               '
             );
@@ -91,16 +96,19 @@ function pss_extras_block_view($delta = '') {
             $block = array(
               'subject' => '',
               'content' => '
-                    <div id="mc_embed_signup">
-                    <form action="//pss-magazine.us16.list-manage.com/subscribe/post?u=afac2614cb11484bde653fcd8&amp;id=af00818c48" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                        <label for="mce-EMAIL">'.t('Email').'</label>
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_afac2614cb11484bde653fcd8_af00818c48" tabindex="-1" value=""></div>
-                        <input type="submit" value="'.t('Subscribe').'" name="subscribe" id="mc-embedded-subscribe" class="button form-submit">
+                    <div id="mail_chimp_signup">
+                        <div id="mc_embed_signup">
+                        <form action="//pss-magazine.us16.list-manage.com/subscribe/post?u=afac2614cb11484bde653fcd8&amp;id=af00818c48" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                            <label for="mce-EMAIL">'.t('Email').'</label>
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_afac2614cb11484bde653fcd8_af00818c48" tabindex="-1" value=""></div>
+                            <input type="submit" value="'.t('Subscribe').'" name="subscribe" id="mc-embedded-subscribe" class="button form-submit">
+                            </div>
+                        </form>
                         </div>
-                    </form>
-                    </div>'
+                    </div>
+                    '
             );
             break;
         case 'taxonomy-tags':
@@ -367,6 +375,36 @@ function pss_extras_form_magazine_number_node_form_alter(&$form, $form_state, $f
             $form['field_magazine_for_period'][LANGUAGE_NONE][0]['#default_value']['value2'] = $new_date1;
         }
     }
+}
+function __pss_extras_generate_yumpu_front_block(){
+    $html = '';
+    if (!drupal_is_front_page()) return $html;
+    $current_number = __pss_extras_get_current_magazine_number();
+    $last_number = (int)$current_number - 1;
+    $query = db_select('node', 'n');
+    $query->join('field_data_field_magazine_number', 'mn', 'n.nid= mn.entity_id');
+    $query->fields('n', array('nid'))
+      ->condition('n.status', 1)
+      ->condition('mn.field_magazine_number_value', $last_number);
+    $nid = $query->orderBy('n.created', 'desc')
+      ->range(0, 1)
+      ->execute()
+      ->fetchField();
+    if (isset($nid) && $node = node_load($nid))  {
+        $magazine_number = isset($node->field_magazine_number[LANGUAGE_NONE][0]['value']) ? $node->field_magazine_number[LANGUAGE_NONE][0]['value'] : null;
+        $embed_link = isset($node->field_magazine_embed[LANGUAGE_NONE][0]['url']) ? $node->field_magazine_embed[LANGUAGE_NONE][0]['url'] : null;
+        if (isset($magazine_number, $embed_link)) {
+            $html .= '
+                <div id="yumpu-link-wrapper">
+                    <a class="yumpu-link" href="' . $embed_link . '" target="_blank">
+                        <div class="yumpu-text">'.t('Read number') . ' ' . $magazine_number.'</div>
+                        <div class="yumpu-image"><img src="/sites/default/files/pictures/read-number.png"></div>
+                    </a>
+                </div>
+            ';
+        }
+    }
+    return $html;
 }
 
 function __pss_extras_generate_taxonomy_tags_block() {
