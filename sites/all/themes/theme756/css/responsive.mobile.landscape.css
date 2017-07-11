@@ -282,6 +282,9 @@ div#current-magazine-number .sup {
     top: 0;
     left: 0;
 }
+.front #site-logo-wrapper .section-logo-wrapper.logo-wrapper {
+    position: relative !important;
+}
 .front .most-read-block .view .view-content .views-row {
     height: auto;
 }
