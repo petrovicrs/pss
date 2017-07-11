@@ -2629,11 +2629,11 @@ ul.contextual-links li a:hover {
 #block-pss-extras-top-newsletter-subscribe-block .pss-message {
     font-family: "Sagoe UI", sans-serif;
     font-size: 16px;
-    margin-top: 8px;
+    margin-top: 14px;
     padding-bottom: 4px;
 }
 #block-pss-extras-top-newsletter-subscribe-block .pss-message {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 #article_newsletter .pss-message{
     margin-bottom: 30px;
@@ -2665,6 +2665,7 @@ ul.contextual-links li a:hover {
 }
 #block-pss-extras-top-newsletter-subscribe-block input[type=submit] {
     margin: 0;
+    width: 115px;
 }
 #block-pss-extras-top-newsletter-subscribe-block #mc_embed_signup,
 #block-pss-extras-top-newsletter-subscribe-block #mc_embed_signup_scroll {
@@ -2677,7 +2678,7 @@ ul.contextual-links li a:hover {
     float: left;
     margin: 0;
     box-shadow: none;
-    width: 115px;
+    width: 105px;
     padding: 8px 5px;
 }
 #article_newsletter .form-item-mail input[type='text'],
