@@ -152,5 +152,8 @@
     padding: 10px 5px;
     text-decoration: none;
 }
+#block-menu-menu-footer-menu .content ul li a.active {
+    text-decoration: underline;
+}
 
 
