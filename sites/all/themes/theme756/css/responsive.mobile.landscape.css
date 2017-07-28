@@ -181,10 +181,16 @@ div#current-magazine-number .sup {
 
 #footer #block-menu-menu-footer-menu .content ul li {
     float: none;
+    border: 0;
 }
 #footer #block-menu-menu-footer-menu .content ul li a {
+    display: block;
     font-size: 16px;
     line-height: 16px;
+    border-right: 1px solid #545454;
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #news-type-block .view-content .views-row {
     width: 49%;
@@ -394,11 +400,13 @@ div#current-magazine-number .sup {
 .page-arhiva .view-magazine-number-archive .view-content .views-row {
     display: block;
     margin: 0 auto;
+    margin-top: 30px;
 }
 .page-arhiva .view-magazine-number-archive .view-content .month-number-wrapper {
     float: none;
     width: 100%;
     height: 20px;
+    text-align: center;
 }
 .page-arhiva .view-magazine-number-archive .view-content .views-row .image img {
     margin: 0 auto;
@@ -462,6 +470,9 @@ div#current-magazine-number .sup {
     display: block;
     width: 100%;
     vertical-align: top;
+}
+#body .field-name-body .table-wrapper .left-col {
+    padding-right: 0;
 }
 #block-views-team-members-block .view .view-content .views-row {
     margin: 0;

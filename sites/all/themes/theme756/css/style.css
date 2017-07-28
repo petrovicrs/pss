@@ -2797,8 +2797,9 @@ ul.contextual-links li a:hover {
 .page-arhiva .view-magazine-number-archive .view-content .month-number-wrapper {
     position: relative;
     margin-bottom: 20px;
-    float: left;
+    float: none;
     width: 100%;
+    text-align: left;
 }
 
 .page-arhiva .view-magazine-number-archive .view-content .month-number-wrapper .months,
@@ -2808,11 +2809,12 @@ ul.contextual-links li a:hover {
 }
 
 .page-arhiva .view-magazine-number-archive .view-content .month-number-wrapper .months {
-    float: left;
+    /*float: left;*/
+    margin-right: 10px;
 }
 
 .page-arhiva .view-magazine-number-archive .view-content .month-number-wrapper .number {
-    float: right;
+    /*float: right;*/
 }
 
 .page-arhiva .view-magazine-number-archive .view-header,
@@ -3445,7 +3447,8 @@ article.comment span.new {
 }
 
 #menu_accordion .ui-accordion .ui-accordion-header.no-children {
-    background: none;
+    background: #ffffff;
+    margin: 0;
 }
 
 #menu_accordion .ui-accordion .ui-accordion-content {
@@ -3754,4 +3757,8 @@ article.comment span.new {
     text-indent: 15px;
     font-style: italic;
     line-height: 25px;
+}
+#back-top a, #back-top-prev a {
+    width: 71px;
+    height: 71px;
 }

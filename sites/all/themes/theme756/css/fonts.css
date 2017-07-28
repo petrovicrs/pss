@@ -26,9 +26,13 @@
     font-size: 40px;
     /*line-height: 40px;*/
 }
+.node-type-advanced-page #body #site-logo-wrapper .title-wrapper h1.title {
+    color: #878787;
+}
 .node-type-article #content .content .body {
     color: #676767;
 }
+
 #body h1.title {
     font-size: 50px;
     font-weight: bold;

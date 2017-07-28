@@ -17,7 +17,8 @@
                                 <div class="title-and-body">
                                     <div class="news-title">
                                         <a href="<?php print $node_url; ?>">
-                                            <?php print mb_ucfirst(mb_strtolower($title)); ?>
+                                            <?php /*print mb_ucfirst(mb_strtolower($title));*/ ?>
+                                            <?php print $title; ?>
                                         </a>
                                     </div>
                                     <div class="news-body">
