@@ -1,0 +1,4 @@
+.page-node-edit.node-type-magazine-number .field-name-field-magazine-document,
+.page-node-edit.node-type-magazine-number .field-name-field-show-pdf-only {
+    display: none;
+}

@@ -139,6 +139,12 @@ function pss_extras_theme($existing, $type, $theme, $path) {
     );
 }
 
+function pss_extras_preprocess_html(&$variables) {
+    if (path_is_admin(current_path())) {
+        drupal_add_css(drupal_get_path('module', 'pss_extras') . '/css/pss-admin.css');
+    }
+}
+
 /**
  * Implements hook_preprocess_node().
  */
