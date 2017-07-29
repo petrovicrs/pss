@@ -1,10 +1,13 @@
+#block-search-form {
+    margin-right: 10px;
+    margin-top: 5px;
+}
 #main-wrapper,
 #site-logo-wrapper {
     width: 98%;
     padding: 0;
 }
 #body #site-logo-wrapper .title-wrapper h1.title {
-    line-height: 40px;
 }
 #block-pss-extras-taxonomy-tags {
     width: 25%;
@@ -122,9 +125,6 @@ div#current-magazine-number .number {
 #site-logo-wrapper .section-logo-wrapper.logo-wrapper {
     margin-top: 0;
 }
-#site-logo-wrapper .section-logo-wrapper.title-wrapper {
-    width: 70%;
-}
 .node-type-article #block-system-main .content .top-image {
     height: auto;
 }
@@ -160,4 +160,13 @@ div#current-magazine-number .number {
 }
 .page-arhiva .view-magazine-number-archive .view-content .views-row {
     margin-right: 50px;
+}
+.node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image img {
+    width: 100%;
+}
+#body #node-152 .field-name-body .right_image {
+    display: none;
+}
+#body #node-152 .field-name-body #accordion {
+    max-width:100% ;
 }

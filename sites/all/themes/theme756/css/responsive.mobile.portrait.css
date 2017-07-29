@@ -1,3 +1,7 @@
+#block-search-form {
+    margin-right: 10px;
+    margin-top: 5px;
+}
 #main-wrapper,
 #site-logo-wrapper {
     width: 98%;
@@ -477,4 +481,7 @@ div#current-magazine-number .number {
 .search-results .search-result,
 .page-taxonomy-term .node-article.node-teaser {
     display: block;
+}
+#body #node-152 .field-name-body #accordion {
+    max-width:100% ;
 }

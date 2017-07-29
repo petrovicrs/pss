@@ -1,3 +1,7 @@
+#block-search-form {
+    margin-right: 10px;
+    margin-top: 5px;
+}
 #main-wrapper,
 #site-logo-wrapper {
     width: 98%;
@@ -212,4 +216,13 @@ div#current-magazine-number .number {
 .view.news-by-type-block-view .view-content .views-row.views-row-4 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-5 .field-content .news-content .title-and-body {
     height: 173px;
+}
+.node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image img {
+    width: 100%;
+}
+#body #node-152 .field-name-body .right_image {
+    display: none;
+}
+#body #node-152 .field-name-body #accordion {
+    max-width:100% ;
 }
