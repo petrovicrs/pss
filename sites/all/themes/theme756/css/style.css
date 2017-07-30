@@ -2883,6 +2883,7 @@ ul.contextual-links li a:hover {
 
 .node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image img {
     height: 485px;
+    max-width: 100%;
 }
 
 /** article **/
@@ -3678,7 +3679,8 @@ article.comment span.new {
 }
 #body #node-156 .field-name-body .bis-partners .partner img {
     width: 90%;
-    padding: 5%;
+    margin: 5%;
+    background-color: #ffffff;
 }
 #body #node-156 .field-name-body  .bis-partners .partner .partners-name {
     font-size: 20px;
