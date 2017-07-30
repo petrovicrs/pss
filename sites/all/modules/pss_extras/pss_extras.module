@@ -47,6 +47,9 @@ function pss_extras_block_info() {
     $blocks['taxonomy-tags'] = array(
       'info' => t('Taxonomy tags list')
     );
+    $blocks['front-banner-block'] = array(
+      'info' => t('Front page banner block')
+    );
     return $blocks;
 }
 
@@ -114,6 +117,10 @@ function pss_extras_block_view($delta = '') {
         case 'taxonomy-tags':
             $block['subject'] = '';
             $block['content'] = __pss_extras_generate_taxonomy_tags_block();
+            break;
+        case 'front-banner-block':
+            $block['subject'] = '';
+            $block['content'] = __pss_extras_generate_front_banner_block();
             break;
     }
     return $block;
@@ -483,6 +490,53 @@ function __pss_extras_generate_news_type_block() {
       'title' => t('News types')
     ));
     return $content;
+}
+
+function __pss_extras_generate_front_banner_block() {
+    $output = '';
+    $show_banners = variable_get('pss_front_page_banner_show_frontpage_banners', TRUE);
+    if ((bool)$show_banners) {
+        $banner_1_fid = variable_get('pss_front_page_banner_image_1', 0);
+        $banners = [];
+        if ($banner_1_fid != 0) {
+            $banner = new stdClass();
+            $banner->fid = $banner_1_fid;
+            $banner->url = variable_get('pss_front_page_banner_image_1_link', '');
+            $banners[] = $banner;
+        }
+        $banner_2_fid = variable_get('pss_front_page_banner_image_2', 0);
+        if ($banner_2_fid != 0) {
+            $banner = new stdClass();
+            $banner->fid = $banner_2_fid;
+            $banner->url = variable_get('pss_front_page_banner_image_1_link', '');
+            $banners[] = $banner;
+        }
+        $banner = null;
+        if (count($banners) > 0 && count($banners) == 2) {
+            $rand = mt_rand(0, 1);
+            $banner = $banners[$rand];
+        } elseif(count($banners) == 1) {
+            $banner = reset($banners);
+        }
+        if (isset($banner) && isset($banner->fid)) {
+            $output .= '<div class="banner">';
+            if (isset($banner->url) && $banner->url != '') {
+                $output .= '<a href="'.$banner->url.'" target="_blank">';
+            }
+            $uri = file_load($banner->fid)->uri;
+            $output .= theme(
+              'image',
+              array(
+                'path' => $uri
+              )
+            );
+            if (isset($banner->url) && $banner->url != '') {
+                $output .= '</a>';
+            }
+            $output .= '</div>';
+        }
+    }
+    return $output;
 }
 
 function __pss_extras_get_tag_news($tid, $lastNNums) {

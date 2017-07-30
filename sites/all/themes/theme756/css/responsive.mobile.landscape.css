@@ -504,3 +504,6 @@ div#current-magazine-number .sup {
 #body #node-152 .field-name-body #accordion {
     max-width:100% ;
 }
+#block-pss-extras-front-banner-block img{
+    max-width: 100%;
+}

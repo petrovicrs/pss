@@ -5,6 +5,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
     </list>
     <ignored path="pss.iws" />
@@ -41,33 +43,61 @@
       <file leaf-file-name="pss_extras.module" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="144" column="59" lean-forward="true" selection-start-line="144" selection-start-column="59" selection-end-line="144" selection-end-column="59" />
+            <state relative-caret-position="297">
+              <caret line="510" column="59" lean-forward="true" selection-start-line="510" selection-start-column="59" selection-end-line="510" selection-end-column="59" />
               <folding>
-                <marker date="1501413766078" expanded="true" signature="1863:3289" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="1919:2021" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="2079:2132" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="2079:2257" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="2308:3262" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="2553:3231" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="2615:3199" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="2868:2902" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="3336:3433" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="3669:4701" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="3720:4674" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="3965:4643" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="4027:4029" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="4027:4611" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="4280:4314" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="19355:19404" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="19355:19405" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="19355:19702" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="19441:19679" ph="..." />
-                <marker date="1501413766078" expanded="true" signature="23320:23458" ph="SELECT DISTI... field_data_field_magazine_number" />
-                <marker date="1501413766078" expanded="true" signature="23607:23781" ph="SELECT entit... field_data_field_magazine_number" />
-                <marker date="1501413766078" expanded="true" signature="24176:24253" ph="SELECT MAX(f... field_data_field_magazine_number" />
-                <marker date="1501413766078" expanded="true" signature="24611:24702" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-                <marker date="1501413766078" expanded="true" signature="25179:25235" ph="SELECT COUNT... taxonomy_index" />
+                <marker date="1501419392484" expanded="true" signature="1958:3384" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="2014:2116" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="2174:2227" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="2174:2352" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="2403:3357" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="2648:3326" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="2710:3294" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="2963:2997" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="3431:3528" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="3764:4796" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="3815:4769" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="4060:4738" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="4122:4124" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="4122:4706" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="4375:4409" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="19616:19665" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="19616:19666" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="19616:19963" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="19702:19940" ph="..." />
+                <marker date="1501419392484" expanded="true" signature="25288:25426" ph="SELECT DISTI... field_data_field_magazine_number" />
+                <marker date="1501419392484" expanded="true" signature="25575:25749" ph="SELECT entit... field_data_field_magazine_number" />
+                <marker date="1501419392484" expanded="true" signature="26144:26221" ph="SELECT MAX(f... field_data_field_magazine_number" />
+                <marker date="1501419392484" expanded="true" signature="26579:26670" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+                <marker date="1501419392484" expanded="true" signature="27147:27203" ph="SELECT COUNT... taxonomy_index" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file.inc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/file.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="592" column="9" lean-forward="false" selection-start-line="592" selection-start-column="9" selection-end-line="592" selection-end-column="9" />
+              <folding>
+                <marker date="1499277357962" expanded="true" signature="17836:17978" ph="..." />
+                <marker date="1499277357962" expanded="true" signature="18068:18102" ph="..." />
+                <marker date="1499277357962" expanded="true" signature="18212:18245" ph="..." />
+                <marker date="1499277357962" expanded="true" signature="18316:18344" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme.inc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/theme.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="1876" column="9" lean-forward="false" selection-start-line="1876" selection-start-column="9" selection-end-line="1876" selection-end-column="9" />
+              <folding>
+                <marker date="1499277358868" expanded="true" signature="89017:89054" ph="..." />
+                <marker date="1499277358868" expanded="true" signature="89614:89620" ph=" " />
               </folding>
             </state>
           </provider>
@@ -76,10 +106,10 @@
       <file leaf-file-name="pss_settings_page.inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="60" column="17" lean-forward="true" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+            <state relative-caret-position="556">
+              <caret line="69" column="80" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="80" />
               <folding>
-                <marker date="1501413993275" expanded="true" signature="73:351" ph="..." />
+                <marker date="1501417672377" expanded="true" signature="73:351" ph="..." />
               </folding>
             </state>
           </provider>
@@ -116,21 +146,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pss-admin.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/css/pss-admin.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="responsive.mobile.landscape.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="460" column="1" lean-forward="false" selection-start-line="460" selection-start-column="1" selection-end-line="460" selection-end-column="1" />
+            <state relative-caret-position="598">
+              <caret line="506" column="0" lean-forward="false" selection-start-line="506" selection-start-column="0" selection-end-line="508" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -139,38 +159,28 @@
       <file leaf-file-name="responsive.mobile.portrait.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="446" column="14" lean-forward="false" selection-start-line="446" selection-start-column="14" selection-end-line="446" selection-end-column="14" />
+            <state relative-caret-position="640">
+              <caret line="493" column="1" lean-forward="false" selection-start-line="493" selection-start-column="1" selection-end-line="493" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.tablet.landscape.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.landscape.css">
+      <file leaf-file-name="theme756.info" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/theme756.info">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="171" column="0" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+            <state relative-caret-position="504">
+              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="2901" column="23" lean-forward="false" selection-start-line="2901" selection-start-column="23" selection-end-line="2901" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="responsive.tablet.portrait.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="213" column="20" lean-forward="false" selection-start-line="213" selection-start-column="20" selection-end-line="213" selection-end-column="20" />
+            <state relative-caret-position="584">
+              <caret line="3774" column="0" lean-forward="false" selection-start-line="3774" selection-start-column="0" selection-end-line="3776" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -188,7 +198,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#block-pss-extras-taxonomy-tags</find>
       <find>#site-logo-wrapper .section-logo-wrapper.logo-wrapper</find>
       <find>#block-menu-menu-footer-menu .content ul li a</find>
       <find>news</find>
@@ -218,6 +227,7 @@
       <find>admin/pss-settings</find>
       <find>pss_extras_settings_page</find>
       <find>.node-type-article #block-system-main .content .top-image</find>
+      <find>1</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -228,6 +238,7 @@
       <replace>#main-wrapper.full-width #auth_box</replace>
       <replace>#menu_accordion</replace>
       <replace>Sagoe UI</replace>
+      <replace>2</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\workspace\pss\sites\all\themes\theme756\templates</dir>
@@ -294,11 +305,11 @@
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/css/admin.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.landscape.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css" />
-        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css" />
       </list>
     </option>
   </component>
@@ -792,12 +803,12 @@
       <workItem from="1501261502915" duration="2634000" />
       <workItem from="1501317461177" duration="1418000" />
       <workItem from="1501332372551" duration="1512000" />
-      <workItem from="1501402917733" duration="7413000" />
+      <workItem from="1501402917733" duration="11910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311404000" />
+    <option name="totallyTimeSpent" value="315901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -898,31 +909,21 @@
           <option name="timeStamp" value="209" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="341" />
+      <option name="time" value="344" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
         <watch expression="$vars['node']" language="PHP" />
         <watch expression="drupal_get_path('module', 'pss_extras')" language="PHP" />
         <watch expression="arg(0)" language="PHP" />
+        <watch expression="file_load($banner-&gt;fid)" language="PHP" />
+        <watch expression="theme_image(drupal_realpath($uri))" language="PHP" />
+        <watch expression="drupal_realpath($uri)" language="PHP" />
+        <watch expression="file_create_url($uri)" language="PHP" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/page--user--login.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="44" column="196" lean-forward="false" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="196" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/page--node--153.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="57" column="80" lean-forward="false" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/simplenews/theme/simplenews-block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1072,13 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/theme756.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/simplenews-block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -1204,22 +1198,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="446" column="14" lean-forward="false" selection-start-line="446" selection-start-column="14" selection-end-line="446" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="460" column="1" lean-forward="false" selection-start-line="460" selection-start-column="1" selection-end-line="460" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -1255,53 +1233,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
+    <entry file="file://$PROJECT_DIR$/includes/theme.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="144" column="59" lean-forward="true" selection-start-line="144" selection-start-column="59" selection-end-line="144" selection-end-column="59" />
+        <state relative-caret-position="244">
+          <caret line="1876" column="9" lean-forward="false" selection-start-line="1876" selection-start-column="9" selection-end-line="1876" selection-end-column="9" />
           <folding>
-            <marker date="1501413766078" expanded="true" signature="1863:3289" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="1919:2021" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="2079:2132" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="2079:2257" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="2308:3262" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="2553:3231" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="2615:3199" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="2868:2902" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="3336:3433" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="3669:4701" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="3720:4674" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="3965:4643" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="4027:4029" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="4027:4611" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="4280:4314" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="19355:19404" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="19355:19405" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="19355:19702" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="19441:19679" ph="..." />
-            <marker date="1501413766078" expanded="true" signature="23320:23458" ph="SELECT DISTI... field_data_field_magazine_number" />
-            <marker date="1501413766078" expanded="true" signature="23607:23781" ph="SELECT entit... field_data_field_magazine_number" />
-            <marker date="1501413766078" expanded="true" signature="24176:24253" ph="SELECT MAX(f... field_data_field_magazine_number" />
-            <marker date="1501413766078" expanded="true" signature="24611:24702" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-            <marker date="1501413766078" expanded="true" signature="25179:25235" ph="SELECT COUNT... taxonomy_index" />
+            <marker date="1499277358868" expanded="true" signature="89017:89054" ph="..." />
+            <marker date="1499277358868" expanded="true" signature="89614:89620" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/file.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="592" column="9" lean-forward="false" selection-start-line="592" selection-start-column="9" selection-end-line="592" selection-end-column="9" />
+          <folding>
+            <marker date="1499277357962" expanded="true" signature="17836:17978" ph="..." />
+            <marker date="1499277357962" expanded="true" signature="18068:18102" ph="..." />
+            <marker date="1499277357962" expanded="true" signature="18212:18245" ph="..." />
+            <marker date="1499277357962" expanded="true" signature="18316:18344" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="60" column="17" lean-forward="true" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        <state relative-caret-position="556">
+          <caret line="69" column="80" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="80" />
           <folding>
-            <marker date="1501413993275" expanded="true" signature="73:351" ph="..." />
+            <marker date="1501417672377" expanded="true" signature="73:351" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="510" column="59" lean-forward="true" selection-start-line="510" selection-start-column="59" selection-end-line="510" selection-end-column="59" />
+          <folding>
+            <marker date="1501419392484" expanded="true" signature="1958:3384" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="2014:2116" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="2174:2227" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="2174:2352" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="2403:3357" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="2648:3326" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="2710:3294" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="2963:2997" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="3431:3528" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="3764:4796" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="3815:4769" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="4060:4738" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="4122:4124" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="4122:4706" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="4375:4409" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="19616:19665" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="19616:19666" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="19616:19963" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="19702:19940" ph="..." />
+            <marker date="1501419392484" expanded="true" signature="25288:25426" ph="SELECT DISTI... field_data_field_magazine_number" />
+            <marker date="1501419392484" expanded="true" signature="25575:25749" ph="SELECT entit... field_data_field_magazine_number" />
+            <marker date="1501419392484" expanded="true" signature="26144:26221" ph="SELECT MAX(f... field_data_field_magazine_number" />
+            <marker date="1501419392484" expanded="true" signature="26579:26670" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+            <marker date="1501419392484" expanded="true" signature="27147:27203" ph="SELECT COUNT... taxonomy_index" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="2901" column="23" lean-forward="false" selection-start-line="2901" selection-start-column="23" selection-end-line="2901" selection-end-column="23" />
+        <state relative-caret-position="584">
+          <caret line="3774" column="0" lean-forward="false" selection-start-line="3774" selection-start-column="0" selection-end-line="3776" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="506" column="0" lean-forward="false" selection-start-line="506" selection-start-column="0" selection-end-line="508" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="493" column="1" lean-forward="false" selection-start-line="493" selection-start-column="1" selection-end-line="493" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/theme756.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="44" />
           <folding />
         </state>
       </provider>
