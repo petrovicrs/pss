@@ -3672,9 +3672,13 @@ article.comment span.new {
 }
 #body #node-156 .field-name-body  .bis-partners .partner {
     display: inline-block;
-    width: 30%;
+    width: 24%;
     vertical-align: top;
-    padding-right: 38px;
+    /*padding-right: 38px;*/
+}
+#body #node-156 .field-name-body .bis-partners .partner img {
+    width: 90%;
+    padding: 5%;
 }
 #body #node-156 .field-name-body  .bis-partners .partner .partners-name {
     font-size: 20px;

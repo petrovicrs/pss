@@ -443,8 +443,8 @@ div#current-magazine-number .sup {
     background: none;
 }
 #body #node-156 .field-name-body  .bis-partners .partner {
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: 49%;
     padding-right: 0;
     margin-top: 10px;
     background-image: linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%);
@@ -456,6 +456,7 @@ div#current-magazine-number .sup {
 #body #node-156 .field-name-body  .bis-partners .partner .partners-logo img {
     width: 100%;
     height: auto;
+    padding: 0;
 }
 #body #node-156 .field-name-body  .bis-partners-desc {
     padding: 0;

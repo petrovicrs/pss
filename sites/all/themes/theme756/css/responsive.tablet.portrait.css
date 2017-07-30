@@ -226,3 +226,13 @@ div#current-magazine-number .number {
 #body #node-152 .field-name-body #accordion {
     max-width:100% ;
 }
+#body #node-156 .field-name-body  .bis-partners {
+    background: none;
+}
+#body #node-156 .field-name-body  .bis-partners .partner {
+    width: 32%;
+    background-image: linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%);
+    background-position: inherit;
+    background-size: 5px 1px;
+    background-repeat: repeat-x;
+}

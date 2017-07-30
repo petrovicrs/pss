@@ -442,6 +442,9 @@ div#current-magazine-number .number {
     background-repeat: repeat-x;
     padding-top: 20px;
 }
+#body #node-156 .field-name-body .bis-partners .partner img {
+    padding: 0;
+}
 #body #node-156 .field-name-body  .bis-partners .partner .partners-logo img {
     width: 100%;
     height: auto;
