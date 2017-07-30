@@ -13,7 +13,7 @@ function pss_extras_menu() {
       'description' => t('PSS Site Settings'),
       'file' => 'inc/pss_settings_page.inc.php',
       'page callback' => 'drupal_get_form',
-      'page arguments' => array('pss_extras_settings_page'),
+      'page arguments' => array('pss_extras_settings_page_form'),
       'access callback' => 'pss_extras_user_has_role',
       'access arguments' => array(array('site administrator')),
     );
@@ -136,7 +136,22 @@ function pss_extras_theme($existing, $type, $theme, $path) {
         'template' => 'news-type-block-single',
         'path' => drupal_get_path('module', 'pss_extras') . '/theme',
       ),
+      'pss_extras_theme_image_preview' => array(
+        'render element' => 'element',
+      ),
     );
+}
+
+function theme_pss_extras_theme_image_preview($variables) {
+    $form = $variables['element'];
+    $output = '';
+    if($form['#default_value'] != 0) {
+        $fid = $form['#default_value'];
+        $output .= '<div class="multifield-thumbnail">';
+        $output .= theme('image_style', array('style_name' => 'thumbnail', 'path' => file_load($fid)->uri, 'getsize' => FALSE));
+        $output .= '</div>';
+    };
+    return $output;
 }
 
 function pss_extras_preprocess_html(&$variables) {
