@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.landscape.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.landscape.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/js/responsive.tablet.landscape.js" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/js/responsive.tablet.landscape.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
     </list>
     <ignored path="pss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,110 +29,38 @@
   <component name="DrupalConfiguration" enabled="true" version="7">
     <drupalPath>D:\workspace\pss</drupalPath>
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="pss" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pss_settings_page.inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php">
+      <file leaf-file-name="pss_extras.module" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            <state relative-caret-position="562">
+              <caret line="207" column="43" lean-forward="true" selection-start-line="207" selection-start-column="43" selection-end-line="207" selection-end-column="43" />
               <folding>
-                <marker date="1501603227512" expanded="true" signature="73:351" ph="..." />
+                <marker date="1501483331046" expanded="true" signature="1958:3384" ph="..." />
+                <marker date="1501483331046" expanded="true" signature="2014:2116" ph="..." />
+                <marker date="1501483331046" expanded="true" signature="2174:2352" ph="..." />
+                <marker date="1501483331046" expanded="true" signature="2403:3357" ph="..." />
+                <marker date="1501483331046" expanded="true" signature="2648:3326" ph="..." />
+                <marker date="1501483331046" expanded="true" signature="2710:3294" ph="..." />
+                <marker date="1501483331046" expanded="false" signature="2963:2997" ph="..." />
+                <marker date="1501483331046" expanded="true" signature="3431:3528" ph="..." />
+                <marker date="1501483331046" expanded="true" signature="3764:4796" ph="..." />
+                <marker date="1501483331046" expanded="true" signature="3815:4769" ph="..." />
+                <marker date="1501483331046" expanded="true" signature="4060:4738" ph="..." />
+                <marker date="1501483331046" expanded="true" signature="4122:4706" ph="..." />
+                <marker date="1501483331046" expanded="false" signature="4375:4409" ph="..." />
+                <marker date="1501483331046" expanded="true" signature="19714:20061" ph="..." />
+                <marker date="1501483331046" expanded="true" signature="19800:20038" ph="..." />
+                <marker date="1501483331046" expanded="true" signature="25386:25524" ph="SELECT DISTI... field_data_field_magazine_number" />
+                <marker date="1501483331046" expanded="true" signature="25673:25847" ph="SELECT entit... field_data_field_magazine_number" />
+                <marker date="1501483331046" expanded="true" signature="26242:26319" ph="SELECT MAX(f... field_data_field_magazine_number" />
+                <marker date="1501483331046" expanded="true" signature="26677:26768" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+                <marker date="1501483331046" expanded="true" signature="27245:27301" ph="SELECT COUNT... taxonomy_index" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="responsive.mobile.landscape.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10626">
-              <caret line="506" column="0" lean-forward="false" selection-start-line="506" selection-start-column="0" selection-end-line="508" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="responsive.mobile.portrait.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10353">
-              <caret line="493" column="1" lean-forward="false" selection-start-line="493" selection-start-column="1" selection-end-line="493" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theme756.info" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/theme756.info">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="2310" column="1" lean-forward="true" selection-start-line="2310" selection-start-column="1" selection-end-line="2310" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pss.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/pss.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="responsive.tablet.landscape.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/responsive.tablet.landscape.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="responsive.tablet.portrait.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/responsive.tablet.portrait.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="responsive.tablet.landscape.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.landscape.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="responsive.tablet.portrait.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -154,6 +77,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>#site-logo-wrapper .section-logo-wrapper.logo-wrapper</find>
       <find>#block-menu-menu-footer-menu .content ul li a</find>
       <find>news</find>
       <find>#footer #block-menu-menu-footer-menu .content ul li a</find>
@@ -183,7 +107,6 @@
       <find>pss_extras_settings_page</find>
       <find>.node-type-article #block-system-main .content .top-image</find>
       <find>1</find>
-      <find>#news-type-block .view-content .views-row</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -217,6 +140,7 @@
       <list>
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/scripts/betterlogin.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/form.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/responsive.tablet.landscape.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/accordion.menu.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/responsive.tablet.portrait.js" />
@@ -258,14 +182,13 @@
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/css/admin.css" />
-        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css" />
-        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/responsive.tablet.landscape.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.landscape.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css" />
+        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css" />
+        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
       </list>
     </option>
   </component>
@@ -275,7 +198,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpDebugGeneral" notify_if_session_was_finished_without_being_paused="false" />
+  <component name="PhpDebugGeneral" listening_started="true" notify_if_session_was_finished_without_being_paused="false" />
   <component name="PhpServers">
     <servers>
       <server host="pss.local" id="c57b1339-2da8-4257-b2ef-58a7ad9e6de0" name="pss.local" port="8102" />
@@ -297,11 +220,11 @@
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="151" />
-    <option name="width" value="1616" />
-    <option name="height" value="916" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="49" />
+    <option name="y" value="-4" />
+    <option name="width" value="1871" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -319,318 +242,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme756" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme756" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme756" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss_extras" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss_extras" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss_extras" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss_extras" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scratches" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -668,9 +282,14 @@
     </option>
   </component>
   <component name="RunManager" selected="PHPUnit.betterlogin">
-    <configuration default="false" name="betterlogin" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner directory="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin" />
-      <method />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
     </configuration>
     <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
       <PhpTestRunnerSettings />
@@ -713,16 +332,6 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <pass-parent-envs>true</pass-parent-envs>
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -743,9 +352,9 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="PHPUnit.betterlogin" />
-    </list>
+    <configuration name="betterlogin" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin" />
+    </configuration>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="PHPUnit.betterlogin" />
@@ -819,13 +428,13 @@
       <workItem from="1501261502915" duration="2634000" />
       <workItem from="1501317461177" duration="1418000" />
       <workItem from="1501332372551" duration="1512000" />
-      <workItem from="1501402917733" duration="12908000" />
-      <workItem from="1501602852036" duration="1682000" />
+      <workItem from="1501402917733" duration="11910000" />
+      <workItem from="1501482954934" duration="405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="318581000" />
+    <option name="totallyTimeSpent" value="316306000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -837,19 +446,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="151" width="1616" height="916" extended-state="7" />
+    <frame x="49" y="-4" width="1871" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29755783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11037891" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46306068" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.84298444" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.84298444" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3944591" sideWeight="0.4974293" order="5" side_tool="false" content_ui="tabs" x="1920" y="181" width="1600" height="878" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39347827" sideWeight="0.4974293" order="5" side_tool="false" content_ui="tabs" x="1920" y="181" width="1600" height="878" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -857,13 +467,15 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5879733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -926,21 +538,25 @@
           <option name="timeStamp" value="209" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="344" />
+      <option name="time" value="350" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="index.php">
-        <watch expression="$vars['node']" language="PHP" />
-        <watch expression="drupal_get_path('module', 'pss_extras')" language="PHP" />
-        <watch expression="arg(0)" language="PHP" />
-        <watch expression="file_load($banner-&gt;fid)" language="PHP" />
-        <watch expression="theme_image(drupal_realpath($uri))" language="PHP" />
-        <watch expression="drupal_realpath($uri)" language="PHP" />
-        <watch expression="file_create_url($uri)" language="PHP" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/simplenews/theme/simplenews-block.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/page--user--change.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="44" column="200" lean-forward="false" selection-start-line="44" selection-start-column="200" selection-end-line="44" selection-end-column="200" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/page--page-old.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -1055,6 +671,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/pss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/fullwidth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1136,6 +759,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,6 +767,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,6 +789,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4830">
           <caret line="233" column="18" lean-forward="false" selection-start-line="233" selection-start-column="4" selection-end-line="233" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,9 +807,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.landscape.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="171" column="0" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="213" column="20" lean-forward="false" selection-start-line="213" selection-start-column="20" selection-end-line="213" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/form.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47103">
+        <state relative-caret-position="40374">
           <caret line="2246" column="9" lean-forward="false" selection-start-line="2246" selection-start-column="9" selection-end-line="2246" selection-end-column="9" />
           <folding />
         </state>
@@ -1192,83 +831,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/system/system.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58716">
+        <state relative-caret-position="50328">
           <caret line="2799" column="0" lean-forward="false" selection-start-line="2799" selection-start-column="0" selection-end-line="2800" selection-end-column="95" />
-          <folding>
-            <marker date="1499277446711" expanded="true" signature="61086:61130" ph="SELECT * FRO... blocked_ips" />
-            <marker date="1499277446711" expanded="true" signature="76655:76749" ph="SELECT mlid,... menu_links" />
-            <marker date="1499277446711" expanded="true" signature="80232:80324" ph="SELECT filen... system" />
-            <marker date="1499277446711" expanded="true" signature="80903:80944" ph="SELECT * FRO... system" />
-            <marker date="1499277446711" expanded="true" signature="108888:108972" ph="SELECT fid F... file_managed" />
-            <marker date="1499277446711" expanded="true" signature="129509:129599" ph="SELECT df.df... date_formats" />
-            <marker date="1499277446711" expanded="true" signature="131010:131065" ph="SELECT forma... " />
-            <marker date="1499277446711" expanded="true" signature="132930:133015" ph="SELECT dft.t... date_format_type" />
-            <marker date="1499277446711" expanded="true" signature="136128:136322" ph="SELECT df.df... date_formats" />
-            <marker date="1499277446711" expanded="true" signature="140366:140444" ph="SELECT 1 FRO... date_format_locale" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/theme.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39270">
+        <state relative-caret-position="33660">
           <caret line="1876" column="9" lean-forward="false" selection-start-line="1876" selection-start-column="9" selection-end-line="1876" selection-end-column="9" />
-          <folding>
-            <marker date="1499277358868" expanded="true" signature="89017:89054" ph="..." />
-            <marker date="1499277358868" expanded="true" signature="89614:89620" ph=" " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/file.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12369">
+        <state relative-caret-position="10602">
           <caret line="592" column="9" lean-forward="false" selection-start-line="592" selection-start-column="9" selection-end-line="592" selection-end-column="9" />
-          <folding>
-            <marker date="1499277357962" expanded="true" signature="17836:17978" ph="..." />
-            <marker date="1499277357962" expanded="true" signature="18068:18102" ph="..." />
-            <marker date="1499277357962" expanded="true" signature="18212:18245" ph="..." />
-            <marker date="1499277357962" expanded="true" signature="18316:18344" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10710">
-          <caret line="510" column="59" lean-forward="false" selection-start-line="510" selection-start-column="59" selection-end-line="510" selection-end-column="59" />
-          <folding>
-            <marker date="1501419392484" expanded="true" signature="1958:3384" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="2014:2116" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="2174:2227" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="2174:2352" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="2403:3357" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="2648:3326" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="2710:3294" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="2963:2997" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="3431:3528" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="3764:4796" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="3815:4769" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="4060:4738" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="4122:4124" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="4122:4706" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="4375:4409" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="19616:19665" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="19616:19666" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="19616:19963" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="19702:19940" ph="..." />
-            <marker date="1501419392484" expanded="true" signature="25288:25426" ph="SELECT DISTI... field_data_field_magazine_number" />
-            <marker date="1501419392484" expanded="true" signature="25575:25749" ph="SELECT entit... field_data_field_magazine_number" />
-            <marker date="1501419392484" expanded="true" signature="26144:26221" ph="SELECT MAX(f... field_data_field_magazine_number" />
-            <marker date="1501419392484" expanded="true" signature="26579:26670" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-            <marker date="1501419392484" expanded="true" signature="27147:27203" ph="SELECT COUNT... taxonomy_index" />
-          </folding>
+        <state relative-caret-position="1242">
+          <caret line="69" column="80" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67932">
+          <caret line="3774" column="0" lean-forward="false" selection-start-line="3774" selection-start-column="0" selection-end-line="3776" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10626">
+        <state relative-caret-position="9108">
           <caret line="506" column="0" lean-forward="false" selection-start-line="506" selection-start-column="0" selection-end-line="508" selection-end-column="1" />
           <folding />
         </state>
@@ -1276,7 +879,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10353">
+        <state relative-caret-position="8874">
           <caret line="493" column="1" lean-forward="false" selection-start-line="493" selection-start-column="1" selection-end-line="493" selection-end-column="1" />
           <folding />
         </state>
@@ -1284,67 +887,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/theme756.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+        <state relative-caret-position="562">
+          <caret line="207" column="43" lean-forward="true" selection-start-line="207" selection-start-column="43" selection-end-line="207" selection-end-column="43" />
           <folding>
-            <marker date="1501603227512" expanded="true" signature="73:351" ph="..." />
+            <marker date="1501483331046" expanded="true" signature="1958:3384" ph="..." />
+            <marker date="1501483331046" expanded="true" signature="2014:2116" ph="..." />
+            <marker date="1501483331046" expanded="true" signature="2174:2352" ph="..." />
+            <marker date="1501483331046" expanded="true" signature="2403:3357" ph="..." />
+            <marker date="1501483331046" expanded="true" signature="2648:3326" ph="..." />
+            <marker date="1501483331046" expanded="true" signature="2710:3294" ph="..." />
+            <marker date="1501483331046" expanded="false" signature="2963:2997" ph="..." />
+            <marker date="1501483331046" expanded="true" signature="3431:3528" ph="..." />
+            <marker date="1501483331046" expanded="true" signature="3764:4796" ph="..." />
+            <marker date="1501483331046" expanded="true" signature="3815:4769" ph="..." />
+            <marker date="1501483331046" expanded="true" signature="4060:4738" ph="..." />
+            <marker date="1501483331046" expanded="true" signature="4122:4706" ph="..." />
+            <marker date="1501483331046" expanded="false" signature="4375:4409" ph="..." />
+            <marker date="1501483331046" expanded="true" signature="19714:20061" ph="..." />
+            <marker date="1501483331046" expanded="true" signature="19800:20038" ph="..." />
+            <marker date="1501483331046" expanded="true" signature="25386:25524" ph="SELECT DISTI... field_data_field_magazine_number" />
+            <marker date="1501483331046" expanded="true" signature="25673:25847" ph="SELECT entit... field_data_field_magazine_number" />
+            <marker date="1501483331046" expanded="true" signature="26242:26319" ph="SELECT MAX(f... field_data_field_magazine_number" />
+            <marker date="1501483331046" expanded="true" signature="26677:26768" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+            <marker date="1501483331046" expanded="true" signature="27245:27301" ph="SELECT COUNT... taxonomy_index" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="2310" column="1" lean-forward="true" selection-start-line="2310" selection-start-column="1" selection-end-line="2310" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/pss.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/responsive.tablet.landscape.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/responsive.tablet.portrait.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.landscape.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
