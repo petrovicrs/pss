@@ -8,7 +8,7 @@ function __fix_tablet_landscape() {
     var win_width = $(window).width();
     if (win_width < 1300 && win_width > 960) {
         // __fix_news_type_images();
-        // __fix_most_read();
+        __fix_most_read();
     }
 }
 

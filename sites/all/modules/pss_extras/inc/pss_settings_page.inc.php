@@ -42,7 +42,7 @@ function pss_extras_settings_page_form() {
     //large banner
     $form['pss_front_page_banners']['banner_large'] = array(
       '#type' => 'fieldset',
-      '#title' => t('Banner 720x300'),
+      '#title' => t('Banner 728x90'),
       '#collapsible' => FALSE,
       '#collapsed' => FALSE,
     );

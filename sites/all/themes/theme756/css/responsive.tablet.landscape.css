@@ -46,7 +46,7 @@ input[type="search"]#edit-search-block-form--2{
 .view.news-by-type-block-view .view-content .views-row.views-row-7 .field-content .news-image .image img,
 .view.news-by-type-block-view .view-content .views-row.views-row-8 .field-content .news-image .image img {
     width:100%;
-    height: auto;
+    /*height: auto;*/
 }
 .view.news-by-type-block-view .view-content .views-row.views-row-4 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-5 .field-content .news-content .title-and-body {
