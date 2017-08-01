@@ -2308,6 +2308,7 @@ ul.contextual-links li a:hover {
 
 #news-type-block .view-content .row {
     text-align: center;
+    float: left;
 }
 
 #news-type-block .view-content .views-row {
