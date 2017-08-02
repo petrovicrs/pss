@@ -2,3 +2,7 @@
 .page-node-edit.node-type-magazine-number .field-name-field-show-pdf-only {
     display: none;
 }
+.page-user #user-profile-form #edit-picture img {
+	max-height: 150px;
+	max-width: 150px;
+}
