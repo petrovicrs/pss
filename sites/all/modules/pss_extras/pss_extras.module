@@ -199,6 +199,7 @@ function pss_extras_preprocess_node(&$vars) {
             $summary_value = $vars['body'][0]['summary'];
             unset($vars['content']['comments']);
             if (!empty($summary_value)) {
+                $summary_value .= "</br></br><p>" . t('Read rest of text in print version.') . "</p>";
                 $vars['body'][0]['value'] = $summary_value;
                 $vars['content']['body'][0]['#markup'] = $summary_value;
             }
@@ -210,6 +211,7 @@ function pss_extras_preprocess_node(&$vars) {
                   'html' => 'yes'
                 );
                 $trimmed = views_trim_text($alter, $body_value);
+                $trimmed .= "</br></br><p>" . t('Read rest of text in print version.') . "</p>";
                 $vars['body'][0]['value'] = $trimmed;
                 $vars['body'][0]['safe_value'] = $trimmed;
                 $vars['content']['body'][0]['#markup'] = $trimmed;
@@ -232,6 +234,7 @@ function pss_extras_preprocess_node(&$vars) {
             $summary_value = $vars['body'][0]['summary'];
             unset($vars['content']['comments']);
             if (!empty($summary_value)) {
+                $summary_value .= "</br></br><p>" . t('Read rest of text in print version.') . "</p>";
                 $vars['body'][0]['value'] = $summary_value;
                 $vars['content']['body'][0]['#markup'] = $summary_value;
             }
@@ -243,6 +246,7 @@ function pss_extras_preprocess_node(&$vars) {
                   'html' => 'yes'
                 );
                 $trimmed = views_trim_text($alter, $body_value);
+                $trimmed .= "</br></br><p>" . t('Read rest of text in print version.') . "</p>";
                 $vars['body'][0]['value'] = $trimmed;
                 $vars['body'][0]['safe_value'] = $trimmed;
                 $vars['content']['body'][0]['#markup'] = $trimmed;
