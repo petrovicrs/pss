@@ -16,10 +16,10 @@
                 <div class="tag-news-title">
                     <?php if (isset($tagNews['tagNewsPath'])) { ?>
                         <a href="<?php echo $tagNews['tagNewsPath']; ?>">
-                            <?php echo isset($tagNews['tagNewsTitle']) ? ucfirst(mb_strtolower ($tagNews['tagNewsTitle'])) : '';?>
+                            <?php echo isset($tagNews['tagNewsTitle']) ? $tagNews['tagNewsTitle'] : '';?>
                         </a>
                     <?php } else { ?>
-                        <?php echo isset($tagNews['tagNewsTitle']) ? ucfirst(mb_strtolower ($tagNews['tagNewsTitle'])) : '';?>
+                        <?php echo isset($tagNews['tagNewsTitle']) ? $tagNews['tagNewsTitle'] : '';?>
                     <?php } ?>
                 </div>
             </div>
