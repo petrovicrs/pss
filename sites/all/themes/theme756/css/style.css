@@ -3653,7 +3653,7 @@ article.comment span.new {
 #body #node-151 .field-name-body,
 #body #node-151 .field-name-field-description,
 #body #node-157 .field-name-body,
-#body #node-157 .field-name-field-description,{
+#body #node-157 .field-name-field-description{
     max-width: 850px;
     margin: 50px auto;
 }
