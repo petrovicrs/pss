@@ -411,8 +411,8 @@ div#current-magazine-number .number {
     width: 100%;
     float: none;
 }
-.node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image {
-    display: none;
+.node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image img{
+    height: auto;
 }
 .node-type-advanced-page .node-advanced-page .field-name-body .field-items {
     padding-top: 30px;

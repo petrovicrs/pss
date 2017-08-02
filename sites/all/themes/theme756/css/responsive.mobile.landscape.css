@@ -420,10 +420,9 @@ div#current-magazine-number .sup {
 .node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image {
     display: block;
     width: 100%;
-    float: none;
 }
-.node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image {
-    display: none;
+.node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image img {
+    height: auto;
 }
 .node-type-advanced-page .node-advanced-page .field-name-body .field-items {
     padding-top: 30px;

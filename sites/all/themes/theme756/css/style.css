@@ -2837,8 +2837,9 @@ ul.contextual-links li a:hover {
     font-size: 20px;
 }
 /*** advanced page ***/
-.node-type-advanced-page .node-advanced-page {
-    background-color: #545454;
+.node-type-advanced-page .node-advanced-page .content{
+    /*background-color: #545454;*/
+    position: relative;
 }
 
 .node-type-advanced-page .node-advanced-page .field-name-field-advanced-sponsor-image {
@@ -2853,21 +2854,22 @@ ul.contextual-links li a:hover {
 
 .node-type-advanced-page .node-advanced-page .field-name-body,
 .node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image {
-    display: inline-block;
-    width: 50%;
+    display: block;
+    width: 100%;
     vertical-align: top;
     height: 485px;
 }
-
 .node-type-advanced-page .node-advanced-page .field-name-body {
-    float: left;
+    /*float: left;*/
     color: #ffffff;
+    height: auto;
+    background-color: rgba(84,84,84,0.7);
+    position: absolute;
+    bottom: 0;
 }
 
 .node-type-advanced-page .node-advanced-page .field-name-body .field-items {
-    padding-top: 80px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 40px;
 }
 
 .node-type-advanced-page .node-advanced-page .field-name-body h1,
@@ -2878,13 +2880,14 @@ ul.contextual-links li a:hover {
 }
 
 .node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image {
-    float: right;
+    /*float: right;*/
     height: 485px;
 }
 
 .node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image img {
     height: 485px;
     max-width: 100%;
+    width: 100%;
 }
 
 /** article **/
