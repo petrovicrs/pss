@@ -41,7 +41,7 @@ drupal_add_js(drupal_get_path('theme', 'theme756') . '/js/fullwidth.js');
                         <div class="background-image-holder" style="background-image: url('/<?php echo drupal_get_path('module', 'betterlogin') . '/images/fantasy-woman-bckg.png'; ?>');">
                             <div class="image-holder">
                                 <div class="image-inner-holder">
-                                    <img src="/<?php echo drupal_get_path('module', 'betterlogin') . '/images/fantasy-woman-warrior-950.png'; ?>">
+                                    <img src="/<?php echo drupal_get_path('module', 'betterlogin') . '/images/handset.png'; ?>">
                                 </div>
                             </div>
                             <div id="auth_box" class="reset">

@@ -5,7 +5,7 @@
 </div>
 <div class="views-field views-field-body">
     <?php if(isset($tagLink)) {?>
-        <div class="views-field views-field-title"><a href="<?php echo $tagLink; ?>"><?php echo isset($tagTitle) ? ucfirst(mb_strtolower ($tagTitle)) : ''; ?></a></div>
+        <div class="views-field views-field-title"><a href="<?php echo $tagLink; ?>"><?php echo isset($tagTitle) ? $tagTitle : ''; ?></a></div>
     <?php } else { ?>
         <div class="views-field views-field-title"><?php echo isset($tagTitle) ? $tagTitle : ''; ?></div>
     <?php } ?>
