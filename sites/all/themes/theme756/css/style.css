@@ -2881,11 +2881,11 @@ ul.contextual-links li a:hover {
 
 .node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image {
     /*float: right;*/
-    height: 485px;
+    height: 400px;
 }
 
 .node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image img {
-    height: 485px;
+    height: 400px;
     max-width: 100%;
     width: 100%;
 }
