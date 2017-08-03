@@ -4,6 +4,9 @@
     width: 70%;
     text-align: center;
 }
+.page-node-153 #main-wrapper.full-width .image-holder {
+    vertical-align: bottom;
+}
 #main-wrapper.full-width  div#site-slogan {
     color:#FFFFFF;
     font-size: 34px;
@@ -33,6 +36,7 @@
     vertical-align: middle;
     display: table-cell;
     text-align: left;
+    padding: 20px 0;
 }
 
 #main-wrapper.full-width #auth_box #top_part {
