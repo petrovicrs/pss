@@ -253,6 +253,6 @@ div#current-magazine-number .number {
     font-family: 'PTSans-Regular', sans-serif;
     font-size: 22px;
 }
-.node-type-page #block-system-main #node-150 .content {
+.node-type-page #block-system-main #node-150 .content *{
     font-family: 'SpecialElite', sans-serif;
 }
