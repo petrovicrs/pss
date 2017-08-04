@@ -57,7 +57,7 @@
 ?>
 <article class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-  <?php print $picture ?>
+  <?php /*print $picture*/ ?>
   <div class="comment-wrapper">
 	  <header class="attribution">
 

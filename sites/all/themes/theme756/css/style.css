@@ -2740,6 +2740,7 @@ ul.contextual-links li a:hover {
     left: 0;
 }
 #block-views-author-recommendation-block .view-author-recommendation .view-header .printed-date {
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 #block-views-author-recommendation-block .view-author-recommendation .view-header .printed-date .number {
@@ -2750,13 +2751,13 @@ ul.contextual-links li a:hover {
     margin-bottom: 10px;
     border-bottom: 2px solid #ec1f27;
     display: block;
+    color: #575757;
 }
 #block-views-author-recommendation-block .view-author-recommendation .view-header .subscribe-link-wrapper .subscribe-link{
     display: inline-block;
 }
 #block-views-author-recommendation-block .view-author-recommendation .view-header .subscribe-link-wrapper .subscribe-link a {
     text-decoration: none;
-    color: #000000;
     font-size: 18px;
 }
 #block-views-author-recommendation-block .view-author-recommendation .view-header .subscribe-link-wrapper .arrow-holder{
@@ -2969,17 +2970,17 @@ ul.contextual-links li a:hover {
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element .profile .user-picture,
-.node-type-article #block-system-main .content .inner-content .inner-content-element .comments .user-picture {
+#block-system-main .content .inner-content .inner-content-element .comments .user-picture {
     margin-top: 50px;
     text-align: center;
 }
 
-.node-type-article #block-system-main .content .inner-content .inner-content-element .comments .user-picture {
+#block-system-main .content .inner-content .inner-content-element .comments .user-picture {
     margin: 0;
 }
 
-.node-type-article #block-system-main .content .inner-content .inner-content-element .profile .user-picture .image-wrapper,
-.node-type-article #block-system-main .content .inner-content .inner-content-element .comments .user-picture .image-wrapper {
+#block-system-main .content .inner-content .inner-content-element .profile .user-picture .image-wrapper,
+#block-system-main .content .inner-content .inner-content-element .comments .user-picture .image-wrapper {
     display: inline-block;
     overflow: hidden;
     width: 100px;
@@ -2989,13 +2990,13 @@ ul.contextual-links li a:hover {
     border-radius: 50px;
 }
 
-.node-type-article #block-system-main .content .inner-content .inner-content-element .comments .user-picture .image-wrapper {
+#block-system-main .content .inner-content .inner-content-element .comments .user-picture .image-wrapper {
     width: 50px;
     height: 50px;
 }
 
-.node-type-article #block-system-main .content .inner-content .inner-content-element .profile .user-picture .image-wrapper img,
-.node-type-article #block-system-main .content .inner-content .inner-content-element .comments .user-picture .image-wrapper img {
+#block-system-main .content .inner-content .inner-content-element .profile .user-picture .image-wrapper img,
+#block-system-main .content .inner-content .inner-content-element .comments .user-picture .image-wrapper img {
     display: block;
     /* top: 35%; */
     /* position: absolute; */
@@ -3004,7 +3005,7 @@ ul.contextual-links li a:hover {
     height: 100%;
 }
 
-.node-type-article #block-system-main .content .inner-content .inner-content-element .comments .user-picture .image-wrapper img {
+#block-system-main .content .inner-content .inner-content-element .comments .user-picture .image-wrapper img {
 /*    width: 40px;
     left: 10%;*/
 }
@@ -3176,7 +3177,9 @@ article.comment {
     background: none;
     margin-bottom: 30px;
 }
-
+#comments .indented {
+    margin-top: -30px;
+}
 article.comment h2 {
     color: #292a2b;
     font-size: 18px;
@@ -3689,6 +3692,10 @@ article.comment span.new {
     max-width: 850px;
     margin: 50px auto;
 }
+#body #node-150 .field-name-body {
+    max-width: 700px;
+}
+
 /** marketing **/
 #body #node-152 .field-name-body .right_image {
     float: right;
@@ -3818,4 +3825,9 @@ article.comment span.new {
 .node-type-page #block-system-main .content h5 {
     margin-top: 20px;
     margin-bottom: 10px;
+}
+#body .read-rest-in-print-version {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
 }
