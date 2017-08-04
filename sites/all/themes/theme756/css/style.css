@@ -2739,7 +2739,31 @@ ul.contextual-links li a:hover {
     top: 0;
     left: 0;
 }
-
+#block-views-author-recommendation-block .view-author-recommendation .view-header .printed-date {
+    margin-bottom: 10px;
+}
+#block-views-author-recommendation-block .view-author-recommendation .view-header .printed-date .number {
+    color: #ec1f27;
+}
+#block-views-author-recommendation-block .view-author-recommendation .view-header .subscribe-link-wrapper {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ec1f27;
+    display: block;
+}
+#block-views-author-recommendation-block .view-author-recommendation .view-header .subscribe-link-wrapper .subscribe-link{
+    display: inline-block;
+}
+#block-views-author-recommendation-block .view-author-recommendation .view-header .subscribe-link-wrapper .subscribe-link a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+#block-views-author-recommendation-block .view-author-recommendation .view-header .subscribe-link-wrapper .arrow-holder{
+    color: #ec1f27;
+    display: inline-block;
+    margin-right: 10px;
+}
 #block-views-author-recommendation-block .view-author-recommendation .view-content .views-row {
     margin-top: 20px;
 }

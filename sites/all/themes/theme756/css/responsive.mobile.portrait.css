@@ -410,14 +410,13 @@ div#current-magazine-number .number {
     display: block;
     width: 100%;
     float: none;
+    height: auto;
 }
 .node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image img{
     height: auto;
 }
 .node-type-advanced-page .node-advanced-page .field-name-body .field-items {
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px;
 }
 #body.node-type-page .field-name-field-basic-page-image img{
     display: block;
