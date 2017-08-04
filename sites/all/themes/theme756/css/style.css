@@ -59,7 +59,10 @@ a:hover {
     margin: 40px auto 0 auto;
     position: relative;
 }
-
+.node-type-advanced-page #main-wrapper,
+.node-type-advanced-page #site-logo-wrapper {
+    margin-top: 20px;
+}
 #main-wrapper.full-width {
     width: 100%;
     margin: 0;
@@ -2844,12 +2847,12 @@ ul.contextual-links li a:hover {
 
 .node-type-advanced-page .node-advanced-page .field-name-field-advanced-sponsor-image {
     width: 100%;
-    padding-bottom: 20px;
     background-color: #f1f1f1;
     text-align: center;
 }
 
 .node-type-advanced-page .node-advanced-page .field-name-field-advanced-sponsor-image img {
+    padding-bottom: 20px;
 }
 
 .node-type-advanced-page .node-advanced-page .field-name-body,
