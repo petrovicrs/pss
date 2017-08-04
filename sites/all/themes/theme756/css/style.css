@@ -8,7 +8,9 @@ body#body {
     margin: 0;
     padding: 0;
 }
-
+.user-picture {
+    max-width: 200px;
+}
 body#body ::selection {
   background-color: #ec1f27; /* WebKit/Blink Browsers */
   color: #FFFFFF;
