@@ -3784,3 +3784,12 @@ article.comment span.new {
 #block-pss-extras-front-banner-block {
     margin-bottom: 40px;
 }
+
+.node-type-page #block-system-main .content h1,
+.node-type-page #block-system-main .content h2,
+.node-type-page #block-system-main .content h3,
+.node-type-page #block-system-main .content h4,
+.node-type-page #block-system-main .content h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
