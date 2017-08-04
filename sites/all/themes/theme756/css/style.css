@@ -3623,6 +3623,7 @@ article.comment span.new {
     font-size: 12px;
 }
 /** o nama **/
+/*
 .page-node-150 article.node .content table {
     width: 860px;
 }
@@ -3634,6 +3635,7 @@ article.comment span.new {
 .page-node-150 article.node .content table td:last-child {
     padding-right: 0;
 }
+*/
 .page-node-150 article.node .content .first-child .first-letter,
 .page-node-151 article.node .content .first-child .first-letter {
     font-size: 48px;
