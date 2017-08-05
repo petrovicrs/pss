@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.landscape.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.landscape.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
     </list>
     <ignored path="pss.iws" />
@@ -111,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="3839" column="0" lean-forward="false" selection-start-line="3839" selection-start-column="0" selection-end-line="3839" selection-end-column="25" />
+            <state relative-caret-position="493">
+              <caret line="3845" column="1" lean-forward="true" selection-start-line="3845" selection-start-column="1" selection-end-line="3845" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -141,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.mobile.landscape.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="responsive.mobile.landscape.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="506" column="1" lean-forward="false" selection-start-line="506" selection-start-column="1" selection-end-line="506" selection-end-column="1" />
+            <state relative-caret-position="228">
+              <caret line="492" column="17" lean-forward="true" selection-start-line="492" selection-start-column="17" selection-end-line="492" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -173,7 +169,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>drupal_ad</find>
       <find>drupal_add</find>
       <find>drupal_add_</find>
       <find>drupal_add_c</find>
@@ -203,6 +198,7 @@
       <find>picture</find>
       <find>comment</find>
       <find>article.comment</find>
+      <find>#body .read-rest-in-print-version</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -280,11 +276,11 @@
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/comment.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/css/pss-admin.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.landscape.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
       </list>
     </option>
   </component>
@@ -695,12 +691,12 @@
       <workItem from="1501696843386" duration="3432000" />
       <workItem from="1501860729606" duration="7863000" />
       <workItem from="1501883540558" duration="252000" />
-      <workItem from="1501914266670" duration="1764000" />
+      <workItem from="1501914266670" duration="2612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="331839000" />
+    <option name="totallyTimeSpent" value="332687000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1147,14 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="3839" column="0" lean-forward="false" selection-start-line="3839" selection-start-column="0" selection-end-line="3839" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.tablet.portrait.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -1181,8 +1169,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="506" column="1" lean-forward="false" selection-start-line="506" selection-start-column="1" selection-end-line="506" selection-end-column="1" />
+        <state relative-caret-position="228">
+          <caret line="492" column="17" lean-forward="true" selection-start-line="492" selection-start-column="17" selection-end-line="492" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="3845" column="1" lean-forward="true" selection-start-line="3845" selection-start-column="1" selection-end-line="3845" selection-end-column="1" />
           <folding />
         </state>
       </provider>
