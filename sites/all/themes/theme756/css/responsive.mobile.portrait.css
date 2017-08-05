@@ -491,3 +491,6 @@ div#current-magazine-number .number {
 #block-pss-extras-front-banner-block img{
     max-width: 100%;
 }
+#body.page-node-152 #page {
+    background-image: none;
+}

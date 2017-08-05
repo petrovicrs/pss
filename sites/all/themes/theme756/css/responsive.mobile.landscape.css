@@ -505,3 +505,6 @@ div#current-magazine-number .sup {
 #block-pss-extras-front-banner-block img{
     max-width: 100%;
 }
+#body.page-node-152 #page {
+    background-image: none;
+}

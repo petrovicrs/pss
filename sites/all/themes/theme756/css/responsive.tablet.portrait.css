@@ -236,3 +236,6 @@ div#current-magazine-number .number {
     background-size: 5px 1px;
     background-repeat: repeat-x;
 }
+#body.page-node-152 #page {
+    background-image: none;
+}

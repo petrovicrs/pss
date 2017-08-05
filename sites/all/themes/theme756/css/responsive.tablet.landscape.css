@@ -170,3 +170,6 @@ div#current-magazine-number .number {
 #body #node-152 .field-name-body #accordion {
     max-width:100% ;
 }
+#body.page-node-152 #page {
+    background-image: none;
+}
