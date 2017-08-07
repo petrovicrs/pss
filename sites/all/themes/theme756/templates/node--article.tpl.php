@@ -33,6 +33,11 @@ if (isset($node->field_article_type)) {
               <?php endif;?>
             </div>
             <div class="inner-content-element inner-content-center body-and-comments">
+                <?php if(isset($content['field_tagline'])) {?>
+                <div class="article-tagline">
+                    <?php print render($content['field_tagline']);?>
+                </div>
+                <?php }?>
                 <div class="node-title">
                   <?php print render($title_prefix); ?>
                   <?php if (!$page) {?>
@@ -44,9 +49,16 @@ if (isset($node->field_article_type)) {
                   <?php } ?>
                   <?php print render($title_suffix); ?>
                 </div>
+                <?php if(isset($content['field_subtitle'])) {?>
+                    <div class="article-subtitle">
+                        <?php print render($content['field_subtitle']);?>
+                    </div>
+                <?php }?>
                 <div class="body">
                   <?php
                   hide($content['comments']);
+                  hide($content['field_tagline']);
+                  hide($content['field_subtitle']);
                   hide($content['field_image']);
                   hide($content['links']);
                   hide($content['field_tags']);

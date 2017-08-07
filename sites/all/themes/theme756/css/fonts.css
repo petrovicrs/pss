@@ -256,3 +256,7 @@ div#current-magazine-number .number {
 #body.node-type-page #block-system-main #node-150 .content .font-SpecialElite *{
     font-family: 'SpecialElite', sans-serif;
 }
+#block-views-author-recommendation-block .view-author-recommendation .view-header .printed-date,
+#block-views-author-recommendation-block .view-author-recommendation .view-header .subscribe-link-wrapper .subscribe-link a {
+    font-family: 'Sagoe UI', sans-serif;
+}
