@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" />
     </list>
     <ignored path="pss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,8 +79,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="3148" column="19" lean-forward="false" selection-start-line="3148" selection-start-column="19" selection-end-line="3148" selection-end-column="19" />
+            <state relative-caret-position="376">
+              <caret line="2498" column="14" lean-forward="false" selection-start-line="2498" selection-start-column="14" selection-end-line="2498" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -197,10 +194,10 @@
       <find>article.comment</find>
       <find>#body .read-rest-in-print-version</find>
       <find>node_a</find>
-      <find>.front .most-read-block .view .view-content .views-row .field-content .news-content .news-body</find>
       <find>#block-views-author-recommendation-block .view-author-recommendation .view-header .subscribe-link-wrapper .subscribe-link a</find>
       <find>li</find>
       <find>.node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-center .node-title</find>
+      <find>.front .most-read-block .view .view-content .views-row .field-content .news-content .news-body</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -724,12 +721,12 @@
       <workItem from="1501860729606" duration="7863000" />
       <workItem from="1501883540558" duration="252000" />
       <workItem from="1501914266670" duration="2640000" />
-      <workItem from="1502136819718" duration="3551000" />
+      <workItem from="1502136819718" duration="3757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336266000" />
+    <option name="totallyTimeSpent" value="336472000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -741,7 +738,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="151" width="1616" height="916" extended-state="7" />
+    <frame x="1912" y="151" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20179948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1212,8 +1209,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="3148" column="19" lean-forward="false" selection-start-line="3148" selection-start-column="19" selection-end-line="3148" selection-end-column="19" />
+        <state relative-caret-position="376">
+          <caret line="2498" column="14" lean-forward="false" selection-start-line="2498" selection-start-column="14" selection-end-line="2498" selection-end-column="14" />
           <folding />
         </state>
       </provider>
