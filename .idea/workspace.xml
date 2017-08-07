@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/fonts/segoeuil.ttf" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/fonts/segoeuil.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/font-face.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/font-face.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
     </list>
     <ignored path="pss.iws" />
@@ -69,8 +72,8 @@
       <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="255" column="75" lean-forward="false" selection-start-line="255" selection-start-column="75" selection-end-line="255" selection-end-column="75" />
+            <state relative-caret-position="535">
+              <caret line="259" column="100" lean-forward="false" selection-start-line="259" selection-start-column="100" selection-end-line="259" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -79,8 +82,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="2498" column="14" lean-forward="false" selection-start-line="2498" selection-start-column="14" selection-end-line="2498" selection-end-column="14" />
+            <state relative-caret-position="166">
+              <caret line="2763" column="23" lean-forward="false" selection-start-line="2763" selection-start-column="23" selection-end-line="2763" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -89,8 +92,8 @@
       <file leaf-file-name="font-face.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/font-face.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="72" column="17" lean-forward="false" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="27" />
+            <state relative-caret-position="502">
+              <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -168,7 +171,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#body #node-156 .field-name-body .bis-partners .partner</find>
       <find>#body #node-156 .field-name-body  .bis-partners .partner .partners-logo img</find>
       <find>#body #node-156 .field-name-body  .bis-partners .partner</find>
       <find>#body #node-156 .field-name-body .bis-partners .partner img</find>
@@ -198,6 +200,7 @@
       <find>li</find>
       <find>.node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-center .node-title</find>
       <find>.front .most-read-block .view .view-content .views-row .field-content .news-content .news-body</find>
+      <find>#block-views-author-recommendation-block .view-author-recommendation .view-header .subscribe-link-wrapper .arrow-holder</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -268,7 +271,6 @@
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/pss.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/font-face.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/comment.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/css/pss-admin.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
@@ -278,6 +280,7 @@
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss.dotdotdot.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/font-face.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
       </list>
@@ -435,6 +438,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme756" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -721,12 +754,12 @@
       <workItem from="1501860729606" duration="7863000" />
       <workItem from="1501883540558" duration="252000" />
       <workItem from="1501914266670" duration="2640000" />
-      <workItem from="1502136819718" duration="3757000" />
+      <workItem from="1502136819718" duration="4895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336472000" />
+    <option name="totallyTimeSpent" value="337610000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1193,24 +1226,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/font-face.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="72" column="17" lean-forward="false" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="27" />
+        <state relative-caret-position="502">
+          <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="255" column="75" lean-forward="false" selection-start-line="255" selection-start-column="75" selection-end-line="255" selection-end-column="75" />
+        <state relative-caret-position="535">
+          <caret line="259" column="100" lean-forward="false" selection-start-line="259" selection-start-column="100" selection-end-line="259" selection-end-column="100" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="2498" column="14" lean-forward="false" selection-start-line="2498" selection-start-column="14" selection-end-line="2498" selection-end-column="14" />
+        <state relative-caret-position="166">
+          <caret line="2763" column="23" lean-forward="false" selection-start-line="2763" selection-start-column="23" selection-end-line="2763" selection-end-column="23" />
           <folding />
         </state>
       </provider>

@@ -257,6 +257,10 @@ div#current-magazine-number .number {
     font-family: 'SpecialElite', sans-serif;
 }
 #block-views-author-recommendation-block .view-author-recommendation .view-header .printed-date,
+#block-views-author-recommendation-block .view-author-recommendation .view-header .printed-date span,
 #block-views-author-recommendation-block .view-author-recommendation .view-header .subscribe-link-wrapper .subscribe-link a {
-    font-family: 'Sagoe UI', sans-serif;
+    font-family: 'Sagoe UI Light', sans-serif;
+}
+#block-views-author-recommendation-block .view-author-recommendation .view-header .printed-date .number {
+    font-family: "Eames-Century-Modern-Bold", sans-serif;
 }

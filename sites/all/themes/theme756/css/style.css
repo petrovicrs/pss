@@ -2760,6 +2760,8 @@ ul.contextual-links li a:hover {
 }
 #block-views-author-recommendation-block .view-author-recommendation .view-header .subscribe-link-wrapper .subscribe-link{
     display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 2px;
 }
 #block-views-author-recommendation-block .view-author-recommendation .view-header .subscribe-link-wrapper .subscribe-link a {
     text-decoration: none;
@@ -2770,6 +2772,10 @@ ul.contextual-links li a:hover {
     color: #ec1f27;
     display: inline-block;
     margin-right: 10px;
+    background: url(/sites/all/themes/theme756/images/arrow-right.png) no-repeat;
+    width: 23px;
+    height: 17px;
+    vertical-align: middle;
 }
 #block-views-author-recommendation-block .view-author-recommendation .view-content .views-row {
     margin-top: 20px;
