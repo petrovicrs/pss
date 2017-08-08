@@ -264,3 +264,7 @@ div#current-magazine-number .number {
 #block-views-author-recommendation-block .view-author-recommendation .view-header .printed-date .number {
     font-family: "Eames-Century-Modern-Bold", sans-serif;
 }
+#block-views-author-recommendation-block .view-author-recommendation .view-header .printed-date,
+#block-views-author-recommendation-block .view-author-recommendation .view-header .subscribe-link-wrapper{
+    font-size: 18px;
+}
