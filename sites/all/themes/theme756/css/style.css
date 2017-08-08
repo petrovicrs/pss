@@ -3018,7 +3018,9 @@ ul.contextual-links li a:hover {
 }
 #block-system-main .content .inner-content .inner-content-element .profile .user-picture .image-wrapper img {
     width: 85%;
-    height: 100%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
 }
 
 #block-system-main .content .inner-content .inner-content-element .comments .user-picture .image-wrapper img {
