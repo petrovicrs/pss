@@ -152,8 +152,25 @@
     padding: 10px 5px;
     text-decoration: none;
 }
-#block-menu-menu-footer-menu .content ul li a.active {
-    text-decoration: underline;
+#block-menu-menu-footer-menu .content ul li a:after {
+    position: absolute;
+    display: block;
+    content: "";
+    left: 0;
+    right: 100%;
+    height: 2px;
+    background: #ec1f27;
+    bottom: 0;
+    z-index: 10;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    transition: all ease .3s;
 }
-
+#block-menu-menu-footer-menu .content ul li a:hover:after,
+#block-menu-menu-footer-menu .content ul li a.active:after,
+#block-menu-menu-footer-menu .content ul li a.sfHover:after {
+    right: 0;
+}
 

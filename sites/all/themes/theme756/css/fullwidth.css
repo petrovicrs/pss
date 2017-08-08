@@ -51,6 +51,8 @@
 #main-wrapper.full-width #auth_box .register_link {
     text-align: center;
     max-width: 300px;
+    color: #FFFFFF;
+    font-size: 15px;
 }
 #main-wrapper.full-width #auth_box .register_link a {
     text-decoration: underline;

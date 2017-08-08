@@ -127,11 +127,11 @@ function betterlogin_form_alter(&$form, &$form_state, $form_id) {
         // We don't really need descriptions to tell us what we already know...
         unset($form['name']['#description']);
         unset($form['pass']['#description']);
-        if ($form_id == 'user_login') {
-            $link = '<div class="password_link"><a href="/user/password" title="' . t('Forgot your password?') . '"><span class="icon"></span></div>';
-            $form['pass']['#prefix'] = '<div class="form-item form-type-password form-type-password-wrapper">';
-            $form['pass']['#suffix'] = $link . '</div>';
-        }
+//        if ($form_id == 'user_login') {
+//            $link = '<div class="password_link"><a href="/user/password" title="' . t('Forgot your password?') . '"><span class="icon"></span></div>';
+//            $form['pass']['#prefix'] = '<div class="form-item form-type-password form-type-password-wrapper">';
+//            $form['pass']['#suffix'] = $link . '</div>';
+//        }
 
     }
     switch ($form_id) {
