@@ -57,10 +57,6 @@ drupal_add_js(drupal_get_path('theme', 'theme756') . '/js/fullwidth.js');
                                 <div id="middle_part">
                                     <div><h2 class="title"><?php /*print $title;*/ ?></h2></div>
                                     <div><?php print render($page['content']); ?></div>
-                                    <div class="magazine-subscribe-desc">
-                                        <p>tel: +381 11 316 41 44</p>
-                                        <p>e-mail: pss@pss-magazine.com</p>
-                                    </div>
                                 </div>
                             </div>
                         </div>
