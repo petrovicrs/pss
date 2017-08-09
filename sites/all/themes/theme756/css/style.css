@@ -1859,6 +1859,9 @@ tr.even {
     margin: 5px;
     padding: 5px;
 }
+.content ul.pager li:hover {
+    background-color: rgba(84,84,84,0.4);
+}
 
 .content ul.pager li a {
     color: #545454;
@@ -1873,10 +1876,12 @@ tr.even {
     padding: 5px 18px 4px;
 }
 
-.content ul.pager li.pager-current {
+.content ul.pager li.pager-current,
+.content ul.pager li.pager-current:hover {
     background: #545454;
     color: #ffffff;
 }
+
 
 .content ul.pager li a {
     /*background: #272727;*/
