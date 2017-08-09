@@ -258,7 +258,7 @@ function pss_extras_preprocess_node(&$vars) {
         drupal_add_js('
 			jQuery(document).ready(
 				function() {
-					jQuery("#accordion").accordion();
+					jQuery("#accordion").accordion({heightStyle: "content"});
 			});', 'inline');
     }
 }
