@@ -1920,7 +1920,7 @@ ul.contextual-links li a:hover {
     display: inline-block;
     width: auto !important;
     vertical-align: bottom;
-    height: 140px;
+    height: 150px;
     margin: 0 22px;
 }
 
@@ -1934,7 +1934,7 @@ ul.contextual-links li a:hover {
 #block-views-slider-block .bxslider-views-slideshow-main-frame-row .views-field-nothing,
 #block-views-slider-block .bxslider-views-slideshow-main-frame-row .views-field-nothing .field-content,
 #block-views-slider-block .bxslider-views-slideshow-main-frame-row .views-field-nothing .field-content .sponsor {
-    height: 130px;
+    height: 150px;
     display: inline-block;
     vertical-align: bottom;
 }
