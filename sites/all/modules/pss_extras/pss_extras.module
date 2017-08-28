@@ -473,7 +473,7 @@ function __pss_extras_generate_news_type_block() {
     $taxonomyTerms = taxonomy_get_tree($taxonomyVocabulary->vid);
     $rows = [];
     $tid2nid = __get_taxonomy_tid_2_nid();
-    $lastNNums = __pss_extras_get_last_n_numbers(3);
+    $lastNNums = __pss_extras_get_last_n_numbers(100);
     foreach ($taxonomyTerms as $taxonomyTerm) {
         $taxonomy = taxonomy_term_load($taxonomyTerm->tid);
         $vars = array(
@@ -570,6 +570,9 @@ function __pss_extras_get_tag_news($tid, $lastNNums) {
                   'tagNewsPath' => url('node/' . $node->nid),
                 );
             }
+        }
+        if (count($tag_news) == 3) {
+            break;
         }
     }
     return $tag_news;
