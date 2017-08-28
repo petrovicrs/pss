@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
     </list>
     <ignored path="pss.iws" />
@@ -50,8 +49,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="1922" column="14" lean-forward="false" selection-start-line="1922" selection-start-column="14" selection-end-line="1922" selection-end-column="14" />
+            <state relative-caret-position="355">
+              <caret line="1954" column="22" lean-forward="false" selection-start-line="1954" selection-start-column="22" selection-end-line="1954" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -153,7 +152,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>1</find>
       <find>#news-type-block .view-content .views-row</find>
       <find>#news-type-block .view-content .row</find>
       <find>#main-wrapper.full-width .image-holder img</find>
@@ -183,6 +181,7 @@
       <find>pass</find>
       <find>midd</find>
       <find>#main-wrapper.full-width #auth_box .register_link</find>
+      <find>#block-views-slider-block .bxslider-views-slideshow-main-frame-row .views-field-nothing .field-content .sponsor a img</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -829,12 +828,12 @@
       <workItem from="1502136819718" duration="5514000" />
       <workItem from="1502205320238" duration="2417000" />
       <workItem from="1503936657907" duration="384000" />
-      <workItem from="1503947998990" duration="1210000" />
+      <workItem from="1503947998990" duration="1393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342240000" />
+    <option name="totallyTimeSpent" value="342423000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1295,8 +1294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="1922" column="14" lean-forward="false" selection-start-line="1922" selection-start-column="14" selection-end-line="1922" selection-end-column="14" />
+        <state relative-caret-position="355">
+          <caret line="1954" column="22" lean-forward="false" selection-start-line="1954" selection-start-column="22" selection-end-line="1954" selection-end-column="22" />
           <folding />
         </state>
       </provider>

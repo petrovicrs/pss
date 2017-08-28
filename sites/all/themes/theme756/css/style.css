@@ -1952,6 +1952,7 @@ ul.contextual-links li a:hover {
     margin-right: auto;
     display: block;
     background-color: #FFFFFF;
+    max-height: 150px;
 }
 
 /********************/
