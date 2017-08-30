@@ -4,8 +4,7 @@
 /**
  * Implements hook_install().
  */
-function pss_extras_install() {
-}
+function pss_extras_install() {}
 
 /**
  * Implements hook_uninstall().

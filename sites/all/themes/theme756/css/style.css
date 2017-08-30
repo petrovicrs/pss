@@ -2971,6 +2971,7 @@ ul.contextual-links li a:hover {
     padding: 0 60px;
     text-align: center;
     color: #000;
+    margin-top: 30px;
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-left .author-info .profile .field-name-field-last-name,

@@ -17,7 +17,7 @@ if (isset($node->field_article_type)) {
               <?php if ($page): ?>
                 <div class="node-created-by author-info">
                     <div class="inner-element">
-                      <?php print $created_by_picture; ?>
+                      <?php /*print $created_by_picture;*/ ?>
                     </div>
                 </div>
                 <div class="node-magazine-number author-info">
