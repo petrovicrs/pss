@@ -140,7 +140,7 @@ a:hover {
 }
 .front #site-logo-wrapper #logo img {
     max-width: initial;
-    width: auto;
+    width: 430px;
 }
 #footer #logo-footer img {
     width: 100px;
