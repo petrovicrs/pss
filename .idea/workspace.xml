@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/promote_disable/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/promote_disable/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/promote_disable/promote_disable.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/promote_disable/promote_disable.install" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/promote_disable/promote_disable.module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.install" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" />
     </list>
     <ignored path="pss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,6 +36,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pss_extras.module" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="20" />
+              <folding>
+                <marker date="1503951953977" expanded="true" signature="1958:3384" ph="..." />
+                <marker date="1503951953977" expanded="true" signature="2014:2116" ph="..." />
+                <marker date="1503951953977" expanded="true" signature="2174:2352" ph="..." />
+                <marker date="1503951953977" expanded="true" signature="2403:3357" ph="..." />
+                <marker date="1503951953977" expanded="true" signature="2648:3326" ph="..." />
+                <marker date="1503951953977" expanded="true" signature="2710:3294" ph="..." />
+                <marker date="1503951953977" expanded="false" signature="2963:2997" ph="..." />
+                <marker date="1503951953977" expanded="true" signature="3431:3528" ph="..." />
+                <marker date="1503951953977" expanded="true" signature="3764:4796" ph="..." />
+                <marker date="1503951953977" expanded="true" signature="3815:4769" ph="..." />
+                <marker date="1503951953977" expanded="true" signature="4060:4738" ph="..." />
+                <marker date="1503951953977" expanded="true" signature="4122:4706" ph="..." />
+                <marker date="1503951953977" expanded="false" signature="4375:4409" ph="..." />
+                <marker date="1503951953977" expanded="true" signature="20400:20747" ph="..." />
+                <marker date="1503951953977" expanded="true" signature="20486:20724" ph="..." />
+                <marker date="1503951953977" expanded="true" signature="26140:26278" ph="SELECT DISTI... field_data_field_magazine_number" />
+                <marker date="1503951953977" expanded="true" signature="26427:26601" ph="SELECT entit... field_data_field_magazine_number" />
+                <marker date="1503951953977" expanded="true" signature="26996:27073" ph="SELECT MAX(f... field_data_field_magazine_number" />
+                <marker date="1503951953977" expanded="true" signature="27431:27522" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+                <marker date="1503951953977" expanded="true" signature="27999:28055" ph="SELECT COUNT... taxonomy_index" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pss_settings_page.inc.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="76" column="37" lean-forward="true" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pss_extras.install" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.install">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,33 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="promote_disable.module" pinned="false" current-in-tab="true">
+      <file leaf-file-name="promote_disable.module" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/promote_disable/promote_disable.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2394">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_destination.install" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/login_destination/login_destination.install">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1848">
-              <caret line="91" column="7" lean-forward="false" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
-              <folding>
-                <marker date="1495864283051" expanded="true" signature="2280:2433" ph="SELECT mlid,... menu_links" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xmlsitemap_engines.install" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/xmlsitemap/xmlsitemap_engines/xmlsitemap_engines.install">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="168">
+              <caret line="138" column="53" lean-forward="false" selection-start-line="138" selection-start-column="53" selection-end-line="138" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -254,7 +266,6 @@
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article--teaser.tpl.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/css/admin.css" />
-        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/pss.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/comment.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/css/pss-admin.css" />
@@ -273,6 +284,7 @@
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.install" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
+        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" />
       </list>
     </option>
   </component>
@@ -561,6 +573,36 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="pss_extras" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="promote_disable" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -801,12 +843,12 @@
       <workItem from="1503936657907" duration="384000" />
       <workItem from="1503947998990" duration="2689000" />
       <workItem from="1504020202780" duration="4617000" />
-      <workItem from="1504119184182" duration="831000" />
+      <workItem from="1504119184182" duration="1192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349167000" />
+    <option name="totallyTimeSpent" value="349528000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1040,13 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="69" column="80" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/theme756.info">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -1174,35 +1209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <marker date="1503951953977" expanded="true" signature="1958:3384" ph="..." />
-            <marker date="1503951953977" expanded="true" signature="2014:2116" ph="..." />
-            <marker date="1503951953977" expanded="true" signature="2174:2352" ph="..." />
-            <marker date="1503951953977" expanded="true" signature="2403:3357" ph="..." />
-            <marker date="1503951953977" expanded="true" signature="2648:3326" ph="..." />
-            <marker date="1503951953977" expanded="true" signature="2710:3294" ph="..." />
-            <marker date="1503951953977" expanded="false" signature="2963:2997" ph="..." />
-            <marker date="1503951953977" expanded="true" signature="3431:3528" ph="..." />
-            <marker date="1503951953977" expanded="true" signature="3764:4796" ph="..." />
-            <marker date="1503951953977" expanded="true" signature="3815:4769" ph="..." />
-            <marker date="1503951953977" expanded="true" signature="4060:4738" ph="..." />
-            <marker date="1503951953977" expanded="true" signature="4122:4706" ph="..." />
-            <marker date="1503951953977" expanded="false" signature="4375:4409" ph="..." />
-            <marker date="1503951953977" expanded="true" signature="20400:20747" ph="..." />
-            <marker date="1503951953977" expanded="true" signature="20486:20724" ph="..." />
-            <marker date="1503951953977" expanded="true" signature="26140:26278" ph="SELECT DISTI... field_data_field_magazine_number" />
-            <marker date="1503951953977" expanded="true" signature="26427:26601" ph="SELECT entit... field_data_field_magazine_number" />
-            <marker date="1503951953977" expanded="true" signature="26996:27073" ph="SELECT MAX(f... field_data_field_magazine_number" />
-            <marker date="1503951953977" expanded="true" signature="27431:27522" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-            <marker date="1503951953977" expanded="true" signature="27999:28055" ph="SELECT COUNT... taxonomy_index" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.info">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1297,8 +1303,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/promote_disable/promote_disable.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2394">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="46" />
+        <state relative-caret-position="168">
+          <caret line="138" column="53" lean-forward="false" selection-start-line="138" selection-start-column="53" selection-end-line="138" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <marker date="1503951953977" expanded="true" signature="1958:3384" ph="..." />
+            <marker date="1503951953977" expanded="true" signature="2014:2116" ph="..." />
+            <marker date="1503951953977" expanded="true" signature="2174:2352" ph="..." />
+            <marker date="1503951953977" expanded="true" signature="2403:3357" ph="..." />
+            <marker date="1503951953977" expanded="true" signature="2648:3326" ph="..." />
+            <marker date="1503951953977" expanded="true" signature="2710:3294" ph="..." />
+            <marker date="1503951953977" expanded="false" signature="2963:2997" ph="..." />
+            <marker date="1503951953977" expanded="true" signature="3431:3528" ph="..." />
+            <marker date="1503951953977" expanded="true" signature="3764:4796" ph="..." />
+            <marker date="1503951953977" expanded="true" signature="3815:4769" ph="..." />
+            <marker date="1503951953977" expanded="true" signature="4060:4738" ph="..." />
+            <marker date="1503951953977" expanded="true" signature="4122:4706" ph="..." />
+            <marker date="1503951953977" expanded="false" signature="4375:4409" ph="..." />
+            <marker date="1503951953977" expanded="true" signature="20400:20747" ph="..." />
+            <marker date="1503951953977" expanded="true" signature="20486:20724" ph="..." />
+            <marker date="1503951953977" expanded="true" signature="26140:26278" ph="SELECT DISTI... field_data_field_magazine_number" />
+            <marker date="1503951953977" expanded="true" signature="26427:26601" ph="SELECT entit... field_data_field_magazine_number" />
+            <marker date="1503951953977" expanded="true" signature="26996:27073" ph="SELECT MAX(f... field_data_field_magazine_number" />
+            <marker date="1503951953977" expanded="true" signature="27431:27522" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+            <marker date="1503951953977" expanded="true" signature="27999:28055" ph="SELECT COUNT... taxonomy_index" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="76" column="37" lean-forward="true" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
           <folding />
         </state>
       </provider>

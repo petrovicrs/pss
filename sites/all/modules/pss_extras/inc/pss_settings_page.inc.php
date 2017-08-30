@@ -57,7 +57,7 @@ function pss_extras_settings_page_form() {
       '#name' => 'pss_front_page_banner_image_1',
       '#title' => t('Front page large banner image'),
       '#default_value' => variable_get('pss_front_page_banner_image_1', ''),
-      '#description' => t("Here you can upload front page large banner image!"),
+      '#description' => t("Here you can upload front page large banner image! Allowed extensions gif png jpg jpeg."),
       '#upload_location' => 'public://pictures/banners/',
       '#upload_validators' => array(
         'file_validate_extensions' => array('gif png jpg jpeg'),
@@ -89,7 +89,7 @@ function pss_extras_settings_page_form() {
       '#name' => 'pss_front_page_banner_image_2',
       '#title' => t('Front page large banner image'),
       '#default_value' => variable_get('pss_front_page_banner_image_2', ''),
-      '#description' => t("Here you can upload front page large banner image!"),
+      '#description' => t("Here you can upload front page large banner image! Allowed extensions gif png jpg jpeg."),
       '#upload_location' => 'public://pictures/banners/',
       '#upload_validators' => array(
         'file_validate_extensions' => array('gif png jpg jpeg'),
