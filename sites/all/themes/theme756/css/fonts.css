@@ -248,8 +248,9 @@ div#current-magazine-number .number {
 }
 #body.page-arhiva .view-magazine-number-archive .view-footer .footer-text .year,
 #body.page-arhiva .view-magazine-number-archive .view-footer .footer-text .year span{
-    font-family: 'PFMechanicaBPro-Comb', sans-serif;
+    font-family: 'Sagoe UI', sans-serif;
     font-size: 60px;
+    font-weight: bold;
 }
 
 #body.node-type-page .field-name-field-description {
@@ -273,4 +274,8 @@ div#current-magazine-number .number {
 }
 .node.node-article .node-title h2 {
     text-transform: uppercase;
+}
+/** marketing **/
+#body #node-152 .field-name-body #accordion li{
+    font-family: 'Sagoe UI', sans-serif;
 }

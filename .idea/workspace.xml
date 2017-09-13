@@ -2,214 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/CHANGELOG.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/ckeditor.api.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/ckeditor.ckeditor.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/ckeditor.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/ckeditor.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/ckeditor.install" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/ckeditor.module" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/ckeditor.styles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/css/ckeditor-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/css/ckeditor.admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/css/ckeditor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/css/ckeditor.editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/anchor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/bgcolor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/bidiltr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/bidirtl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/blockquote.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/bold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/bulletedlist.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/checkbox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/codesnippet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/copy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/creatediv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/cut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/docprops.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/drupalbreak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/drupalpagebreak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/find.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/flash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/font.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/form.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/format.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/hiddenfield.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/horizontalrule.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/iframe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/imagebutton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/indent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/italic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/justifyblock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/justifycenter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/justifyleft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/justifyright.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/language.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/linkit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/linktomenu.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/linktonode.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/mathjax.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/maximize.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/newpage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/numberedlist.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/outdent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/pagebreak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/paste.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/pastefromword.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/pastetext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/placeholder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/print.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/radio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/readmoreButton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/redo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/removeformat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/replace.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/scayt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/select.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/selectall.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/showblocks.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/size.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/smiley.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/source.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/sourcedialog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/spacer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/specialchar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/spellchecker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/strike.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/styles.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/subscript.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/superscript.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/table.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/templates.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/textarea.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/textcolor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/textfield.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/uicolor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/underline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/undo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/buttons/unlink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/images/tick.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/ckeditor.admin.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/ckeditor.admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/ckeditor.drush.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/ckeditor.features.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/ckeditor.lib.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/ckeditor.page.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/ckeditor.user.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/ckeditor.utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/filemanager.config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/jqueryUI/sort.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/dialogs/uicolor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/icons/uicolor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/_translationstatus.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/cy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/eo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/mk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/ug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/samples/uicolor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/yui/assets/hue_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/yui/assets/hue_thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/yui/assets/picker_mask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/yui/assets/picker_thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/yui/assets/yui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/includes/uicolor/yui/yui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/counter/plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/downloadmanual/images/icon.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/downloadmanual/plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/drupalbreaks/images/drupalbreak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/drupalbreaks/images/drupalpagebreak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/drupalbreaks/images/pagebreak.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/drupalbreaks/plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/imce/images/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/imce/plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/jwplayer/dialogs/jwplayer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/jwplayer/jwplayer/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/jwplayer/jwplayer/jwPlayer.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/jwplayer/jwplayer/jwplayer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/jwplayer/jwplayer/player.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/jwplayer/jwplayer/skin/beelden.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/jwplayer/jwplayer/skin/glow.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/jwplayer/jwplayer/skin/modieus.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/jwplayer/jwplayer/skin/simple.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/jwplayer/jwplayer/skin/snel.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/jwplayer/jwplayer/skin/stijl.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/jwplayer/jwplayer/skin/stormtrooper.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/jwplayer/jwplayer/swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/jwplayer/jwplayer/yt.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/jwplayer/plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/media/images/icon.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/media/library.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/media/plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/mediaembed/dialogs/mediaembed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/mediaembed/images/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/mediaembed/images/placeholder.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/mediaembed/plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/video/dialogs/video.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/video/docs/install.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/video/docs/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/video/images/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/video/images/placeholder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/ckeditor/plugins/video/plugin.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entityreference/entityreference.info" afterPath="$PROJECT_DIR$/sites/all/modules/entityreference/entityreference.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entityreference/entityreference.module" afterPath="$PROJECT_DIR$/sites/all/modules/entityreference/entityreference.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entityreference/examples/entityreference_behavior_example/entityreference_behavior_example.info" afterPath="$PROJECT_DIR$/sites/all/modules/entityreference/examples/entityreference_behavior_example/entityreference_behavior_example.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entityreference/plugins/selection/EntityReference_SelectionHandler_Generic.class.php" afterPath="$PROJECT_DIR$/sites/all/modules/entityreference/plugins/selection/EntityReference_SelectionHandler_Generic.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entityreference/tests/entityreference.handlers.test" afterPath="$PROJECT_DIR$/sites/all/modules/entityreference/tests/entityreference.handlers.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entityreference/tests/modules/entityreference_feeds_test/entityreference_feeds_test.info" afterPath="$PROJECT_DIR$/sites/all/modules/entityreference/tests/modules/entityreference_feeds_test/entityreference_feeds_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/views/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/includes/ajax.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/includes/ajax.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/includes/handlers.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/includes/handlers.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/node.views.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/node.views.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/node/views_plugin_row_node_view.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/node/views_plugin_row_node_view.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/search.views.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/search.views.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy/views_handler_filter_term_node_tid.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/modules/taxonomy/views_handler_filter_term_node_tid.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_display.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_display.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_pager_full.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_pager_full.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/tests/views_test.info" afterPath="$PROJECT_DIR$/sites/all/modules/views/tests/views_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/tests/views_test.views_default.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/tests/views_test.views_default.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/tests/views_view.test" afterPath="$PROJECT_DIR$/sites/all/modules/views/tests/views_view.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/theme/views-more.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/views/theme/views-more.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/views.info" afterPath="$PROJECT_DIR$/sites/all/modules/views/views.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/views.install" afterPath="$PROJECT_DIR$/sites/all/modules/views/views.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/views.module" afterPath="$PROJECT_DIR$/sites/all/modules/views/views.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/views.tokens.inc" afterPath="$PROJECT_DIR$/sites/all/modules/views/views.tokens.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/views_ui.info" afterPath="$PROJECT_DIR$/sites/all/modules/views/views_ui.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/views/views_ui.module" afterPath="$PROJECT_DIR$/sites/all/modules/views/views_ui.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
     </list>
     <ignored path="pss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -313,21 +107,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2835">
-              <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+            <state relative-caret-position="318">
+              <caret line="3872" column="0" lean-forward="false" selection-start-line="3872" selection-start-column="0" selection-end-line="3872" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="187">
+              <caret line="245" column="22" lean-forward="true" selection-start-line="245" selection-start-column="22" selection-end-line="245" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -365,12 +159,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>recommendation-header</find>
-      <find>recommendation-image</find>
-      <find>.node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image</find>
-      <find>.node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image img</find>
-      <find>#body #node-150 .field-name-body</find>
-      <find>#block-views-author-recommendation-block .view-author-recommendation .view-header .printed-date</find>
       <find>.node-type-article #block-system-main .content .inner-content .inner-content-element .comments .user-picture .image-wrapper img</find>
       <find>picture</find>
       <find>comment</find>
@@ -393,8 +181,14 @@
       <find>field_twitter_search</find>
       <find>upda</find>
       <find>update</find>
-      <find>.node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-left .author-info</find>
       <find>#body #site-logo-wrapper .title-wrapper h1.title</find>
+      <find>#body #node-152 .field-name-body .right_image</find>
+      <find>151</find>
+      <find>.page-arhiva .view-magazine-number-archive .view-content .views-row .image img</find>
+      <find>#body.page-arhiva .view-magazine-number-archive .view-footer .footer-text .year span</find>
+      <find>.node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-left .author-info</find>
+      <find>.node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block .a2a-content-share a.a2a_button_twitter</find>
+      <find>.node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block .a2a-content-share a</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -477,8 +271,8 @@
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.install" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
       </list>
     </option>
   </component>
@@ -817,62 +611,6 @@
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ckeditor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ckeditor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -1084,12 +822,12 @@
       <workItem from="1504549638625" duration="587000" />
       <workItem from="1504625186797" duration="4000" />
       <workItem from="1504626495912" duration="404000" />
-      <workItem from="1505266419169" duration="786000" />
+      <workItem from="1505266419169" duration="2885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="352818000" />
+    <option name="totallyTimeSpent" value="354917000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1556,14 +1294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2835">
-          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/ckeditor/css/ckeditor.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1574,8 +1304,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        <state relative-caret-position="187">
+          <caret line="245" column="22" lean-forward="true" selection-start-line="245" selection-start-column="22" selection-end-line="245" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="3872" column="0" lean-forward="false" selection-start-line="3872" selection-start-column="0" selection-end-line="3872" selection-end-column="0" />
           <folding />
         </state>
       </provider>

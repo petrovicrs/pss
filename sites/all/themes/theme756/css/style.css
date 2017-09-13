@@ -238,6 +238,7 @@ a:hover {
 
 /*** MAIN ***/
 #main-wrapper {
+    margin-top: 9px;
 }
 
 #main-wrapper #main {
@@ -2838,8 +2839,8 @@ ul.contextual-links li a:hover {
 }
 
 .page-arhiva .view-magazine-number-archive .view-content .views-row .image img {
-    width: 235px;
-    height: 335px;
+    width: 350px;
+    height: 495px;
 }
 
 .page-arhiva .view-magazine-number-archive .view-content .month-number-wrapper {
@@ -2971,7 +2972,7 @@ ul.contextual-links li a:hover {
     padding: 0 60px;
     text-align: center;
     color: #000;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-left .author-info .profile .field-name-field-last-name,
@@ -3069,7 +3070,7 @@ ul.contextual-links li a:hover {
     background: no-repeat center center;
     padding-left: 0;
     padding-right: 0;
-    margin-right: 27px;
+    margin-right: 13px;
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block .a2a-content-share a.a2a_button_facebook {
@@ -3080,7 +3081,7 @@ ul.contextual-links li a:hover {
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block .a2a-content-share a.a2a_button_twitter {
     background-image: url(/sites/all/modules/pss_extras/modules/follow/icons/small/icon-twitter-x3.png);
-    background-size: 37px 32px;
+    background-size: 27px 24px;
     width: 37px;
 }
 
@@ -3705,6 +3706,11 @@ article.comment span.new {
     float: left;
     margin-right: 5px;
     vertical-align: bottom;
+}
+#body #node-151 .field-name-field-description .field-item{
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 15px;
 }
 .page-node-150 article.node .content p {
     font-size: 16px;
