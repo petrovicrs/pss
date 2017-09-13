@@ -59,12 +59,12 @@ a:hover {
 #main-wrapper,
 #site-logo-wrapper {
     width: 1300px;
-    margin: 40px auto 0 auto;
+    margin: 35px auto 0 auto;
     position: relative;
 }
 .node-type-advanced-page #main-wrapper,
 .node-type-advanced-page #site-logo-wrapper {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 }
 #main-wrapper.full-width {
     width: 100%;
@@ -106,7 +106,7 @@ a:hover {
     width: 100%;
     text-align: center;
     vertical-align: middle;
-    height: 90px;
+    height: 85px;
 }
 
 #site-logo-wrapper #slogan-and-message {
@@ -238,7 +238,7 @@ a:hover {
 
 /*** MAIN ***/
 #main-wrapper {
-    margin-top: 9px;
+    margin-top: 0px;
 }
 
 #main-wrapper #main {
@@ -2941,7 +2941,7 @@ ul.contextual-links li a:hover {
 /** article **/
 .node-type-article #block-system-main .content .top-image {
     /*max-height: 730px;*/
-    max-height: 605px;
+    /*height: 605px;*/
     background-color: rgba(119, 119, 119, 0.55);
 }
 .node-type-article #block-system-main .content .top-image .field-item{
@@ -3075,25 +3075,25 @@ ul.contextual-links li a:hover {
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block .a2a-content-share a.a2a_button_facebook {
     background-image: url(/sites/all/modules/pss_extras/modules/follow/icons/small/icon-facebook-x3.png);
-    background-size: 22px 33px;
+    background-size: 17px 28px;
     width: 22px;
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block .a2a-content-share a.a2a_button_twitter {
     background-image: url(/sites/all/modules/pss_extras/modules/follow/icons/small/icon-twitter-x3.png);
-    background-size: 27px 24px;
+    background-size: 22px 19px;
     width: 37px;
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block .a2a-content-share a.a2a_button_linkedin {
     background-image: url(/sites/all/modules/pss_extras/modules/follow/icons/small/icon-linkedin-x3.png);
-    background-size: 30px 30px;
+    background-size: 25px 25px;
     width: 30px;
 }
 
 .node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block .a2a-content-share a.a2a_button_google_plus {
     background-image: url(/sites/all/modules/pss_extras/modules/follow/icons/small/icon-googleplus-x3.png);
-    background-size: 34px 31px;
+    background-size: 29px 26px;
     width: 34px;
     margin-right: 0;
 }
