@@ -101,6 +101,7 @@ a:hover {
     position: relative;
     top: auto;
     left: auto;
+    margin-bottom: 5px;
 }
 #site-logo-wrapper .section-logo-wrapper.title-wrapper {
     width: 100%;
