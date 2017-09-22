@@ -275,7 +275,7 @@ div#current-magazine-number .number {
 .node.node-article .node-title h2 {
     text-transform: uppercase;
 }
-.node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-center .node-title {
+.node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-center .node-title h2 {
     text-transform: initial !important;
 }
 /** marketing **/
