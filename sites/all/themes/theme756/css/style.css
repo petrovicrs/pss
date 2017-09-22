@@ -3175,7 +3175,9 @@ ul.contextual-links li a:hover {
     font-size: 29px;
     font-family: 'PT Sans', sans-serif;
 }
-
+.node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-center .node-title {
+    text-transform: initial;
+}
 #block-system-main .content .node-teaser .content .top-image {
     margin: 0 20px 0 0;
     display: inline-block;
