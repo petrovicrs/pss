@@ -33,6 +33,15 @@
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-title {
     margin-top: 15px;
 }
+
+.view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-body.trimmed-tagline{
+    text-transform: uppercase;
+}
+.view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-body.trimmed-subtitle{
+    font-style: italic;
+    color: #000000;
+}
+
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-read-more {
     position: absolute;
     bottom: 10px;
