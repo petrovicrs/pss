@@ -216,7 +216,6 @@ div#current-magazine-number .number {
     font-family: 'Sagoe UI', sans-serif;
     font-size: 18px;
     color: #575757;
-    text-transform: capitalize;
     text-decoration: none;
 }
 
