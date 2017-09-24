@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
     </list>
     <ignored path="pss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,21 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="2815" column="47" lean-forward="false" selection-start-line="2815" selection-start-column="0" selection-end-line="2815" selection-end-column="47" />
+            <state relative-caret-position="345">
+              <caret line="2515" column="0" lean-forward="false" selection-start-line="2515" selection-start-column="0" selection-end-line="2515" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css">
+      <file leaf-file-name="news-by-type.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="218" column="26" lean-forward="true" selection-start-line="218" selection-start-column="26" selection-end-line="218" selection-end-column="26" />
+            <state relative-caret-position="225">
+              <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -67,14 +67,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>li</find>
-      <find>.node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-center .node-title</find>
-      <find>.front .most-read-block .view .view-content .views-row .field-content .news-content .news-body</find>
-      <find>#block-views-author-recommendation-block .view-author-recommendation .view-header .subscribe-link-wrapper .arrow-holder</find>
-      <find>#superfish-1 &gt; li &gt; a</find>
-      <find>#block-menu-menu-footer-menu .content ul li a</find>
-      <find>/user/password</find>
-      <find>pass</find>
       <find>midd</find>
       <find>#main-wrapper.full-width #auth_box .register_link</find>
       <find>#block-views-slider-block .bxslider-views-slideshow-main-frame-row .views-field-nothing .field-content .sponsor a img</find>
@@ -97,6 +89,14 @@
       <find>views</find>
       <find>ucfirst</find>
       <find>#block-pss-extras-taxonomy-tags .view-content a</find>
+      <find>pager</find>
+      <find>theme_pager_link</find>
+      <find>title</find>
+      <find>Page</find>
+      <find>theme('pager'</find>
+      <find>* $maxElement counter is taken, after which the counter is incremented.</find>
+      <find>drupal_set_title</find>
+      <find>trimmed-tagline</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -124,6 +124,8 @@
       <dir>D:\workspace\pss\sites\all\modules</dir>
       <dir>$PROJECT_DIR$/sites/all/modules/pss_extras</dir>
       <dir>$PROJECT_DIR$/sites/all/themes/theme756</dir>
+      <dir>$PROJECT_DIR$/modules</dir>
+      <dir>$PROJECT_DIR$/sites/all/modules/views</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -180,9 +182,9 @@
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.install" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
-        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
+        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
       </list>
     </option>
   </component>
@@ -260,21 +262,6 @@
               <item name="pss" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="sites" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="all" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pss" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sites" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="all" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pss" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sites" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="all" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pss_extras" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="pss" type="b2602c69:ProjectViewProjectNode" />
@@ -507,12 +494,12 @@
       <workItem from="1504626495912" duration="404000" />
       <workItem from="1505266419169" duration="3481000" />
       <workItem from="1505316665295" duration="1783000" />
-      <workItem from="1506273983653" duration="2984000" />
+      <workItem from="1506273983653" duration="6042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360280000" />
+    <option name="totallyTimeSpent" value="363338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,7 +518,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46306068" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5868597" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58388156" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.84298444" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -635,63 +622,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/scroll_to_top/scroll_to_top.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/form.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40374">
-          <caret line="2246" column="9" lean-forward="false" selection-start-line="2246" selection-start-column="9" selection-end-line="2246" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/system/system.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50328">
-          <caret line="2799" column="0" lean-forward="false" selection-start-line="2799" selection-start-column="0" selection-end-line="2800" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/theme.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33660">
-          <caret line="1876" column="9" lean-forward="false" selection-start-line="1876" selection-start-column="9" selection-end-line="1876" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/file.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10602">
-          <caret line="592" column="9" lean-forward="false" selection-start-line="592" selection-start-column="9" selection-end-line="592" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/theme756.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/responsive.tablet.landscape.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/js/pss.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/view_unpublished/README.txt" />
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/comment.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -944,45 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/views/views.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="763" column="0" lean-forward="false" selection-start-line="763" selection-start-column="0" selection-end-line="763" selection-end-column="0" />
-          <folding>
-            <marker date="1505371377660" expanded="true" signature="57003:57077" ph="SELECT * FRO... $" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="371" column="11" lean-forward="true" selection-start-line="371" selection-start-column="11" selection-end-line="371" selection-end-column="11" />
-          <folding>
-            <marker date="1506275351727" expanded="true" signature="1958:3384" ph="..." />
-            <marker date="1506275351727" expanded="true" signature="2014:2116" ph="..." />
-            <marker date="1506275351727" expanded="true" signature="2174:2352" ph="..." />
-            <marker date="1506275351727" expanded="true" signature="2403:3357" ph="..." />
-            <marker date="1506275351727" expanded="true" signature="2648:3326" ph="..." />
-            <marker date="1506275351727" expanded="true" signature="2710:3294" ph="..." />
-            <marker date="1506275351727" expanded="true" signature="2963:2997" ph="..." />
-            <marker date="1506275351727" expanded="true" signature="3431:3528" ph="..." />
-            <marker date="1506275351727" expanded="true" signature="3764:4796" ph="..." />
-            <marker date="1506275351727" expanded="true" signature="3815:4769" ph="..." />
-            <marker date="1506275351727" expanded="true" signature="4060:4738" ph="..." />
-            <marker date="1506275351727" expanded="true" signature="4122:4706" ph="..." />
-            <marker date="1506275351727" expanded="true" signature="4375:4409" ph="..." />
-            <marker date="1506275351727" expanded="true" signature="20400:20747" ph="..." />
-            <marker date="1506275351727" expanded="true" signature="20486:20724" ph="..." />
-            <marker date="1506275351727" expanded="true" signature="26140:26278" ph="SELECT DISTI... field_data_field_magazine_number" />
-            <marker date="1506275351727" expanded="true" signature="26427:26601" ph="SELECT entit... field_data_field_magazine_number" />
-            <marker date="1506275351727" expanded="true" signature="26996:27073" ph="SELECT MAX(f... field_data_field_magazine_number" />
-            <marker date="1506275351727" expanded="true" signature="27431:27522" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-            <marker date="1506275351727" expanded="true" signature="27999:28055" ph="SELECT COUNT... taxonomy_index" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_display.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1045,18 +936,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="2815" column="47" lean-forward="false" selection-start-line="2815" selection-start-column="0" selection-end-line="2815" selection-end-column="47" />
+        <state relative-caret-position="189">
+          <caret line="212" column="19" lean-forward="true" selection-start-line="212" selection-start-column="19" selection-end-line="212" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="218" column="26" lean-forward="true" selection-start-line="218" selection-start-column="26" selection-end-line="218" selection-end-column="26" />
+        <state relative-caret-position="255">
+          <caret line="373" column="1" lean-forward="true" selection-start-line="373" selection-start-column="1" selection-end-line="373" selection-end-column="1" />
+          <folding>
+            <marker date="1506280856172" expanded="true" signature="1958:3384" ph="..." />
+            <marker date="1506280856172" expanded="true" signature="2014:2116" ph="..." />
+            <marker date="1506280856172" expanded="true" signature="2174:2352" ph="..." />
+            <marker date="1506280856172" expanded="true" signature="2403:3357" ph="..." />
+            <marker date="1506280856172" expanded="true" signature="2648:3326" ph="..." />
+            <marker date="1506280856172" expanded="true" signature="2710:3294" ph="..." />
+            <marker date="1506280856172" expanded="true" signature="2963:2997" ph="..." />
+            <marker date="1506280856172" expanded="true" signature="3431:3528" ph="..." />
+            <marker date="1506280856172" expanded="true" signature="3764:4796" ph="..." />
+            <marker date="1506280856172" expanded="true" signature="3815:4769" ph="..." />
+            <marker date="1506280856172" expanded="true" signature="4060:4738" ph="..." />
+            <marker date="1506280856172" expanded="true" signature="4122:4706" ph="..." />
+            <marker date="1506280856172" expanded="true" signature="4375:4409" ph="..." />
+            <marker date="1506280856172" expanded="true" signature="20400:20747" ph="..." />
+            <marker date="1506280856172" expanded="true" signature="20486:20724" ph="..." />
+            <marker date="1506280856172" expanded="true" signature="26140:26278" ph="SELECT DISTI... field_data_field_magazine_number" />
+            <marker date="1506280856172" expanded="true" signature="26427:26601" ph="SELECT entit... field_data_field_magazine_number" />
+            <marker date="1506280856172" expanded="true" signature="26996:27073" ph="SELECT MAX(f... field_data_field_magazine_number" />
+            <marker date="1506280856172" expanded="true" signature="27431:27522" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+            <marker date="1506280856172" expanded="true" signature="27999:28055" ph="SELECT COUNT... taxonomy_index" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ctools/plugins/export_ui/ctools_export_ui.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/views/plugins/export_ui/views_ui.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="309" column="35" lean-forward="false" selection-start-line="309" selection-start-column="35" selection-end-line="309" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/views/views.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="109" column="5" lean-forward="false" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+          <folding>
+            <marker date="1505371377660" expanded="true" signature="57003:57077" ph="SELECT * FRO... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/views/theme/theme.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="138" column="10" lean-forward="true" selection-start-line="138" selection-start-column="10" selection-end-line="138" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/password.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/pager.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="90" column="33" lean-forward="true" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_display_page.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="242" column="6" lean-forward="false" selection-start-line="242" selection-start-column="6" selection-end-line="242" selection-end-column="6" />
+          <folding>
+            <marker date="1498027959881" expanded="true" signature="11024:11029" ph="‎" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/views/includes/ajax.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="283" column="4" lean-forward="false" selection-start-line="283" selection-start-column="4" selection-end-line="283" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/views/includes/admin.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="293" column="46" lean-forward="true" selection-start-line="293" selection-start-column="46" selection-end-line="293" selection-end-column="46" />
+          <folding>
+            <marker date="1498027959877" expanded="true" signature="2726:2804" ph="SELECT filen... system" />
+            <marker date="1498027959877" expanded="true" signature="74023:74029" ph=" " />
+            <marker date="1498027959877" expanded="true" signature="74030:74036" ph=" " />
+            <marker date="1498027959877" expanded="true" signature="182131:182181" ph="SELECT r.rid... role" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="2515" column="0" lean-forward="false" selection-start-line="2515" selection-start-column="0" selection-end-line="2515" selection-end-column="0" />
           <folding />
         </state>
       </provider>
