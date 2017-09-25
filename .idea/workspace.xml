@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss.dotdotdot.js" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss.dotdotdot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
     </list>
     <ignored path="pss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,17 +34,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="2515" column="0" lean-forward="false" selection-start-line="2515" selection-start-column="0" selection-end-line="2515" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="2513" column="29" lean-forward="false" selection-start-line="2513" selection-start-column="29" selection-end-line="2513" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news-by-type.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="news-by-type.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="129">
@@ -121,7 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.page-arhiva .view-magazine-number-archive .view-content .views-row .image img</find>
       <find>#body.page-arhiva .view-magazine-number-archive .view-footer .footer-text .year span</find>
       <find>.node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-left .author-info</find>
       <find>.node-type-article #block-system-main .content .inner-content .inner-content-element.inner-content-right .share-block .a2a-content-share a.a2a_button_twitter</find>
@@ -151,6 +149,7 @@
       <find>.view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-read-more</find>
       <find>.field-content .news-content .title-and-body</find>
       <find>130px</find>
+      <find>.front .most-read-block .view .view-content .views-row .field-content .news-content .news-title a</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -234,12 +233,12 @@
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fonts.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--node--154.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--node--153.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss.dotdotdot.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
       </list>
     </option>
   </component>
@@ -592,12 +591,12 @@
       <workItem from="1505266419169" duration="3481000" />
       <workItem from="1505316665295" duration="1783000" />
       <workItem from="1506273983653" duration="6639000" />
-      <workItem from="1506352165424" duration="7550000" />
+      <workItem from="1506352165424" duration="7911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371485000" />
+    <option name="totallyTimeSpent" value="371846000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1072,14 +1071,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="2515" column="0" lean-forward="false" selection-start-line="2515" selection-start-column="0" selection-end-line="2515" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/page--node--154.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1129,6 +1120,14 @@
           <folding>
             <marker date="1506379922177" expanded="true" signature="4972:4978" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="2513" column="29" lean-forward="false" selection-start-line="2513" selection-start-column="29" selection-end-line="2513" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
