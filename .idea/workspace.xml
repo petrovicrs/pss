@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss.dotdotdot.js" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss.dotdotdot.js" />
     </list>
     <ignored path="pss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +34,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="423">
@@ -66,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pss.dotdotdot.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pss.dotdotdot.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss.dotdotdot.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+              <caret line="23" column="73" lean-forward="false" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -237,8 +237,8 @@
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--node--153.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" />
-        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss.dotdotdot.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
+        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss.dotdotdot.js" />
       </list>
     </option>
   </component>
@@ -591,12 +591,12 @@
       <workItem from="1505266419169" duration="3481000" />
       <workItem from="1505316665295" duration="1783000" />
       <workItem from="1506273983653" duration="6639000" />
-      <workItem from="1506352165424" duration="8343000" />
+      <workItem from="1506352165424" duration="8495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="372278000" />
+    <option name="totallyTimeSpent" value="372430000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1115,18 +1115,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss.dotdotdot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="2514" column="21" lean-forward="false" selection-start-line="2514" selection-start-column="21" selection-end-line="2514" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/scripts/pss.dotdotdot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="73" lean-forward="false" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
           <folding />
         </state>
       </provider>

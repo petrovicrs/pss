@@ -21,7 +21,7 @@ function __pss_fit_most_read_block_height() {
         var wrapper_height = $(this).find('.news-content').height();
         var title_height = $(this).find('.news-content .news-title').height();
         var tagline_height = $(this).find('.news-content .news-tagline').height();
-        var height =  wrapper_height - title_height - tagline_height - 10;
+        var height =  wrapper_height - title_height - tagline_height - 15;
         $(this).find('.news-content .news-body').height(height);
     });
 }
