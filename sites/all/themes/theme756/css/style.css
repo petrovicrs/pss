@@ -3559,11 +3559,14 @@ article.comment span.new {
 }
 /*** basic page ***/
 #main-wrapper article.node.node-page .content {
-    margin: 0 5px;
+    /*margin: 0 5px;*/
 }
 #body.node-type-page .field-name-field-basic-page-image {
     /*max-width: 965px;*/
     margin: 0 auto;
+}
+#body.node-type-page .field-name-field-basic-page-image img {
+    width: 100%;
 }
 #body.node-type-page .field-name-field-description {
     margin-top: 50px;
