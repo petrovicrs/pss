@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--node--153.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--node--153.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--node--154.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--node--154.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" />
     </list>
     <ignored path="pss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,6 +44,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="news-by-type.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+              <folding>
+                <marker date="1506374976827" expanded="true" signature="4945:4951" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="page--node--153.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/page--node--153.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fullwidth.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fullwidth.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="482">
@@ -90,9 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#main-wrapper.full-width #auth_box .register_link</find>
-      <find>#block-views-slider-block .bxslider-views-slideshow-main-frame-row .views-field-nothing .field-content .sponsor a img</find>
-      <find>type</find>
       <find>field_twitter_search</find>
       <find>upda</find>
       <find>update</find>
@@ -120,6 +127,9 @@
       <find>drupal_set_title</find>
       <find>trimmed-tagline</find>
       <find>#main-wrapper.full-width #auth_box #slogan-and-message img</find>
+      <find>.view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-tagline</find>
+      <find>.view.news-by-type-block-view .view-content .views-row</find>
+      <find>.view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-read-more</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -178,7 +188,6 @@
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/simplenews-block.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/settings.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/search-result.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/search-results.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/js/fullwidth.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/template.php" />
@@ -208,6 +217,7 @@
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--node--154.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--node--153.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/fullwidth.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css" />
       </list>
     </option>
   </component>
@@ -527,12 +537,12 @@
       <workItem from="1505266419169" duration="3481000" />
       <workItem from="1505316665295" duration="1783000" />
       <workItem from="1506273983653" duration="6639000" />
-      <workItem from="1506352165424" duration="1312000" />
+      <workItem from="1506352165424" duration="2488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365247000" />
+    <option name="totallyTimeSpent" value="366423000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -993,58 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <marker date="1506357567524" expanded="true" signature="4828:4834" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="5151:5211" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="5685:5731" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="6069:6091" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="6462:6483" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="6800:6860" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="7334:7359" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="8004:8065" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="8331:8401" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="8802:8826" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="9206:9246" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="9428:9489" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="9755:9825" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="10226:10248" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="10628:10668" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="10943:11004" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="11359:11429" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="11964:11986" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="12493:12533" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="12808:12869" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="13313:13383" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="14052:14074" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="14708:14748" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="15117:15178" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="15711:15781" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="16584:16606" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="17367:17407" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="17778:17839" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="18461:18531" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="19468:19490" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="20378:20418" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="20777:20861" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="20975:20997" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="21099:21210" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="21306:21391" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="21494:21661" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="21770:21886" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="22234:22335" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="22461:22481" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="22628:22674" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="22911:22933" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="23192:23213" ph="{...}" />
-            <marker date="1506357567524" expanded="true" signature="23436:23496" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1076,6 +1034,16 @@
         <state relative-caret-position="482">
           <caret line="342" column="24" lean-forward="false" selection-start-line="342" selection-start-column="24" selection-end-line="342" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding>
+            <marker date="1506374976827" expanded="true" signature="4945:4951" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -8,7 +8,8 @@
     display: inline-block;
     background: #ffffff 0 0;
     padding: 0;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
+    margin-bottom: 40px;
 }
 .view.news-by-type-block-view .view-content .views-row .views-field {
     margin: 0;
@@ -25,17 +26,20 @@
 }
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content{
     position: relative;
-    margin: 25px;
+    /*margin: 25px;*/
+    margin: 15px;
     padding-bottom: 40px;
     text-align: left;
 }
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-body,
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-title {
-    margin-top: 15px;
+    /*margin-top: 15px;*/
+    margin-top: 10px;
 }
 
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-tagline{
     text-transform: uppercase;
+    font-size: 14px;
 }
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content .trimmed-subtitle{
     font-style: italic;
@@ -44,7 +48,8 @@
 
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-read-more {
     position: absolute;
-    bottom: 10px;
+    /*bottom: 10px;*/
+    bottom: 0;
     left: 0;
     width: 100%;
     background: #fff;
