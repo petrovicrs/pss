@@ -3761,8 +3761,9 @@ article.comment span.new {
 }
 #body #node-152 .field-name-body #accordion{
     /*display: inline-block;
-    float: left;
-    max-width: 550px;*/
+    float: left;*/
+    max-width: 550px;
+    margin: 0 auto;
 }
 /** biz partneri **/
 #body #node-156 .field-name-body  .bis-partners{
