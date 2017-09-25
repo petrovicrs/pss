@@ -3562,7 +3562,7 @@ article.comment span.new {
     margin: 0 5px;
 }
 #body.node-type-page .field-name-field-basic-page-image {
-    max-width: 965px;
+    /*max-width: 965px;*/
     margin: 0 auto;
 }
 #body.node-type-page .field-name-field-description {
