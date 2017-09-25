@@ -9,7 +9,8 @@ function __pss_fit_height() {
     $(prefix).each(function () {
         var wrapper_height = $(this).find('.title-and-body').height();
         var title_height = $(this).find('.title-and-body .news-title').height();
-        var height =  wrapper_height - title_height - 7;
+        var tagline_height = $(this).find('.title-and-body .news-tagline').height();
+        var height =  wrapper_height - title_height - tagline_height - 20;
         $(this).find('.title-and-body .news-body').height(height);
     });
 }
@@ -21,6 +22,9 @@ function __pss_setup_dotdotdot() {
         '.front .video-material .view .view-content .views-row .field-content .body-wrapper .body'
     ];
     $.each(selectors, function (index, selector) {
-        $(selector).dotdotdot();
+        $(selector).each(function() {
+            $(this).dotdotdot({
+            });
+        });
     });
 }
