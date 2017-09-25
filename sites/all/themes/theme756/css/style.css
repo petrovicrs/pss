@@ -3765,6 +3765,9 @@ article.comment span.new {
     max-width: 700px;
     margin: 0 auto;
 }
+#body #node-152 .field-name-body #accordion.ui-accordion .ui-accordion-icons {
+    text-transform: none;
+}
 /** biz partneri **/
 #body #node-156 .field-name-body  .bis-partners{
     margin-top: 55px;
