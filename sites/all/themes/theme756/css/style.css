@@ -3888,10 +3888,10 @@ article.comment span.new {
     display: inline-block;
 }
 #body.page-node-152 #page {
-    background: url(/sites/default/files/marketing1.png) no-repeat right 245px;
+    /*background: url(/sites/default/files/marketing1.png) no-repeat right 245px;*/
 }
 #body.page-node-152 #main-wrapper .region-content #block-system-main{
-    min-height: 705px;
+    /*min-height: 705px;*/
 }
 blockquote {
     font-style: italic;
