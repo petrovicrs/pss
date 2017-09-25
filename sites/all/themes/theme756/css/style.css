@@ -2502,7 +2502,7 @@ ul.contextual-links li a:hover {
 
 .front .most-read-block .view .view-content .views-row .field-content .news-content .news-body,
 .front .most-read-block .view .view-content .views-row .field-content .news-content .news-title {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .front .most-read-block .view .view-content .views-row .field-content .news-content .news-body {
     height: 55px;
