@@ -105,12 +105,12 @@
 .view.news-by-type-block-view .view-content .views-row.views-row-1 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-2 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-3 .field-content .news-content .title-and-body{
-    height: 90px;
+    height: 130px;
 }
 .view.news-by-type-block-view .view-content .views-row.views-row-1 .field-content .news-content .title-and-body .news-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-2 .field-content .news-content .title-and-body .news-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-3 .field-content .news-content .title-and-body .news-body{
-    height: 40px;
+    height: 80px;
 }
 .view.news-by-type-block-view .view-content .views-row.views-row-1 .field-content .news-image .image img,
 .view.news-by-type-block-view .view-content .views-row.views-row-2 .field-content .news-image .image img,
