@@ -48,9 +48,9 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="279">
-              <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+              <caret line="361" column="17" lean-forward="false" selection-start-line="361" selection-start-column="17" selection-end-line="361" selection-end-column="17" />
               <folding>
-                <marker date="1506374976827" expanded="true" signature="4945:4951" ph="{...}" />
+                <marker date="1506375346079" expanded="true" signature="4945:4951" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -100,7 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>field_twitter_search</find>
       <find>upda</find>
       <find>update</find>
       <find>#body #site-logo-wrapper .title-wrapper h1.title</find>
@@ -130,6 +129,7 @@
       <find>.view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-tagline</find>
       <find>.view.news-by-type-block-view .view-content .views-row</find>
       <find>.view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-read-more</find>
+      <find>.view.news-by-type-block-view .view-content .views-row .field-content .news-content div.news-title a</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -537,12 +537,12 @@
       <workItem from="1505266419169" duration="3481000" />
       <workItem from="1505316665295" duration="1783000" />
       <workItem from="1506273983653" duration="6639000" />
-      <workItem from="1506352165424" duration="2488000" />
+      <workItem from="1506352165424" duration="2858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366423000" />
+    <option name="totallyTimeSpent" value="366793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1040,9 +1040,9 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/news-by-type.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
-          <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <caret line="361" column="17" lean-forward="false" selection-start-line="361" selection-start-column="17" selection-end-line="361" selection-end-column="17" />
           <folding>
-            <marker date="1506374976827" expanded="true" signature="4945:4951" ph="{...}" />
+            <marker date="1506375346079" expanded="true" signature="4945:4951" ph="{...}" />
           </folding>
         </state>
       </provider>

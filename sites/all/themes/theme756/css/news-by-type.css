@@ -358,7 +358,8 @@
 }
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content div.news-title a {
     font-family: 'PT Sans', sans-serif;
-    font-size: 22px;
+    /*font-size: 22px;*/
+    font-size: 20px;
     color: #000000;
     text-decoration: none;
 }
