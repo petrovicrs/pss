@@ -3753,13 +3753,13 @@ article.comment span.new {
 
 /** marketing **/
 #body #node-152 .field-name-body .right_image {
-    float: right;
-    display: inline-block;
+    /*float: right;
+    display: inline-block;*/
 }
 #body #node-152 .field-name-body #accordion{
-    display: inline-block;
+    /*display: inline-block;
     float: left;
-    max-width: 550px;
+    max-width: 550px;*/
 }
 /** biz partneri **/
 #body #node-156 .field-name-body  .bis-partners{
