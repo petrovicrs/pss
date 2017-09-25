@@ -3558,8 +3558,8 @@ article.comment span.new {
     display: none !important;
 }
 /*** basic page ***/
-#main-wrapper article.node.node-page .content {
-    /*margin: 0 5px;*/
+#main-wrapper article.node.node-page .content .field-name-body{
+    margin: 0 5px;
 }
 #body.node-type-page .field-name-field-basic-page-image {
     /*max-width: 965px;*/
