@@ -2513,6 +2513,7 @@ ul.contextual-links li a:hover {
 .front .most-read-block .view .view-content .views-row .field-content .news-content .news-tagline {
     text-transform: uppercase;
     margin-top: 10px;
+    font-size: 14px;
 }
 .front .most-read-block .view .view-content .views-row .field-content .news-content .news-body.trimmed-tagline{
     text-transform: uppercase;
