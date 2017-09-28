@@ -31,7 +31,7 @@ function __fix_most_read() {
     $(selector).each(function () {
        var parent = $(this).parent();
        var image_width = parent.find('.news-image').width();
-       var el_width = parent.width() - image_width - 100;
+       var el_width = parent.width() - image_width - 105;
        $(this).width(el_width);
     });
 }
