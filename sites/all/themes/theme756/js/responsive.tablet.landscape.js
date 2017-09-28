@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
 
 function __fix_tablet_landscape() {
     var win_width = $(window).width();
-    if (win_width < 1300 && win_width > 960) {
+    if (win_width <= 1300 && win_width > 960) {
         // __fix_news_type_images();
         __fix_most_read();
     }
@@ -31,7 +31,7 @@ function __fix_most_read() {
     $(selector).each(function () {
        var parent = $(this).parent();
        var image_width = parent.find('.news-image').width();
-       var el_width = parent.width() - image_width - 120;
+       var el_width = parent.width() - image_width - 40;
        $(this).width(el_width);
     });
 }
