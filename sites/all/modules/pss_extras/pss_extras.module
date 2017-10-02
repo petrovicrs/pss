@@ -517,12 +517,20 @@ function __pss_extras_generate_front_banner_block() {
             $banner->url = variable_get('pss_front_page_banner_image_1_link', '');
             $banners[] = $banner;
         }
-        $banner = null;
-        if (count($banners) > 0 && count($banners) == 2) {
-            $rand = mt_rand(0, 1);
-            $banner = $banners[$rand];
-        } elseif(count($banners) == 1) {
-            $banner = reset($banners);
+        switch (count($banners)) {
+            case 2 : {
+                $key = array_rand($banners, 1);
+                $banner = $banners[$key];
+                break;
+            }
+            case 1 : {
+                $banner = reset($banners);
+                break;
+            }
+            default :{
+                $banner = null;
+                break;
+            }
         }
         if (isset($banner) && isset($banner->fid)) {
             $output .= '<div class="banner">';
