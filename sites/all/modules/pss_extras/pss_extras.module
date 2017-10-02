@@ -521,8 +521,8 @@ function __pss_extras_generate_front_banner_block() {
         }
         switch (count($banners)) {
             case 2 : {
-                $key = array_rand($banners, 1);
-                $banner = $banners[$key];
+                shuffle($banners);
+                $banner = reset($banners);
                 break;
             }
             case 1 : {

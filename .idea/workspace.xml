@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
     </list>
     <ignored path="pss.iws" />
@@ -39,29 +38,29 @@
       <file leaf-file-name="pss_extras.module" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="503" column="0" lean-forward="false" selection-start-line="503" selection-start-column="0" selection-end-line="503" selection-end-column="0" />
+            <state relative-caret-position="276">
+              <caret line="523" column="32" lean-forward="false" selection-start-line="523" selection-start-column="32" selection-end-line="523" selection-end-column="32" />
               <folding>
-                <marker date="1506974308948" expanded="true" signature="2026:3452" ph="..." />
-                <marker date="1506974308948" expanded="true" signature="2082:2184" ph="..." />
-                <marker date="1506974308948" expanded="true" signature="2242:2420" ph="..." />
-                <marker date="1506974308948" expanded="true" signature="2471:3425" ph="..." />
-                <marker date="1506974308948" expanded="true" signature="2716:3394" ph="..." />
-                <marker date="1506974308948" expanded="true" signature="2778:3362" ph="..." />
-                <marker date="1506974308948" expanded="false" signature="3031:3065" ph="..." />
-                <marker date="1506974308948" expanded="true" signature="3499:3596" ph="..." />
-                <marker date="1506974308948" expanded="true" signature="3832:4864" ph="..." />
-                <marker date="1506974308948" expanded="true" signature="3883:4837" ph="..." />
-                <marker date="1506974308948" expanded="true" signature="4128:4806" ph="..." />
-                <marker date="1506974308948" expanded="true" signature="4190:4774" ph="..." />
-                <marker date="1506974308948" expanded="false" signature="4443:4477" ph="..." />
-                <marker date="1506974308948" expanded="true" signature="20468:20815" ph="..." />
-                <marker date="1506974308948" expanded="true" signature="20554:20792" ph="..." />
-                <marker date="1506974308948" expanded="true" signature="26369:26507" ph="SELECT DISTI... field_data_field_magazine_number" />
-                <marker date="1506974308948" expanded="true" signature="26656:26830" ph="SELECT entit... field_data_field_magazine_number" />
-                <marker date="1506974308948" expanded="true" signature="27225:27302" ph="SELECT MAX(f... field_data_field_magazine_number" />
-                <marker date="1506974308948" expanded="true" signature="27660:27751" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-                <marker date="1506974308948" expanded="true" signature="28228:28284" ph="SELECT COUNT... taxonomy_index" />
+                <marker date="1506974650563" expanded="true" signature="2026:3452" ph="..." />
+                <marker date="1506974650563" expanded="true" signature="2082:2184" ph="..." />
+                <marker date="1506974650563" expanded="true" signature="2242:2420" ph="..." />
+                <marker date="1506974650563" expanded="true" signature="2471:3425" ph="..." />
+                <marker date="1506974650563" expanded="true" signature="2716:3394" ph="..." />
+                <marker date="1506974650563" expanded="true" signature="2778:3362" ph="..." />
+                <marker date="1506974650563" expanded="false" signature="3031:3065" ph="..." />
+                <marker date="1506974650563" expanded="true" signature="3499:3596" ph="..." />
+                <marker date="1506974650563" expanded="true" signature="3832:4864" ph="..." />
+                <marker date="1506974650563" expanded="true" signature="3883:4837" ph="..." />
+                <marker date="1506974650563" expanded="true" signature="4128:4806" ph="..." />
+                <marker date="1506974650563" expanded="true" signature="4190:4774" ph="..." />
+                <marker date="1506974650563" expanded="false" signature="4443:4477" ph="..." />
+                <marker date="1506974650563" expanded="true" signature="20468:20815" ph="..." />
+                <marker date="1506974650563" expanded="true" signature="20554:20792" ph="..." />
+                <marker date="1506974650563" expanded="true" signature="26357:26495" ph="SELECT DISTI... field_data_field_magazine_number" />
+                <marker date="1506974650563" expanded="true" signature="26644:26818" ph="SELECT entit... field_data_field_magazine_number" />
+                <marker date="1506974650563" expanded="true" signature="27213:27290" ph="SELECT MAX(f... field_data_field_magazine_number" />
+                <marker date="1506974650563" expanded="true" signature="27648:27739" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+                <marker date="1506974650563" expanded="true" signature="28216:28272" ph="SELECT COUNT... taxonomy_index" />
               </folding>
             </state>
           </provider>
@@ -682,12 +681,12 @@
       <workItem from="1505316665295" duration="1783000" />
       <workItem from="1506273983653" duration="6639000" />
       <workItem from="1506352165424" duration="10765000" />
-      <workItem from="1506972052662" duration="2341000" />
+      <workItem from="1506972052662" duration="2574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="377041000" />
+    <option name="totallyTimeSpent" value="377274000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -700,6 +699,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="151" width="1616" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19215938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -710,7 +710,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47361478" sideWeight="0.4974293" order="5" side_tool="false" content_ui="tabs" x="1920" y="181" width="1600" height="878" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47361478" sideWeight="0.4974293" order="5" side_tool="false" content_ui="tabs" x="1920" y="181" width="1600" height="878" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -782,11 +782,6 @@
           <url>file://$PROJECT_DIR$/modules/field/theme/field.tpl.php</url>
           <line>55</line>
           <option name="timeStamp" value="209" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module</url>
-          <line>503</line>
-          <option name="timeStamp" value="368" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="369" />
@@ -1154,29 +1149,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="503" column="0" lean-forward="false" selection-start-line="503" selection-start-column="0" selection-end-line="503" selection-end-column="0" />
+        <state relative-caret-position="276">
+          <caret line="523" column="32" lean-forward="false" selection-start-line="523" selection-start-column="32" selection-end-line="523" selection-end-column="32" />
           <folding>
-            <marker date="1506974308948" expanded="true" signature="2026:3452" ph="..." />
-            <marker date="1506974308948" expanded="true" signature="2082:2184" ph="..." />
-            <marker date="1506974308948" expanded="true" signature="2242:2420" ph="..." />
-            <marker date="1506974308948" expanded="true" signature="2471:3425" ph="..." />
-            <marker date="1506974308948" expanded="true" signature="2716:3394" ph="..." />
-            <marker date="1506974308948" expanded="true" signature="2778:3362" ph="..." />
-            <marker date="1506974308948" expanded="false" signature="3031:3065" ph="..." />
-            <marker date="1506974308948" expanded="true" signature="3499:3596" ph="..." />
-            <marker date="1506974308948" expanded="true" signature="3832:4864" ph="..." />
-            <marker date="1506974308948" expanded="true" signature="3883:4837" ph="..." />
-            <marker date="1506974308948" expanded="true" signature="4128:4806" ph="..." />
-            <marker date="1506974308948" expanded="true" signature="4190:4774" ph="..." />
-            <marker date="1506974308948" expanded="false" signature="4443:4477" ph="..." />
-            <marker date="1506974308948" expanded="true" signature="20468:20815" ph="..." />
-            <marker date="1506974308948" expanded="true" signature="20554:20792" ph="..." />
-            <marker date="1506974308948" expanded="true" signature="26369:26507" ph="SELECT DISTI... field_data_field_magazine_number" />
-            <marker date="1506974308948" expanded="true" signature="26656:26830" ph="SELECT entit... field_data_field_magazine_number" />
-            <marker date="1506974308948" expanded="true" signature="27225:27302" ph="SELECT MAX(f... field_data_field_magazine_number" />
-            <marker date="1506974308948" expanded="true" signature="27660:27751" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-            <marker date="1506974308948" expanded="true" signature="28228:28284" ph="SELECT COUNT... taxonomy_index" />
+            <marker date="1506974650563" expanded="true" signature="2026:3452" ph="..." />
+            <marker date="1506974650563" expanded="true" signature="2082:2184" ph="..." />
+            <marker date="1506974650563" expanded="true" signature="2242:2420" ph="..." />
+            <marker date="1506974650563" expanded="true" signature="2471:3425" ph="..." />
+            <marker date="1506974650563" expanded="true" signature="2716:3394" ph="..." />
+            <marker date="1506974650563" expanded="true" signature="2778:3362" ph="..." />
+            <marker date="1506974650563" expanded="false" signature="3031:3065" ph="..." />
+            <marker date="1506974650563" expanded="true" signature="3499:3596" ph="..." />
+            <marker date="1506974650563" expanded="true" signature="3832:4864" ph="..." />
+            <marker date="1506974650563" expanded="true" signature="3883:4837" ph="..." />
+            <marker date="1506974650563" expanded="true" signature="4128:4806" ph="..." />
+            <marker date="1506974650563" expanded="true" signature="4190:4774" ph="..." />
+            <marker date="1506974650563" expanded="false" signature="4443:4477" ph="..." />
+            <marker date="1506974650563" expanded="true" signature="20468:20815" ph="..." />
+            <marker date="1506974650563" expanded="true" signature="20554:20792" ph="..." />
+            <marker date="1506974650563" expanded="true" signature="26357:26495" ph="SELECT DISTI... field_data_field_magazine_number" />
+            <marker date="1506974650563" expanded="true" signature="26644:26818" ph="SELECT entit... field_data_field_magazine_number" />
+            <marker date="1506974650563" expanded="true" signature="27213:27290" ph="SELECT MAX(f... field_data_field_magazine_number" />
+            <marker date="1506974650563" expanded="true" signature="27648:27739" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+            <marker date="1506974650563" expanded="true" signature="28216:28272" ph="SELECT COUNT... taxonomy_index" />
           </folding>
         </state>
       </provider>
