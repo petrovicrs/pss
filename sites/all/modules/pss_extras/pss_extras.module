@@ -45,10 +45,12 @@ function pss_extras_block_info() {
       'info' => t('Slim newsletter subscribe block'),
     );
     $blocks['taxonomy-tags'] = array(
-      'info' => t('Taxonomy tags list')
+      'info' => t('Taxonomy tags list'),
+      'cache' => DRUPAL_NO_CACHE
     );
     $blocks['front-banner-block'] = array(
-      'info' => t('Front page banner block')
+      'info' => t('Front page banner block'),
+      'cache' => DRUPAL_NO_CACHE
     );
     return $blocks;
 }
