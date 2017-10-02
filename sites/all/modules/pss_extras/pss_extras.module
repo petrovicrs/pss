@@ -505,17 +505,17 @@ function __pss_extras_generate_front_banner_block() {
         $banner_1_fid = variable_get('pss_front_page_banner_image_1', 0);
         $banners = [];
         if ($banner_1_fid != 0) {
-            $banner = new stdClass();
-            $banner->fid = $banner_1_fid;
-            $banner->url = variable_get('pss_front_page_banner_image_1_link', '');
-            $banners[] = $banner;
+            $banner1 = new stdClass();
+            $banner1->fid = $banner_1_fid;
+            $banner1->url = variable_get('pss_front_page_banner_image_1_link', '');
+            $banners[] = $banner1;
         }
         $banner_2_fid = variable_get('pss_front_page_banner_image_2', 0);
         if ($banner_2_fid != 0) {
-            $banner = new stdClass();
-            $banner->fid = $banner_2_fid;
-            $banner->url = variable_get('pss_front_page_banner_image_2_link', '');
-            $banners[] = $banner;
+            $banner2 = new stdClass();
+            $banner2->fid = $banner_2_fid;
+            $banner2->url = variable_get('pss_front_page_banner_image_2_link', '');
+            $banners[] = $banner2;
         }
         switch (count($banners)) {
             case 2 : {

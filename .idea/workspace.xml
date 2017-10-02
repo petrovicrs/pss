@@ -38,29 +38,29 @@
       <file leaf-file-name="pss_extras.module" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="516" column="70" lean-forward="false" selection-start-line="516" selection-start-column="70" selection-end-line="516" selection-end-column="70" />
+            <state relative-caret-position="199">
+              <caret line="522" column="23" lean-forward="true" selection-start-line="522" selection-start-column="16" selection-end-line="522" selection-end-column="23" />
               <folding>
-                <marker date="1506973092649" expanded="true" signature="1958:3384" ph="..." />
-                <marker date="1506973092649" expanded="true" signature="2014:2116" ph="..." />
-                <marker date="1506973092649" expanded="true" signature="2174:2352" ph="..." />
-                <marker date="1506973092649" expanded="true" signature="2403:3357" ph="..." />
-                <marker date="1506973092649" expanded="true" signature="2648:3326" ph="..." />
-                <marker date="1506973092649" expanded="true" signature="2710:3294" ph="..." />
-                <marker date="1506973092649" expanded="false" signature="2963:2997" ph="..." />
-                <marker date="1506973092649" expanded="true" signature="3431:3528" ph="..." />
-                <marker date="1506973092649" expanded="true" signature="3764:4796" ph="..." />
-                <marker date="1506973092649" expanded="true" signature="3815:4769" ph="..." />
-                <marker date="1506973092649" expanded="true" signature="4060:4738" ph="..." />
-                <marker date="1506973092649" expanded="true" signature="4122:4706" ph="..." />
-                <marker date="1506973092649" expanded="false" signature="4375:4409" ph="..." />
-                <marker date="1506973092649" expanded="true" signature="20400:20747" ph="..." />
-                <marker date="1506973092649" expanded="true" signature="20486:20724" ph="..." />
-                <marker date="1506973092649" expanded="true" signature="26283:26421" ph="SELECT DISTI... field_data_field_magazine_number" />
-                <marker date="1506973092649" expanded="true" signature="26570:26744" ph="SELECT entit... field_data_field_magazine_number" />
-                <marker date="1506973092649" expanded="true" signature="27139:27216" ph="SELECT MAX(f... field_data_field_magazine_number" />
-                <marker date="1506973092649" expanded="true" signature="27574:27665" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-                <marker date="1506973092649" expanded="true" signature="28142:28198" ph="SELECT COUNT... taxonomy_index" />
+                <marker date="1506973216385" expanded="true" signature="1958:3384" ph="..." />
+                <marker date="1506973216385" expanded="true" signature="2014:2116" ph="..." />
+                <marker date="1506973216385" expanded="true" signature="2174:2352" ph="..." />
+                <marker date="1506973216385" expanded="true" signature="2403:3357" ph="..." />
+                <marker date="1506973216385" expanded="true" signature="2648:3326" ph="..." />
+                <marker date="1506973216385" expanded="true" signature="2710:3294" ph="..." />
+                <marker date="1506973216385" expanded="false" signature="2963:2997" ph="..." />
+                <marker date="1506973216385" expanded="true" signature="3431:3528" ph="..." />
+                <marker date="1506973216385" expanded="true" signature="3764:4796" ph="..." />
+                <marker date="1506973216385" expanded="true" signature="3815:4769" ph="..." />
+                <marker date="1506973216385" expanded="true" signature="4060:4738" ph="..." />
+                <marker date="1506973216385" expanded="true" signature="4122:4706" ph="..." />
+                <marker date="1506973216385" expanded="false" signature="4375:4409" ph="..." />
+                <marker date="1506973216385" expanded="true" signature="20400:20747" ph="..." />
+                <marker date="1506973216385" expanded="true" signature="20486:20724" ph="..." />
+                <marker date="1506973216385" expanded="true" signature="26291:26429" ph="SELECT DISTI... field_data_field_magazine_number" />
+                <marker date="1506973216385" expanded="true" signature="26578:26752" ph="SELECT entit... field_data_field_magazine_number" />
+                <marker date="1506973216385" expanded="true" signature="27147:27224" ph="SELECT MAX(f... field_data_field_magazine_number" />
+                <marker date="1506973216385" expanded="true" signature="27582:27673" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+                <marker date="1506973216385" expanded="true" signature="28150:28206" ph="SELECT COUNT... taxonomy_index" />
               </folding>
             </state>
           </provider>
@@ -671,12 +671,12 @@
       <workItem from="1505316665295" duration="1783000" />
       <workItem from="1506273983653" duration="6639000" />
       <workItem from="1506352165424" duration="10765000" />
-      <workItem from="1506972052662" duration="1038000" />
+      <workItem from="1506972052662" duration="1157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="375738000" />
+    <option name="totallyTimeSpent" value="375857000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1154,29 +1154,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="516" column="70" lean-forward="false" selection-start-line="516" selection-start-column="70" selection-end-line="516" selection-end-column="70" />
+        <state relative-caret-position="199">
+          <caret line="522" column="23" lean-forward="true" selection-start-line="522" selection-start-column="16" selection-end-line="522" selection-end-column="23" />
           <folding>
-            <marker date="1506973092649" expanded="true" signature="1958:3384" ph="..." />
-            <marker date="1506973092649" expanded="true" signature="2014:2116" ph="..." />
-            <marker date="1506973092649" expanded="true" signature="2174:2352" ph="..." />
-            <marker date="1506973092649" expanded="true" signature="2403:3357" ph="..." />
-            <marker date="1506973092649" expanded="true" signature="2648:3326" ph="..." />
-            <marker date="1506973092649" expanded="true" signature="2710:3294" ph="..." />
-            <marker date="1506973092649" expanded="false" signature="2963:2997" ph="..." />
-            <marker date="1506973092649" expanded="true" signature="3431:3528" ph="..." />
-            <marker date="1506973092649" expanded="true" signature="3764:4796" ph="..." />
-            <marker date="1506973092649" expanded="true" signature="3815:4769" ph="..." />
-            <marker date="1506973092649" expanded="true" signature="4060:4738" ph="..." />
-            <marker date="1506973092649" expanded="true" signature="4122:4706" ph="..." />
-            <marker date="1506973092649" expanded="false" signature="4375:4409" ph="..." />
-            <marker date="1506973092649" expanded="true" signature="20400:20747" ph="..." />
-            <marker date="1506973092649" expanded="true" signature="20486:20724" ph="..." />
-            <marker date="1506973092649" expanded="true" signature="26283:26421" ph="SELECT DISTI... field_data_field_magazine_number" />
-            <marker date="1506973092649" expanded="true" signature="26570:26744" ph="SELECT entit... field_data_field_magazine_number" />
-            <marker date="1506973092649" expanded="true" signature="27139:27216" ph="SELECT MAX(f... field_data_field_magazine_number" />
-            <marker date="1506973092649" expanded="true" signature="27574:27665" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-            <marker date="1506973092649" expanded="true" signature="28142:28198" ph="SELECT COUNT... taxonomy_index" />
+            <marker date="1506973216385" expanded="true" signature="1958:3384" ph="..." />
+            <marker date="1506973216385" expanded="true" signature="2014:2116" ph="..." />
+            <marker date="1506973216385" expanded="true" signature="2174:2352" ph="..." />
+            <marker date="1506973216385" expanded="true" signature="2403:3357" ph="..." />
+            <marker date="1506973216385" expanded="true" signature="2648:3326" ph="..." />
+            <marker date="1506973216385" expanded="true" signature="2710:3294" ph="..." />
+            <marker date="1506973216385" expanded="false" signature="2963:2997" ph="..." />
+            <marker date="1506973216385" expanded="true" signature="3431:3528" ph="..." />
+            <marker date="1506973216385" expanded="true" signature="3764:4796" ph="..." />
+            <marker date="1506973216385" expanded="true" signature="3815:4769" ph="..." />
+            <marker date="1506973216385" expanded="true" signature="4060:4738" ph="..." />
+            <marker date="1506973216385" expanded="true" signature="4122:4706" ph="..." />
+            <marker date="1506973216385" expanded="false" signature="4375:4409" ph="..." />
+            <marker date="1506973216385" expanded="true" signature="20400:20747" ph="..." />
+            <marker date="1506973216385" expanded="true" signature="20486:20724" ph="..." />
+            <marker date="1506973216385" expanded="true" signature="26291:26429" ph="SELECT DISTI... field_data_field_magazine_number" />
+            <marker date="1506973216385" expanded="true" signature="26578:26752" ph="SELECT entit... field_data_field_magazine_number" />
+            <marker date="1506973216385" expanded="true" signature="27147:27224" ph="SELECT MAX(f... field_data_field_magazine_number" />
+            <marker date="1506973216385" expanded="true" signature="27582:27673" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+            <marker date="1506973216385" expanded="true" signature="28150:28206" ph="SELECT COUNT... taxonomy_index" />
           </folding>
         </state>
       </provider>
