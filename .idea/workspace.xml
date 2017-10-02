@@ -38,30 +38,50 @@
       <file leaf-file-name="pss_extras.module" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="522" column="23" lean-forward="true" selection-start-line="522" selection-start-column="16" selection-end-line="522" selection-end-column="23" />
+            <state relative-caret-position="-39">
+              <caret line="499" column="0" lean-forward="true" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
               <folding>
-                <marker date="1506973216385" expanded="true" signature="1958:3384" ph="..." />
-                <marker date="1506973216385" expanded="true" signature="2014:2116" ph="..." />
-                <marker date="1506973216385" expanded="true" signature="2174:2352" ph="..." />
-                <marker date="1506973216385" expanded="true" signature="2403:3357" ph="..." />
-                <marker date="1506973216385" expanded="true" signature="2648:3326" ph="..." />
-                <marker date="1506973216385" expanded="true" signature="2710:3294" ph="..." />
-                <marker date="1506973216385" expanded="false" signature="2963:2997" ph="..." />
-                <marker date="1506973216385" expanded="true" signature="3431:3528" ph="..." />
-                <marker date="1506973216385" expanded="true" signature="3764:4796" ph="..." />
-                <marker date="1506973216385" expanded="true" signature="3815:4769" ph="..." />
-                <marker date="1506973216385" expanded="true" signature="4060:4738" ph="..." />
-                <marker date="1506973216385" expanded="true" signature="4122:4706" ph="..." />
-                <marker date="1506973216385" expanded="false" signature="4375:4409" ph="..." />
-                <marker date="1506973216385" expanded="true" signature="20400:20747" ph="..." />
-                <marker date="1506973216385" expanded="true" signature="20486:20724" ph="..." />
-                <marker date="1506973216385" expanded="true" signature="26291:26429" ph="SELECT DISTI... field_data_field_magazine_number" />
-                <marker date="1506973216385" expanded="true" signature="26578:26752" ph="SELECT entit... field_data_field_magazine_number" />
-                <marker date="1506973216385" expanded="true" signature="27147:27224" ph="SELECT MAX(f... field_data_field_magazine_number" />
-                <marker date="1506973216385" expanded="true" signature="27582:27673" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-                <marker date="1506973216385" expanded="true" signature="28150:28206" ph="SELECT COUNT... taxonomy_index" />
+                <marker date="1506973477901" expanded="true" signature="1958:3384" ph="..." />
+                <marker date="1506973477901" expanded="true" signature="2014:2116" ph="..." />
+                <marker date="1506973477901" expanded="true" signature="2174:2352" ph="..." />
+                <marker date="1506973477901" expanded="true" signature="2403:3357" ph="..." />
+                <marker date="1506973477901" expanded="true" signature="2648:3326" ph="..." />
+                <marker date="1506973477901" expanded="true" signature="2710:3294" ph="..." />
+                <marker date="1506973477901" expanded="false" signature="2963:2997" ph="..." />
+                <marker date="1506973477901" expanded="true" signature="3431:3528" ph="..." />
+                <marker date="1506973477901" expanded="true" signature="3764:4796" ph="..." />
+                <marker date="1506973477901" expanded="true" signature="3815:4769" ph="..." />
+                <marker date="1506973477901" expanded="true" signature="4060:4738" ph="..." />
+                <marker date="1506973477901" expanded="true" signature="4122:4706" ph="..." />
+                <marker date="1506973477901" expanded="false" signature="4375:4409" ph="..." />
+                <marker date="1506973477901" expanded="true" signature="20400:20747" ph="..." />
+                <marker date="1506973477901" expanded="true" signature="20486:20724" ph="..." />
+                <marker date="1506973477901" expanded="true" signature="26301:26439" ph="SELECT DISTI... field_data_field_magazine_number" />
+                <marker date="1506973477901" expanded="true" signature="26588:26762" ph="SELECT entit... field_data_field_magazine_number" />
+                <marker date="1506973477901" expanded="true" signature="27157:27234" ph="SELECT MAX(f... field_data_field_magazine_number" />
+                <marker date="1506973477901" expanded="true" signature="27592:27683" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+                <marker date="1506973477901" expanded="true" signature="28160:28216" ph="SELECT COUNT... taxonomy_index" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.inc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/views/includes/view.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="1336" column="0" lean-forward="false" selection-start-line="1336" selection-start-column="0" selection-end-line="1336" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views_plugin_query_default.inc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_query_default.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="1490" column="0" lean-forward="false" selection-start-line="1490" selection-start-column="0" selection-end-line="1490" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,8 +89,8 @@
       <file leaf-file-name="pss_settings_page.inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="83" column="69" lean-forward="false" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="69" />
+            <state relative-caret-position="880">
+              <caret line="67" column="58" lean-forward="true" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -131,16 +151,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="7182">
               <caret line="342" column="24" lean-forward="false" selection-start-line="342" selection-start-column="24" selection-end-line="342" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page--node--154.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/templates/page--node--154.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="51" column="161" lean-forward="true" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="161" />
               <folding />
             </state>
           </provider>
@@ -671,12 +681,12 @@
       <workItem from="1505316665295" duration="1783000" />
       <workItem from="1506273983653" duration="6639000" />
       <workItem from="1506352165424" duration="10765000" />
-      <workItem from="1506972052662" duration="1157000" />
+      <workItem from="1506972052662" duration="1636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="375857000" />
+    <option name="totallyTimeSpent" value="376336000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -700,7 +710,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47361478" sideWeight="0.4974293" order="5" side_tool="false" content_ui="tabs" x="1920" y="181" width="1600" height="878" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47361478" sideWeight="0.4974293" order="5" side_tool="false" content_ui="tabs" x="1920" y="181" width="1600" height="878" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -773,23 +783,8 @@
           <line>55</line>
           <option name="timeStamp" value="209" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/sites/all/modules/views/includes/view.inc</url>
-          <line>1335</line>
-          <option name="timeStamp" value="357" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/sites/all/modules/views/includes/view.inc</url>
-          <line>1336</line>
-          <option name="timeStamp" value="358" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_query_default.inc</url>
-          <line>1490</line>
-          <option name="timeStamp" value="361" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="364" />
+      <option name="time" value="366" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
@@ -979,22 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/views/includes/view.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="1336" column="0" lean-forward="false" selection-start-line="1336" selection-start-column="0" selection-end-line="1336" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_query_default.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="1490" column="0" lean-forward="false" selection-start-line="1490" selection-start-column="0" selection-end-line="1490" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/database/database.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-162">
@@ -1146,37 +1125,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="83" column="69" lean-forward="false" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="69" />
+        <state relative-caret-position="880">
+          <caret line="67" column="58" lean-forward="true" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/views/includes/view.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="1336" column="0" lean-forward="false" selection-start-line="1336" selection-start-column="0" selection-end-line="1336" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/views/plugins/views_plugin_query_default.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="1490" column="0" lean-forward="false" selection-start-line="1490" selection-start-column="0" selection-end-line="1490" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="522" column="23" lean-forward="true" selection-start-line="522" selection-start-column="16" selection-end-line="522" selection-end-column="23" />
+        <state relative-caret-position="-39">
+          <caret line="499" column="0" lean-forward="true" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
           <folding>
-            <marker date="1506973216385" expanded="true" signature="1958:3384" ph="..." />
-            <marker date="1506973216385" expanded="true" signature="2014:2116" ph="..." />
-            <marker date="1506973216385" expanded="true" signature="2174:2352" ph="..." />
-            <marker date="1506973216385" expanded="true" signature="2403:3357" ph="..." />
-            <marker date="1506973216385" expanded="true" signature="2648:3326" ph="..." />
-            <marker date="1506973216385" expanded="true" signature="2710:3294" ph="..." />
-            <marker date="1506973216385" expanded="false" signature="2963:2997" ph="..." />
-            <marker date="1506973216385" expanded="true" signature="3431:3528" ph="..." />
-            <marker date="1506973216385" expanded="true" signature="3764:4796" ph="..." />
-            <marker date="1506973216385" expanded="true" signature="3815:4769" ph="..." />
-            <marker date="1506973216385" expanded="true" signature="4060:4738" ph="..." />
-            <marker date="1506973216385" expanded="true" signature="4122:4706" ph="..." />
-            <marker date="1506973216385" expanded="false" signature="4375:4409" ph="..." />
-            <marker date="1506973216385" expanded="true" signature="20400:20747" ph="..." />
-            <marker date="1506973216385" expanded="true" signature="20486:20724" ph="..." />
-            <marker date="1506973216385" expanded="true" signature="26291:26429" ph="SELECT DISTI... field_data_field_magazine_number" />
-            <marker date="1506973216385" expanded="true" signature="26578:26752" ph="SELECT entit... field_data_field_magazine_number" />
-            <marker date="1506973216385" expanded="true" signature="27147:27224" ph="SELECT MAX(f... field_data_field_magazine_number" />
-            <marker date="1506973216385" expanded="true" signature="27582:27673" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
-            <marker date="1506973216385" expanded="true" signature="28150:28206" ph="SELECT COUNT... taxonomy_index" />
+            <marker date="1506973477901" expanded="true" signature="1958:3384" ph="..." />
+            <marker date="1506973477901" expanded="true" signature="2014:2116" ph="..." />
+            <marker date="1506973477901" expanded="true" signature="2174:2352" ph="..." />
+            <marker date="1506973477901" expanded="true" signature="2403:3357" ph="..." />
+            <marker date="1506973477901" expanded="true" signature="2648:3326" ph="..." />
+            <marker date="1506973477901" expanded="true" signature="2710:3294" ph="..." />
+            <marker date="1506973477901" expanded="false" signature="2963:2997" ph="..." />
+            <marker date="1506973477901" expanded="true" signature="3431:3528" ph="..." />
+            <marker date="1506973477901" expanded="true" signature="3764:4796" ph="..." />
+            <marker date="1506973477901" expanded="true" signature="3815:4769" ph="..." />
+            <marker date="1506973477901" expanded="true" signature="4060:4738" ph="..." />
+            <marker date="1506973477901" expanded="true" signature="4122:4706" ph="..." />
+            <marker date="1506973477901" expanded="false" signature="4375:4409" ph="..." />
+            <marker date="1506973477901" expanded="true" signature="20400:20747" ph="..." />
+            <marker date="1506973477901" expanded="true" signature="20486:20724" ph="..." />
+            <marker date="1506973477901" expanded="true" signature="26301:26439" ph="SELECT DISTI... field_data_field_magazine_number" />
+            <marker date="1506973477901" expanded="true" signature="26588:26762" ph="SELECT entit... field_data_field_magazine_number" />
+            <marker date="1506973477901" expanded="true" signature="27157:27234" ph="SELECT MAX(f... field_data_field_magazine_number" />
+            <marker date="1506973477901" expanded="true" signature="27592:27683" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
+            <marker date="1506973477901" expanded="true" signature="28160:28216" ph="SELECT COUNT... taxonomy_index" />
           </folding>
         </state>
       </provider>
