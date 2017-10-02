@@ -25,17 +25,27 @@
 }
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content{
     position: relative;
-    margin: 25px;
-    padding-bottom: 40px;
+    margin: 15px;
+    padding-bottom: 20px;
     text-align: left;
 }
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-body,
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-title {
-    margin-top: 15px;
+    margin-top: 10px;
 }
+
+.view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-tagline{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.view.news-by-type-block-view .view-content .views-row .field-content .news-content .trimmed-subtitle{
+    font-style: italic;
+    color: #000000;
+}
+
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content .news-read-more {
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
     left: 0;
     width: 100%;
     background: #fff;
@@ -70,6 +80,9 @@
 .view.news-by-type-block-view .view-content .views-row.views-row-5{
     width: 645px;
 }
+.view.news-by-type-block-view .view-content .views-row.field-content .news-content .title-and-body{
+    position: relative;
+}
 .view.news-by-type-block-view .view-content .views-row.views-row-4 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-5 .field-content .news-content .title-and-body{
     height: 112px;
@@ -96,12 +109,12 @@
 .view.news-by-type-block-view .view-content .views-row.views-row-1 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-2 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-3 .field-content .news-content .title-and-body{
-    height: 130px;
+    height: 145px;
 }
 .view.news-by-type-block-view .view-content .views-row.views-row-1 .field-content .news-content .title-and-body .news-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-2 .field-content .news-content .title-and-body .news-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-3 .field-content .news-content .title-and-body .news-body{
-    height: 80px;
+    height: 40px;
 }
 .view.news-by-type-block-view .view-content .views-row.views-row-1 .field-content .news-image .image img,
 .view.news-by-type-block-view .view-content .views-row.views-row-2 .field-content .news-image .image img,
@@ -122,7 +135,7 @@
 .view.news-by-type-block-view .view-content .views-row.views-row-6 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-7 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-8 .field-content .news-content .title-and-body{
-    height: 130px;
+    height: 145px;
 }
 .view.news-by-type-block-view .view-content .views-row.views-row-6 .field-content .news-content .title-and-body .news-body,
 .view.news-by-type-block-view .view-content .views-row.views-row-7 .field-content .news-content .title-and-body .news-body,
@@ -166,7 +179,7 @@
 .view.news-by-type-block-view .view-content.view-content-count-1 .views-row.views-row-1 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content.view-content-count-2 .views-row.views-row-1 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content.view-content-count-2 .views-row.views-row-2 .field-content .news-content .title-and-body{
-    height: 130px;  
+    height: 145px;
 }
 .view.news-by-type-block-view .view-content.view-content-count-1 .views-row.views-row-1 .field-content .news-image .image img,
 .view.news-by-type-block-view .view-content.view-content-count-2 .views-row.views-row-1 .field-content .news-image .image img,
@@ -191,7 +204,7 @@
 .view.news-by-type-block-view .view-content.view-content-count-3 .views-row.views-row-1 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content.view-content-count-3 .views-row.views-row-2 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content.view-content-count-3 .views-row.views-row-3 .field-content .news-content .title-and-body{
-    height: 130px;
+    height: 145px;
 }
 .view.news-by-type-block-view .view-content.view-content-count-3 .views-row.views-row-1 .field-content .news-image .image img,
 .view.news-by-type-block-view .view-content.view-content-count-3 .views-row.views-row-2 .field-content .news-image .image img,
@@ -218,7 +231,7 @@
 .view.news-by-type-block-view .view-content.view-content-count-4 .views-row.views-row-2 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content.view-content-count-4 .views-row.views-row-3 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content.view-content-count-4 .views-row.views-row-4 .field-content .news-content .title-and-body{
-    height: 130px;
+    height: 145px;
 }
 .view.news-by-type-block-view .view-content.view-content-count-4 .views-row.views-row-1 .field-content .news-image .image img,
 .view.news-by-type-block-view .view-content.view-content-count-4 .views-row.views-row-2 .field-content .news-image .image img,
@@ -248,7 +261,7 @@
 .view.news-by-type-block-view .view-content.view-content-count-5 .views-row.views-row-3 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content.view-content-count-5 .views-row.views-row-4 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content.view-content-count-5 .views-row.views-row-5 .field-content .news-content .title-and-body{
-    height: 130px;
+    height: 145px;
 }
 .view.news-by-type-block-view .view-content.view-content-count-5 .views-row.views-row-1 .field-content .news-image .image img,
 .view.news-by-type-block-view .view-content.view-content-count-5 .views-row.views-row-2 .field-content .news-image .image img,
@@ -282,7 +295,7 @@
 .view.news-by-type-block-view .view-content.view-content-count-6 .views-row.views-row-4 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content.view-content-count-6 .views-row.views-row-5 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content.view-content-count-6 .views-row.views-row-6 .field-content .news-content .title-and-body{
-    height: 130px;
+    height: 145px;
 }
 .view.news-by-type-block-view .view-content.view-content-count-6 .views-row.views-row-1 .field-content .news-image .image img,
 .view.news-by-type-block-view .view-content.view-content-count-6 .views-row.views-row-2 .field-content .news-image .image img,
@@ -319,7 +332,7 @@
 .view.news-by-type-block-view .view-content.view-content-count-7 .views-row.views-row-5 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content.view-content-count-7 .views-row.views-row-6 .field-content .news-content .title-and-body,
 .view.news-by-type-block-view .view-content.view-content-count-7 .views-row.views-row-7 .field-content .news-content .title-and-body{
-    height: 130px;
+    height: 145px;
 }
 .view.news-by-type-block-view .view-content.view-content-count-7 .views-row.views-row-1 .field-content .news-image .image img,
 .view.news-by-type-block-view .view-content.view-content-count-7 .views-row.views-row-2 .field-content .news-image .image img,
@@ -344,7 +357,7 @@
 }
 .view.news-by-type-block-view .view-content .views-row .field-content .news-content div.news-title a {
     font-family: 'PT Sans', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     color: #000000;
     text-decoration: none;
 }
@@ -388,7 +401,7 @@
 }
 .search-results .view.news-by-type-block-view .view-content .views-row .field-content .news-content .title-and-body,
 .page-taxonomy-term .view.news-by-type-block-view .view-content .views-row .field-content .news-content .title-and-body{
-    height: 130px;
+    height: 145px;
 }
 .search-results .view.news-by-type-block-view .view-content .views-row .field-content .news-content .title-and-body .news-body,
 .page-taxonomy-term .view.news-by-type-block-view .view-content .views-row .field-content .news-content .title-and-body .news-body{

@@ -334,7 +334,11 @@
 #main-wrapper.full-width #auth_box form .form-item div.formtips-processed {
     border: 0;
 }
-#main-wrapper.full-width #auth_box #slogan-and-message img {
+#main-wrapper.full-width #auth_box #slogan-and-message #site-slogan img {
     width: 322px;
     height: 74px;
+}
+#main-wrapper.full-width #auth_box #slogan-and-message #site-logo img {
+    width: 100px;
+    margin-bottom: 15px;
 }

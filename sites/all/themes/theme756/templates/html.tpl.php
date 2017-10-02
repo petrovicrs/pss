@@ -47,6 +47,7 @@ $html_attributes = "lang=\"{$language->language}\" dir=\"{$language->dir}\" {$rd
   <meta content="on" http-equiv="cleartype"/>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
   <?php print $scripts; ?>
   <!-- Google Tag Manager -->
     <script>
