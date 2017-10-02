@@ -514,7 +514,7 @@ function __pss_extras_generate_front_banner_block() {
         if ($banner_2_fid != 0) {
             $banner = new stdClass();
             $banner->fid = $banner_2_fid;
-            $banner->url = variable_get('pss_front_page_banner_image_1_link', '');
+            $banner->url = variable_get('pss_front_page_banner_image_2_link', '');
             $banners[] = $banner;
         }
         switch (count($banners)) {
