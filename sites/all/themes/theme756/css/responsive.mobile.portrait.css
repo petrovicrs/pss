@@ -494,3 +494,6 @@ div#current-magazine-number .number {
 #body.page-node-152 #page {
     background-image: none;
 }
+.front .video-material .view .view-content .views-row .field-content .body-wrapper .body {
+    height: auto;
+}
