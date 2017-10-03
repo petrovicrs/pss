@@ -519,38 +519,40 @@ function __pss_extras_generate_front_banner_block() {
             $banner2->url = variable_get('pss_front_page_banner_image_2_link', '');
             $banners[] = $banner2;
         }
-        switch (count($banners)) {
-            case 2 : {
-                shuffle($banners);
-                $banner = reset($banners);
-                break;
-            }
-            case 1 : {
-                $banner = reset($banners);
-                break;
-            }
-            default :{
-                $banner = null;
-                break;
+        $output .= '<div id="banner_wrapper">';
+        foreach ($banners as $key => $banner) {
+            if (isset($banner) && isset($banner->fid)) {
+                $id = 'banner_image_' . ($key + 1);
+                $output .= '<div class="banner" id="' . $id . '">';
+                if (isset($banner->url) && $banner->url != '') {
+                    $output .= '<a href="'.$banner->url.'" target="_blank">';
+                }
+                $uri = file_load($banner->fid)->uri;
+                $output .= theme(
+                  'image',
+                  array(
+                    'path' => $uri
+                  )
+                );
+                if (isset($banner->url) && $banner->url != '') {
+                    $output .= '</a>';
+                }
+                $output .= '</div>';
             }
         }
-        if (isset($banner) && isset($banner->fid)) {
-            $output .= '<div class="banner">';
-            if (isset($banner->url) && $banner->url != '') {
-                $output .= '<a href="'.$banner->url.'" target="_blank">';
+        $output .= '
+        <script>
+            var elems = $("#banner_wrapper .banner");
+            if (elems.length) {
+              var keep = Math.floor(Math.random() * elems.length);
+              for (var i = 0; i < elems.length; ++i) {
+                if (i !== keep) {
+                  $(elems[i]).hide();
+                }
+              }
             }
-            $uri = file_load($banner->fid)->uri;
-            $output .= theme(
-              'image',
-              array(
-                'path' => $uri
-              )
-            );
-            if (isset($banner->url) && $banner->url != '') {
-                $output .= '</a>';
-            }
-            $output .= '</div>';
-        }
+        </script>';
+        $output .= '</div>';
     }
     return $output;
 }
