@@ -3884,7 +3884,15 @@ article.comment span.new {
     margin-top: 35px;
     margin-bottom: 40px;
 }
-
+#block-pss-extras-front-banner-block #banner_wrapper {
+    position: relative;
+    height: 90px;
+}
+#block-pss-extras-front-banner-block #banner_wrapper .banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 .node-type-page #block-system-main .content h1,
 .node-type-page #block-system-main .content h2,
 .node-type-page #block-system-main .content h3,

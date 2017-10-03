@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/style.css" />
     </list>
     <ignored path="pss.iws" />
@@ -37,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pss_extras.module" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pss_extras.module" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="527" column="77" lean-forward="false" selection-start-line="527" selection-start-column="77" selection-end-line="527" selection-end-column="77" />
+            <state relative-caret-position="-165">
+              <caret line="505" column="30" lean-forward="true" selection-start-line="505" selection-start-column="30" selection-end-line="505" selection-end-column="30" />
               <folding>
                 <marker date="1507048953132" expanded="true" signature="2026:3452" ph="..." />
                 <marker date="1507048953132" expanded="true" signature="2082:2184" ph="..." />
@@ -132,11 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="3876" column="22" lean-forward="true" selection-start-line="3876" selection-start-column="22" selection-end-line="3876" selection-end-column="22" />
+            <state relative-caret-position="590">
+              <caret line="3895" column="1" lean-forward="false" selection-start-line="3895" selection-start-column="1" selection-end-line="3895" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -698,12 +696,12 @@
       <workItem from="1506273983653" duration="6639000" />
       <workItem from="1506352165424" duration="10765000" />
       <workItem from="1506972052662" duration="4098000" />
-      <workItem from="1507046353221" duration="1947000" />
+      <workItem from="1507046353221" duration="2677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="380745000" />
+    <option name="totallyTimeSpent" value="381475000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1161,10 +1159,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="3895" column="1" lean-forward="false" selection-start-line="3895" selection-start-column="1" selection-end-line="3895" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="527" column="77" lean-forward="false" selection-start-line="527" selection-start-column="77" selection-end-line="527" selection-end-column="77" />
+        <state relative-caret-position="-165">
+          <caret line="505" column="30" lean-forward="true" selection-start-line="505" selection-start-column="30" selection-end-line="505" selection-end-column="30" />
           <folding>
             <marker date="1507048953132" expanded="true" signature="2026:3452" ph="..." />
             <marker date="1507048953132" expanded="true" signature="2082:2184" ph="..." />
@@ -1191,14 +1197,6 @@
             <marker date="1507048953132" expanded="true" signature="27928:28019" ph="SELECT MIN(Y... field_data_field_magazine_for_period" />
             <marker date="1507048953132" expanded="true" signature="28496:28552" ph="SELECT COUNT... taxonomy_index" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="3876" column="22" lean-forward="true" selection-start-line="3876" selection-start-column="22" selection-end-line="3876" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
