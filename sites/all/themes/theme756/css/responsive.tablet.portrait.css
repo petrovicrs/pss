@@ -193,11 +193,6 @@ div#current-magazine-number .number {
 #main-wrapper.full-width .image-holder img {
     max-width: initial;
 }
-#main-wrapper.full-width #auth_box {
-    position: absolute;
-    right: 0;
-    top: 15px;
-}
 .front #site-logo-wrapper .section-logo-wrapper.logo-wrapper {
     display: block;
 }
@@ -238,4 +233,19 @@ div#current-magazine-number .number {
 }
 #body.page-node-152 #page {
     background-image: none;
+}
+#main-wrapper.full-width .image-holder img {
+    max-width: initial;
+    display: none;
+}
+#main-wrapper.full-width #auth_box {
+    width: 95%;
+    margin: 20px auto;
+    display: block;
+}
+#main-wrapper.full-width #auth_box #middle_part #block-system-main{
+    margin-left: auto;
+}
+#main-wrapper.full-width #auth_box{
+    text-align: center;
 }

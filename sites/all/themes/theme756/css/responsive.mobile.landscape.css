@@ -192,9 +192,9 @@ div#current-magazine-number .sup {
     font-size: 16px;
     line-height: 16px;
     border-right: 1px solid #545454;
-    padding: 0 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 #news-type-block .view-content .views-row {
     width: 49%;
@@ -220,11 +220,6 @@ div#current-magazine-number .sup {
 }
 #main-wrapper.full-width .image-holder img {
     max-width: initial;
-}
-#main-wrapper.full-width #auth_box {
-    position: absolute;
-    right: 0;
-    top: 15px;
 }
 .front #site-logo-wrapper .section-logo-wrapper.logo-wrapper {
     display: block;
@@ -510,4 +505,23 @@ div#current-magazine-number .sup {
 }
 .front .video-material .view .view-content .views-row .field-content .body-wrapper .body {
     height: auto;
+}
+#block-pss-extras-front-banner-block{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+#main-wrapper.full-width .image-holder img {
+    max-width: initial;
+    display: none;
+}
+#main-wrapper.full-width #auth_box {
+    width: 95%;
+    margin: 20px auto;
+    display: block;
+}
+#main-wrapper.full-width #auth_box #middle_part #block-system-main{
+    margin-left: auto;
+}
+#main-wrapper.full-width #auth_box{
+    text-align: center;
 }
