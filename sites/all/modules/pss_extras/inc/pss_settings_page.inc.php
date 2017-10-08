@@ -32,6 +32,15 @@ function pss_extras_settings_page_form() {
       '#collapsed' => FALSE,
     );
 
+    //switch banner time ms
+    $form['pss_front_page_banners']['pss_front_page_banner_switch_time'] = array(
+      '#title' => t('Banner switch time'),
+      '#description' => t('Banner switch time in miliseconds (ms). 1000ms = 1s.'),
+      '#type' => 'textfield',
+      '#default_value' => variable_get('pss_front_page_banner_switch_time', 8000),
+      '#size' => 40,
+    );
+
     $form['pss_front_page_banners']['pss_front_page_banner_show_frontpage_banners'] = array(
       '#type' => 'checkbox',
       '#title' => t('Show frontpage banners'),
@@ -110,6 +119,12 @@ function pss_extras_settings_page_form() {
 
 
 function pss_extras_settings_page_form_validate($form, &$form_state) {
+    if(isset($form_state['values']['pss_front_page_banner_switch_time'])) {
+        $switch_time = (int)$form_state['values']['pss_front_page_banner_switch_time'];
+        if (!$switch_time) {
+            form_set_error('pss_front_page_banner_switch_time', t('Invalid time format'));
+        }
+    }
     if(isset($form_state['values']['pss_front_page_banner_image_1_link'])) {
         if (filter_var($form_state['values']['pss_front_page_banner_image_1_link'], FILTER_VALIDATE_URL) === FALSE) {
             form_set_error('pss_front_page_banner_image_1_link', t('Enter valid link'));

@@ -542,7 +542,17 @@ function __pss_extras_generate_front_banner_block() {
         }
         $output .= '
         <script>
-            var elems = $("#banner_wrapper .banner");
+            var elems = $("#banner_wrapper .banner"),
+                switch_time = ' . (int)variable_get('pss_front_page_banner_switch_time', 8000) . ';
+            function switchElements() {
+                elems.each(function() {
+                    if ($(this).is(":visible")) {
+                        $(this).fadeOut();
+                    } else {
+                        $(this).fadeIn();
+                    }
+                });
+            }
             if (elems.length) {
               var keep = Math.floor(Math.random() * elems.length);
               for (var i = 0; i < elems.length; ++i) {
@@ -551,6 +561,9 @@ function __pss_extras_generate_front_banner_block() {
                 }
               }
             }
+            setInterval(function () {
+                switchElements();
+            }, switch_time);
         </script>';
         $output .= '</div>';
     }
