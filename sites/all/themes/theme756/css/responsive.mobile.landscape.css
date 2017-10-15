@@ -411,6 +411,10 @@ div#current-magazine-number .sup {
     margin: 0 auto;
     display: block;
 }
+.node-type-advanced-page .node-advanced-page .field-name-body {
+    position: initial;
+    bottom: auto;
+}
 .node-type-advanced-page .node-advanced-page .field-name-body,
 .node-type-advanced-page .node-advanced-page .field-name-field-advanced-page-image {
     display: block;
