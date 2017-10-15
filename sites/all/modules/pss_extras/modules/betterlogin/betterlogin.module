@@ -17,14 +17,14 @@ function betterlogin_init() {
         // We need to collect where they were going in the first place because they may get pissed if
         // they don't get there after logging in :).
         $destination = '';
-        if (isset($_GET['destination'])) {
-            $destination = drupal_get_destination();
-        }
-        else {
-            if (isset($_GET['q'])) {
-                $destination = array('destination' => $_GET['q']);
-            }
-        }
+//        if (isset($_GET['destination'])) {
+//            $destination = drupal_get_destination();
+//        }
+//        else {
+//            if (isset($_GET['q'])) {
+//                $destination = array('destination' => $_GET['q']);
+//            }
+//        }
 
         // If this site is set to private we want to redirect all anonymous users to the login form.
         if (variable_get('betterlogin_private')) {

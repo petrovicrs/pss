@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29155b88-3786-414c-93b8-3f93aa020b3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css" afterPath="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/betterlogin.module" afterPath="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/betterlogin.module" />
     </list>
     <ignored path="pss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,9 +79,21 @@
       <file leaf-file-name="pss_settings_page.inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
+            <state relative-caret-position="21">
               <caret line="39" column="77" lean-forward="false" selection-start-line="39" selection-start-column="77" selection-end-line="39" selection-end-column="77" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="betterlogin.module" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/betterlogin.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="26" selection-end-column="11" />
+              <folding>
+                <marker date="1508054460295" expanded="true" signature="2761:2995" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,17 +118,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54138">
-              <caret line="2578" column="88" lean-forward="false" selection-start-line="2578" selection-start-column="0" selection-end-line="2578" selection-end-column="88" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="responsive.mobile.landscape.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="responsive.mobile.landscape.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="470">
@@ -180,7 +180,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>theme_pager_link</find>
       <find>title</find>
       <find>Page</find>
       <find>theme('pager'</find>
@@ -210,6 +209,7 @@
       <find>waypoint</find>
       <find>front-banner-bloc</find>
       <find>.node-type-advanced-page .node-advanced-page .field-name-body</find>
+      <find>destination</find>
     </findStrings>
     <replaceStrings>
       <replace>6</replace>
@@ -240,6 +240,7 @@
       <dir>$PROJECT_DIR$/sites/all/themes/theme756</dir>
       <dir>$PROJECT_DIR$/modules</dir>
       <dir>$PROJECT_DIR$/sites/all/modules/views</dir>
+      <dir>D:\workspace\pss\sites\all\modules\pss_extras\modules\betterlogin</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -281,7 +282,6 @@
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/css/pss-admin.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/font-face.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/menu.css" />
-        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/betterlogin.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/page--user--login.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.install" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/templates/node--article.tpl.php" />
@@ -299,6 +299,7 @@
         <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.portrait.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/theme756/css/responsive.mobile.landscape.css" />
+        <option value="$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/betterlogin.module" />
       </list>
     </option>
   </component>
@@ -597,7 +598,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -623,7 +624,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boost_cache_clear" />
+              <option name="myItemId" value="pss_extras" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -861,12 +866,12 @@
       <workItem from="1507046353221" duration="4823000" />
       <workItem from="1507226021141" duration="6636000" />
       <workItem from="1507444655906" duration="4443000" />
-      <workItem from="1508049247334" duration="639000" />
+      <workItem from="1508049247334" duration="1374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="395339000" />
+    <option name="totallyTimeSpent" value="396074000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -885,6 +890,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46306068" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58129174" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.84298444" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -901,7 +907,6 @@
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58129174" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -974,13 +979,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/field/field.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15540">
-          <caret line="743" column="9" lean-forward="false" selection-start-line="743" selection-start-column="9" selection-end-line="743" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.install">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1286,14 +1284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" column="77" lean-forward="false" selection-start-line="39" selection-start-column="77" selection-end-line="39" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/pss_extras.module">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -1346,6 +1336,24 @@
         <state relative-caret-position="470">
           <caret line="416" column="1" lean-forward="false" selection-start-line="416" selection-start-column="1" selection-end-line="416" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/inc/pss_settings_page.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="39" column="77" lean-forward="false" selection-start-line="39" selection-start-column="77" selection-end-line="39" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/pss_extras/modules/betterlogin/betterlogin.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="26" selection-end-column="11" />
+          <folding>
+            <marker date="1508054460295" expanded="true" signature="2761:2995" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
