@@ -175,7 +175,8 @@ function pss_extras_preprocess_html(&$variables) {
 function pss_extras_preprocess_node(&$vars) {
     $lang_lat = 'lat';
     $lang_none = LANGUAGE_NONE;
-    $vars['current_magazine_number'] = __pss_extras_get_current_magazine_number();
+    // $vars['current_magazine_number'] = __pss_extras_get_current_magazine_number();
+    $vars['current_magazine_number'] = null;
     if ($vars['type'] == 'article' && $vars['view_mode'] == 'full') {
         $magazine_number_id = isset($vars['field_magazine_number_reference'][$lang_lat]) ? $vars['field_magazine_number_reference'][$lang_lat][0]['target_id'] : $vars['field_magazine_number_reference'][$lang_none][0]['target_id'];
         $magazine_number = node_load($magazine_number_id);
@@ -312,7 +313,8 @@ function pss_extras_preprocess_user_picture(&$variables) {
  * Implements hook_preprocess_page().
  */
 function pss_extras_preprocess_page(&$vars) {
-    $vars['current_magazine_number'] = __pss_extras_get_current_magazine_number();
+    // $vars['current_magazine_number'] = __pss_extras_get_current_magazine_number();
+    $vars['current_magazine_number'] = null;
     $vars['print_yumpu'] = 0;
     if (isset($vars['node']) && $vars['node']->type == 'magazine_number')  {
         $magazine_number = isset($vars['node']->field_magazine_number[LANGUAGE_NONE][0]['value']) ? $vars['node']->field_magazine_number[LANGUAGE_NONE][0]['value'] : null;
@@ -606,9 +608,9 @@ function __pss_extras_get_tag_news($tid, $lastNNums) {
 function __get_taxonomy_tid_2_nid() {
     return array(
       18 => 90, // Security novosti
-      19 => 94, // Mendment
+      19 => 94, // Mend?ment
       20 => 95, // Intervju
-      23 => 98, // Poarna zaštita
+      23 => 98, // Po?arna za?tita
       22 => 99, // Security praksa
       21 => 100, // Tema broja
       24 => 101, // Tehnika
