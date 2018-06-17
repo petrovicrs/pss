@@ -20,11 +20,13 @@ if (isset($node->field_article_type)) {
                       <?php /*print $created_by_picture;*/ ?>
                     </div>
                 </div>
-                <div class="node-magazine-number author-info">
-                    <div class="inner-element">
-                      <?php print $magazine_number; ?> - <?php print $for_period_months; ?> <?php print $for_period_year; ?>.
-                    </div>
-                </div>
+                <?php if (0) { ?>
+                  <div class="node-magazine-number author-info">
+                      <div class="inner-element">
+                        <?php print $magazine_number; ?> - <?php print $for_period_months; ?> <?php print $for_period_year; ?>.
+                      </div>
+                  </div>
+                <?php } ?>
                 <div class="node-tags author-info">
                     <div class="inner-element">
                       <?php print render($content['field_tags']); ?>
